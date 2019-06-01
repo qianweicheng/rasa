@@ -7,9 +7,14 @@ from rasa.cli.utils import parse_last_positional_argument_as_model_path
 from rasa.utils.common import set_log_level
 import rasa.core.visualize
 import asyncio
+import logging
+
+
+# logger = logging.getLogger(__name__)
 
 
 if __name__ == "__main__":
+
     os.chdir('/Users/lidayuan/Documents/edison/nlu/rasa/examples/formbot')
     rasa.train(domain='domain.yml', config='config.yml', training_files='./data')
     # rasa.run(model="models", endpoints="endpoints.yml")
