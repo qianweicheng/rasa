@@ -15,7 +15,7 @@ import logging
 
 if __name__ == "__main__":
 
-    os.chdir('./examples/formbot')
+    os.chdir('/Users/lidayuan/Documents/edison/nlu/rasa/examples/formbot')
     rasa.train(domain='domain.yml', config='config.yml', training_files='./data')
     # rasa.run(model="models", endpoints="endpoints.yml")
     # loop = asyncio.get_event_loop()
