@@ -423,6 +423,10 @@ def _enrich_config(
 
 
 def _get_valid_config(config: Text, mandatory_keys: List[Text]) -> Text:
+    """
+    Make sure config file has parameters in paramm mandatory_keys
+    """
+
     config_path = get_validated_path(config, "config", FALLBACK_CONFIG_PATH)
 
     missing_keys = missing_config_keys(config_path, mandatory_keys)
