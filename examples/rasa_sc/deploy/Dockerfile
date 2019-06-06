@@ -3,7 +3,7 @@ FROM rasa/rasa
 VOLUME ["/app"]
 WORKDIR /app
 
-COPY . .
+COPY ./ ./
 
 EXPOSE 5005
 
