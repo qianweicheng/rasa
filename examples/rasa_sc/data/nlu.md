@@ -498,7 +498,7 @@
   
 ## intent:what_is_packages_folder
 - What is the Packages folder?
--Packages folder?
+- Packages folder?
   
 ## intent:what_is_bills_folder
 - What is the Bills & Receipts folder?
