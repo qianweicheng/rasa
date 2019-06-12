@@ -433,37 +433,14 @@ actions:
 
 templates:
   utter_cancel_subscription:
-  - text: "Please.cancel my subscriptiin.     Google Order number: 12999763169054705758.1336894206838230   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Tablet)	Cost:  $0.00  Total order amount: 	$0.00"
-  - text: "I want to cancel my subscription thank you.     Google Order number: 12999763169054705758.1338503357242094   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00"
-  - text: "i need help to cancel this scription please help.     Google Order number: GPA.1371-6247-8256-58554   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00"
-  - text: "Please cancel my subscription so i do not get charged in June.   Please  email me a confirmation of the cancellation.   Thank you.     Google Order number: GPA.1355-8286-3029-93228   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00"
-  - text: "I‘d like to cancel my subscription.  Please send me a confirmation  reply showing the subscription has been cancelled.  Thank you for your time.  Jeffrey Perry     Google Order number: GPA.1355-8286-3029-93228   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00"
+  - text: "Please.cancel my subscription"
 
   utter_cancel_order:
-  - text: "I'd like to cancel my order.     Google Order number: 12999763169054705758.1366737188562413   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00"
-  - text: "I'd like to cancel my order. I am removing the app from my phone now.     Google Order number: 12999763169054705758.1384294795389256   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00"
-  - text: "I'd like to cancel my order.     Google Order number: GPA.1371-6247-8256-58554   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00"
-  - text: "I'd like to cancel my order     Google Order number: GPA.1397-1916-1793-45545   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00"
-  - text: "I'd like to cancel my order. since the extension slows my email access.  Please refund the full amount.   Hicham     Google Order number: GPA.1303-9993-7526-80149   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00"
-  - text: "I'd like to cancel my order. Google Order number: GPA.1383-2536-5391-31504   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00"
+  - text: "I'd like to cancel my order. "
 
   utter_delete_account:
   - text: "Please delete my account."
-  - text: "Can you please delete my account?"
-  - text: "Delete my account please"
-  - text: "Please delete my account thanks"
-  - text: "Hi. Please delete my account."
-  - text: "Hello, Please delete my account."
-  - text: "Please delete my account and all the information"
-  - text: "delete my account now"
-  - text: "Delete my account"
-  - text: "I want to delete my account, please."
-  - text: "How do I delete an account?"
-  - text: "Please delete my account. Thank you."
-  - text: "Hi, please delete my account. Thanks."
-  - text: "It does not allow me to delete my account. Please tell me how I can delete my account?"
-  - text: "Please delete my account - I deleted the app but am now not able to delete my account. Please delete all data associated with my email address."
-
+  -
   utter_add_microsoft_attachment:
   - text: "Adding attachments from Microsoft Office apps to your message"
 
