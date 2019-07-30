@@ -4,17 +4,21 @@ import json
 import logging
 import questionary
 from typing import Text, Optional
+
+from aiohttp import ClientTimeout
 from async_generator import async_generator, yield_
 from prompt_toolkit.styles import Style
 
 import rasa.cli.utils
 from rasa.core import utils
-from rasa.core.channels import UserMessage
+from rasa.core.channels.channel import UserMessage
 from rasa.core.channels.channel import RestInput, button_to_string, element_to_string
 from rasa.core.constants import DEFAULT_SERVER_URL
 from rasa.core.interpreter import INTENT_MESSAGE_PREFIX
 
 logger = logging.getLogger(__name__)
+
+DEFAULT_STREAM_READING_TIMEOUT_IN_SECONDS = 10
 
 
 def print_bot_output(
@@ -61,7 +65,7 @@ def print_bot_output(
         )
 
 
-def get_cmd_input(button_question: questionary.Question) -> Text:
+def get_cmd_input(button_question: questionary.Question) -> Optional[Text]:
     if button_question is not None:
         response = rasa.cli.utils.payload_from_button_question(button_question)
     else:
@@ -71,8 +75,7 @@ def get_cmd_input(button_question: questionary.Question) -> Text:
             style=Style([("qmark", "#b373d6"), ("", "#b373d6")]),
         ).ask()
 
-    if response is not None:
-        return response.strip()
+    return response.strip() if response is not None else None
 
 
 async def send_message_receive_block(server_url, auth_token, sender_id, message):
@@ -90,8 +93,10 @@ async def send_message_receive_stream(server_url, auth_token, sender_id, message
 
     url = "{}/webhooks/rest/webhook?stream=true&token={}".format(server_url, auth_token)
 
+    # Define timeout to not keep reading in case the server crashed in between
+    timeout = ClientTimeout(DEFAULT_STREAM_READING_TIMEOUT_IN_SECONDS)
     # TODO: check if this properly receives UTF-8 data
-    async with aiohttp.ClientSession() as session:
+    async with aiohttp.ClientSession(timeout=timeout) as session:
         async with session.post(url, json=payload, raise_for_status=True) as resp:
 
             async for line in resp.content:

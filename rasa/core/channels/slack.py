@@ -6,7 +6,7 @@ from sanic.request import Request
 from slackclient import SlackClient
 from typing import Text, Optional, List, Dict, Any
 
-from rasa.core.channels import InputChannel
+from rasa.core.channels.channel import InputChannel
 from rasa.core.channels.channel import UserMessage, OutputChannel
 
 logger = logging.getLogger(__name__)
@@ -32,17 +32,14 @@ class SlackBot(SlackClient, OutputChannel):
         self, recipient_id: Text, text: Text, **kwargs: Any
     ) -> None:
         recipient = self.slack_channel or recipient_id
-        text_blocks = []
         for message_part in text.split("\n\n"):
-            text_blocks.append(
-                {
-                    "type": "section",
-                    "text": {"type": "plain_text", "text": message_part},
-                }
+            super(SlackBot, self).api_call(
+                "chat.postMessage",
+                channel=recipient,
+                as_user=True,
+                text=message_part,
+                type="mrkdwn",
             )
-        super(SlackBot, self).api_call(
-            "chat.postMessage", channel=recipient, as_user=True, blocks=text_blocks
-        )
 
     async def send_image_url(
         self, recipient_id: Text, image: Text, **kwargs: Any
@@ -50,19 +47,24 @@ class SlackBot(SlackClient, OutputChannel):
         recipient = self.slack_channel or recipient_id
         image_block = {"type": "image", "image_url": image, "alt_text": image}
         return super(SlackBot, self).api_call(
-            "chat.postMessage", channel=recipient, as_user=True, blocks=[image_block]
+            "chat.postMessage",
+            channel=recipient,
+            as_user=True,
+            text=image,
+            blocks=[image_block],
         )
 
     async def send_attachment(
         self, recipient_id: Text, attachment: Dict[Text, Any], **kwargs: Any
     ) -> None:
         recipient = self.slack_channel or recipient_id
+        text = attachment.get("text", "Attachment")
         return super(SlackBot, self).api_call(
             "chat.postMessage",
             channel=recipient,
             as_user=True,
+            text=text,
             attachments=[attachment],
-            **kwargs
         )
 
     async def send_text_with_buttons(
@@ -262,7 +264,7 @@ class SlackInput(InputChannel):
             return response.text(None, status=201, headers={"X-Slack-No-Retry": 1})
 
         try:
-            out_channel = SlackBot(self.slack_token, self.slack_channel)
+            out_channel = self.get_output_channel()
             user_msg = UserMessage(
                 text, out_channel, sender_id, input_channel=self.name()
             )
@@ -319,3 +321,6 @@ class SlackInput(InputChannel):
             return response.text("Bot message delivered")
 
         return slack_webhook
+
+    def get_output_channel(self) -> OutputChannel:
+        return SlackBot(self.slack_token, self.slack_channel)

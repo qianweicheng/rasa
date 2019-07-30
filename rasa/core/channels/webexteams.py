@@ -4,7 +4,7 @@ from sanic.request import Request
 from typing import Text, Optional, Dict, Any
 from webexteamssdk import WebexTeamsAPI, Webhook
 
-from rasa.core.channels import InputChannel
+from rasa.core.channels.channel import InputChannel
 from rasa.core.channels.channel import UserMessage, OutputChannel
 
 logger = logging.getLogger(__name__)
@@ -72,7 +72,7 @@ class WebexTeamsInput(InputChannel):
     async def process_message(self, on_new_message, text, sender_id):
 
         try:
-            out_channel = WebexTeamsBot(self.token, self.room)
+            out_channel = self.get_output_channel()
             user_msg = UserMessage(
                 text, out_channel, sender_id, input_channel=self.name()
             )
@@ -116,3 +116,6 @@ class WebexTeamsInput(InputChannel):
                 return response.text("")
 
         return webexteams_webhook
+
+    def get_output_channel(self) -> OutputChannel:
+        return WebexTeamsBot(self.token, self.room)

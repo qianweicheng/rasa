@@ -10,6 +10,10 @@ Choosing a Pipeline
 Choosing an NLU pipeline allows you to customize your model and finetune
 it on your dataset.
 
+.. contents::
+   :local:
+
+
 The Short Answer
 ----------------
 
@@ -32,15 +36,13 @@ use the ``supervised_embeddings`` pipeline:
 
     pipeline: "supervised_embeddings"
 
-It's good practice to define the ``language`` parameter in your configuration, but
-for the ``supervised_embeddings`` pipeline this parameter doesn't affect anything.
 
 A Longer Answer
 ---------------
 
 The two most important pipelines are ``supervised_embeddings`` and ``pretrained_embeddings_spacy``.
 The biggest difference between them is that the ``pretrained_embeddings_spacy`` pipeline uses pre-trained
-word vectors from either GloVe or fastText. Instead, the supervised embeddings pipeline
+word vectors from either GloVe or fastText. The ``supervised embeddings`` pipeline, on the other hand,
 doesn't use any pre-trained word vectors, but instead fits these specifically for your dataset.
 
 The advantage of the ``pretrained_embeddings_spacy`` pipeline is that if you have a training example like:
@@ -55,6 +57,9 @@ and you'd like your model to capture that. This pipeline doesn't use a language-
 so it will work with any language that you can tokenize (on whitespace or using a custom tokenizer).
 
 You can read more about this topic `here <https://medium.com/rasa-blog/supervised-word-vectors-from-scratch-in-rasa-nlu-6daf794efcd8>`__ .
+
+Rasa gives you the tools to compare the performance of both of these pipelines on your data directly,
+see :ref:`comparing-nlu-pipelines`.
 
 
 You can also use MITIE as a source of word vectors in your pipeline, see :ref:`section_mitie_pipeline`.
@@ -153,12 +158,12 @@ final context dictionary is used to persist the model's metadata.
 
 
 
-Returned Entities Object
-------------------------
-In the object returned after parsing there are two fields that show information
-about how the pipeline impacted the entities returned. The ``extractor`` field
-of an entity tells you which entity extractor found this particular entity.
-The ``processors`` field contains the name of components that altered this
+The "entity" object explained
+-----------------------------
+After parsing, the entity is returned as a dictionary.  There are two fields that show information
+about how the pipeline impacted the entities returned: the ``extractor`` field
+of an entity tells you which entity extractor found this particular entity, and
+the ``processors`` field contains the name of components that altered this
 specific entity.
 
 The use of synonyms can also cause the ``value`` field not match the ``text``

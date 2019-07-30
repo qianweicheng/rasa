@@ -2,13 +2,11 @@ import copy
 import logging
 import os
 import ruamel.yaml as yaml
-from typing import Any, Dict, List, Optional, Text
+from typing import Any, Dict, List, Optional, Text, Union
 
 import rasa.utils.io
 from rasa.constants import DEFAULT_CONFIG_PATH
 from rasa.nlu.utils import json_to_string
-
-DEFAULT_CONFIG = {"language": "en", "pipeline": [], "data": None}
 
 logger = logging.getLogger(__name__)
 
@@ -20,24 +18,31 @@ class InvalidConfigError(ValueError):
         super(InvalidConfigError, self).__init__(message)
 
 
-def load(filename: Optional[Text] = None, **kwargs: Any) -> "RasaNLUModelConfig":
-    if filename is None and os.path.isfile(DEFAULT_CONFIG_PATH):
-        filename = DEFAULT_CONFIG_PATH
+def load(
+    config: Optional[Union[Text, Dict]] = None, **kwargs: Any
+) -> "RasaNLUModelConfig":
+    if isinstance(config, Dict):
+        return _load_from_dict(config, **kwargs)
 
-    if filename is not None:
+    file_config = {}
+    if config is None and os.path.isfile(DEFAULT_CONFIG_PATH):
+        config = DEFAULT_CONFIG_PATH
+
+    if config is not None:
         try:
-            file_config = rasa.utils.io.read_yaml_file(filename)
+            file_config = rasa.utils.io.read_config_file(config)
         except yaml.parser.ParserError as e:
             raise InvalidConfigError(
-                "Failed to read configuration file "
-                "'{}'. Error: {}".format(filename, e)
+                "Failed to read configuration file '{}'. Error: {}".format(config, e)
             )
 
-        if kwargs:
-            file_config.update(kwargs)
-        return RasaNLUModelConfig(file_config)
-    else:
-        return RasaNLUModelConfig(kwargs)
+    return _load_from_dict(file_config, **kwargs)
+
+
+def _load_from_dict(config: Dict, **kwargs: Any) -> "RasaNLUModelConfig":
+    if kwargs:
+        config.update(kwargs)
+    return RasaNLUModelConfig(config)
 
 
 def override_defaults(
@@ -73,13 +78,16 @@ def component_config_from_pipeline(
 
 class RasaNLUModelConfig(object):
     def __init__(self, configuration_values=None):
-        """Create a model configuration, optionally overridding
+        """Create a model configuration, optionally overriding
         defaults with a dictionary ``configuration_values``.
         """
         if not configuration_values:
             configuration_values = {}
 
-        self.override(DEFAULT_CONFIG)
+        self.language = "en"
+        self.pipeline = []
+        self.data = None
+
         self.override(configuration_values)
 
         if self.__dict__["pipeline"] is None:

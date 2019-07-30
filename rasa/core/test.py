@@ -6,6 +6,7 @@ import warnings
 from collections import defaultdict, namedtuple
 from typing import Any, Dict, List, Optional, Text, Tuple
 
+from rasa.constants import RESULTS_FILE
 from rasa.core.events import ActionExecuted, UserUttered
 
 if typing.TYPE_CHECKING:
@@ -375,7 +376,7 @@ def _in_training_data_fraction(action_list):
     """Given a list of action items, returns the fraction of actions
 
     that were predicted using one of the Memoization policies."""
-    from rasa.core.policies import SimplePolicyEnsemble
+    from rasa.core.policies.ensemble import SimplePolicyEnsemble
 
     in_training_data = [
         a["action"]
@@ -399,9 +400,9 @@ def collect_story_predictions(
     story_eval_store = EvaluationStore()
     failed = []
     correct_dialogues = []
-    num_stories = len(completed_trackers)
+    number_of_stories = len(completed_trackers)
 
-    logger.info("Evaluating {} stories\nProgress:".format(num_stories))
+    logger.info("Evaluating {} stories\nProgress:".format(number_of_stories))
 
     action_list = []
 
@@ -450,7 +451,7 @@ def collect_story_predictions(
             action_list=action_list,
             in_training_data_fraction=in_training_data_fraction,
         ),
-        num_stories,
+        number_of_stories,
     )
 
 
@@ -586,56 +587,114 @@ def plot_story_evaluation(
     fig.savefig(os.path.join(out_directory, "story_confmat.pdf"), bbox_inches="tight")
 
 
-async def compare(models: Text, stories_file: Text, output: Text) -> None:
-    """Evaluates multiple trained models on a test set."""
-    from rasa.core.agent import Agent
-    import rasa.nlu.utils as nlu_utils
+async def compare_models_in_dir(
+    model_dir: Text, stories_file: Text, output: Text
+) -> None:
+    """Evaluates multiple trained models in a directory on a test set."""
     from rasa.core import utils
+    import rasa.utils.io as io_utils
 
-    num_correct = defaultdict(list)
+    number_correct = defaultdict(list)
 
-    for run in nlu_utils.list_subdirectories(models):
-        num_correct_run = defaultdict(list)
+    for run in io_utils.list_subdirectories(model_dir):
+        number_correct_in_run = defaultdict(list)
 
-        for model in sorted(nlu_utils.list_subdirectories(run)):
-            logger.info("Evaluating model {}".format(model))
+        for model in sorted(io_utils.list_files(run)):
+            if not model.endswith("tar.gz"):
+                continue
 
-            agent = Agent.load(model)
-
-            completed_trackers = await _generate_trackers(stories_file, agent)
-
-            story_eval_store, no_of_stories = collect_story_predictions(
-                completed_trackers, agent
-            )
-
-            failed_stories = story_eval_store.failed_stories
+            # The model files are named like <policy-name><number>.tar.gz
+            # Remove the number from the name to get the policy name
             policy_name = "".join(
                 [i for i in os.path.basename(model) if not i.isdigit()]
             )
-            num_correct_run[policy_name].append(no_of_stories - len(failed_stories))
+            number_of_correct_stories = await _evaluate_core_model(model, stories_file)
+            number_correct_in_run[policy_name].append(number_of_correct_stories)
 
-        for k, v in num_correct_run.items():
-            num_correct[k].append(v)
+        for k, v in number_correct_in_run.items():
+            number_correct[k].append(v)
 
-    utils.dump_obj_as_json_to_file(os.path.join(output, "results.json"), num_correct)
+    utils.dump_obj_as_json_to_file(os.path.join(output, RESULTS_FILE), number_correct)
 
 
-def plot_curve(output: Text, no_stories: List[int]) -> None:
-    """Plot the results from run_comparison_evaluation.
+async def compare_models(models: List[Text], stories_file: Text, output: Text) -> None:
+    """Evaluates provided trained models on a test set."""
+    from rasa.core import utils
+
+    number_correct = defaultdict(list)
+
+    for model in models:
+        number_of_correct_stories = await _evaluate_core_model(model, stories_file)
+        number_correct[os.path.basename(model)].append(number_of_correct_stories)
+
+    utils.dump_obj_as_json_to_file(os.path.join(output, RESULTS_FILE), number_correct)
+
+
+async def _evaluate_core_model(model: Text, stories_file: Text) -> int:
+    from rasa.core.agent import Agent
+
+    logger.info("Evaluating model '{}'".format(model))
+
+    agent = Agent.load(model)
+    completed_trackers = await _generate_trackers(stories_file, agent)
+    story_eval_store, number_of_stories = collect_story_predictions(
+        completed_trackers, agent
+    )
+    failed_stories = story_eval_store.failed_stories
+    return number_of_stories - len(failed_stories)
+
+
+def plot_nlu_results(output: Text, number_of_examples: List[int]) -> None:
+
+    graph_path = os.path.join(output, "nlu_model_comparison_graph.pdf")
+
+    _plot_curve(
+        output,
+        number_of_examples,
+        x_label_text="Number of intent examples present during training",
+        y_label_text="Label-weighted average F1 score on test set",
+        graph_path=graph_path,
+    )
+
+
+def plot_core_results(output: Text, number_of_examples: List[int]) -> None:
+
+    graph_path = os.path.join(output, "core_model_comparison_graph.pdf")
+
+    _plot_curve(
+        output,
+        number_of_examples,
+        x_label_text="Number of stories present during training",
+        y_label_text="Number of correct test stories",
+        graph_path=graph_path,
+    )
+
+
+def _plot_curve(
+    output: Text,
+    number_of_examples: List[int],
+    x_label_text: Text,
+    y_label_text: Text,
+    graph_path: Text,
+) -> None:
+    """Plot the results from a model comparison.
 
     Args:
         output: Output directory to save resulting plots to
-        no_stories: Number of stories per run
+        number_of_examples: Number of examples per run
+        x_label_text: text for the x axis
+        y_label_text: text for the y axis
+        graph_path: output path of the plot
     """
     import matplotlib.pyplot as plt
     import numpy as np
-    from rasa.core import utils
+    import rasa.utils.io
 
     ax = plt.gca()
 
     # load results from file
-    data = utils.read_json_file(os.path.join(output, "results.json"))
-    x = no_stories
+    data = rasa.utils.io.read_json_file(os.path.join(output, RESULTS_FILE))
+    x = number_of_examples
 
     # compute mean of all the runs for keras/embed policies
     for label in data.keys():
@@ -652,10 +711,13 @@ def plot_curve(output: Text, no_stories: List[int]) -> None:
             alpha=0.2,
         )
     ax.legend(loc=4)
-    ax.set_xlabel("Number of stories present during training")
-    ax.set_ylabel("Number of correct test stories")
-    plt.savefig(os.path.join(output, "model_comparison_graph.pdf"), format="pdf")
-    plt.show()
+
+    ax.set_xlabel(x_label_text)
+    ax.set_ylabel(y_label_text)
+
+    plt.savefig(graph_path, format="pdf")
+
+    logger.info("Comparison graph saved to '{}'.".format(graph_path))
 
 
 if __name__ == "__main__":

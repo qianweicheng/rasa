@@ -1,6 +1,6 @@
 import os
 import sys
-from typing import Any, Callable, Dict, Optional, Text, List
+from typing import Any, Optional, Text, List
 import logging
 from questionary import Question
 
@@ -53,7 +53,7 @@ def missing_config_keys(path: Text, mandatory_keys: List[Text]) -> List:
     if not os.path.exists(path):
         return mandatory_keys
 
-    config_data = rasa.utils.io.read_yaml_file(path)
+    config_data = rasa.utils.io.read_config_file(path)
 
     return [k for k in mandatory_keys if k not in config_data or config_data[k] is None]
 
@@ -122,34 +122,6 @@ def create_output_path(
             name = "{}{}".format(prefix, name)
         file_name = "{}.tar.gz".format(name)
         return os.path.join(output_path, file_name)
-
-
-def minimal_kwargs(
-    kwargs: Dict[Text, Any], func: Callable, excluded_keys: Optional[List] = None
-) -> Dict[Text, Any]:
-    """Returns only the kwargs which are required by a function. Keys, contained in
-    the exception list, are not included.
-
-    Args:
-        kwargs: All available kwargs.
-        func: The function which should be called.
-        excluded_keys: Keys to exclude from the result.
-
-    Returns:
-        Subset of kwargs which are accepted by `func`.
-
-    """
-    from rasa.utils.common import arguments_of
-
-    excluded_keys = excluded_keys or []
-
-    possible_arguments = arguments_of(func)
-
-    return {
-        k: v
-        for k, v in kwargs.items()
-        if k in possible_arguments and k not in excluded_keys
-    }
 
 
 class bcolors(object):

@@ -2,7 +2,7 @@ import logging
 import os
 import tempfile
 import traceback
-from functools import wraps
+from functools import wraps, reduce
 from inspect import isawaitable
 from typing import Any, Callable, List, Optional, Text, Union
 
@@ -23,18 +23,27 @@ from rasa.constants import (
     DEFAULT_DOMAIN_PATH,
     DOCS_BASE_URL,
 )
+from rasa.core import broker
 from rasa.core.agent import load_agent, Agent
-from rasa.core.channels import UserMessage, CollectingOutputChannel
+from rasa.core.channels.channel import (
+    UserMessage,
+    CollectingOutputChannel,
+    OutputChannel,
+)
 from rasa.core.events import Event
 from rasa.core.test import test
 from rasa.core.trackers import DialogueStateTracker, EventVerbosity
-from rasa.core.utils import dump_obj_as_str_to_file
+from rasa.core.utils import dump_obj_as_str_to_file, AvailableEndpoints
 from rasa.model import get_model_subdirectories, fingerprint_from_path
 from rasa.nlu.emulators.no_emulator import NoEmulator
 from rasa.nlu.test import run_evaluation
-
+from rasa.core.tracker_store import TrackerStore
 
 logger = logging.getLogger(__name__)
+
+
+OUTPUT_CHANNEL_QUERY_KEY = "output_channel"
+USE_LATEST_INPUT_CHANNEL_AS_OUTPUT_CHANNEL = "latest"
 
 
 class ErrorResponse(Exception):
@@ -81,7 +90,7 @@ def ensure_loaded_agent(app: Sanic):
 def requires_auth(app: Sanic, token: Optional[Text] = None) -> Callable[[Any], Any]:
     """Wraps a request handler with token authentication."""
 
-    def decorator(f: Callable[[Any, Any, Any], Any]) -> Callable[[Any, Any], Any]:
+    def decorator(f: Callable[[Any, Any], Any]) -> Callable[[Any, Any], Any]:
         def conversation_id_from_args(args: Any, kwargs: Any) -> Optional[Text]:
             argnames = rasa.utils.common.arguments_of(f)
 
@@ -201,11 +210,6 @@ async def authenticate(request: Request):
     )
 
 
-def _configure_logging(loglevel: Text, logfile: Text):
-    logging.basicConfig(filename=logfile, level=loglevel)
-    logging.captureWarnings(True)
-
-
 def _create_emulator(mode: Optional[Text]) -> NoEmulator:
     """Create emulator for specified mode.
     If no emulator is specified, we will use the Rasa NLU format."""
@@ -238,9 +242,29 @@ async def _load_agent(
     model_path: Optional[Text] = None,
     model_server: Optional[EndpointConfig] = None,
     remote_storage: Optional[Text] = None,
+    endpoints: Optional[AvailableEndpoints] = None,
 ) -> Agent:
     try:
-        loaded_agent = await load_agent(model_path, model_server, remote_storage)
+        tracker_store = None
+        generator = None
+        action_endpoint = None
+
+        if endpoints:
+            _broker = broker.from_endpoint_config(endpoints.event_broker)
+            tracker_store = TrackerStore.find_tracker_store(
+                None, endpoints.tracker_store, _broker
+            )
+            generator = endpoints.nlg
+            action_endpoint = endpoints.action
+
+        loaded_agent = await load_agent(
+            model_path,
+            model_server,
+            remote_storage,
+            generator=generator,
+            tracker_store=tracker_store,
+            action_endpoint=action_endpoint,
+        )
     except Exception as e:
         logger.debug(traceback.format_exc())
         raise ErrorResponse(
@@ -258,14 +282,20 @@ async def _load_agent(
     return loaded_agent
 
 
+def add_root_route(app: Sanic):
+    @app.get("/")
+    async def hello(request: Request):
+        """Check if the server is running and responds with the version."""
+        return response.text("Hello from Rasa: " + rasa.__version__)
+
+
 def create_app(
     agent: Optional["Agent"] = None,
     cors_origins: Union[Text, List[Text]] = "*",
-    loglevel: Text = "INFO",
-    logfile: Optional[Text] = None,
     auth_token: Optional[Text] = None,
     jwt_secret: Optional[Text] = None,
     jwt_method: Text = "HS256",
+    endpoints: Optional[AvailableEndpoints] = None,
 ):
     """Class representing a Rasa HTTP server."""
 
@@ -275,8 +305,6 @@ def create_app(
     CORS(
         app, resources={r"/*": {"origins": cors_origins or ""}}, automatic_options=True
     )
-
-    _configure_logging(loglevel, logfile)
 
     # Setup the Sanic-JWT extension
     if jwt_secret and jwt_method:
@@ -298,10 +326,7 @@ def create_app(
     async def handle_error_response(request: Request, exception: ErrorResponse):
         return response.json(exception.error_info, status=exception.status)
 
-    @app.get("/")
-    async def hello(request: Request):
-        """Check if the server is running and responds with the version."""
-        return response.text("Hello from Rasa: " + rasa.__version__)
+    add_root_route(app)
 
     @app.get("/version")
     async def version(request: Request):
@@ -316,6 +341,7 @@ def create_app(
 
     @app.get("/status")
     @requires_auth(app, auth_token)
+    @ensure_loaded_agent(app)
     async def status(request: Request):
         """Respond with the model name and the fingerprint of that model."""
 
@@ -362,7 +388,7 @@ def create_app(
     @app.post("/conversations/<conversation_id>/tracker/events")
     @requires_auth(app, auth_token)
     @ensure_loaded_agent(app)
-    async def append_event(request: Request, conversation_id: Text):
+    async def append_events(request: Request, conversation_id: Text):
         """Append a list of events to the state of a conversation"""
         validate_request_body(
             request,
@@ -370,34 +396,42 @@ def create_app(
             "to the state of a conversation.",
         )
 
-        evt = Event.from_parameters(request.json)
-        verbosity = event_verbosity_parameter(request, EventVerbosity.AFTER_RESTART)
+        events = request.json
+        if not isinstance(events, list):
+            events = [events]
 
+        events = [Event.from_parameters(event) for event in events]
+        events = [event for event in events if event]
+
+        if not events:
+            logger.warning(
+                "Append event called, but could not extract a valid event. "
+                "Request JSON: {}".format(request.json)
+            )
+            raise ErrorResponse(
+                400,
+                "BadRequest",
+                "Couldn't extract a proper event from the request body.",
+                {"parameter": "", "in": "body"},
+            )
+
+        verbosity = event_verbosity_parameter(request, EventVerbosity.AFTER_RESTART)
         tracker = obtain_tracker_store(app.agent, conversation_id)
 
-        if evt:
-            try:
-                tracker.update(evt, app.agent.domain)
-                app.agent.tracker_store.save(tracker)
-                return response.json(tracker.current_state(verbosity))
-            except Exception as e:
-                logger.debug(traceback.format_exc())
-                raise ErrorResponse(
-                    500,
-                    "ConversationError",
-                    "An unexpected error occurred. Error: {}".format(e),
-                )
+        try:
+            for event in events:
+                tracker.update(event, app.agent.domain)
 
-        logger.warning(
-            "Append event called, but could not extract a valid event. "
-            "Request JSON: {}".format(request.json)
-        )
-        raise ErrorResponse(
-            400,
-            "BadRequest",
-            "Couldn't extract a proper event from the request body.",
-            {"parameter": "", "in": "body"},
-        )
+            app.agent.tracker_store.save(tracker)
+
+            return response.json(tracker.current_state(verbosity))
+        except Exception as e:
+            logger.debug(traceback.format_exc())
+            raise ErrorResponse(
+                500,
+                "ConversationError",
+                "An unexpected error occurred. Error: {}".format(e),
+            )
 
     @app.put("/conversations/<conversation_id>/tracker/events")
     @requires_auth(app, auth_token)
@@ -480,13 +514,13 @@ def create_app(
 
         policy = request_params.get("policy", None)
         confidence = request_params.get("confidence", None)
-
         verbosity = event_verbosity_parameter(request, EventVerbosity.AFTER_RESTART)
 
         try:
-            out = CollectingOutputChannel()
+            tracker = obtain_tracker_store(app.agent, conversation_id)
+            output_channel = _get_output_channel(request, tracker)
             await app.agent.execute_action(
-                conversation_id, action_to_execute, out, policy, confidence
+                conversation_id, action_to_execute, output_channel, policy, confidence
             )
         except Exception as e:
             logger.debug(traceback.format_exc())
@@ -498,7 +532,13 @@ def create_app(
 
         tracker = obtain_tracker_store(app.agent, conversation_id)
         state = tracker.current_state(verbosity)
-        return response.json({"tracker": state, "messages": out.messages})
+
+        response_body = {"tracker": state}
+
+        if isinstance(output_channel, CollectingOutputChannel):
+            response_body["messages"] = output_channel.messages
+
+        return response.json(response_body)
 
     @app.post("/conversations/<conversation_id>/predict")
     @requires_auth(app, auth_token)
@@ -602,7 +642,12 @@ def create_app(
                 output_path=rjs.get("out", DEFAULT_MODELS_PATH),
                 force_training=rjs.get("force", False),
             )
-            return await response.file(model_path)
+
+            filename = os.path.basename(model_path) if model_path else None
+
+            return await response.file(
+                model_path, filename=filename, headers={"filename": filename}
+            )
         except InvalidDomain as e:
             raise ErrorResponse(
                 400,
@@ -777,8 +822,18 @@ def create_app(
 
         try:
             data = emulator.normalise_request_json(request.json)
-            parse_data = await app.agent.interpreter.parse(data.get("text"))
-            response_data = emulator.normalise_response_json(parse_data)
+            try:
+                parsed_data = await app.agent.parse_message_using_nlu_interpreter(
+                    data.get("text")
+                )
+            except Exception as e:
+                logger.debug(traceback.format_exc())
+                raise ErrorResponse(
+                    400,
+                    "ParsingError",
+                    "An unexpected error occurred. Error: {}".format(e),
+                )
+            response_data = emulator.normalise_response_json(parsed_data)
 
             return response.json(response_data)
 
@@ -796,8 +851,20 @@ def create_app(
         model_path = request.json.get("model_file", None)
         model_server = request.json.get("model_server", None)
         remote_storage = request.json.get("remote_storage", None)
-
-        app.agent = await _load_agent(model_path, model_server, remote_storage)
+        if model_server:
+            try:
+                model_server = EndpointConfig.from_dict(model_server)
+            except TypeError as e:
+                logger.debug(traceback.format_exc())
+                raise ErrorResponse(
+                    400,
+                    "BadRequest",
+                    "Supplied 'model_server' is not valid. Error: {}".format(e),
+                    {"parameter": "model_server", "in": "body"},
+                )
+        app.agent = await _load_agent(
+            model_path, model_server, remote_storage, endpoints
+        )
 
         logger.debug("Successfully loaded model '{}'.".format(model_path))
         return response.json(None, status=204)
@@ -840,3 +907,42 @@ def create_app(
             )
 
     return app
+
+
+def _get_output_channel(
+    request: Request, tracker: Optional[DialogueStateTracker]
+) -> OutputChannel:
+    """Returns the `OutputChannel` which should be used for the bot's responses.
+
+    Args:
+        request: HTTP request whose query parameters can specify which `OutputChannel`
+                 should be used.
+        tracker: Tracker for the conversation. Used to get the latest input channel.
+
+    Returns:
+        `OutputChannel` which should be used to return the bot's responses to.
+    """
+    requested_output_channel = request.args.get(OUTPUT_CHANNEL_QUERY_KEY)
+
+    if (
+        requested_output_channel == USE_LATEST_INPUT_CHANNEL_AS_OUTPUT_CHANNEL
+        and tracker
+    ):
+        requested_output_channel = tracker.get_latest_input_channel()
+
+    registered_input_channels = request.app.input_channels or []
+    matching_channels = [
+        channel
+        for channel in registered_input_channels
+        if channel.name() == requested_output_channel
+    ]
+
+    # Check if matching channels can provide a valid output channel,
+    # otherwise use `CollectingOutputChannel`
+    return reduce(
+        lambda output_channel_created_so_far, input_channel: (
+            input_channel.get_output_channel() or output_channel_created_so_far
+        ),
+        matching_channels,
+        CollectingOutputChannel(),
+    )

@@ -1,5 +1,5 @@
 :desc: Define intents, entities, slots and actions in Rasa to build contextual
-       AI Assistants and chatbots using open source bot framework Rasa Stack.
+       AI Assistants and chatbots using open source bot framework Rasa.
 
 .. _domains:
 
@@ -11,6 +11,12 @@ It specifies the ``intents``, ``entities``, ``slots``, and ``actions``
 your bot should know about. Optionally, it can also include ``templates``
 for the things your bot can say.
 
+.. contents::
+   :local:
+
+
+An example of a Domain
+----------------------
 
 As an example, the ``DefaultDomain`` has the following yaml definition:
 
@@ -51,7 +57,7 @@ For example, an action could:
 * just about anything!
 
 Custom Actions and Slots
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 To reference slots in your domain, you need to reference them by
 their **module path**. To reference custom actions, use their **name**.
@@ -76,7 +82,7 @@ see :ref:`custom-actions`).
 .. _utter_templates:
 
 Utterance templates
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 Utterance templates are messages the bot will send back to the user. There are
 two ways to use these templates:
@@ -157,7 +163,7 @@ You can also send any arbitrary output to the output channel using the
 payload should first be converted to yaml format.
 
 For example, although date pickers are not a defined parameter in utterance
-templates because they are not supported by most channels, a slack date picker
+templates because they are not supported by most channels, a Slack date picker
 can be sent like so:
 
 .. code-block:: yaml
@@ -195,7 +201,7 @@ output payloads that will only work in certain channels.
     - text: "Which game would you like to play?"
       channel: "slack"
       custom:
-        - # payload for slack dropdown menu to choose a game
+        - # payload for Slack dropdown menu to choose a game
     - text: "Which game would you like to play?"
       buttons:
       - title: "Chess"
@@ -270,19 +276,33 @@ multiple responses and Rasa will randomly pick one of them, e.g.:
     - text: "Hey, {name}. How is your day going?"
 
 Ignoring entities for certain intents
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-------------------------------------
 
-If you want entities to be ignored for certain intents, you can
-add the ``use_entities: false`` parameter to the intent in your domain
+If you want all entities to be ignored for certain intents, you can
+add the ``use_entities: []`` parameter to the intent in your domain
 file like this:
 
 .. code-block:: yaml
 
   intents:
     - greet:
-        use_entities: false
+        use_entities: []
 
-This means that entities for those intents will be unfeaturized and therefore
+To ignore some entities or explicitly take only certain entities
+into account you can use this syntax:
+
+.. code-block:: yaml
+
+  intents:
+  - greet:
+    use_entities: 
+      - name
+      - first_name
+    ignore_entities:
+      - location
+      - age
+
+This means that excluded entities for those intents will be unfeaturized and therefore
 will not impact the next action predictions. This is useful when you have
 an intent where you don't care about the entities being picked up. If you list
 your intents as normal without this parameter, the entities will be

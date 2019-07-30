@@ -3,17 +3,18 @@ import logging
 import os
 from typing import List
 
-from rasa import data
 from rasa.cli.arguments import test as arguments
-from rasa.cli.utils import get_validated_path
 from rasa.constants import (
     DEFAULT_CONFIG_PATH,
     DEFAULT_DATA_PATH,
     DEFAULT_ENDPOINTS_PATH,
     DEFAULT_MODELS_PATH,
     DEFAULT_RESULTS_PATH,
+    DEFAULT_NLU_RESULTS_PATH,
+    CONFIG_SCHEMA_FILE,
 )
-from rasa.test import test_compare
+import rasa.utils.validation as validation_utils
+import rasa.cli.utils as cli_utils
 
 logger = logging.getLogger(__name__)
 
@@ -27,7 +28,7 @@ def add_subparser(
         parents=parents,
         conflict_handler="resolve",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        help="Tests a trained Rasa model using your test NLU data and stories.",
+        help="Tests Rasa models using your test NLU data and stories.",
     )
 
     arguments.set_test_arguments(test_parser)
@@ -38,7 +39,7 @@ def add_subparser(
         parents=parents,
         conflict_handler="resolve",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        help="Tests a trained Rasa Core model using your test stories.",
+        help="Tests Rasa Core models using your test stories.",
     )
     arguments.set_test_core_arguments(test_core_parser)
 
@@ -46,7 +47,7 @@ def add_subparser(
         "nlu",
         parents=parents,
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
-        help="Tests a trained Rasa NLU model using your test NLU data.",
+        help="Tests Rasa NLU models using your test NLU data.",
     )
     arguments.set_test_nlu_arguments(test_nlu_parser)
 
@@ -56,12 +57,13 @@ def add_subparser(
 
 
 def test_core(args: argparse.Namespace) -> None:
-    from rasa.test import test_core
+    from rasa import data
+    from rasa.test import test_core_models_in_directory, test_core, test_core_models
 
-    endpoints = get_validated_path(
+    endpoints = cli_utils.get_validated_path(
         args.endpoints, "endpoints", DEFAULT_ENDPOINTS_PATH, True
     )
-    stories = get_validated_path(args.stories, "stories", DEFAULT_DATA_PATH)
+    stories = cli_utils.get_validated_path(args.stories, "stories", DEFAULT_DATA_PATH)
     stories = data.get_core_directory(stories)
     output = args.out or DEFAULT_RESULTS_PATH
 
@@ -72,34 +74,82 @@ def test_core(args: argparse.Namespace) -> None:
         args.model = args.model[0]
 
     if isinstance(args.model, str):
-        model_path = get_validated_path(args.model, "model", DEFAULT_MODELS_PATH)
-
-        test_core(
-            model=model_path,
-            stories=stories,
-            endpoints=endpoints,
-            output=output,
-            kwargs=vars(args),
+        model_path = cli_utils.get_validated_path(
+            args.model, "model", DEFAULT_MODELS_PATH
         )
 
+        if args.evaluate_model_directory:
+            test_core_models_in_directory(args.model, stories, output)
+        else:
+            test_core(
+                model=model_path,
+                stories=stories,
+                endpoints=endpoints,
+                output=output,
+                kwargs=vars(args),
+            )
+
     else:
-        test_compare(args.model, stories, output)
+        test_core_models(args.model, stories, output)
 
 
 def test_nlu(args: argparse.Namespace) -> None:
-    from rasa.test import test_nlu, test_nlu_with_cross_validation
+    from rasa import data
+    import rasa.utils.io as io_utils
+    from rasa.test import compare_nlu_models, perform_nlu_cross_validation, test_nlu
 
-    nlu_data = get_validated_path(args.nlu, "nlu", DEFAULT_DATA_PATH)
+    nlu_data = cli_utils.get_validated_path(args.nlu, "nlu", DEFAULT_DATA_PATH)
     nlu_data = data.get_nlu_directory(nlu_data)
 
-    if not args.cross_validation:
-        model_path = get_validated_path(args.model, "model", DEFAULT_MODELS_PATH)
-        test_nlu(model_path, nlu_data, vars(args))
-    else:
-        print ("No model specified. Model will be trained using cross validation.")
-        config = get_validated_path(args.config, "config", DEFAULT_CONFIG_PATH)
+    if args.config is not None and len(args.config) == 1:
+        args.config = os.path.abspath(args.config[0])
+        if os.path.isdir(args.config):
+            config_dir = args.config
+            config_files = os.listdir(config_dir)
+            args.config = [
+                os.path.join(config_dir, os.path.abspath(config))
+                for config in config_files
+            ]
 
-        test_nlu_with_cross_validation(config, nlu_data, vars(args))
+    if isinstance(args.config, list):
+        logger.info(
+            "Multiple configuration files specified, running nlu comparison mode."
+        )
+
+        config_files = []
+        for file in args.config:
+            try:
+                validation_utils.validate_yaml_schema(
+                    io_utils.read_file(file),
+                    CONFIG_SCHEMA_FILE,
+                    show_validation_errors=False,
+                )
+                config_files.append(file)
+            except validation_utils.InvalidYamlFileError:
+                logger.debug(
+                    "Ignoring file '{}' as it is not a valid config file.".format(file)
+                )
+                continue
+
+        output = args.report or DEFAULT_NLU_RESULTS_PATH
+        compare_nlu_models(
+            configs=config_files,
+            nlu=nlu_data,
+            output=output,
+            runs=args.runs,
+            exclusion_percentages=args.percentages,
+        )
+    elif args.cross_validation:
+        logger.info("Test model using cross validation.")
+        config = cli_utils.get_validated_path(
+            args.config, "config", DEFAULT_CONFIG_PATH
+        )
+        perform_nlu_cross_validation(config, nlu_data, vars(args))
+    else:
+        model_path = cli_utils.get_validated_path(
+            args.model, "model", DEFAULT_MODELS_PATH
+        )
+        test_nlu(model_path, nlu_data, vars(args))
 
 
 def test(args: argparse.Namespace):

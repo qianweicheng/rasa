@@ -1,5 +1,7 @@
-import mock
 import os
+import pytest
+from unittest.mock import patch
+
 from moto import mock_s3
 
 from rasa.nlu import persistor, train
@@ -12,13 +14,13 @@ class Object(object):
 
 # noinspection PyPep8Naming
 @mock_s3
-def test_list_method_method_in_AWSPersistor(component_builder, tmpdir):
+async def test_list_method_method_in_AWSPersistor(component_builder, tmpdir):
     # artificially create a persisted model
     _config = utilities.base_test_conf("keyword")
     os.environ["BUCKET_NAME"] = "rasa-test"
     os.environ["AWS_DEFAULT_REGION"] = "us-west-1"
 
-    (trained, _, persisted_path) = train(
+    (trained, _, persisted_path) = await train(
         _config,
         data="data/test/demo-rasa-small.json",
         path=tmpdir.strpath,
@@ -61,7 +63,7 @@ def test_list_models_method_in_GCSPersistor():
 
         self.bucket.list_blobs = mocked_list_blobs
 
-    with mock.patch.object(persistor.GCSPersistor, "__init__", mocked_init):
+    with patch.object(persistor.GCSPersistor, "__init__", mocked_init):
         result = persistor.GCSPersistor("").list_models()
 
     assert result == ["model_name"]
@@ -81,7 +83,7 @@ def test_list_models_method_raise_exeception_in_GCSPersistor():
 
         self.bucket.list_blobs = mocked_list_blobs
 
-    with mock.patch.object(persistor.GCSPersistor, "__init__", mocked_init):
+    with patch.object(persistor.GCSPersistor, "__init__", mocked_init):
         result = persistor.GCSPersistor("").list_models()
 
     assert result == []
@@ -105,7 +107,7 @@ def test_list_models_method_in_AzurePersistor():
 
         self.blob_client.list_blobs = mocked_list_blobs
 
-    with mock.patch.object(persistor.AzurePersistor, "__init__", mocked_init):
+    with patch.object(persistor.AzurePersistor, "__init__", mocked_init):
         result = persistor.AzurePersistor("", "", "").list_models()
 
     assert result == ["model_name"]
@@ -125,7 +127,18 @@ def test_list_models_method_raise_exeception_in_AzurePersistor():
 
         self.blob_client.list_blobs = mocked_list_blobs
 
-    with mock.patch.object(persistor.AzurePersistor, "__init__", mocked_init):
+    with patch.object(persistor.AzurePersistor, "__init__", mocked_init):
         result = persistor.AzurePersistor("", "", "").list_models()
 
     assert result == []
+
+
+# noinspection PyPep8Naming
+@pytest.mark.parametrize(
+    "model, archive", [("model.tar.gz", "model.tar.gz"), ("model", "model.tar.gz")]
+)
+def test_retrieve_tar_archive(model, archive):
+    with patch.object(persistor.Persistor, "_decompress") as f:
+        with patch.object(persistor.Persistor, "_retrieve_tar") as f:
+            persistor.Persistor().retrieve(model, "dst")
+        f.assert_called_once_with(archive)

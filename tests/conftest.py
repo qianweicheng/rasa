@@ -1,10 +1,14 @@
 import pytest
+import logging
 
+from rasa.core.run import _create_app_without_api
 from rasa import server
 from rasa.core import config
 from rasa.core.agent import Agent, load_agent
-from rasa.core.channels import RestInput, channel
-from rasa.core.policies import AugmentedMemoizationPolicy
+from rasa.core.channels.channel import RestInput
+from rasa.core.channels import channel
+from rasa.core.policies.memoization import AugmentedMemoizationPolicy
+from rasa.model import get_model
 from rasa.train import train_async
 from tests.core.conftest import (
     DEFAULT_STORIES_FILE,
@@ -12,9 +16,22 @@ from tests.core.conftest import (
     DEFAULT_STACK_CONFIG,
     DEFAULT_NLU_DATA,
     END_TO_END_STORY_FILE,
+    MOODBOT_MODEL_PATH,
 )
 
 DEFAULT_CONFIG_PATH = "rasa/cli/default_config.yml"
+
+# we reuse a bit of pytest's own testing machinery, this should eventually come
+# from a separatedly installable pytest-cli plugin.
+pytest_plugins = ["pytester"]
+
+
+@pytest.fixture(autouse=True)
+def set_log_level_debug(caplog):
+    # Set the post-test log level to DEBUG for failing tests.  For all tests
+    # (failing and successful), the live log level can be additionally set in
+    # `setup.cfg`. It should be set to WARNING.
+    caplog.set_level(logging.DEBUG)
 
 
 @pytest.fixture
@@ -30,6 +47,21 @@ async def default_agent(tmpdir_factory) -> Agent:
     agent.train(training_data)
     agent.persist(model_path)
     return agent
+
+
+@pytest.fixture(scope="session")
+async def trained_moodbot_path():
+    return await train_async(
+        domain="examples/moodbot/domain.yml",
+        config="examples/moodbot/config.yml",
+        training_files="examples/moodbot/data/",
+        output_path=MOODBOT_MODEL_PATH,
+    )
+
+
+@pytest.fixture(scope="session")
+async def unpacked_trained_moodbot_path(trained_moodbot_path):
+    return get_model(trained_moodbot_path)
 
 
 @pytest.fixture
@@ -141,6 +173,13 @@ async def rasa_nlu_server(nlu_agent):
 @pytest.fixture
 async def rasa_server_secured(default_agent):
     app = server.create_app(agent=default_agent, auth_token="rasa", jwt_secret="core")
+    channel.register([RestInput()], app, "/webhooks/")
+    return app
+
+
+@pytest.fixture
+async def rasa_server_without_api():
+    app = _create_app_without_api()
     channel.register([RestInput()], app, "/webhooks/")
     return app
 

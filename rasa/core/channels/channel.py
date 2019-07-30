@@ -13,7 +13,7 @@ from rasa.constants import DOCS_BASE_URL
 from rasa.core import utils
 
 try:
-    from urlparse import urljoin
+    from urlparse import urljoin  # pytype: disable=import-error
 except ImportError:
     from urllib.parse import urljoin
 
@@ -31,15 +31,12 @@ class UserMessage(object):
         self,
         text: Optional[Text] = None,
         output_channel: Optional["OutputChannel"] = None,
-        sender_id: Text = None,
+        sender_id: Optional[Text] = None,
         parse_data: Dict[Text, Any] = None,
-        input_channel: Text = None,
-        message_id: Text = None,
+        input_channel: Optional[Text] = None,
+        message_id: Optional[Text] = None,
     ) -> None:
-        if text:
-            self.text = text.strip()
-        else:
-            self.text = text
+        self.text = text.strip() if text else text
 
         if message_id is not None:
             self.message_id = str(message_id)
@@ -73,6 +70,8 @@ def register(
         else:
             p = None
         app.blueprint(channel.blueprint(handler), url_prefix=p)
+
+    app.input_channels = input_channels
 
 
 def button_to_string(button, idx=0):
@@ -125,7 +124,7 @@ class InputChannel(object):
 
     def blueprint(
         self, on_new_message: Callable[[UserMessage], Awaitable[None]]
-    ) -> None:
+    ) -> Blueprint:
         """Defines a Sanic blueprint.
 
         The blueprint will be attached to a running sanic server and handle
@@ -145,6 +144,20 @@ class InputChannel(object):
             )
         )
 
+    def get_output_channel(self) -> Optional["OutputChannel"]:
+        """Create ``OutputChannel`` based on information provided by the input channel.
+
+        Implementing this function is not required. If this function returns a valid
+        ``OutputChannel`` this can be used by Rasa to send bot responses to the user
+        without the user initiating an interaction.
+
+        Returns:
+            ``OutputChannel`` instance or ``None`` in case creating an output channel
+             only based on the information present in the ``InputChannel`` is not
+             possible.
+        """
+        pass
+
 
 class OutputChannel(object):
     """Output channel base class.
@@ -160,11 +173,6 @@ class OutputChannel(object):
     async def send_response(self, recipient_id: Text, message: Dict[Text, Any]) -> None:
         """Send a message to the client."""
 
-        if message.get("custom"):
-            return await self.send_custom_json(
-                recipient_id, message.pop("custom"), **message
-            )
-
         if message.get("quick_replies"):
             await self.send_quick_replies(
                 recipient_id,
@@ -172,14 +180,15 @@ class OutputChannel(object):
                 message.pop("quick_replies"),
                 **message
             )
-
-        if message.get("buttons"):
+        elif message.get("buttons"):
             await self.send_text_with_buttons(
                 recipient_id, message.pop("text"), message.pop("buttons"), **message
             )
-
-        if message.get("text"):
+        elif message.get("text"):
             await self.send_text_message(recipient_id, message.pop("text"), **message)
+
+        if message.get("custom"):
+            await self.send_custom_json(recipient_id, message.pop("custom"), **message)
 
         # if there is an image we handle it separately as an attachment
         if message.get("image"):
@@ -308,8 +317,8 @@ class CollectingOutputChannel(OutputChannel):
         else:
             return None
 
-    async def _persist_message(self, message):
-        self.messages.append(message)
+    async def _persist_message(self, message) -> None:
+        self.messages.append(message)  # pytype: disable=bad-return-type
 
     async def send_text_message(
         self, recipient_id: Text, text: Text, **kwargs: Any
@@ -358,15 +367,15 @@ class QueueOutputChannel(CollectingOutputChannel):
         return "queue"
 
     # noinspection PyMissingConstructor
-    def __init__(self, message_queue: Queue = None) -> None:
-        super(QueueOutputChannel).__init__()
+    def __init__(self, message_queue: Optional[Queue] = None) -> None:
+        super(QueueOutputChannel, self).__init__()
         self.messages = Queue() if not message_queue else message_queue
 
     def latest_output(self):
         raise NotImplementedError("A queue doesn't allow to peek at messages.")
 
-    async def _persist_message(self, message):
-        await self.messages.put(message)
+    async def _persist_message(self, message) -> None:
+        await self.messages.put(message)  # pytype: disable=bad-return-type
 
 
 class RestInput(InputChannel):
@@ -381,29 +390,45 @@ class RestInput(InputChannel):
         return "rest"
 
     @staticmethod
-    async def on_message_wrapper(on_new_message, text, queue, sender_id):
+    async def on_message_wrapper(
+        on_new_message: Callable[[UserMessage], Awaitable[None]],
+        text: Text,
+        queue: Queue,
+        sender_id: Text,
+        input_channel,
+    ) -> None:
         collector = QueueOutputChannel(queue)
 
-        message = UserMessage(
-            text, collector, sender_id, input_channel=RestInput.name()
-        )
+        message = UserMessage(text, collector, sender_id, input_channel=input_channel)
         await on_new_message(message)
 
-        await queue.put("DONE")
+        await queue.put("DONE")  # pytype: disable=bad-return-type
 
-    async def _extract_sender(self, req):
+    async def _extract_sender(self, req: Request) -> Optional[Text]:
         return req.json.get("sender", None)
 
     # noinspection PyMethodMayBeStatic
-    def _extract_message(self, req):
+    def _extract_message(self, req: Request) -> Optional[Text]:
         return req.json.get("message", None)
 
-    def stream_response(self, on_new_message, text, sender_id):
-        async def stream(resp):
+    def _extract_input_channel(self, req: Request) -> Text:
+        return req.json.get("input_channel") or self.name()
+
+    def stream_response(
+        self,
+        on_new_message: Callable[[UserMessage], Awaitable[None]],
+        text: Text,
+        sender_id: Text,
+        input_channel: Text,
+    ) -> Callable[[Any], Awaitable[None]]:
+        async def stream(resp: Any) -> None:
             q = Queue()
             task = asyncio.ensure_future(
-                self.on_message_wrapper(on_new_message, text, q, sender_id)
+                self.on_message_wrapper(
+                    on_new_message, text, q, sender_id, input_channel
+                )
             )
+            result = None  # declare variable up front to avoid pytype error
             while True:
                 result = await q.get()
                 if result == "DONE":
@@ -412,9 +437,9 @@ class RestInput(InputChannel):
                     await resp.write(json.dumps(result) + "\n")
             await task
 
-        return stream
+        return stream  # pytype: disable=bad-return-type
 
-    def blueprint(self, on_new_message):
+    def blueprint(self, on_new_message: Callable[[UserMessage], Awaitable[None]]):
         custom_webhook = Blueprint(
             "custom_webhook_{}".format(type(self).__name__),
             inspect.getmodule(self).__name__,
@@ -432,10 +457,13 @@ class RestInput(InputChannel):
             should_use_stream = rasa.utils.endpoints.bool_arg(
                 request, "stream", default=False
             )
+            input_channel = self._extract_input_channel(request)
 
             if should_use_stream:
                 return response.stream(
-                    self.stream_response(on_new_message, text, sender_id),
+                    self.stream_response(
+                        on_new_message, text, sender_id, input_channel
+                    ),
                     content_type="text/event-stream",
                 )
             else:
@@ -444,7 +472,7 @@ class RestInput(InputChannel):
                 try:
                     await on_new_message(
                         UserMessage(
-                            text, collector, sender_id, input_channel=self.name()
+                            text, collector, sender_id, input_channel=input_channel
                         )
                     )
                 except CancelledError:

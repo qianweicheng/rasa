@@ -6,8 +6,8 @@ from twilio.base.exceptions import TwilioRestException
 from twilio.rest import Client
 from typing import Dict, Text, Any
 
-from rasa.core.channels import InputChannel
-from rasa.core.channels import UserMessage, OutputChannel
+from rasa.core.channels.channel import InputChannel
+from rasa.core.channels.channel import UserMessage, OutputChannel
 
 logger = logging.getLogger(__name__)
 
@@ -101,9 +101,7 @@ class TwilioInput(InputChannel):
             sender = request.form.get("From", None)
             text = request.form.get("Body", None)
 
-            out_channel = TwilioOutput(
-                self.account_sid, self.auth_token, self.twilio_number
-            )
+            out_channel = self.get_output_channel()
 
             if sender is not None and message is not None:
                 try:
@@ -128,3 +126,6 @@ class TwilioInput(InputChannel):
             return response.text("success")
 
         return twilio_webhook
+
+    def get_output_channel(self) -> OutputChannel:
+        return TwilioOutput(self.account_sid, self.auth_token, self.twilio_number)
