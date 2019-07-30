@@ -1,12 +1,38 @@
+import logging
+
+import pytest
 from aioresponses import aioresponses
-from rasa.utils.endpoints import EndpointConfig
+
 from tests.utilities import latest_request, json_of_latest_request
-from rasa.utils.common import sort_list_of_dicts_by_first_key
+import rasa.utils.endpoints as endpoint_utils
+
+
+@pytest.mark.parametrize(
+    "base, subpath, expected_result",
+    [
+        ("https://example.com", None, "https://example.com"),
+        ("https://example.com/test", None, "https://example.com/test"),
+        ("https://example.com/", None, "https://example.com/"),
+        ("https://example.com/", "test", "https://example.com/test"),
+        ("https://example.com/", "test/", "https://example.com/test/"),
+    ],
+)
+def test_concat_url(base, subpath, expected_result):
+    assert endpoint_utils.concat_url(base, subpath) == expected_result
+
+
+def test_warning_for_base_paths_with_trailing_slash(caplog):
+    test_path = "base/"
+
+    with caplog.at_level(logging.DEBUG, logger="rasa.utils.endpoints"):
+        assert endpoint_utils.concat_url(test_path, None) == test_path
+
+    assert len(caplog.records) == 1
 
 
 async def test_endpoint_config():
     with aioresponses() as mocked:
-        endpoint = EndpointConfig(
+        endpoint = endpoint_utils.EndpointConfig(
             "https://example.com/",
             params={"A": "B"},
             headers={"X-Powered-By": "Rasa"},
@@ -54,10 +80,17 @@ async def test_endpoint_config():
             assert s._default_auth.password == "pass"
 
 
-def test_sort_dicts_by_keys():
-    test_data = [{"Z": 1}, {"A": 10}]
+def test_endpoint_config_default_token_name():
+    test_data = {"url": "http://test", "token": "token"}
 
-    expected = [{"A": 10}, {"Z": 1}]
-    actual = sort_list_of_dicts_by_first_key(test_data)
+    actual = endpoint_utils.EndpointConfig.from_dict(test_data)
 
-    assert actual == expected
+    assert actual.token_name == "token"
+
+
+def test_endpoint_config_custom_token_name():
+    test_data = {"url": "http://test", "token": "token", "token_name": "test_token"}
+
+    actual = endpoint_utils.EndpointConfig.from_dict(test_data)
+
+    assert actual.token_name == "test_token"

@@ -11,8 +11,7 @@ from telegram import (
 )
 from typing import Dict, Text, Any, List, Optional
 
-from rasa.core.channels import InputChannel
-from rasa.core.channels.channel import UserMessage, OutputChannel
+from rasa.core.channels.channel import InputChannel, UserMessage, OutputChannel
 from rasa.core.constants import INTENT_MESSAGE_PREFIX, USER_INTENT_RESTART
 
 logger = logging.getLogger(__name__)
@@ -169,7 +168,7 @@ class TelegramInput(InputChannel):
 
     def blueprint(self, on_new_message):
         telegram_webhook = Blueprint("telegram_webhook", __name__)
-        out_channel = TelegramOutput(self.access_token)
+        out_channel = self.get_output_channel()
 
         @telegram_webhook.route("/", methods=["GET"])
         async def health(request: Request):
@@ -242,3 +241,9 @@ class TelegramInput(InputChannel):
 
         out_channel.setWebhook(self.webhook_url)
         return telegram_webhook
+
+    def get_output_channel(self) -> TelegramOutput:
+        channel = TelegramOutput(self.access_token)
+        channel.setWebhook(self.webhook_url)
+
+        return channel

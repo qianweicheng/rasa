@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 from types import LambdaType
 from typing import Any, Dict, List, Optional, Text, Tuple
 
@@ -7,13 +8,17 @@ import numpy as np
 import time
 
 from rasa.core import jobs
-from rasa.core.actions import Action
+from rasa.core.actions.action import Action
 from rasa.core.actions.action import (
     ACTION_LISTEN_NAME,
     ActionExecutionRejection,
     UTTER_PREFIX,
 )
-from rasa.core.channels import CollectingOutputChannel, UserMessage, OutputChannel
+from rasa.core.channels.channel import (
+    CollectingOutputChannel,
+    UserMessage,
+    OutputChannel,
+)
 from rasa.core.constants import ACTION_NAME_SENDER_ID_CONNECTOR_STR, USER_INTENT_RESTART
 from rasa.core.domain import Domain
 from rasa.core.events import (
@@ -40,6 +45,9 @@ from rasa.utils.endpoints import EndpointConfig
 logger = logging.getLogger(__name__)
 
 
+MAX_NUMBER_OF_PREDICTIONS = int(os.environ.get("MAX_NUMBER_OF_PREDICTIONS", "10"))
+
+
 class MessageProcessor(object):
     def __init__(
         self,
@@ -49,7 +57,7 @@ class MessageProcessor(object):
         tracker_store: TrackerStore,
         generator: NaturalLanguageGenerator,
         action_endpoint: Optional[EndpointConfig] = None,
-        max_number_of_predictions: int = 10,
+        max_number_of_predictions: int = MAX_NUMBER_OF_PREDICTIONS,
         message_preprocessor: Optional[LambdaType] = None,
         on_circuit_break: Optional[LambdaType] = None,
     ):
@@ -63,12 +71,20 @@ class MessageProcessor(object):
         self.on_circuit_break = on_circuit_break
         self.action_endpoint = action_endpoint
 
-    async def handle_message(self, message: UserMessage) -> Optional[List[Text]]:
+    async def handle_message(
+        self, message: UserMessage
+    ) -> Optional[List[Dict[Text, Any]]]:
         """Handle a single message with this processor."""
 
         # preprocess message if necessary
         tracker = await self.log_message(message)
         if not tracker:
+            return None
+
+        if not self.policy_ensemble or not self.domain:
+            logger.warning(
+                "No policy ensemble or domain set. Skipping action prediction and execution."
+            )
             return None
 
         await self._predict_and_execute_next_action(message, tracker)
@@ -129,7 +145,7 @@ class MessageProcessor(object):
         self,
         sender_id: Text,
         action_name: Text,
-        output_channel: CollectingOutputChannel,
+        output_channel: OutputChannel,
         nlg: NaturalLanguageGenerator,
         policy: Text,
         confidence: float,
@@ -435,14 +451,13 @@ class MessageProcessor(object):
             logger.error(
                 "Encountered an exception while running action '{}'. "
                 "Bot will continue, but the actions events are lost. "
-                "Make sure to fix the exception in your custom "
-                "code.".format(action.name())
+                "Please check the logs of your action server for "
+                "more information.".format(action.name())
             )
             logger.debug(e, exc_info=True)
             events = []
 
         self._log_action_on_tracker(tracker, action.name(), events, policy, confidence)
-
         if action.name() != ACTION_LISTEN_NAME and not action.name().startswith(
             UTTER_PREFIX
         ):
@@ -507,7 +522,7 @@ class MessageProcessor(object):
             # the timestamp would indicate a time before the time
             # of the action executed
             e.timestamp = time.time()
-            tracker.update(e)
+            tracker.update(e, self.domain)
 
     def _get_tracker(self, sender_id: Text) -> Optional[DialogueStateTracker]:
         sender_id = sender_id or UserMessage.DEFAULT_SENDER_ID

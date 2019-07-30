@@ -1,5 +1,5 @@
 :desc: Find out how to apply machine learning algorithms to conversational AI
-       using vector representations of conversations with Rasa Stack.
+       using vector representations of conversations with Rasa.
 
 .. _featurization:
 
@@ -43,13 +43,13 @@ of the tracker has a couple steps:
 
         The target labels correspond to actions taken by the bot.
         To convert the features into vector format, there are different
-        feaurizers available:
+        featurizers available:
 
         - ``BinarySingleStateFeaturizer`` creates a binary one-hot encoding:
             The vectors ``X, y`` indicate a presence of a certain intent,
             entity, previous action or slot e.g. ``[0 0 1 0 0 1 ...]``.
 
-        - ``LabelTokenizerSingleStateFeaturizer`` creates an vector
+        - ``LabelTokenizerSingleStateFeaturizer`` creates a vector
             based on the feature label:
             All active feature labels (e.g. ``prev_action_listen``) are split
             into tokens and represented as a bag-of-words. For example, actions

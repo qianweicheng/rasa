@@ -1,17 +1,24 @@
 import asyncio
-import json
+import errno
 import logging
 import os
 import tarfile
 import tempfile
 import warnings
 import zipfile
+import glob
 from asyncio import AbstractEventLoop
-from typing import Text, Any, Dict, Union, List
+from typing import Text, Any, Dict, Union, List, Type, Callable
 import ruamel.yaml as yaml
-from io import BytesIO as IOReader, StringIO
+from io import BytesIO as IOReader
+
+import simplejson
+import typing
 
 from rasa.constants import ENV_LOG_LEVEL, DEFAULT_LOG_LEVEL
+
+if typing.TYPE_CHECKING:
+    from prompt_toolkit.validation import Validator
 
 
 def configure_colored_logging(loglevel):
@@ -102,7 +109,7 @@ def read_yaml(content: Text) -> Union[List[Any], Dict[Text, Any]]:
     # noinspection PyUnresolvedReferences
     try:
         return yaml_parser.load(content) or {}
-    except yaml.scanner.ScannerError as _:
+    except yaml.scanner.ScannerError:
         # A `ruamel.yaml.scanner.ScannerError` might happen due to escaped
         # unicode sequences that form surrogate pairs. Try converting the input
         # to a parsable format based on
@@ -118,17 +125,47 @@ def read_yaml(content: Text) -> Union[List[Any], Dict[Text, Any]]:
 
 def read_file(filename: Text, encoding: Text = "utf-8") -> Any:
     """Read text from a file."""
-    with open(filename, encoding=encoding) as f:
-        return f.read()
+
+    try:
+        with open(filename, encoding=encoding) as f:
+            return f.read()
+    except FileNotFoundError:
+        raise ValueError("File '{}' does not exist.".format(filename))
 
 
-def read_json_file(filename: Text) -> Union[Dict, List]:
-    """Read json from a file"""
-    with open(filename) as f:
-        return json.load(f)
+def read_json_file(filename: Text) -> Any:
+    """Read json from a file."""
+    content = read_file(filename)
+    try:
+        return simplejson.loads(content)
+    except ValueError as e:
+        raise ValueError(
+            "Failed to read json from '{}'. Error: "
+            "{}".format(os.path.abspath(filename), e)
+        )
 
 
-def read_yaml_file(filename: Text) -> Union[Dict, List]:
+def read_config_file(filename: Text) -> Dict[Text, Any]:
+    """Parses a yaml configuration file. Content needs to be a dictionary
+
+     Args:
+        filename: The path to the file which should be read.
+    """
+    content = read_yaml(read_file(filename, "utf-8"))
+
+    if content is None:
+        return {}
+    elif isinstance(content, dict):
+        return content
+    else:
+        raise ValueError(
+            "Tried to load invalid config file '{}'. "
+            "Expected a key value mapping but found {}"
+            ".".format(filename, type(content))
+        )
+
+
+def read_yaml_file(filename: Text) -> Union[List[Any], Dict[Text, Any]]:
     """Parses a yaml file.
 
      Args:
@@ -196,3 +233,127 @@ def create_path(file_path: Text):
     parent_dir = os.path.dirname(os.path.abspath(file_path))
     if not os.path.exists(parent_dir):
         os.makedirs(parent_dir)
+
+
+def create_directory_for_file(file_path: Text) -> None:
+    """Creates any missing parent directories of this file path."""
+
+    try:
+        os.makedirs(os.path.dirname(file_path))
+    except OSError as e:
+        # be happy if someone already created the path
+        if e.errno != errno.EEXIST:
+            raise
+
+
+def file_type_validator(
+    valid_file_types: List[Text], error_message: Text
+) -> Type["Validator"]:
+    """Creates a `Validator` class which can be used with `questionary` to validate
+       file paths.
+    """
+
+    def is_valid(path: Text) -> bool:
+        return path is not None and any(
+            [path.endswith(file_type) for file_type in valid_file_types]
+        )
+
+    return create_validator(is_valid, error_message)
+
+
+def not_empty_validator(error_message: Text) -> Type["Validator"]:
+    """Creates a `Validator` class which can be used with `questionary` to validate
+    that the user entered something other than whitespace.
+    """
+
+    def is_valid(input: Text) -> bool:
+        return input is not None and input.strip() != ""
+
+    return create_validator(is_valid, error_message)
+
+
+def create_validator(
+    function: Callable[[Text], bool], error_message: Text
+) -> Type["Validator"]:
+    """Helper method to create `Validator` classes from callable functions. Should be
+    removed when questionary supports `Validator` objects."""
+
+    from prompt_toolkit.validation import Validator, ValidationError
+    from prompt_toolkit.document import Document
+
+    class FunctionValidator(Validator):
+        @staticmethod
+        def validate(document: Document) -> None:
+            is_valid = function(document.text)
+            if not is_valid:
+                raise ValidationError(message=error_message)
+
+    return FunctionValidator
+
+
+def list_files(path: Text) -> List[Text]:
+    """Returns all files excluding hidden files.
+
+    If the path points to a file, returns the file."""
+
+    return [fn for fn in list_directory(path) if os.path.isfile(fn)]
+
+
+def list_subdirectories(path: Text) -> List[Text]:
+    """Returns all folders excluding hidden files.
+
+    If the path points to a file, returns an empty list."""
+
+    return [fn for fn in glob.glob(os.path.join(path, "*")) if os.path.isdir(fn)]
+
+
+def list_directory(path: Text) -> List[Text]:
+    """Returns all files and folders excluding hidden files.
+
+    If the path points to a file, returns the file. This is a recursive
+    implementation returning files in any depth of the path."""
+
+    if not isinstance(path, str):
+        raise ValueError(
+            "`resource_name` must be a string type. "
+            "Got `{}` instead".format(type(path))
+        )
+
+    if os.path.isfile(path):
+        return [path]
+    elif os.path.isdir(path):
+        results = []
+        for base, dirs, files in os.walk(path):
+            # remove hidden files
+            goodfiles = filter(lambda x: not x.startswith("."), files)
+            results.extend(os.path.join(base, f) for f in goodfiles)
+        return results
+    else:
+        raise ValueError(
+            "Could not locate the resource '{}'.".format(os.path.abspath(path))
+        )
+
+
+def create_directory(directory_path: Text) -> None:
+    """Creates a directory and its super paths.
+
+    Succeeds even if the path already exists."""
+
+    try:
+        os.makedirs(directory_path)
+    except OSError as e:
+        # be happy if someone already created the path
+        if e.errno != errno.EEXIST:
+            raise
+
+
+def zip_folder(folder: Text) -> Text:
+    """Create an archive from a folder."""
+    import tempfile
+    import shutil
+
+    zipped_path = tempfile.NamedTemporaryFile(delete=False)
+    zipped_path.close()
+
+    # WARN: not thread save!
+    return shutil.make_archive(zipped_path.name, str("zip"), folder)

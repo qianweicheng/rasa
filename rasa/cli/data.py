@@ -1,4 +1,5 @@
 import argparse
+import asyncio
 from typing import List
 
 from rasa import data
@@ -62,6 +63,15 @@ def add_subparser(
 
     arguments.set_split_arguments(nlu_split_parser)
 
+    validate_parser = data_subparsers.add_parser(
+        "validate",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter,
+        parents=parents,
+        help="Validates domain and data files to check for possible mistakes.",
+    )
+    validate_parser.set_defaults(func=validate_files)
+    arguments.set_validator_arguments(validate_parser)
+
 
 def split_nlu_data(args):
     from rasa.nlu.training_data.loading import load_data
@@ -77,3 +87,16 @@ def split_nlu_data(args):
 
     train.persist(args.out, filename="training_data.{}".format(fformat))
     test.persist(args.out, filename="test_data.{}".format(fformat))
+
+
+def validate_files(args):
+    from rasa.core.validator import Validator
+    from rasa.importers.rasa import RasaFileImporter
+
+    loop = asyncio.get_event_loop()
+    file_importer = RasaFileImporter(
+        domain_path=args.domain, training_data_paths=args.data
+    )
+
+    validator = loop.run_until_complete(Validator.from_importer(file_importer))
+    validator.verify_all()

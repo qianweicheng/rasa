@@ -1,11 +1,11 @@
 # coding=utf-8
-
+import asyncio
 import logging
 
 import pytest
 
 import rasa.utils.io
-from rasa.nlu.components import Component
+from rasa.test import compare_nlu_models
 from rasa.nlu.extractors import EntityExtractor
 from rasa.nlu.extractors.mitie_entity_extractor import MitieEntityExtractor
 from rasa.nlu.extractors.spacy_entity_extractor import SpacyEntityExtractor
@@ -37,13 +37,20 @@ import json
 import os
 from rasa.nlu import training_data, config
 from tests.nlu import utilities
-from tests.nlu.conftest import DEFAULT_DATA_PATH
-
-logging.basicConfig(level="DEBUG")
+from tests.nlu.conftest import DEFAULT_DATA_PATH, NLU_DEFAULT_CONFIG_PATH
 
 
 @pytest.fixture(scope="session")
-def pretrained_interpreter(component_builder, tmpdir_factory):
+def loop():
+    loop = asyncio.new_event_loop()
+    asyncio.set_event_loop(loop)
+    loop = rasa.utils.io.enable_async_loop_debugging(loop)
+    yield loop
+    loop.close()
+
+
+@pytest.fixture(scope="session")
+async def pretrained_interpreter(component_builder, tmpdir_factory):
     conf = RasaNLUModelConfig(
         {
             "pipeline": [
@@ -53,7 +60,7 @@ def pretrained_interpreter(component_builder, tmpdir_factory):
             ]
         }
     )
-    return utilities.interpreter_for(
+    return await utilities.interpreter_for(
         component_builder,
         data="./data/examples/rasa/demo-rasa.json",
         path=tmpdir_factory.mktemp("projects").strpath,
@@ -230,11 +237,12 @@ def test_drop_intents_below_freq():
     assert clean_td.intents == {"affirm", "restaurant_search"}
 
 
-def test_run_evaluation(trained_moodbot_path):
+def test_run_evaluation(unpacked_trained_moodbot_path):
     data = DEFAULT_DATA_PATH
-    model = trained_moodbot_path
 
-    result = run_evaluation(data, model, errors=None)
+    result = run_evaluation(
+        data, os.path.join(unpacked_trained_moodbot_path, "nlu"), errors=None
+    )
     assert result.get("intent_evaluation")
     assert result.get("entity_evaluation").get("CRFEntityExtractor")
 
@@ -265,7 +273,7 @@ def test_intent_evaluation_report(tmpdir_factory):
     report_folder = os.path.join(path, "reports")
     report_filename = os.path.join(report_folder, "intent_report.json")
 
-    utils.create_dir(report_folder)
+    rasa.utils.io.create_directory(report_folder)
 
     intent_results = [
         IntentEvaluationResult("", "restaurant_search", "I am hungry", 0.12345),
@@ -320,7 +328,7 @@ def test_entity_evaluation_report(tmpdir_factory):
     report_filename_a = os.path.join(report_folder, "EntityExtractorA_report.json")
     report_filename_b = os.path.join(report_folder, "EntityExtractorB_report.json")
 
-    utils.create_dir(report_folder)
+    rasa.utils.io.create_directory(report_folder)
     mock_interpreter = Interpreter(
         [
             EntityExtractorA({"provides": ["entities"]}),
@@ -434,3 +442,25 @@ def test_label_replacement():
     original_labels = ["O", "location"]
     target_labels = ["no_entity", "location"]
     assert substitute_labels(original_labels, "O", "no_entity") == target_labels
+
+
+def test_nlu_comparison(tmpdir):
+    configs = [
+        NLU_DEFAULT_CONFIG_PATH,
+        "sample_configs/config_supervised_embeddings.yml",
+    ]
+    output = tmpdir.strpath
+
+    compare_nlu_models(
+        configs, DEFAULT_DATA_PATH, output, runs=2, exclusion_percentages=[50, 80]
+    )
+
+    assert set(os.listdir(output)) == {
+        "run_1",
+        "run_2",
+        "results.json",
+        "nlu_model_comparison_graph.pdf",
+    }
+
+    run_1_path = os.path.join(output, "run_1")
+    assert set(os.listdir(run_1_path)) == {"50%_exclusion", "80%_exclusion", "test.md"}

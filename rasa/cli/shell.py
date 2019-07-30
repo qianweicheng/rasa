@@ -1,11 +1,11 @@
 import argparse
 import logging
-import os
 
 from typing import List
 
 from rasa.cli.arguments import shell as arguments
 from rasa.cli.utils import print_error
+from rasa.exceptions import ModelNotFound
 
 
 logger = logging.getLogger(__name__)
@@ -49,8 +49,10 @@ def shell_nlu(args: argparse.Namespace):
     args.connector = "cmdline"
 
     model = get_validated_path(args.model, "model", DEFAULT_MODELS_PATH)
-    model_path = get_model(model)
-    if not model_path:
+
+    try:
+        model_path = get_model(model)
+    except ModelNotFound:
         print_error(
             "No model found. Train a model before running the "
             "server using `rasa train nlu`."
@@ -59,7 +61,7 @@ def shell_nlu(args: argparse.Namespace):
 
     _, nlu_model = get_model_subdirectories(model_path)
 
-    if not os.path.exists(nlu_model):
+    if not nlu_model:
         print_error(
             "No NLU model found. Train a model before running the "
             "server using `rasa train nlu`."
@@ -77,8 +79,10 @@ def shell(args: argparse.Namespace):
     args.connector = "cmdline"
 
     model = get_validated_path(args.model, "model", DEFAULT_MODELS_PATH)
-    model_path = get_model(model)
-    if not model_path:
+
+    try:
+        model_path = get_model(model)
+    except ModelNotFound:
         print_error(
             "No model found. Train a model before running the "
             "server using `rasa train`."
@@ -87,7 +91,7 @@ def shell(args: argparse.Namespace):
 
     core_model, nlu_model = get_model_subdirectories(model_path)
 
-    if not os.path.exists(core_model):
+    if not core_model:
         import rasa.nlu.run
 
         rasa.nlu.run.run_cmdline(nlu_model)
