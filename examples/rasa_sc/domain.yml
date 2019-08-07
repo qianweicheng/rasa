@@ -436,14 +436,14 @@ actions:
 
 templates:
   utter_cancel_subscription:
-  - text: "Please.cancel my subscription"
+  - text: "Please cancel my subscription"
 
   utter_cancel_order:
-  - text: "I'd like to cancel my order. "
+  - text: "I'd like to cancel my order."
 
   utter_delete_account:
   - text: "Please delete my account."
-  -
+
   utter_add_microsoft_attachment:
   - text: "Adding attachments from Microsoft Office apps to your message"
 
@@ -1058,5 +1058,3 @@ templates:
 
   utter_uninstall_app:
     - text: "utter_uninstall_app"
-
-
