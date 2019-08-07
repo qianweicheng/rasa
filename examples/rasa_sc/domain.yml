@@ -209,6 +209,7 @@ intents:
 
 entities:
   - city
+  - order_num
 
 slots:
   city:
@@ -221,6 +222,8 @@ slots:
     values:
     - premium
     - basic
+  order_num:
+    type: text
 
 actions:
   - utter_cancel_subscription

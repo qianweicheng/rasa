@@ -9,11 +9,11 @@
 - Where can I find a restrarant
 
 ## intent:cancel_subscription
-- Please cancel my subscriptiin. Google Order number: 12999763169054705758.1336894206838230   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Tablet)	Cost:  $0.00  Total order amount: 	$0.00
-- I want to cancel my subscription thank you. Google Order number: 12999763169054705758.1338503357242094   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- i need help to cancel this scription please help.  Google Order number: GPA.1371-6247-8256-58554   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- Please cancel my subscription so i do not get charged in June.   Please  email me a confirmation of the cancellation.   Thank you.     Google Order number: GPA.1355-8286-3029-93228   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- I‘d like to cancel my subscription.  Please send me a confirmation  reply showing the subscription has been cancelled.  Thank you for your time.  Jeffrey Perry     Google Order number: GPA.1355-8286-3029-93228   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- Please cancel my subscription. Google Order number: [12999763169054705758.1336894206838230](order_num)   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Tablet)	Cost:  $0.00  Total order amount: 	$0.00
+- I want to cancel my subscription thank you. Google Order number: [12999763169054705758.1338503357242094](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- i need help to cancel this scription please help.  Google Order number: [GPA.1371-6247-8256-58554](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- Please cancel my subscription so i do not get charged in June.   Please  email me a confirmation of the cancellation.   Thank you.     Google Order number: [GPA.1355-8286-3029-93228](order_num) ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I‘d like to cancel my subscription.  Please send me a confirmation  reply showing the subscription has been cancelled.  Thank you for your time.  Jeffrey Perry     Google Order number: [GPA.1355-8286-3029-93228](order_num) ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
 - Cancel subscription
 - Please cancel my subscription   
 - I want to cancel subscription
@@ -30,12 +30,12 @@
 - Hi - can you please cancel my subscription? I made a mistake - thanks! Please confirm.
 
 ## intent:cancel_order
-- I'd like to cancel my order.     Google Order number: 12999763169054705758.1366737188562413   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- I'd like to cancel my order. I am removing the app from my phone now.     Google Order number: 12999763169054705758.1384294795389256   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- I'd like to cancel my order.     Google Order number: GPA.1371-6247-8256-58554   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00    
-- I'd like to cancel my order     Google Order number: GPA.1397-1916-1793-45545   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- I'd like to cancel my order. since the extension slows my email access.  Please refund the full amount.   Hicham     Google Order number: GPA.1303-9993-7526-80149   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- I'd like to cancel my order. Google Order number: GPA.1383-2536-5391-31504   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I'd like to cancel my order.     Google Order number: [12999763169054705758.1366737188562413](order_num) ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I'd like to cancel my order. I am removing the app from my phone now.     Google Order number: [12999763169054705758.1384294795389256](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I'd like to cancel my order.     Google Order number: [GPA.1371-6247-8256-58554](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00    
+- I'd like to cancel my order     Google Order number: [GPA.1397-1916-1793-45545](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I'd like to cancel my order. since the extension slows my email access.  Please refund the full amount.   Hicham     Google Order number: [GPA.1303-9993-7526-80149](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I'd like to cancel my order. Google Order number: [GPA.1383-2536-5391-31504](order_num)  ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
 
 ## intent:delete_account
 - Please delete my account.
