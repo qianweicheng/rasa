@@ -891,5 +891,3 @@
 ## story_receiving_error
 * receiving_error
   - utter_receiving_error
-  
-  

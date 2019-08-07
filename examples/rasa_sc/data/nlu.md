@@ -9,9 +9,9 @@
 - Where can I find a restrarant
 
 ## intent:cancel_subscription
-- Please cancel my subscriptiin.     Google Order number: 12999763169054705758.1336894206838230   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Tablet)	Cost:  $0.00  Total order amount: 	$0.00
-- I want to cancel my subscription thank you.     Google Order number: 12999763169054705758.1338503357242094   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- i need help to cancel this scription please help.     Google Order number: GPA.1371-6247-8256-58554   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- Please cancel my subscriptiin. Google Order number: 12999763169054705758.1336894206838230   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Tablet)	Cost:  $0.00  Total order amount: 	$0.00
+- I want to cancel my subscription thank you. Google Order number: 12999763169054705758.1338503357242094   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- i need help to cancel this scription please help.  Google Order number: GPA.1371-6247-8256-58554   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
 - Please cancel my subscription so i do not get charged in June.   Please  email me a confirmation of the cancellation.   Thank you.     Google Order number: GPA.1355-8286-3029-93228   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
 - I‘d like to cancel my subscription.  Please send me a confirmation  reply showing the subscription has been cancelled.  Thank you for your time.  Jeffrey Perry     Google Order number: GPA.1355-8286-3029-93228   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
 - Cancel subscription
@@ -1998,6 +1998,3 @@
 ## intent:weather_city
 - weather_city
 - give me the weather.
-
-
-
