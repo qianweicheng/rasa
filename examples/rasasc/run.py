@@ -7,7 +7,6 @@ import os
 import rasa.utils.io
 import rasa.train
 from examples.rasasc.policy import EdisonPolicy
-# from examples.restaurantbot.policy import RestaurantPolicy
 from rasa.core.agent import Agent
 from rasa.core.policies.memoization import MemoizationPolicy
 from rasa.core.policies.mapping_policy import MappingPolicy
@@ -28,10 +27,10 @@ async def parse(text: Text, model_path: Text):
 
 
 async def train_core(
-    domain_file: Text = "domain.yml",
-    model_directory: Text = "models",
-    model_name: Text = "current",
-    training_data_file: Text = "data/stories.md",
+        domain_file: Text = "domain.yml",
+        model_directory: Text = "models",
+        model_name: Text = "current",
+        training_data_file: Text = "data/stories.md",
 ):
     agent = Agent(
         domain_file,
@@ -56,10 +55,10 @@ async def train_core(
 
 
 def train_nlu(
-    config_file="config.yml",
-    model_directory: Text = "models",
-    model_name: Text = "current",
-    training_data_file="data/nlu.md",
+        config_file="config.yml",
+        model_directory: Text = "models",
+        model_name: Text = "current",
+        training_data_file="data/nlu.md",
 ):
     from rasa.nlu.training_data import load_data
     from rasa.nlu import config
@@ -82,7 +81,7 @@ def train_nlu(
 if __name__ == "__main__":
     rasa.utils.io.configure_colored_logging(loglevel="INFO")
 
-    parser = argparse.ArgumentParser(description="Eidson support Bot")
+    parser = argparse.ArgumentParser(description="Edison support Bot")
 
     subparser = parser.add_subparsers(dest="subparser_name")
     train_parser = subparser.add_parser("train", help="train a core or nlu model")
@@ -92,7 +91,7 @@ if __name__ == "__main__":
         "--model",
         default="models/current",
         help="Path to the model directory which contains "
-        "sub-folders for core and nlu models.",
+             "sub-folders for core and nlu models.",
     )
     parse_parser.add_argument("--text", default="hello", help="Text to parse.")
 
@@ -113,4 +112,3 @@ if __name__ == "__main__":
             loop.run_until_complete(train_core())
     elif args.subparser_name == "predict":
         loop.run_until_complete(parse(args.text, args.model))
-
