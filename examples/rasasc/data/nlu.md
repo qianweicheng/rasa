@@ -11,9 +11,9 @@
 ## intent:cancel_subscription
 - Please cancel my subscription. Google Order number: [12999763169054705758.1336894206838230](order_num)   ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Tablet)	Cost:  $0.00  Total order amount: 	$0.00
 - I want to cancel my subscription thank you. Google Order number: [12999763169054705758.1338503357242094](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- i need help to cancel this scription please help.  Google Order number: [GPA.1371-6247-8256-58554](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- Please cancel my subscription so i do not get charged in June.   Please  email me a confirmation of the cancellation.   Thank you.     Google Order number: [GPA.1355-8286-3029-93228](order_num) ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- I‘d like to cancel my subscription.  Please send me a confirmation  reply showing the subscription has been cancelled.  Thank you for your time.  Jeffrey Perry     Google Order number: [GPA.1355-8286-3029-93228](order_num) ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- i need help to cancel this scription please help. Google Order number: [GPA.1371-6247-8256-58554](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- Please cancel my subscription so i do not get charged in June. Please  email me a confirmation of the cancellation.   Thank you.     Google Order number: [GPA.1355-8286-3029-93228](order_num) ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I‘d like to cancel my subscription.  Please send me a confirmation reply showing the subscription has been cancelled.  Thank you for your time.  Jeffrey Perry     Google Order number: [GPA.1355-8286-3029-93228](order_num) ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
 - Cancel subscription
 - Please cancel my subscription   
 - I want to cancel subscription
@@ -28,14 +28,17 @@
 - Would like to cancel my subscription please
 - Please cancel my subscription
 - Hi - can you please cancel my subscription? I made a mistake - thanks! Please confirm.
+- I want to cancel my subscription. I do not find it useful.  Not sure how to do this.
+- I have tried and tried to cancel my subscription and have been charged 4 times. Please refund me my money and cancel my subscription.
 
 ## intent:cancel_order
-- I'd like to cancel my order.     Google Order number: [12999763169054705758.1366737188562413](order_num) ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- I'd like to cancel my order. I am removing the app from my phone now.     Google Order number: [12999763169054705758.1384294795389256](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
-- I'd like to cancel my order.     Google Order number: [GPA.1371-6247-8256-58554](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00    
-- I'd like to cancel my order     Google Order number: [GPA.1397-1916-1793-45545](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I'd like to cancel my order. Google Order number: [12999763169054705758.1366737188562413](order_num) ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I'd like to cancel my order. I am removing the app from my phone now.Google Order number: [12999763169054705758.1384294795389256](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I'd like to cancel my order. Google Order number: [GPA.1371-6247-8256-58554](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00    
+- I'd like to cancel my order. Google Order number: [GPA.1397-1916-1793-45545](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
 - I'd like to cancel my order. since the extension slows my email access.  Please refund the full amount.   Hicham     Google Order number: [GPA.1303-9993-7526-80149](order_num)    ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
 - I'd like to cancel my order. Google Order number: [GPA.1383-2536-5391-31504](order_num)  ITEMS:  Quantity: 1	EasilyDo Premium Annual: 180 days free (EasilyDo Smart  Assistant)	Cost: $0.00  Total order amount: 	$0.00
+- I will cancel my order and please return back money.
 
 ## intent:delete_account
 - Please delete my account.
@@ -58,7 +61,7 @@
 - How do I close my account?
 - How do I close accounts?    
 - Close my account NOW 
-- Hi  I want to delete my account 
+- Hi I want to delete my account 
 
 ## intent:add_microsoft_attachment
 - Adding attachments from Microsoft Office apps to your message
@@ -138,11 +141,12 @@
 - Hello,   I loved the app and its very useful. But I see one missing feature that's changing the password. There is noway to change the password of any account in case I change my password. I would have to delete the account and add the account again with the new password.       Can you please look into this.     Regards Pankaj
 - Very good app. But should have password change option
 - I am trying to either figure out what my password was or change my password 
+- I can't able to change my account password
 
 ## intent:save_message_draft
 - How do I save a message as a draft?
 - Save message as draft.
-- save a message as a drft.
+- save a message as a draft.
 - How can i save a message.
 
 ## intent:cancel_easilydo_account
@@ -1859,7 +1863,7 @@
 - My sent messages are not showing up in my sent folder. 
 - A sent email doesn't appear in the sent folder. Where can i check the settings?
 - Does not have a Sent folder 
-- Where is sent mail.folder?
+- Where is sent mail folder?
 - Where do I see the sent folder?    
 - How do I see what emails have been sent.    There is NOT a folder that says SENT    
 - How do I see sent emails?    

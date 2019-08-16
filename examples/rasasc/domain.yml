@@ -1,3 +1,20 @@
+entities:
+  - city
+  - order_num
+slots:
+  city:
+    type: text
+    initial_value: "city"
+  location:
+    type: text
+  account_type:
+    type: categorical
+    values:
+    - premium
+    - basic
+  order_num:
+    type: text
+
 intents:
   - cancel_subscription
   - cancel_order
@@ -206,24 +223,6 @@ intents:
   - uninstall_app
   - need_android_version
   - weather_city
-
-entities:
-  - city
-  - order_num
-
-slots:
-  city:
-    type: text
-    initial_value: "city"
-  location:
-    type: text
-  account_type:
-    type: categorical
-    values:
-    - premium
-    - basic
-  order_num:
-    type: text
 
 actions:
   - utter_cancel_subscription
