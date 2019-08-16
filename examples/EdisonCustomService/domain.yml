@@ -1,0 +1,1060 @@
+intents:
+  - cancel_subscription
+  - cancel_order
+  - delete_account
+  - add_microsoft_attachment
+  - apple_watch_app
+  - enable_imessage_app
+  - support_exchange_features
+  - versions_ews_support
+  - whatis_ews_server
+  - change_account_pwd
+  - save_message_draft
+  - remove_app
+  - zero_inbox
+  - diff_easilydo_and_email
+  - diff_easilydo_and_macmail
+  - account_types
+  - sign_beta_testing
+  - for3d_touch_action
+  - select_multiple_message
+  - delete_self_messages_permantently
+  - personal_folders
+  - when_support_exchange
+  - how_remove_email_account
+  - why_email_free
+  - ios_support_version
+  - mail_providers_support
+  - set_up_gmail_account
+  - set_up_gmail_alias
+  - set_up_icloud_account
+  - set_up_yahoo_account
+  - set_up_outlook_account
+  - set_up_aol_account
+  - set_up_other_account
+  - view_just_one_account
+  - draft_and_send_mail
+  - add_attachments_to_emails
+  - add_images_to_emails
+  - reply_to_email
+  - forword_email
+  - difference_between_archive_and_delete
+  - how_archive_email
+  - how_delete_email
+  - green_shield_with_checkmark
+  - how_change_folders_list
+  - what_is_snooze
+  - what_are_my_snooze_options
+  - how_add_description_to_account
+  - how_always_bcc_myself
+  - how_change_notification_action
+  - how_create_signature
+  - how_change_swipe_options
+  - how_change_default_browser
+  - how_change_undo_time_window
+  - change_lines_number_in_preview
+  - change_default_address
+  - change_folder_list
+  - how_change_classified_important
+  - how_turn_off_badge_count
+  - how_disable_or_enable_backgroud_app_refresh
+  - why_not_receiving_notifications
+  - how_customize_assistant_view
+  - email_missed_by_assistant_add
+  - remove_a_assistant_folder_card
+  - what_are_assistant_folders
+  - what_is_subscrption_folder
+  - what_is_travel_folder
+  - what_is_packages_folder
+  - what_is_bills_folder
+  - what_is_the_entertainment_folder
+  - what_is_privacy_policy
+  - what_are_terms_and_conditions
+  - is_email_secure
+  - mood_happy
+  - ask_weather
+  - change_profile_picture
+  - add_profile_picture
+  - no_contents
+  - appreciates
+  - access_contact_lists
+  - add_my_email
+  - cancel_subscription_order
+  - how_delete_all_email
+  - sort_email
+  - change_language
+  - add_picture
+  - save_picture
+  - account_locked
+  - update_err
+  - want_ipad_version
+  - cannot_track_packages
+  - unsubscribe_email
+  - cannot_sign_in
+  - donot_work
+  - it_work
+  - slow_crash
+  - cannot_update
+  - badge_icon
+  - delete_attachment
+  - need_widget
+  - how_much_costs
+  - how_save_attachment
+  - delete_from_trash
+  - how_sign_out
+  - how_print
+  - connect_error
+  - link_calendar
+  - exchange_error
+  - where_save_attachments
+  - add_multi_accounts
+  - like_it
+  - dislike_it
+  - get_receipt_copy
+  - reset_pwd
+  - need_desktop
+  - delete_from_spam
+  - sync_email
+  - email_block
+  - need_calendar
+  - swipe_flag
+  - vibration_notification
+  - need_mark_as_spam
+  - add_assistant_folder
+  - how_flag_email
+  - flag_error
+  - update_info
+  - delete_email_error
+  - unread_num_error
+  - cannot_open_pdf_attachment
+  - send_pic_error
+  - retrieve_some_action
+  - need_dark_theme
+  - html_signature
+  - need_office365
+  - gmail_labels
+  - push_mail
+  - send_attachment
+  - alert_error
+  - notification_disappear
+  - zoomin_zoomout
+  - badge_error
+  - support_pop
+  - swiss_aapstore
+  - need_junk_folder
+  - message_instead_thread
+  - attach_from_cloud_driver
+  - add_touch_id
+  - send_error
+  - swipe_swipe_err_to_inbox
+  - frequency_crash
+  - attach_video
+  - open_attachment_error
+  - disable_image_auto_download
+  - need_exchange_and_office365
+  - brazilian_app_store
+  - too_many_receipts_selection
+  - out_box_connection_err
+  - appreciate_multi_accounts
+  - travel_message_err
+  - block_email_address
+  - assistant_err
+  - mark_read_error
+  - sync_completed
+  - show_all_accounts_email
+  - inbox_never_show_up
+  - need_for_iwatch_aciton
+  - view_focus
+  - font_size_change
+  - unscribe_spam
+  - delete_account_appear_again
+  - cannot_access_folder
+  - badge_count_error
+  - swipe_archive_as_read
+  - mark_all_as_read
+  - shake_to_undo
+  - delete_error
+  - notification_sound
+  - snooze_error
+  - need_hotmail
+  - picture_show_error
+  - reply_crash
+  - icloud_error
+  - how_to_subscribe_sth
+  - hyperlink_error
+  - need_report_spam
+  - where_is_archive
+  - different_colors_for_accounts
+  - stuck_in_outbox
+  - turn_off_conversation
+  - log_out
+  - add_conversation_view_error
+  - take_off_package_notification
+  - contacts_manager
+  - undo_subscribe
+  - turn_off_thread
+  - default_web_browser
+  - about_sent_folder
+  - search_in_box
+  - unblock_email
+  - need_pwd
+  - sign_out
+  - create_folder
+  - add_subscription_error
+  - empty_trash
+  - receiving_error
+  - uninstall_app
+  - need_android_version
+  - weather_city
+
+entities:
+  - city
+  - order_num
+
+slots:
+  city:
+    type: text
+    initial_value: "city"
+  location:
+    type: text
+  account_type:
+    type: categorical
+    values:
+    - premium
+    - basic
+  order_num:
+    type: text
+
+actions:
+  - utter_cancel_subscription
+  - utter_cancel_order
+  - utter_delete_account
+  - utter_add_microsoft_attachment
+  - utter_apple_watch_app
+  - utter_enable_imessage_app
+  - utter_support_exchange_features
+  - utter_versions_ews_support
+  - utter_whatis_ews_server
+  - utter_change_account_pwd
+  - utter_save_message_draft
+  - utter_remove_app
+  - utter_zero_inbox
+  - utter_diff_easilydo_and_email
+  - utter_diff_easilydo_and_macmail
+  - utter_account_types
+  - utter_sign_beta_testing
+  - utter_for3d_touch_action
+  - utter_select_multiple_message
+  - utter_delete_self_messages_permantently
+  - utter_personal_folders
+  - utter_when_support_exchange
+  - utter_how_remove_email_account
+  - utter_why_email_free
+  - utter_ios_support_version
+  - utter_mail_providers_support
+  - utter_set_up_gmail_account
+  - utter_set_up_gmail_alias
+  - utter_set_up_icloud_account
+  - utter_set_up_yahoo_account
+  - utter_set_up_outlook_account
+  - utter_set_up_aol_account
+  - utter_set_up_other_account
+  - utter_view_just_one_account
+  - utter_draft_and_send_mail
+  - utter_add_attachments_to_emails
+  - utter_add_images_to_emails
+  - utter_reply_to_email
+  - utter_forword_email
+  - utter_difference_between_archive_and_delete
+  - utter_how_archive_email
+  - utter_how_delete_email
+  - utter_green_shield_with_checkmark
+  - utter_how_change_folders_list
+  - utter_what_is_snooze
+  - utter_what_are_my_snooze_options
+  - utter_how_add_description_to_account
+  - utter_how_always_bcc_myself
+  - utter_how_change_notification_action
+  - utter_how_create_signature
+  - utter_how_change_swipe_options
+  - utter_how_change_default_browser
+  - utter_how_change_undo_time_window
+  - utter_change_lines_number_in_preview
+  - utter_change_default_address
+  - utter_change_folder_list
+  - utter_how_change_classified_important
+  - utter_how_turn_off_badge_count
+  - utter_how_disable_or_enable_backgroud_app_refresh
+  - utter_why_not_receiving_notifications
+  - utter_how_customize_assistant_view
+  - utter_email_missed_by_assistant_add
+  - utter_remove_a_assistant_folder_card
+  - utter_what_are_assistant_folders
+  - utter_what_is_subscrption_folder
+  - utter_what_is_travel_folder
+  - utter_what_is_packages_folder
+  - utter_what_is_bills_folder
+  - utter_what_is_the_entertainment_folder
+  - utter_what_is_privacy_policy
+  - utter_what_are_terms_and_conditions
+  - utter_is_email_secure
+  - utter_mood_happy
+  - action_ask_weather
+  - utter_change_profile_picture
+  - utter_add_profile_picture
+  - utter_no_contents
+  - utter_appreciates
+  - utter_access_contact_lists
+  - utter_add_my_email
+  - utter_cancel_subscription_order
+  - utter_how_delete_all_email
+  - utter_sort_email
+  - utter_change_language
+  - utter_add_picture
+  - utter_save_picture
+  - utter_account_locked
+  - utter_update_err
+  - utter_want_ipad_version
+  - utter_cannot_track_packages
+  - utter_unsubscribe_email
+  - utter_cannot_sign_in
+  - utter_donot_work
+  - utter_it_work
+  - utter_slow_crash
+  - utter_cannot_update
+  - utter_badge_icon
+  - utter_delete_attachment
+  - utter_need_widget
+  - utter_how_much_costs
+  - utter_how_save_attachment
+  - utter_delete_from_trash
+  - utter_how_sign_out
+  - utter_how_print
+  - utter_connect_error
+  - utter_link_calendar
+  - utter_exchange_error
+  - utter_where_save_attachments
+  - utter_add_multi_accounts
+  - utter_like_it
+  - utter_dislike_it
+  - utter_get_receipt_copy
+  - utter_need_android_version
+  - utter_reset_pwd
+  - utter_need_desktop
+  - utter_delete_from_spam
+  - utter_sync_email
+  - utter_email_block
+  - utter_need_calendar
+  - utter_swipe_flag
+  - utter_vibration_notification
+  - utter_need_mark_as_spam
+  - utter_add_assistant_folder
+  - utter_how_flag_email
+  - utter_flag_error
+  - utter_update_info
+  - utter_delete_email_error
+  - utter_unread_num_error
+  - utter_cannot_open_pdf_attachment
+  - utter_send_pic_error
+  - utter_retrieve_some_action
+  - utter_need_dark_theme
+  - utter_html_signature
+  - utter_need_office365
+  - utter_gmail_labels
+  - utter_push_mail
+  - utter_send_attachment
+  - utter_alert_error
+  - utter_notification_disappear
+  - utter_zoomin_zoomout
+  - utter_badge_error
+  - utter_support_pop
+  - utter_swiss_aapstore
+  - utter_need_junk_folder
+  - utter_message_instead_thread
+  - utter_attach_from_cloud_driver
+  - utter_add_touch_id
+  - utter_send_error
+  - utter_swipe_swipe_err_to_inbox
+  - utter_frequency_crash
+  - utter_attach_video
+  - utter_open_attachment_error
+  - utter_disable_image_auto_download
+  - utter_need_exchange_and_office365
+  - utter_brazilian_app_store
+  - utter_too_many_receipts_selection
+  - utter_out_box_connection_err
+  - utter_appreciate_multi_accounts
+  - utter_travel_message_err
+  - utter_block_email_address
+  - utter_assistant_err
+  - utter_mark_read_error
+  - utter_sync_completed
+  - utter_show_all_accounts_email
+  - utter_inbox_never_show_up
+  - utter_need_for_iwatch_aciton
+  - utter_view_focus
+  - utter_font_size_change
+  - utter_unscribe_spam
+  - utter_delete_account_appear_again
+  - utter_cannot_access_folder
+  - utter_badge_count_error
+  - utter_swipe_archive_as_read
+  - utter_mark_all_as_read
+  - utter_shake_to_undo
+  - utter_delete_error
+  - utter_notification_sound
+  - utter_snooze_error
+  - utter_need_hotmail
+  - utter_picture_show_error
+  - utter_reply_crash
+  - utter_icloud_error
+  - utter_how_to_subscribe_sth
+  - utter_hyperlink_error
+  - utter_need_report_spam
+  - utter_where_is_archive
+  - utter_different_colors_for_accounts
+  - utter_stuck_in_outbox
+  - utter_turn_off_conversation
+  - utter_log_out
+  - utter_add_conversation_view_error
+  - utter_take_off_package_notification
+  - utter_contacts_manager
+  - utter_undo_subscribe
+  - utter_turn_off_thread
+  - utter_default_web_browser
+  - utter_about_sent_folder
+  - utter_search_in_box
+  - utter_unblock_email
+  - utter_need_pwd
+  - utter_sign_out
+  - utter_create_folder
+  - utter_add_subscription_error
+  - utter_empty_trash
+  - utter_receiving_error
+  - utter_uninstall_app
+  - utter_weather_good
+
+templates:
+  utter_cancel_subscription:
+  - text: "Please cancel my subscription"
+
+  utter_cancel_order:
+  - text: "I'd like to cancel my order."
+
+  utter_delete_account:
+  - text: "Please delete my account."
+
+  utter_add_microsoft_attachment:
+  - text: "Adding attachments from Microsoft Office apps to your message"
+
+  utter_apple_watch_app:
+  - text: "Is there an Apple Watch app for Email?"
+
+  utter_enable_imessage_app:
+  - text: "How do I enable the iMessage app for Email?"
+
+  utter_support_exchange_features:
+  - text: "Does Email support any additional Microsoft Exchange features?"
+
+  utter_versions_ews_support:
+  - text: "Which versions of Microsoft Exchange does Email support?"
+
+  utter_whatis_ews_server:
+  - text: "What is Microsoft Exchange Server, and how does it work with Email?"
+
+  utter_change_account_pwd:
+  - text: "I've changed my email account password, how can I update this information in the app?"
+
+  utter_save_message_draft:
+  - text: "How do I save a message as a draft?"
+
+  utter_cancel_easilydo_account:
+  - text: "I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?"
+
+  utter_zero_inbox:
+  - text: "What is Inbox Zero?"
+
+  utter_diff_easilydo_and_email:
+  - text: "What's the difference between the apps EasilyDo, and Email - EasilyDo Mail?"
+
+  utter_diff_easilydo_and_macmail:
+  - text: "What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?"
+
+  utter_account_types:
+  - text: "What type of accounts does Email support?"
+
+  utter_sign_beta_testing:
+  - text:  "How do I sign up for BETA testing of new products?"
+
+  utter_for3d_touch_action:
+  - text: "How do 3D Touch Quick Actions work?"
+
+  utter_select_multiple_message:
+  - text: "How do I select multiple messages at once?"
+
+  utter_delete_self_messages_permantently:
+  - text: "How can I permanently delete my messages?"
+
+  utter_personal_folders:
+  - text: "Where are my personal folders associated with each email account (Yahoo or Gmail folders)?"
+
+  utter_when_support_exchange:
+  - text: "When will you support Exchange accounts?"
+
+  utter_how_remove_email_account:
+  - text: "How do I remove an email account from the app?"
+
+  utter_why_email_free:
+  - text: "Why is Email free?"
+
+  utter_ios_support_version:
+  - text: "What version of iOS does Email support?"
+
+  utter_mail_providers_support:
+  - text: "What mail providers does this app support?"
+
+  utter_set_up_gmail_account:
+  - text: "How do I set up my Gmail account?"
+
+  utter_set_up_gmail_alias:
+  - text: "How do I set up a Gmail alias in Email?"
+
+  utter_set_up_icloud_account:
+  - text: "How do I set up my iCloud account?"
+
+  utter_set_up_yahoo_account:
+  - text: "How do I set up my Yahoo account?"
+
+  utter_set_up_outlook_account:
+  - text: "How do I set up my Outlook account?"
+
+  utter_set_up_aol_account:
+  - text: "How do I set up my Aol account?"
+
+  utter_set_up_other_account:
+  - text: "How do I set up all other email accounts?"
+
+  view_all_my_email_accounts:
+  - text: "How do I view all my email accounts in one inbox?"
+
+  utter_view_just_one_account:
+  - text: "How do I view just one of my email accounts in the inbox?"
+
+  utter_draft_and_send_mail:
+  - text: "How do I draft and send a new email?"
+
+  utter_add_attachments_to_emails:
+  - text: "How do I add attachments to emails?"
+
+  utter_add_images_to_emails:
+  - text: "How do I add images from my phone to emails?"
+
+  utter_reply_to_email:
+  - text: "How do I reply to an email?"
+
+  utter_forword_email:
+  - text: "How do I forward an email?"
+
+  utter_difference_between_archive_and_delete:
+  - text: "What is the difference between archiving and deleting an email?"
+
+  utter_how_archive_email:
+  - text: "How do I archive an email?"
+
+  utter_how_delete_email:
+  - text: "How do I delete an email?"
+
+  utter_green_shield_with_checkmark:
+  - text: "What is the green shield emblem with a checkmark that appears next to some emails when you open them?"
+
+  utter_how_change_folders_list:
+  - text: "How do I change the folders (mailboxes) listed in my menu?"
+
+  utter_what_is_snooze:
+  - text: "What is Snooze?"
+
+  utter_what_are_my_snooze_options:
+  - text: "What are my Snooze options?"
+
+  utter_how_add_description_to_account:
+  - text: "How do I add a description/nickname to my accounts?"
+
+  utter_how_always_bcc_myself:
+  - text: "How do I always Bcc myself?"
+
+  utter_how_change_notification_action:
+  - text: "How do I change my notification actions?"
+
+  utter_how_create_signature:
+  - text: "How do I create a signature?"
+
+  utter_how_change_swipe_options:
+  - text: "How do I change my swipe options?"
+
+  utter_how_change_default_browser:
+  - text: "How do I change the Default Browser?"
+
+  utter_how_change_undo_time_window:
+  - text: "How do I change the undo time window?"
+
+  utter_change_lines_number_in_preview:
+  - text: "How do I change the number of lines I can preview in a message?"
+
+  utter_change_default_address:
+  - text: "How do I change my Default Address?"
+
+  utter_change_folder_list:
+  - text: "How do I change the folders (mailboxes) listed in my menu?"
+
+  utter_how_change_classified_important:
+  - text: "How do I change what emails are classified as 'Important'?"
+
+  utter_how_turn_off_badge_count:
+  - text: "How do I turn off or turn on the badge count?"
+
+  utter_how_disable_or_enable_backgroud_app_refresh:
+  - text: "How do I disable or enable background app refresh?"
+
+  utter_why_not_receiving_notifications:
+  - text: "Why am I not receiving notifications or sound alerts?"
+
+  utter_how_customize_assistant_view:
+  - text: "How do I customize the Assistant view?"
+
+  utter_email_missed_by_assistant_add:
+  - text: "An email was missed by the Assistant. How can I add it?"
+
+  utter_remove_a_assistant_folder_card:
+  - text: "Can I remove a card from the Assistant folders?"
+
+  utter_what_are_assistant_folders:
+  - text: "What are the Assistant folders?"
+
+  utter_what_is_subscrption_folder:
+  - text: "What is the Subscriptions folder?"
+
+  utter_what_is_travel_folder:
+  - text: "What is the Travel folder?"
+
+  utter_what_is_packages_folder:
+  - text: "What is the Packages folder?"
+
+  utter_what_is_bills_folder:
+  - text: "What is the Bills & Receipts folder?"
+
+  utter_what_is_the_entertainment_folder:
+  - text: "What is the Entertainment folder?"
+
+  utter_what_is_privacy_policy:
+  - text: "What is the Privacy Policy"
+
+  utter_what_are_terms_and_conditions:
+  - text: "What are the Terms and Conditions?"
+
+  utter_is_email_secure:
+  - text: "Is my email secure?"
+
+  utter_mood_happy:
+  - text: "Happy"
+
+  utter_remove_app:
+  - text: "How do I remove the Email app from my device?"
+
+  utter_weather_good:
+  - text: "{city} weather is good"
+
+  utter_change_profile_picture:
+  - text: "utter_change_profile_picture"
+
+  utter_add_profile_picture:
+  - text: "utter_add_profile_picture"
+
+  utter_no_contents:
+  - text: "utter_no_contents"
+
+  utter_appreciates:
+  - text: "utter_appreciates"
+
+  utter_access_contact_lists:
+  - text: "access_contact_lists"
+
+  utter_add_my_email:
+  - text: "add_my_email"
+
+  utter_cancel_subscription_order:
+  - text: "cancel_subscription_order"
+
+  utter_how_delete_all_email:
+  - text: "utter_how_delete_all_email"
+
+  utter_sort_email:
+  - text: "utter_sort_email"
+
+  utter_change_language:
+  - text: "utter_change_language"
+
+  utter_add_picture:
+  - text: "utter_add_picture"
+
+  utter_save_picture:
+  - text: "utter_save_picture"
+
+  utter_account_locked:
+  - text: "utter_account_locked"
+
+  utter_update_err:
+  - text: "utter_update_err"
+
+  utter_want_ipad_version:
+  - text: "utter_want_ipad_version"
+
+  utter_cannot_track_packages:
+  - text: "utter_cannot_track_packages"
+
+  utter_unsubscribe_email:
+  - text: "utter_unsubscribe_email"
+
+  utter_cannot_sign_in:
+  - text: "utter_cannot_sign_in"
+
+  utter_donot_work:
+  - text: "utter_donot_work"
+
+  utter_it_work:
+  - text: "utter_it_work"
+
+  utter_slow_crash:
+  - text: "utter_slow_crash"
+
+  utter_cannot_update:
+  - text: "utter_cannot_update"
+
+  utter_badge_icon:
+  - text: "utter_badge_icon"
+
+  utter_delete_attachment:
+  - text: "utter_delete_attachment"
+
+  utter_need_widget:
+  - text: "utter_need_widget"
+
+  utter_how_much_costs:
+  - text: "utter_how_much_costs"
+
+  utter_how_save_attachment:
+  - text: "utter_how_save_attachment"
+
+  utter_delete_from_trash:
+  - text: "utter_delete_from_trash"
+
+  utter_how_sign_out:
+  - text: "utter_how_sign_out"
+
+  utter_how_print:
+  - text: "utter_how_print"
+
+  utter_connect_error:
+  - text: "utter_connect_error"
+
+  utter_link_calendar:
+  - text: "utter_link_calendar"
+
+  utter_exchange_error:
+  - text: "utter_exchange_error"
+
+  utter_where_save_attachments:
+    - text: "utter_where_save_attachments"
+
+  utter_add_multi_accounts:
+  - text: "utter_add_multi_accounts"
+
+  utter_like_it:
+  - text: "utter_like_it"
+
+  utter_dislike_it:
+  - text: "utter_dislike_it"
+
+  utter_get_receipt_copy:
+  - text: "utter_get_receipt_copy"
+
+  utter_need_android_version:
+  - text: "utter_need_android_version"
+
+  utter_reset_pwd:
+  - text: "utter_reset_pwd"
+
+  utter_need_desktop:
+  - text: "utter_need_desktop"
+
+  utter_delete_from_spam:
+  - text: "utter_delete_from_spam"
+
+  utter_sync_email:
+  - text: "utter_sync_email"
+
+  utter_email_block:
+  - text: "utter_email_block"
+
+  utter_need_calendar:
+  - text: "utter_need_calendar"
+
+  utter_swipe_flag:
+  - text: "utter_swipe_flag"
+
+  utter_vibration_notification:
+  - text: "utter_vibration_notification"
+
+  utter_need_mark_as_spam:
+  - text: "utter_need_mark_as_spam"
+
+  utter_add_assistant_folder:
+  - text: "utter_add_assistant_folder"
+
+  utter_how_flag_email:
+  - text: "utter_how_flag_email"
+
+  utter_flag_error:
+  - text: "utter_flag_error"
+
+  utter_update_info:
+  - text: "utter_update_info"
+
+  utter_delete_email_error:
+  - text: "utter_delete_email_error"
+
+  utter_unread_num_error:
+  - text: "utter_unread_num_error"
+
+  utter_cannot_open_pdf_attachment:
+  - text: "utter_cannot_open_pdf_attachment"
+
+  utter_send_pic_error:
+  - text: "utter_send_pic_error"
+
+  utter_retrieve_some_action:
+  - text: "utter_retrieve_some_action"
+
+  utter_need_dark_theme:
+  - text: "utter_need_dark_theme"
+
+  utter_html_signature:
+  - text: "utter_html_signature"
+
+  utter_need_office365:
+  - text: "utter_need_office365"
+
+  utter_gmail_labels:
+    - text: "utter_gmail_labels"
+
+  utter_push_mail:
+    - text: "utter_push_mail"
+
+  utter_send_attachment:
+    - text: "utter_send_attachment"
+
+  utter_alert_error:
+    - text: "utter_alert_error"
+
+  utter_notification_disappear:
+    - text: "utter_notification_disappear"
+
+  utter_zoomin_zoomout:
+    - text: "utter_zoomin_zoomout"
+
+  utter_badge_error:
+    - text: "utter_badge_error"
+
+  utter_support_pop:
+    - text: "utter_support_pop"
+
+  utter_swiss_aapstore:
+    - text: "utter_swiss_aapstore"
+
+  utter_need_junk_folder:
+    - text: "utter_need_junk_folder"
+
+  utter_message_instead_thread:
+    - text: "utter_message_instead_thread"
+
+  utter_attach_from_cloud_driver:
+    - text: "utter_attach_from_cloud_driver"
+
+  utter_add_touch_id:
+    - text: "utter_add_touch_id"
+
+  utter_send_error:
+    - text: "utter_send_error"
+
+  utter_swipe_swipe_err_to_inbox:
+    - text: "utter_swipe_swipe_err_to_inbox"
+
+  utter_frequency_crash:
+    - text: "utter_frequency_crash"
+
+  utter_attach_video:
+    - text: "utter_attach_video"
+
+  utter_open_attachment_error:
+    - text: "utter_open_attachment_error"
+
+  utter_disable_image_auto_download:
+    - text: "utter_disable_image_auto_download"
+
+  utter_need_exchange_and_office365:
+    - text: "utter_need_exchange_and_office365"
+
+  utter_brazilian_app_store:
+    - text: "utter_brazilian_app_store"
+
+  utter_too_many_receipts_selection:
+    - text: "utter_too_many_receipts_selection"
+
+  utter_out_box_connection_err:
+    - text: "utter_out_box_connection_err"
+
+  utter_appreciate_multi_accounts:
+    - text: "utter_appreciate_multi_accounts"
+
+  utter_travel_message_err:
+    - text: "utter_travel_message_err"
+
+  utter_block_email_address:
+    - text: "utter_block_email_address"
+
+  utter_assistant_err:
+    - text: "utter_assistant_err"
+
+  utter_mark_read_error:
+    - text: "utter_mark_read_error"
+
+  utter_sync_completed:
+    - text: "utter_sync_completed"
+
+  utter_show_all_accounts_email:
+    - text: "utter_show_all_accounts_email"
+
+  utter_inbox_never_show_up:
+    - text: "utter_inbox_never_show_up"
+
+  utter_need_for_iwatch_aciton:
+    - text: "utter_need_for_iwatch_aciton"
+
+  utter_view_focus:
+    - text: "utter_view_focus"
+
+  utter_font_size_change:
+    - text: "utter_font_size_change"
+
+  utter_unscribe_spam:
+    - text: "utter_unscribe_spam"
+
+  utter_delete_account_appear_again:
+    - text: "utter_delete_account_appear_again"
+
+  utter_cannot_access_folder:
+    - text: "utter_cannot_access_folder"
+
+  utter_badge_count_error:
+    - text: "utter_badge_count_error"
+
+  utter_swipe_archive_as_read:
+    - text: "utter_swipe_archive_as_read"
+
+  utter_mark_all_as_read:
+    - text: "utter_mark_all_as_read"
+
+  utter_shake_to_undo:
+    - text: "utter_shake_to_undo"
+
+  utter_delete_error:
+    - text: "utter_delete_error"
+
+  utter_notification_sound:
+    - text: "utter_notification_sound"
+
+  utter_snooze_error:
+    - text: "utter_snooze_error"
+
+  utter_need_hotmail:
+    - text: "utter_need_hotmail"
+
+  utter_picture_show_error:
+    - text: "utter_picture_show_error"
+
+  utter_reply_crash:
+    - text: "utter_reply_crash"
+
+  utter_icloud_error:
+    - text: "utter_icloud_error"
+
+  utter_how_to_subscribe_sth:
+    - text: "utter_how_to_subscribe_sth"
+
+  utter_hyperlink_error:
+    - text: "utter_hyperlink_error"
+
+  utter_need_report_spam:
+    - text: "utter_need_report_spam"
+
+  utter_where_is_archive:
+    - text: "utter_where_is_archive"
+
+  utter_different_colors_for_accounts:
+    - text: "utter_different_colors_for_accounts"
+
+  utter_stuck_in_outbox:
+    - text: "utter_stuck_in_outbox"
+
+  utter_turn_off_conversation:
+    - text: "utter_turn_off_conversation"
+
+  utter_log_out:
+    - text: "utter_log_out"
+
+  utter_add_conversation_view_error:
+    - text: "utter_add_conversation_view_error"
+
+  utter_take_off_package_notification:
+    - text: "utter_take_off_package_notification"
+
+  utter_contacts_manager:
+    - text: "utter_contacts_manager"
+
+  utter_undo_subscribe:
+    - text: "utter_undo_subscribe"
+
+  utter_turn_off_thread:
+    - text: "utter_turn_off_thread"
+
+  utter_default_web_browser:
+    - text: "utter_default_web_browser"
+
+  utter_about_sent_folder:
+    - text: "utter_about_sent_folder"
+
+  utter_search_in_box:
+    - text: "utter_search_in_box"
+
+  utter_unblock_email:
+    - text: "utter_unblock_email"
+
+  utter_need_pwd:
+    - text: "utter_need_pwd"
+
+  utter_sign_out:
+    - text: "utter_sign_out"
+
+  utter_create_folder:
+    - text: "utter_create_folder"
+
+  utter_add_subscription_error:
+    - text: "utter_add_subscription_error"
+
+  utter_empty_trash:
+    - text: "utter_empty_trash"
+
+  utter_receiving_error:
+    - text: "utter_receiving_error"
+
+  utter_uninstall_app:
+    - text: "utter_uninstall_app"
