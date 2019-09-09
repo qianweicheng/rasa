@@ -162,6 +162,9 @@
 - Please cancel account. Thank you
 - Please cancel this account 
 - How do I cancel my account? 
+- I would like to delete my account. I have already canceled what I needed to cancel.
+- How do I cancel my account with you?
+- I would like to cancel my account
 
 ## intent:zero_inbox
 - What is Inbox Zero?
@@ -691,6 +694,16 @@
 - please unsubscribe me, thanks!
 - Please Unsubscribe me from this list.
 - Please unsubscribe this account from your mailing list.
+- How to unsubscribe?
+- Your unsubscribe button in your emails does not work. I would like to unsubscribe from all EasilyDo emails please. Thank you.
+- How do I delete and unsubscribe?
+- please unsubscribe me
+- How to unsubscribe?
+- Where is unsubscribe?
+- Where is the option to unsubscribe ?
+- How do you get it to unsubscribe my emails?
+- Unsubscribe doesn't work
+- Please advise how to unsubscribe.
 
 ## intent:cannot_sign_in
 - Can't sign in
@@ -928,6 +941,7 @@
 - great app for email
 - Very good App... Thanks    Regards    
 - Very good app thank you
+- very good app
 - Good app, thanks
 - This app is amazing
 - Amazing app
@@ -939,6 +953,23 @@
 - Amazing and I love it
 - Amazing app. Loving it.
 - It's just amazing, i loved it
+- This is good
+- Good email app.
+- Perfect mail app!
+- Perfect for my needs!
+- It's perfect for my use
+- Great email app!
+- Awesome email app!
+- Awesome email
+- It's really awesome app
+- Awesome app
+- Easy to use. It is excellent!
+- Excellent application
+- Great mail app
+- It's great. Really great. Like better than Gmail great.
+- Works great
+- best email app ever
+
 
 ## intent:dislike_it
 - This isn't to my liking
@@ -1237,6 +1268,16 @@
 - I’d love to see a dark mode
 - I would love to see dark mode in settings
 - Could you please make a dark mode? Dark theme?    
+- Need: Dark Mode
+- Dark mode please.
+- Where is dark theme?
+- Will you do a dark theme?
+- Hi, could you add a dark theme please,
+- I want a Dark Theme please
+- You need a dark mode or dark theme.
+- Is there not an option for a dark theme
+- Can we have a dark mode in the settings please
+
 
 ## intent:html_signature
 - Hello, When will you have support for HTML Signatures?        
@@ -2002,3 +2043,60 @@
 ## intent:weather_city
 - weather_city
 - give me the weather.
+
+## intent:simple_and_cool_use
+- Very simple
+- Really simple
+- Simple
+- It's simple and I like it
+- Very good and simple
+- Simple that's all I wanted
+- Simple easy to use
+- Simple and Nice
+- Simple and easy to use
+- Only for simple used
+- Good and simple to use
+- Simple and unclutered!
+- I love this email app so easy and simple love the simple interface
+- Simple and good
+- Simple to use
+- Great app. Simple to use
+- Nice app. Simple to use.
+- Simple and great
+- Simple and fast
+- Nice and simple
+- Fast and simple
+- Simple, and it works.
+- Easy very simple and ennovative
+- Love how simple it is to use
+- Nice and simple to use
+- Really simple
+- Simple and fast
+- Simple. Works!
+- Simple, easy to use
+- Nice simple email app
+- Great simple email app
+- It is simple and easy to use.
+- Fast and simple
+- Great app, simple
+- Simple and easy
+- Fast and simple.
+- I like it because it's really simple, just what I needed. Simple and fast!
+- Simple UI..Great app to use
+- simple email client
+- Simple and good
+- The app is more simple to use.
+- Very fast. Simple to use.
+- Simple and easy
+- This is a simple email app it is great for all sorts of things easy to use and simple
+- Fast and simple to use
+- Good and simple
+- Simple and functional
+- Simple and working app
+- Cool
+- Very Cool!!!
+- Cool mail app for all your email accounts
+- Fast and cool
+- Very cool app~ thanks
+- Really cool
+
