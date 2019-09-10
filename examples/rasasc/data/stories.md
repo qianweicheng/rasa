@@ -872,10 +872,6 @@
 * need_pwd
   - utter_need_pwd
   
-## story_sign_out
-* sign_out
-  - utter_sign_out
-  
 ## story_create_folder
 * create_folder
   - utter_create_folder

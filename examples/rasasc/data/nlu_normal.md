@@ -469,6 +469,9 @@
 - Can't received notifications 
 - Not receiving notifications
 - My notification settings are on but I'm not receiving any notifications when I get emails   
+- I'm not receiving notifications for new email, but the option is on
+- I'm not getting any notifications on my emails!
+- I'm not receiving sound notifications when emails come in
   
 ## intent:how_customize_assistant_view
 - How do I customize the Assistant view?
@@ -853,6 +856,12 @@
 - How do I sign out    
 - Sign out      
 - Hi,  How do I sign out of email?
+- How do i sign out on this app?    
+- How do I sign out from my iPhone?    
+- There is no option to sign out
+- How to sign out after reading mail.      
+- Sign out button
+- I’m constantly being signed out of my email. It just says account offline. And I have to sign in again
 
 ## intent:how_print
 - How do I print my calendar    
@@ -969,7 +978,7 @@
 - It's great. Really great. Like better than Gmail great.
 - Works great
 - best email app ever
-
+- Works well!
 
 ## intent:dislike_it
 - This isn't to my liking
@@ -1277,7 +1286,15 @@
 - You need a dark mode or dark theme.
 - Is there not an option for a dark theme
 - Can we have a dark mode in the settings please
-
+- Would love to see a dark mode.
+- Is it possible to have a dark mode?
+- Is there any dark mode or night mode support for this app?
+- Would be great to get a dark mode
+- Love it but it needs a dark mode!
+- Hello, do you have a Dark mode setting?
+- Only missing a dark mode.
+- still Needs dark mode.
+- Dark Mode would be great!
 
 ## intent:html_signature
 - Hello, When will you have support for HTML Signatures?        
@@ -1439,6 +1456,8 @@
 - Can't send group emails.
 - Can't send any messages
 - Please  i can't send messages through email why?
+- This email all won't allow me to send emails at all.
+- Won't send email through Gmail.
 
 ## intent:swipe_swipe_err_to_inbox
 - When I swipe to delete, the deleted email pops back into inbox.    
@@ -1659,7 +1678,7 @@
 - Is there a way to mark all emails as read (in the App)?
 - Need to mark all emails as read 
 - Is there a way to be able to mark as read in the notification window? Right now there is delete and archive but I just want to mark as read. 
-- Hi how do I mark all as read ? 
+- Hi how do I mark all as read? 
 - Is there a way to mark all mail as read? 
 - Is there a way to mark all emails as read?
 - Is there a way to mark several messages as read? Thanks
@@ -1671,6 +1690,8 @@
 - How do I mark all emails as read, Iphone.
 - Is it possible to mark all as read?
 - Is there an option to mark all unread email as read? 
+- How to mark all unread messages as read in Edison Mail
+- How do you mark old messages as read
 
 ## intent:shake_to_undo
 - Shake to undo please
@@ -1731,6 +1752,11 @@
 - Mails can only be snoozed once (I frequently snooze them several times)      Also, when snoozing the calendar view is better than a list of days    
 - A very strange problem: when I snooze messages, it seems like that I can only snooze one message. Once I snooze a second one, the first will be popped out of the snoozed folder and reappears in the inbox.    
 - Snooze seems to be broken with the new update.      I can snooze stuff in easilydo Email just fine, however, the snoozed messages aren't actually moved to the snoozed folders anymore. What this means is in Apple Mail (iOS, macOS, and iCloud), snoozed messages remain in the inbox.      Is this a known issue? Is there some workaround? Snooze is the main feature I use easilydo Email for so I would love to figure this out asap. Thanks!    
+- How does one snooze?    I snoozed an article and it's not in the snoozed mailbox. Thank you.
+- Snooze doesn’t work!!
+- Can't snooze my emails
+- The Snooze function fails to snooze emails in Gmail.
+- Snooze is device dependent.  I snooze email on my iPad but it doesn’t snooze the same mail on my iPhone
 
 ## intent:need_hotmail
 - can't add my hotmail account
@@ -1927,6 +1953,14 @@
 - How do I search all my emails?
 - search doesn't  work   
 - How do I do a search through all emails?
+- Where is the search feature for my email account ?
+- Do you have a search in email inbox feature?
+- Do you guys have search feature available? I don't find way to search emails.
+- Why is there no search feature?
+- How do I search me emails?
+- How do I do a search through all emails?
+- Hi! How do I search for emails on your app?
+- Is there a way to search.?
 
 ## intent:unblock_email
 - My email was blocked and need to know why and what I need to do to unblock it.     
@@ -1966,14 +2000,10 @@
 - How do I change my email password?
 - Hi  How I can change my password
 - I would like to change my password.
-
-## intent:sign_out
-- How do i sign out on this app?    
-- How do I sign out from my iPhone?    
-- There is no option to sign out
-- How to sign out after reading mail.      
-- Sign out button
-- I’m constantly being signed out of my email. It just says account offline. And I have to sign in again
+- How to change password in this app.thanks
+- How do I change my password if I don’t remember it?
+- I forgot my password how do I change it?
+- I forgot my password because of the app specific password change.
 
 ## intent:create_folder
 - How can i create new folder in my email account    
@@ -2032,13 +2062,13 @@
 - I cannot receive emails only send them.       
 - Cannot receive emails
 - I’m not receiving emails.    
-- I am not receiving any emails        
 - Why am I not receiving all my emails now
 - I am not receiving emails at all
 - I am not receiving emails Can you help
 - I'm not received my email
 - I can send but cannot receive emails
 - I am not receiving all my emails 
+- I am not receiving emails from my yahoo account only my gmail
 
 ## intent:weather_city
 - weather_city
@@ -2099,4 +2129,72 @@
 - Fast and cool
 - Very cool app~ thanks
 - Really cool
+
+## intent:cannot_receive_package
+- I have not received the package
+- Where is my package    Please help
+- I did not receive this package
+- I didn't get the package
+- I did not get this package but I received my other one
+- The package was not there nor did I get an email
+- I have not received my package
+- My package is not here, we're is it
+- I haven't received any packages
+- I haven't received my package
+- I haven't received this package
+- Package has not been received?
+- I haven't received my package
+- Package was not received
+- Did not receive package!!
+- Have not received my package
+- We're is my package
+- No I have not received this package !!
+- I did not receive this package
+- I have not received this package
+- I didn't receive my package
+- Packages not showing up in in packages section
+- Packages folder is not updating.
+- Why my packages is not updating?
+
+## intent:keep_offline
+- My accounts keep going offline. Why?
+- Hi,   My email accounts keep going offline. Is there something that will fix this? 
+- My email keeps on going offline and I keep having to sign back in.
+- All the gmail accounts keep going offline after I reconfirm them. Tell me how to fix!
+- My accounts keep going offline
+- All Gmail Accounts keep going offline.
+- My gmail accounts keep going offline. What gives?!
+- Why do I keep going offline? This is not ok.
+- My email account keep going offline.
+- My account keeps going offline!  Help
+- I keep having issues where both my gmail accounts keep going offline multiple times  a day.
+- My account keeps going offline.  Please fix!
+- Google account keeps going offline.
+- My google account keeps going offline. What can I do to fix this?
+- why my accounts keep going offline ?????
+- Why do my accounts keep going offline!!!!???
+- Gmail still keeps going offline
+- Why do my accounts keep going offline? I’m not logging out, yet each time I open the app, one of my accounts is offline.
+- Accounts keep going offline
+- I keep getting a account offline message
+- Why does my account keep going offline
+- My email accounts keep going “offline.”
+- My email accounts keep going offline. Several times a day.
+- My accounts keep going offline
+- Why are my google accounts now going offline?
+- The gmail accounts keep going offline
+- Why do my email accounts keep going offline?
+- Why do all my accounts keep going offline all the time????
+- What’s going on?Why do I keep going offline with my mail accounts? Please advise.
+- The gmail accounts keep going offline
+- My email keeps going offline and I keep having to reconnect it.
+- Why do my accounts keep going offline?
+- Why do my accounts keep going offline?
+- Account keeps going offline every few hours
+- Account still going offline
+- My gmail account keeps going offline. I keep reconnecting it.
+- My gmail accounts keep going offline.
+- Why do my google accounts keep going offline?
+- My accounts keep going offline and I don’t know why.
+- Account keep going offline and asking for a password
 

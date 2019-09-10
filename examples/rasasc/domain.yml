@@ -215,7 +215,6 @@ intents:
   - search_in_box
   - unblock_email
   - need_pwd
-  - sign_out
   - create_folder
   - add_subscription_error
   - empty_trash
@@ -327,7 +326,6 @@ actions:
   - utter_how_much_costs
   - utter_how_save_attachment
   - utter_delete_from_trash
-  - utter_how_sign_out
   - utter_how_print
   - utter_connect_error
   - utter_link_calendar
@@ -425,7 +423,7 @@ actions:
   - utter_search_in_box
   - utter_unblock_email
   - utter_need_pwd
-  - utter_sign_out
+  - utter_how_sign_out
   - utter_create_folder
   - utter_add_subscription_error
   - utter_empty_trash
@@ -1039,9 +1037,6 @@ templates:
 
   utter_need_pwd:
     - text: "utter_need_pwd"
-
-  utter_sign_out:
-    - text: "utter_sign_out"
 
   utter_create_folder:
     - text: "utter_create_folder"
