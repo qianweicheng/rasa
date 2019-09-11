@@ -343,6 +343,7 @@ __
 ## intent:add_attachments_to_emails
 - How do I add attachments to emails?
 - Hi there! How do I add an attachment (other that photos) to an email? Thank you!  
+- How do I add a pdf attachment ?
 
 ## intent:add_images_to_emails
 - How do I add images from my phone to emails?
@@ -867,7 +868,6 @@ __
 - Saving attached photo? 
 - I can't see how to save an attachment. 
 - It says downloading attachment but I don't see how to save it. 
-- How do I add a pdf attachment ?
 - How do I download an attachment such as a PDF file to my phone?
 - How do I save an image from an email?    
 - How do I save a image or other attachments in your mail client
@@ -1941,7 +1941,7 @@ __
 - Would be helpful to have the app turn off conversations    
 - How do I turn off the thread or conversation view?    
 - How can I turn off the Thread (Conversation) view?  
-- Would it be possible to turn off the conversation view within the app?    
+- Would it be possible to turn off the conversation view within the app?  
 
 ## intent:log_out
 - How do I log out of my email account on this app?  
@@ -1979,6 +1979,10 @@ __
 - Can I add or delete contacts?
 - How do I change contact email address on yahoo mail contact?
 - Nice GUI, put the App doesn't have a contact interface. It should have ability to use existting phone contacts, gmail contacts, or outlook contacts.
+- How do I sync my contacts to the app because it does not show any of my contacts when I type them in please help !
+- Contact support is not working well.  Only the contacts I have mailed are listed
+- I'm trying to get the contact photos from my iOS contacts into Email, but they only show up when I open a contact's page.  Never in the email.  Is that supported?
+- Only a few of my contacts appear ??
 
 ## intent:undo_subscribe
 - How do I undo an unsubscribe    
@@ -2152,6 +2156,10 @@ __
 - Please added all deleted trash. And deleted all email 
 - How do I empty all spam or all trash in one move?  
 - How about adding an option to empty Trash and Spam???
+- I can’t delete anything from my trash
+- How do I delete trash totally?
+- Like it but empty trash and empty spam buttons would be nice, then it would be complete.
+- I would love to have an empty trash button! Great app, thanks!
 
 ## intent:receiving_error
 - I am not receiving any emails
@@ -2269,6 +2277,17 @@ __
 - Packages not showing up in in packages section
 - Packages folder is not updating.
 - Why my packages is not updating?
+- Haven't received this package yet
+- I still haven't received my package
+- Hi I have not received my package what going
+- I have not received my package and    I am wondering when it will get here
+- No package received. Please assist
+- I haven't received my package and it says already received.
+- I did not receive my package yesterday
+- Did not receive this package today
+- I never received this package...what can I do?
+- Haven't received package yet
+- Hello I did not receive the package today
 
 ## intent:keep_offline
 - My accounts keep going offline. Why?
@@ -2369,6 +2388,18 @@ __
 - How do I block a sender?
 - How do I block a sender on my account?
 - Does this app have an email blocking feature?
+- How can I block a personal email from sending me emails?
+- How do I block a sender
+- How do i block a persons email
+- How do I block a sender?
+- Hello, can you tell me how to block spam messages please, as I don't see a block button.
+- How do I block a sender?
+- How to block an email? Blocked mails go directly to spam
+- How do I block a sender on my account?
+- Does this app have an email blocking feature?
+- Nice app but how do I block emails?
+- Block is not blocking nuisance mail???
+- An email address is blocked and I don’t want it blocked. What to do?   Michele
 
 ## intent:pop3_support
 - Do you support pop3 accounts?
@@ -2532,4 +2563,21 @@ __
 - How can I request a read receipt?
 - How do I request read receipts in Edison Email.
 - How do I request a read receipt for emails I send
+
+## intent:archived_problem
+- When i archive my mail it does not appear in the archive folder it just disappears
+- How do you show All Archived folder
+- How do I access archived email
+- Some emails that I'm archiving are not able to be found in my Archive folder. I'm also not able to search for emails that I've archived.      The number for Archived emails also doesn't increase as I'm archiving.      What's wrong with this feature?
+- How can i access archived emails
+- Where do I see my archived messages?
+- How do I delete archived messages?
+- The All Archive is showing not the emails I have manually archived, but an assortment of received/sent emails. I can find the archived emails I received from one email by manually adding "Archive" for that one email, but Archive is not an option for the other email account. Please add a more functional archive feature, as I have archived many emails and now have no idea where they are.
+- How do I access Archived emails?
+- I create a new archive folder for each year on my exchange account.  How do I set up the app to archive messages to a specific archive folder?
+- Archiving threads. When I try to archive a conversation, I have to archive each email. It’d be more useful to archive The whole conversation in one swipe.
+- I accidentally archived some emails. I have multiple email accounts setup.  I don't see an archive folder. Where are the archives? I want to delete them.
+- Not sure why, but all archive is suddenly missing my work account archive.  I can can go into the account and see them in the individual archive.  I tried turning it off and back on for the selected archive folders.   
+
+
 
