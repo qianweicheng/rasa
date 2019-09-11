@@ -1,7 +1,7 @@
 
 if __name__ == '__main__':
     data = ''
-    with open('./data/nlu.md', 'r') as f:
+    with open('./data/nlu_normal.md', 'r') as f:
         data = f.read()
         pass
     lower_data = data.lower()

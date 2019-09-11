@@ -2,7 +2,7 @@
 - Hi
 - Hello
 - Good morning
-__
+
 ## intent:request_restaurant
 - i'm looking for a restaurant
 - I want a restaurant
@@ -1859,6 +1859,8 @@ __
 ## intent:need_hotmail
 - can't add my hotmail account
 - How add Hotmail?
+- how can I add hotmail?
+- I want add hotmail.
 
 ## intent:picture_show_error
 - I like your app but when I receive an email with a picture the picture does not show up. It just shows a very small box.    
@@ -2578,6 +2580,4 @@ __
 - Archiving threads. When I try to archive a conversation, I have to archive each email. It’d be more useful to archive The whole conversation in one swipe.
 - I accidentally archived some emails. I have multiple email accounts setup.  I don't see an archive folder. Where are the archives? I want to delete them.
 - Not sure why, but all archive is suddenly missing my work account archive.  I can can go into the account and see them in the individual archive.  I tried turning it off and back on for the selected archive folders.   
-
-
 

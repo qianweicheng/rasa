@@ -106,6 +106,8 @@
 - apple watch support, go go! 
 - when will you finally release apple watch support?
 - will edison mail release apple watch support?
+- hi, will you implement apple watch support ?
+- apple watch support, go go!
 
 ## intent:enable_imessage_app
 - how do i enable the imessage app for email?
@@ -162,6 +164,9 @@
 - please cancel account. thank you
 - please cancel this account 
 - how do i cancel my account? 
+- i would like to delete my account. i have already canceled what i needed to cancel.
+- how do i cancel my account with you?
+- i would like to cancel my account
 
 ## intent:zero_inbox
 - what is inbox zero?
@@ -338,6 +343,7 @@
 ## intent:add_attachments_to_emails
 - how do i add attachments to emails?
 - hi there! how do i add an attachment (other that photos) to an email? thank you!  
+- how do i add a pdf attachment ?
 
 ## intent:add_images_to_emails
 - how do i add images from my phone to emails?
@@ -350,6 +356,14 @@
 ## intent:forword_email
 - how do i forward an email?
 - forward a mail?
+- can you not forward emails?
+- help with forwarding an emaiil
+- error when forwarding emails.
+- i want to forward mail how?
+- why can’t i forward an email in this app?
+- how do i forward email?
+- how do i forward an email. i don't see options.
+- why can't i forward any emails using this app?
 
 ## intent:difference_between_archive_and_delete
 - what is the difference between archiving and deleting an email?
@@ -358,6 +372,10 @@
 ## intent:how_archive_email
 - how do i archive an email?
 - what to do to archive an email?
+- how do i get to the archives?
+- how do i get to my archived emails?
+- how to open my archives?
+- how do i get a message that has been archive?
 
 ## intent:how_delete_email
 - how do i delete an email?
@@ -402,6 +420,9 @@
 - cannot add my signature
 - how do i add a signature?
 - can you add images to signatures?
+- add signature option please
+- there was no signature option
+- please add signature option in settings
   
 ## intent:how_change_swipe_options
 - how do i change my swipe options?
@@ -466,6 +487,9 @@
 - can't received notifications 
 - not receiving notifications
 - my notification settings are on but i'm not receiving any notifications when i get emails   
+- i'm not receiving notifications for new email, but the option is on
+- i'm not getting any notifications on my emails!
+- i'm not receiving sound notifications when emails come in
   
 ## intent:how_customize_assistant_view
 - how do i customize the assistant view?
@@ -603,6 +627,8 @@
 - how do i easily delete all emails in inbox?
 - how can you delete mail all at once ?    
 - how do i delete my trash can? i do i delete all emails 
+- how do i delete all emails from one sender at same time?
+- how do i mass delete emails all at once?
 
 ## intent:sort_email
 - how do i sort my emails? 
@@ -611,6 +637,22 @@
 ## intent:change_language
 - is it possible to change language?
 - what can i do to change language?
+- it is possible to have italian language? thank you
+- is it possible to have the italian language?
+- top app, only add italian language
+- will it be possible to have the app in the italian language?
+- i ask for italian language.  thanks for working
+- hi,     is it possible to change the language from english to italian?         
+- how do i change my incoming emails to english there all in french and i don’t understand that language
+- is it possible to change the language from english to french?
+- when spanish please?
+- we need spanish
+- please version in spanish
+- spanish pls
+- hello, do you have the app in spanish?   rafa.
+- we need it to be in spanish
+- stop all spanish
+- it would be great to have a spanish option.
 
 ## intent:add_picture
 - how do i add my photo? 
@@ -639,6 +681,12 @@
 - my account is locked.
 - locked account
 - email is locked up
+- i can't sign in to my account how i can reset the password
+- i wanted to log a job but i'm unable to log in or reset my password - it comes up with you cannot reset your password
+- trying to reset my password since the new upgrade, my original password doesn't work and it will not let me reset it. please send me a temp password.
+- i keep requesting a password reset and don't receive it
+- my password doesn't work, not does the password reset prompt.
+- it does not work even after resetting passwords
 
 ## intent:update_err
 - hey  i’ve been using edison and love it — then a recent update killed it — now the app won’t open.  help!!!
@@ -685,12 +733,25 @@
 - packages assistant doesn’t track packages from apple  
 - package tracking stopped working with my gmail account 
 - my package tracking isn’t working
+- missed package tracking.
+- i can't track my package
+- it isn't letting me track my package
 
 ## intent:unsubscribe_email
 - please unsubscribe my email address from your mailing list. thank you.
 - please unsubscribe me, thanks!
 - please unsubscribe me from this list.
 - please unsubscribe this account from your mailing list.
+- how to unsubscribe?
+- your unsubscribe button in your emails does not work. i would like to unsubscribe from all easilydo emails please. thank you.
+- how do i delete and unsubscribe?
+- please unsubscribe me
+- how to unsubscribe?
+- where is unsubscribe?
+- where is the option to unsubscribe ?
+- how do you get it to unsubscribe my emails?
+- unsubscribe doesn't work
+- please advise how to unsubscribe.
 
 ## intent:cannot_sign_in
 - can't sign in
@@ -766,10 +827,8 @@
 - how do i delete the attachment after reading    
 - how to attache attachments??    
 - how can i delete email attachments i don't need?    
-- how do i delete email attachments?    
 - how do i delete attachments    
 - how do i delete email attachments from easilydo?     
-- how do i delete email attachments?    
 - how to delete attachments  
 - how do i delete attachments that have been saved?
 - how do i delete old pdf files from my attachment file?     susan
@@ -809,7 +868,6 @@
 - saving attached photo? 
 - i can't see how to save an attachment. 
 - it says downloading attachment but i don't see how to save it. 
-- how do i add a pdf attachment ?
 - how do i download an attachment such as a pdf file to my phone?
 - how do i save an image from an email?    
 - how do i save a image or other attachments in your mail client
@@ -840,6 +898,12 @@
 - how do i sign out    
 - sign out      
 - hi,  how do i sign out of email?
+- how do i sign out on this app?    
+- how do i sign out from my iphone?    
+- there is no option to sign out
+- how to sign out after reading mail.      
+- sign out button
+- i’m constantly being signed out of my email. it just says account offline. and i have to sign in again
 
 ## intent:how_print
 - how do i print my calendar    
@@ -858,6 +922,24 @@
 - exchange mail is disconnected and not able too fix it with several attempts.
 - why does app keep disconnecting so often?    
 - my account keeps disconnecting from gmail
+- how can i disconnect accounts?! 
+- why has the account been disconnected
+- my account keep getting disconnected
+- gmail account keeps disconnecting
+- my gmail account keeps disconnecting
+-  my accounts keep disconnecting. can you please advise? thanks!
+- my account keeps disconnecting from gmail
+- keeps disconnecting my gmail account
+- how do i disconnect that email
+- all of my emails are getting disconnected, and when i reconnect them they just get disconnected again (image attached)
+- my email accounts keep connecting and disconnecting.
+- my email keeps disconnecting. what is the problem?
+- hi it’s still disconnecting accounts
+- account keeping disconnecting from my gmail account. this is new. know why?
+- google email account keep disconnecting!
+- my app continually disconnects from my gmail account, but does not do that with any of my other accounts
+- keep getting disconnected from gmail
+- gmail accounts constantly disconnects.  i connect then it disconnects again during the day again numerous times.
 
 ## intent:link_calendar
 - can you link this app to your google calendar?    
@@ -928,6 +1010,7 @@
 - great app for email
 - very good app... thanks    regards    
 - very good app thank you
+- very good app
 - good app, thanks
 - this app is amazing
 - amazing app
@@ -939,6 +1022,23 @@
 - amazing and i love it
 - amazing app. loving it.
 - it's just amazing, i loved it
+- this is good
+- good email app.
+- perfect mail app!
+- perfect for my needs!
+- it's perfect for my use
+- great email app!
+- awesome email app!
+- awesome email
+- it's really awesome app
+- awesome app
+- easy to use. it is excellent!
+- excellent application
+- great mail app
+- it's great. really great. like better than gmail great.
+- works great
+- best email app ever
+- works well!
 
 ## intent:dislike_it
 - this isn't to my liking
@@ -954,7 +1054,6 @@
 - add more emails why you remove some of my emails??????? 
 - remove me from your list 
 - please remove from this.  i did not sign up for it. i’m not interested. remove me 
-
 
 ## intent:get_receipt_copy
 - i need to get a copy of my receip.
@@ -1018,6 +1117,10 @@
 - hi, do you plan mac version?
 - do you have an apple mac version of the email app?
 - do you make a version for mac?  
+- any plans for a macos app
+- is there a macos version?
+- are there any plans of making a client for macos?
+- i love this app on ios, any plans for a macos version?
 
 ## intent:delete_from_spam
 - to delete unwanted email attachments from spam   
@@ -1077,7 +1180,8 @@
 - support calendar invitation and write the event in a calendar available on the android (google calendar or other)
 - doesn't add calendar invites
 - not able to see calendar invite and respond 
-- can edison add calendar invites from outlook to iphone calendar ?   
+- can edison add calendar invites from outlook to iphone calendar ?  
+- can you add calender features 
 
 ## intent:swipe_flag
 - allow one of the swipe options to be flag    
@@ -1196,6 +1300,8 @@
 - can't open pdf attachments    
 - when will you address pdf and attachments not opening?    
 - can't open pdf attached to email??? 
+- why do pdf files open?
+- app does not open pdf attachments.
 
 ## intent:send_pic_error
 - why can't i sent pictures    
@@ -1237,6 +1343,43 @@
 - i’d love to see a dark mode
 - i would love to see dark mode in settings
 - could you please make a dark mode? dark theme?    
+- need: dark mode
+- dark mode please.
+- where is dark theme?
+- will you do a dark theme?
+- hi, could you add a dark theme please,
+- i want a dark theme please
+- you need a dark mode or dark theme.
+- is there not an option for a dark theme
+- can we have a dark mode in the settings please
+- would love to see a dark mode.
+- is it possible to have a dark mode?
+- is there any dark mode or night mode support for this app?
+- would be great to get a dark mode
+- love it but it needs a dark mode!
+- hello, do you have a dark mode setting?
+- only missing a dark mode.
+- still needs dark mode.
+- dark mode would be great!
+- please add a black theme!
+- please include a dark and black theme!
+- what is about black theme?
+- it would be great if it had a dark or black theme.
+- love it just black theme please
+- hello great app,   only what i am missing is a black theme!! please ad a black theme.   with regards, rob
+- where can i find the black theme?
+- please add black theme and sync settings.
+- please add a black theme.
+- black or dark theme needed!
+- hello there.   could you please add a dark or black theme, please?   love the app.
+- 5 stars, if you add a black theme
+- hello,   please, if possible provide a black theme. i'm using oneplus with inbuild black theme and when i open the email is bright white :) should be nice to add themes.   thank you!
+- black theme please!
+- good application, please add black theme and support to schedule email.
+- try to add totally  black theme please. thanks
+- hi it is plan to add black theme?
+- i would like to see a black theme.
+- no black theme thx
 
 ## intent:html_signature
 - hello, when will you have support for html signatures?        
@@ -1367,7 +1510,6 @@
 - how do i attach a file from an app like drive,one drive, dropbox etc?    
 - you are unable to attach files from icloud drive! had to revert back to mail for that    
 - is it possible to save attachments and files to icloud drive as of yet?    
-- attaching file from google drive
 
 ## intent:add_touch_id
 - please supported password and touch id    
@@ -1398,13 +1540,20 @@
 - can't send group emails.
 - can't send any messages
 - please  i can't send messages through email why?
+- this email all won't allow me to send emails at all.
+- won't send email through gmail.
+- i had a problems can send out the emails
+- i cannot send email
+- how do i in send an email
+- how can i send emails
+- all my sent email stuck at outbox without sent. please check
+- every email i sent stuck in the outbox.
 
 ## intent:swipe_swipe_err_to_inbox
 - when i swipe to delete, the deleted email pops back into inbox.    
 - when i swipe to delete, the message pops back up in my inbox. can that be fixed?    
 - when i go to delete emails, they pop back up in my inbox as if they never were deleted.    
 - deleted emails are popping back into the inbox.
-- when email is deleted or achieved, it reappears in the inbox.    
 
 ## intent:frequency_crash
 - crashes a lot    
@@ -1469,6 +1618,7 @@
 - hello,  i received a video in an email as a attachment.  how do i save that video to my phone?  i don't see any options to save the video. 
 - how do i attach a video?
 - i'm using your app on my iphone.  i'm trying to compose an email an add a photo and video as an attachment.  the photo and video have booth been taken with my phone.  i can easily attach the photo but cannot find the video to attach.  how do you attach a video in an email?
+- will not allow for attaching videos???
 
 ## intent:open_attachment_error
 - cannot open attachments from gmail    
@@ -1618,7 +1768,7 @@
 - is there a way to mark all emails as read (in the app)?
 - need to mark all emails as read 
 - is there a way to be able to mark as read in the notification window? right now there is delete and archive but i just want to mark as read. 
-- hi how do i mark all as read ? 
+- hi how do i mark all as read? 
 - is there a way to mark all mail as read? 
 - is there a way to mark all emails as read?
 - is there a way to mark several messages as read? thanks
@@ -1630,6 +1780,8 @@
 - how do i mark all emails as read, iphone.
 - is it possible to mark all as read?
 - is there an option to mark all unread email as read? 
+- how to mark all unread messages as read in edison mail
+- how do you mark old messages as read
 
 ## intent:shake_to_undo
 - shake to undo please
@@ -1640,7 +1792,6 @@
 - hi, loving the app so far. i think shake to undo would be a better use of the feature rather than what currently happens upon a shake.
 
 ## intent:delete_error
-- this app doesn't work. when i delete email it reappears in a few seconds    
 - all deleted messages reappear in seconds 
 - i delete emails then they reappear    
 - deleting emails doesn't work sometimes. i will delete an email and a few seconds later it reappears. how can i fix this issue?
@@ -1652,6 +1803,15 @@
 - how do i get to deleted emails? i deleted one in error.        
 - i delete my emails on my phone app, look at an email i have not deleted and all the ones i deleted are back
 - the app will not delete the emails i selected for deletion! 
+- when i delete email, it keeps coming back.
+- i am deleting emails but they keep coming back please help.
+- deleted emails keeping coming back
+- emails. keep showing back up after deleting
+- i keep deleting emails and they keep coming back ? help!
+- why do deleted emails keep coming back to my inbox?
+- not able to delete messages, they return after deleting.
+- i delete messages but they continue to come back!!
+- after i delete a message it continues to come back into the draft folder.    how do i stop this?
 
 ## intent:notification_sound
 - is it possible to change email notification sounds?  
@@ -1690,10 +1850,17 @@
 - mails can only be snoozed once (i frequently snooze them several times)      also, when snoozing the calendar view is better than a list of days    
 - a very strange problem: when i snooze messages, it seems like that i can only snooze one message. once i snooze a second one, the first will be popped out of the snoozed folder and reappears in the inbox.    
 - snooze seems to be broken with the new update.      i can snooze stuff in easilydo email just fine, however, the snoozed messages aren't actually moved to the snoozed folders anymore. what this means is in apple mail (ios, macos, and icloud), snoozed messages remain in the inbox.      is this a known issue? is there some workaround? snooze is the main feature i use easilydo email for so i would love to figure this out asap. thanks!    
+- how does one snooze?    i snoozed an article and it's not in the snoozed mailbox. thank you.
+- snooze doesn’t work!!
+- can't snooze my emails
+- the snooze function fails to snooze emails in gmail.
+- snooze is device dependent.  i snooze email on my ipad but it doesn’t snooze the same mail on my iphone
 
 ## intent:need_hotmail
 - can't add my hotmail account
 - how add hotmail?
+- how can i add hotmail?
+- i want add hotmail.
 
 ## intent:picture_show_error
 - i like your app but when i receive an email with a picture the picture does not show up. it just shows a very small box.    
@@ -1747,6 +1914,10 @@
 - color code for different email addresses? 
 - hi can you make all mail inbox different color will be good 
 - is there a way to color code emails from different accounts in my inbox?
+-  can you make it possible to color code different email addresses in the combined inbox?
+- is there a way to color code to differentiate emails from different email accounts? if not, would love that
+- would be great if there was a way to differentiate the different email accounts. such as by color or something when all mailboxes are selected.
+- can you color code the different email accounts?
 
 ## intent:stuck_in_outbox
 - emails are getting stuck in outbox, please advise.    
@@ -1772,7 +1943,7 @@
 - would be helpful to have the app turn off conversations    
 - how do i turn off the thread or conversation view?    
 - how can i turn off the thread (conversation) view?  
-- would it be possible to turn off the conversation view within the app?    
+- would it be possible to turn off the conversation view within the app?  
 
 ## intent:log_out
 - how do i log out of my email account on this app?  
@@ -1807,6 +1978,13 @@
 - how do i sync my contacts to the app because it does not show any of my contacts when i type them in please help !    
 - contact support is not working well.  only the contacts i have mailed are listed  
 - what settings in your app do i use to sync email contacts with phone contact?      
+- can i add or delete contacts?
+- how do i change contact email address on yahoo mail contact?
+- nice gui, put the app doesn't have a contact interface. it should have ability to use existting phone contacts, gmail contacts, or outlook contacts.
+- how do i sync my contacts to the app because it does not show any of my contacts when i type them in please help !
+- contact support is not working well.  only the contacts i have mailed are listed
+- i'm trying to get the contact photos from my ios contacts into email, but they only show up when i open a contact's page.  never in the email.  is that supported?
+- only a few of my contacts appear ??
 
 ## intent:undo_subscribe
 - how do i undo an unsubscribe    
@@ -1875,7 +2053,8 @@
 - do not see my folders on your app
 - is there any way to see messages i have sent?  like a sent folder?
 - how do i see my sent emails 
-- sent emails ? can not see sent emails.    
+- sent emails ? can not see sent emails.  
+- i'm missing some emails i sent. they aren't showing up as sent
 
 ## intent:search_in_box
 - search doesn't work. the email is in my inbox and when i search for it by name or by email id it doesn't show up.   
@@ -1886,6 +2065,14 @@
 - how do i search all my emails?
 - search doesn't  work   
 - how do i do a search through all emails?
+- where is the search feature for my email account ?
+- do you have a search in email inbox feature?
+- do you guys have search feature available? i don't find way to search emails.
+- why is there no search feature?
+- how do i search me emails?
+- how do i do a search through all emails?
+- hi! how do i search for emails on your app?
+- is there a way to search.?
 
 ## intent:unblock_email
 - my email was blocked and need to know why and what i need to do to unblock it.     
@@ -1925,14 +2112,10 @@
 - how do i change my email password?
 - hi  how i can change my password
 - i would like to change my password.
-
-## intent:sign_out
-- how do i sign out on this app?    
-- how do i sign out from my iphone?    
-- there is no option to sign out
-- how to sign out after reading mail.      
-- sign out button
-- i’m constantly being signed out of my email. it just says account offline. and i have to sign in again
+- how to change password in this app.thanks
+- how do i change my password if i don’t remember it?
+- i forgot my password how do i change it?
+- i forgot my password because of the app specific password change.
 
 ## intent:create_folder
 - how can i create new folder in my email account    
@@ -1972,7 +2155,13 @@
 - howdo i empty trash?
 - how do i empty the trash bin? is it possible to empty the trash of all deleted emails in one simple action?
 - how about a setting to delete all trash    
-- please added all deleted trash. and deleted all email    
+- please added all deleted trash. and deleted all email 
+- how do i empty all spam or all trash in one move?  
+- how about adding an option to empty trash and spam???
+- i can’t delete anything from my trash
+- how do i delete trash totally?
+- like it but empty trash and empty spam buttons would be nice, then it would be complete.
+- i would love to have an empty trash button! great app, thanks!
 
 ## intent:receiving_error
 - i am not receiving any emails
@@ -1991,14 +2180,404 @@
 - i cannot receive emails only send them.       
 - cannot receive emails
 - i’m not receiving emails.    
-- i am not receiving any emails        
 - why am i not receiving all my emails now
 - i am not receiving emails at all
 - i am not receiving emails can you help
 - i'm not received my email
 - i can send but cannot receive emails
 - i am not receiving all my emails 
+- i am not receiving emails from my yahoo account only my gmail
+- cant get my mail
+- cant see the email...
+- i cant get into mail
+- cant see my emails....
+- i cant get any new messages
+- i cant receive emails ?????
 
 ## intent:weather_city
 - weather_city
 - give me the weather.
+
+## intent:simple_and_cool_use
+- very simple
+- really simple
+- simple
+- it's simple and i like it
+- very good and simple
+- simple that's all i wanted
+- simple easy to use
+- simple and nice
+- simple and easy to use
+- only for simple used
+- good and simple to use
+- simple and unclutered!
+- i love this email app so easy and simple love the simple interface
+- simple and good
+- simple to use
+- great app. simple to use
+- nice app. simple to use.
+- simple and great
+- simple and fast
+- nice and simple
+- fast and simple
+- simple, and it works.
+- easy very simple and ennovative
+- love how simple it is to use
+- nice and simple to use
+- really simple
+- simple and fast
+- simple. works!
+- simple, easy to use
+- nice simple email app
+- great simple email app
+- it is simple and easy to use.
+- fast and simple
+- great app, simple
+- simple and easy
+- fast and simple.
+- i like it because it's really simple, just what i needed. simple and fast!
+- simple ui..great app to use
+- simple email client
+- simple and good
+- the app is more simple to use.
+- very fast. simple to use.
+- simple and easy
+- this is a simple email app it is great for all sorts of things easy to use and simple
+- fast and simple to use
+- good and simple
+- simple and functional
+- simple and working app
+- cool
+- very cool!!!
+- cool mail app for all your email accounts
+- fast and cool
+- very cool app~ thanks
+- really cool
+
+## intent:cannot_receive_package
+- i have not received the package
+- where is my package    please help
+- i did not receive this package
+- i didn't get the package
+- i did not get this package but i received my other one
+- the package was not there nor did i get an email
+- i have not received my package
+- my package is not here, we're is it
+- i haven't received any packages
+- i haven't received my package
+- i haven't received this package
+- package has not been received?
+- i haven't received my package
+- package was not received
+- did not receive package!!
+- have not received my package
+- we're is my package
+- no i have not received this package !!
+- i did not receive this package
+- i have not received this package
+- i didn't receive my package
+- packages not showing up in in packages section
+- packages folder is not updating.
+- why my packages is not updating?
+- haven't received this package yet
+- i still haven't received my package
+- hi i have not received my package what going
+- i have not received my package and    i am wondering when it will get here
+- no package received. please assist
+- i haven't received my package and it says already received.
+- i did not receive my package yesterday
+- did not receive this package today
+- i never received this package...what can i do?
+- haven't received package yet
+- hello i did not receive the package today
+
+## intent:keep_offline
+- my accounts keep going offline. why?
+- hi,   my email accounts keep going offline. is there something that will fix this? 
+- my email keeps on going offline and i keep having to sign back in.
+- all the gmail accounts keep going offline after i reconfirm them. tell me how to fix!
+- my accounts keep going offline
+- all gmail accounts keep going offline.
+- my gmail accounts keep going offline. what gives?!
+- why do i keep going offline? this is not ok.
+- my email account keep going offline.
+- my account keeps going offline!  help
+- i keep having issues where both my gmail accounts keep going offline multiple times  a day.
+- my account keeps going offline.  please fix!
+- google account keeps going offline.
+- my google account keeps going offline. what can i do to fix this?
+- why my accounts keep going offline ?????
+- why do my accounts keep going offline!!!!???
+- gmail still keeps going offline
+- why do my accounts keep going offline? i’m not logging out, yet each time i open the app, one of my accounts is offline.
+- accounts keep going offline
+- i keep getting a account offline message
+- why does my account keep going offline
+- my email accounts keep going offline.
+- my email accounts keep going offline. several times a day.
+- my accounts keep going offline
+- why are my google accounts now going offline?
+- the gmail accounts keep going offline
+- why do my email accounts keep going offline?
+- why do all my accounts keep going offline all the time????
+- what’s going on?why do i keep going offline with my mail accounts? please advise.
+- the gmail accounts keep going offline
+- my email keeps going offline and i keep having to reconnect it.
+- why do my accounts keep going offline?
+- why do my accounts keep going offline?
+- account keeps going offline every few hours
+- account still going offline
+- my gmail account keeps going offline. i keep reconnecting it.
+- my gmail accounts keep going offline.
+- why do my google accounts keep going offline?
+- my accounts keep going offline and i don’t know why.
+- account keep going offline and asking for a password
+- keeps kicking my accounts offline
+- my gmail account keeps getting get kicked offline and i have to keep logging in.
+- had issues since last update i keep getting kicked offline
+- keeps kicking my account offline. never had this problem before.
+- the app keeps kicking all of my accounts offline and i don’t know why. it’s very frustrating because i love this app
+- my account (on the app on my iphone) keeps getting kicked offline. how can that be fixed?
+- why can i not sign on to my account..and why do i keep getting kicked off
+- keep kicking me out my work email
+- my account keeps saying offline!!!
+- my accounts keep on saying offline and i have to login to them a few times a day.
+- after update, the app keeps saying my gmail account is offline each time i open my inbox.
+- my email keeps saying offline and requires me to login to my google accounts.
+- keeps saying your account is offline with my gmail. i’m on the latest version
+- app keeps saying account offline even after the update
+- it keeps saying my account is offline and every time i put in my gmail login credentials i keep getting the same my account is offline error.
+- my email accounts keep saying you are offline!please help
+- i keep having my account go offline   please help it’s annoying
+
+## intent:package_not_deliverd
+- package was not delivered
+- this package has not been delivered
+- this item was not delivered.
+- when will my package be delivered?
+- shows that there are 328 days till a package is delivered when it is already delivered.
+- my package hasn't delivered!
+- where are you delivering my packages?    i am not getting them
+- marked delivered and it isn't.
+- it was reported delivered! it was not delivered to my house! i have had this problem with fed ex before. please see if they will deliver to me.
+- i have not received the package! it was not delivered to me!
+- this is not past. hasn't been delivered
+- not delivered yet
+- when and where was this order delivered?
+- the package was not delivered!!!
+- this was never delivered
+- i just want to email and this app delivers.
+- my packadge was not delivered
+- it was not delivered
+
+## intent:block_contacts
+- please add block for emails
+- please add option to block emails
+- how do you block emails??
+- how do you block an email from this app??
+- how can i block an email address please?
+- how do i block emails on this app?
+- how do you block emails?
+- how do i block email?
+- can i block emails?
+- how do i block emails
+- can you please tell me how i can go about blocking an email from contacting me? is there a way that a certain email can be blocked from emailing me?
+- how to block contacts?
+- how do i block a email contact
+- how can i block a personal email from sending me emails?
+- how do i block a sender
+- how do i block a persons email
+- how do i block a sender?
+- how do i block a sender on my account?
+- does this app have an email blocking feature?
+- how can i block a personal email from sending me emails?
+- how do i block a sender
+- how do i block a persons email
+- how do i block a sender?
+- hello, can you tell me how to block spam messages please, as i don't see a block button.
+- how do i block a sender?
+- how to block an email? blocked mails go directly to spam
+- how do i block a sender on my account?
+- does this app have an email blocking feature?
+- nice app but how do i block emails?
+- block is not blocking nuisance mail???
+- an email address is blocked and i don’t want it blocked. what to do?   michele
+
+## intent:pop3_support
+- do you support pop3 accounts?
+- no pop3, really?
+- hi.  your email app is wonderful but doesn't have pop3 support. i have only two emails gmail and second email use pop3. can you please fix that?? if you cannot, it's not a problem, i will find other way for my pop3 email. thanks.  ⁣sent from my samsung device​
+- can't set up pop3
+- i absolutely love your app but i have one problem. my service providers email only supports pop3, is there a possibility of edison mail supporting pop3 in the future? please advise, great work!
+- any way we can use pop3 account?
+- no pop3 support guys?
+- does edison mail work with pop3?
+- no support for pop3.
+- pop3 not supported...
+- 1 star because app doesn't support pop3
+- pop3 is not supported
+- no pop3 support?
+
+## intent:keep_out
+- the new version keep logging me out from gmail account.
+- i keep getting logged out of my gmail accounts! why?
+- why do my gmails accounts keep logging out in ios ? will there be an update to fix this?
+- i keep getting logged out of gmail as of recent.
+- hello,   my gmail account keeps logging out from the app. what should i do?
+- hello  my gmail accounts keep logging out and i have to keep logging in. is there a fix or something that needs to be checked?
+- hi my gmail keep logging out.
+- hello,   after the new update, gmail keeps logging off the account.
+- my gmail keeps logging out. please fix
+- the system keeps logging my gmail accounts out
+- why do my gmail accounts keep requiring me to log in again
+- love this app. but gmail keeps logging me out.
+- one of my mailbox gmail keeps logging off
+
+## intent:show_offline
+- says my account is offline but it isn't
+- my account says offline, why? and how do i fix it
+- says my account is offline... what do i need to do??
+- my account says acvount offline
+- y is my account offline
+- keeps saying mail offline
+- app keeps saying my gmail accounts is offline.
+- why does it keep saying my account is offline
+- my account always says i am offline.
+- my account keeps saying that it is offline but it isn’t and i receive new e-mails while it says it is offline.
+- my account is offline
+- my email account is offline
+- will the search email feature work in an offline account?
+
+## intent:how_smart_reply_work
+- how does smart reply work
+- how does smart reply works.cant figure out. thanks
+- how do i use smart replies?
+- where's the smart reply.
+- hi, how i could do a smart reply?
+- does the smart reply only works on ios11 devices? and uses coreml?? because there is no smart reply showing up for me even though the settings has been enabled
+- smart replies enabled but is not working
+- can i add a custom smart reply?
+- can i customize smart replies?
+- how does smart reply work? is it an out of office assistant?
+
+## intent:attach_from_google_driver
+- how do i get google drive files to show up in my attachments area? thanks.
+- can't add a file from google drive.
+- great app, but please add option to attach file from google drive.
+- great app but i am unable to attach files from my google drive app, can this be fixed?
+- google drive disappears as an option when trying to attach a file.
+- hi      i use google apps and have connected the account to email. when i try to attach a file from google drive from within email, i am unable to view my google drive files. the option appears for google drive then disappears before i can turn the google drive slider on to manage files. can you help? thank you, jamie      ps - i have tried this on two iphones with two different google apps accounts and the results are the same.
+- how do you enable google drive file attachment? the button for google drive won't show up on the attachment option menu(only icloud option is available). thanks.
+- attaching file from google drive
+
+## intent:account_be_hacked
+- i'm hacked using this app
+- my account has been hacked.
+- being hacked
+- i think onenor more of my email accounts have been hacked
+- i think my account has been hacked!!!!!
+- it appears we have been hacked. what should we do?
+- above email is hacked and have no access to it on app.  please email me at duchjo68@wcgwave.ca
+- my accounts have all hacked clonrd
+- my e-mail account hacked
+
+## intent:where_is_spam_folder
+- where the fuck are my spam folders???
+- the spam folder needs to catch spam.    i get spam from xyz everyday and every day i move it to the spam folder. would be great if i place in spam folder and the mail filters it out of in box.    and yes it the same message and as far as i can tell from the same url
+- where is the spam folder?
+- where is spam folder?
+- where is there a spam folder ?
+- is there  a spam folder
+- how do i change a spam email to not being spam?
+- one suggestion, a spam folder for all the spam. 
+- when mail is marked as spam, future email from that sender should be sent automatically to the spam folder
+- where can i see my spam folder?
+
+## intent:package_error
+- received package delivered to wrong address
+- this package hasn't been delivered yet, but it was moved to past packages.
+- the package says delivers but i haven't received my item
+- it's stating that my package was delivered on yesterday and i haven't received my package.
+- i have not received my package and it says it's already been delivered.
+- my package has a status of delivered and i have not received it.
+- who was this package delivered to i never received it nor did i sign for it???
+- package not delivered but marked as past.
+
+## intent:default_browser_chome
+- why can't i set default browser to chrome?    i use to be able to, but there is no option for it?
+- i used to be able to set default browser to chrome.    now only option is safari.      how can i fix?    this will not work if i can't set default to chrome browser
+- please provide the option to set my default browser as google chrome.
+- please make setting google chrome as default browser an option!
+- chrome is no longer an option for default browser. assistance please        chikaya
+- hello,        this is a great app! but it would be nice if you can set chrome as a default browser.
+- make chrome an option as default browser for ios.
+- hello, great app so far. would be nice to be able to set chrome as default browser.    thanks.
+- add chrome as default browser please.
+- i would be awesome to set the default browser to other browser apps besides safari and in-app. for example, setting the default browser to chrome or firefox.
+- i am unable to make chrome my default browser in email settings. when i select default browser setting, the only ones listed are safari and in app.
+- could you add chrome as a default browser please? thank you.
+
+## intent:thread_isnot_working
+- why are the sent items not organized by thread
+- hi, i have organize by thread switched on but emails are not threaded.
+- i don’t think organize by thread is working.
+- my email is not organizing by threads.  i have the setting switched on.
+- hello,   organize thread is not organizing (grouping) emails together. at least not the way the apple mail apps does. am i doing something wrong?    i prefer most other aspects of edison but really want to use the organize thread feature.
+- i have selected the option to organize my emails by threads but it is not actually doing so.
+- organize by thread feature not working even though the option is selected in settings. email in inbox not organized by thread. ios
+- my emails are not being organize by thread when selected in the settings.
+- i am using fastmail for my imap server. i have organize email by thread turned on, but my messages are not organized by thread. how do i fix this?
+
+## intent:package_not_fedex
+- this is usps not fedex
+- this should be through usps not fedex.
+- the carrier is incorrect. it should be fedex not usps
+- this is a usps package, but it was recognized incorrectly as fedex.
+- this is a fedex number, not usps
+- my package is coming from fedex not usps
+- this tracking number is for usps, not fedex. 
+- this is a fedex tracking number not usps
+
+## intent:delete_reappear
+- i delete a message and it reappears in my inbox
+- i feel like i delete emails and then they reappear in my inbox again??
+- my deleted messages keep reappearing in my inbox and giving me new notifications.
+- i delete messages and they reappear like i never deleted them?
+- i cannot delete. once i delete a message it reappears.
+- i delete my emails but then they reappear in my inbox folder. why are they not deleting?
+- why do my deleted emails keep reappearing?
+- any updates for the bug where deleted emails will reappear in the inbox?
+- when i swipe to delete, the deleted email pops back into inbox.
+- when i swipe to delete, the message pops back up in my inbox. can that be fixed?      
+- when i go to delete emails, they pop back up in my inbox as if they never were deleted.
+- deleted emails are popping back into the inbox.
+- messages deleted but keeps on appearing in inbox again.
+- messages don't appear in inbox
+- my emails won’t delete and keep appearing in my inbox.
+- this app doesn't work. when i delete email it reappears in a few seconds
+
+## intent:request_read_receipt   
+- how to request a read receipt
+- is there a way to request a read receipt?
+- option to request read receipts.
+- does edison mail have read receipts?
+- can i sent read receipts with my e-mail? how does edison respond on a read receipts?
+- how can i request a read receipt?
+- how do i request read receipts in edison email.
+- how do i request a read receipt for emails i send
+
+## intent:archived_problem
+- when i archive my mail it does not appear in the archive folder it just disappears
+- how do you show all archived folder
+- how do i access archived email
+- some emails that i'm archiving are not able to be found in my archive folder. i'm also not able to search for emails that i've archived.      the number for archived emails also doesn't increase as i'm archiving.      what's wrong with this feature?
+- how can i access archived emails
+- where do i see my archived messages?
+- how do i delete archived messages?
+- the all archive is showing not the emails i have manually archived, but an assortment of received/sent emails. i can find the archived emails i received from one email by manually adding "archive" for that one email, but archive is not an option for the other email account. please add a more functional archive feature, as i have archived many emails and now have no idea where they are.
+- how do i access archived emails?
+- i create a new archive folder for each year on my exchange account.  how do i set up the app to archive messages to a specific archive folder?
+- archiving threads. when i try to archive a conversation, i have to archive each email. it’d be more useful to archive the whole conversation in one swipe.
+- i accidentally archived some emails. i have multiple email accounts setup.  i don't see an archive folder. where are the archives? i want to delete them.
+- not sure why, but all archive is suddenly missing my work account archive.  i can can go into the account and see them in the individual archive.  i tried turning it off and back on for the selected archive folders.   
+
