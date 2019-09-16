@@ -912,6 +912,41 @@ def create_app(
         logger.debug("Successfully unloaded model '{}'.".format(model_file))
         return response.json(None, status=204)
 
+    @app.post("/model/answer")
+    @requires_auth(app, auth_token)
+    @ensure_loaded_agent(app)
+    async def parse(request: Request):
+        validate_request_body(
+            request,
+            "No text message defined in request_body. Add text message to request body "
+            "in order to obtain the intent and extracted entities.",
+        )
+        emulation_mode = request.args.get("emulation_mode")
+        emulator = _create_emulator(emulation_mode)
+
+        try:
+            data = emulator.normalise_request_json(request.json)
+            try:
+                parsed_data = await app.agent.handle_text(
+                    data.get("text")
+                )
+            except Exception as e:
+                logger.debug(traceback.format_exc())
+                raise ErrorResponse(
+                    400,
+                    "ParsingError",
+                    "An unexpected error occurred. Error: {}".format(e),
+                )
+            response_data = emulator.normalise_response_json(parsed_data)
+
+            return response.json(response_data)
+
+        except Exception as e:
+            logger.debug(traceback.format_exc())
+            raise ErrorResponse(
+                500, "ParsingError", "An unexpected error occurred. Error: {}".format(e)
+            )
+
     @app.get("/domain")
     @requires_auth(app, auth_token)
     @ensure_loaded_agent(app)
