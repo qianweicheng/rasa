@@ -167,6 +167,7 @@
 - i would like to delete my account. i have already canceled what i needed to cancel.
 - how do i cancel my account with you?
 - i would like to cancel my account
+- i've accidentally downloaded and signed up for edison assistant instead of email. how do i cancel my assistant account?
 
 ## intent:zero_inbox
 - what is inbox zero?
@@ -277,6 +278,7 @@
 ## intent:mail_providers_support
 - what mail providers does this app support?
 - what type of providers can this app support?
+- which email providers does this app support?
 
 ## intent:set_up_gmail_account
 - how do i set up my gmail account?
@@ -295,7 +297,8 @@
 - hi, i use an alias with my gmail account, do you support sending mail from an alias?    
 - is there a way to add an alias email?         
 - first, i have a gmail account with an alias.      then i got a mail as cc to my alias. there is one receiver and another cc as well.    when i reply all, it sends from my gmail-address , not my alias, why?    also my alias is in the cc, why?    
-- is there a way to use signatures by alias?    if not, would this be in the works ?          
+- is there a way to use signatures by alias?    if not, would this be in the works ? 
+- setting up aliases in edison mail         
   
 ## intent:set_up_icloud_account
 - how do i set up my icloud account?
@@ -490,6 +493,7 @@
 - i'm not receiving notifications for new email, but the option is on
 - i'm not getting any notifications on my emails!
 - i'm not receiving sound notifications when emails come in
+- why don't i receive notifications or sound alerts?
   
 ## intent:how_customize_assistant_view
 - how do i customize the assistant view?
@@ -539,6 +543,7 @@
 ## intent:what_is_privacy_policy
 - what is the privacy policy
 - hi, after reading the privacy policy and terms and condition, i still have two questions that i would like to clarify.
+- what is edison's privacy policy for the email app?
 
 ## intent:what_are_terms_and_conditions
 - what are the terms and conditions?
@@ -1039,6 +1044,7 @@
 - works great
 - best email app ever
 - works well!
+- the app works well for me so far.
 
 ## intent:dislike_it
 - this isn't to my liking
@@ -1143,6 +1149,7 @@
 - email blocked!!!!!!!!!!! 
 - how do you block emails?
 - how do i block an email??
+- how does block sender work?
 
 ## intent:need_calendar
 - no calendars are showing up under linked calendars or calendars to select to use with the app. how do i fix this?   angela    
@@ -1380,6 +1387,7 @@
 - hi it is plan to add black theme?
 - i would like to see a black theme.
 - no black theme thx
+- are you going to support dark theme?
 
 ## intent:html_signature
 - hello, when will you have support for html signatures?        
@@ -1928,6 +1936,7 @@
 - emails not sent. they are stuck in the outbox
 - i keep getting messages stuck in my outbox
 - not able to sent email,  it gets stuck in my outbox 
+- my messages are stuck in the outbox, why?
 
 ## intent:turn_off_conversation
 - how do i turn off conversations?    
@@ -2073,6 +2082,7 @@
 - how do i do a search through all emails?
 - hi! how do i search for emails on your app?
 - is there a way to search.?
+- where is the search feature for my email account?
 
 ## intent:unblock_email
 - my email was blocked and need to know why and what i need to do to unblock it.     
@@ -2116,6 +2126,7 @@
 - how do i change my password if i don’t remember it?
 - i forgot my password how do i change it?
 - i forgot my password because of the app specific password change.
+- how do i change password
 
 ## intent:create_folder
 - how can i create new folder in my email account    
@@ -2574,7 +2585,7 @@
 - how can i access archived emails
 - where do i see my archived messages?
 - how do i delete archived messages?
-- the all archive is showing not the emails i have manually archived, but an assortment of received/sent emails. i can find the archived emails i received from one email by manually adding "archive" for that one email, but archive is not an option for the other email account. please add a more functional archive feature, as i have archived many emails and now have no idea where they are.
+- the all archive is showing not the emails i have manually archived, but an assortment of received/sent emails. i can find the archived emails i received from one email by manually adding archive for that one email, but archive is not an option for the other email account. please add a more functional archive feature, as i have archived many emails and now have no idea where they are.
 - how do i access archived emails?
 - i create a new archive folder for each year on my exchange account.  how do i set up the app to archive messages to a specific archive folder?
 - archiving threads. when i try to archive a conversation, i have to archive each email. it’d be more useful to archive the whole conversation in one swipe.

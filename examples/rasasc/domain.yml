@@ -460,13 +460,18 @@ templates:
   - text: "What is Microsoft Exchange Server, and how does it work with Email?"
 
   utter_change_account_pwd:
-  - text: "I've changed my email account password, how can I update this information in the app?"
+  - text: "If you wish to change your account password at this time, you'll need to remove your account from Email and then re-add it:
+           1. Tap the menu icon in the top-left corner
+           2. Tap Settings
+           3. Select the email address you wish to remove from the list at the top
+           4. Tap Delete Account and confirm
+           5. From the previous screen, tap Add Account and re-add your email address with your updated password"
 
   utter_save_message_draft:
   - text: "How do I save a message as a draft?"
 
   utter_cancel_easilydo_account:
-  - text: "I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?"
+  - text: "Some folks are getting confused between our two apps, Email and Assistant. If you've accidentally signed up for an Assistant subscription and wish to have it cancelled, please contact us support@edison.tech and we'd be happy to assist you with this!"
 
   utter_zero_inbox:
   - text: "What is Inbox Zero?"
@@ -499,7 +504,11 @@ templates:
   - text: "When will you support Exchange accounts?"
 
   utter_how_remove_email_account:
-  - text: "How do I remove an email account from the app?"
+  - text: "In order to remove an email account from the app, follow these steps:
+           1. Tap the menu icon
+           2. Tap Settings
+           3. Tap on the account you would like to remove
+           4. Scroll down to the bottom of the page and tap Delete Account"
 
   utter_why_email_free:
   - text: "Why is Email free?"
@@ -508,13 +517,21 @@ templates:
   - text: "What version of iOS does Email support?"
 
   utter_mail_providers_support:
-  - text: "What mail providers does this app support?"
+  - text: "Our app provides support for a large number of mail providers. We currently support Gmail, iCloud, Yahoo, AOL, Microsoft Outlook, Microsoft Exchange, Office365, and several other email providers. As of right now, we do not support POP accounts, our apologies!
+           If you have a custom account or type which isn't working (but should according to the information above) please"
 
   utter_set_up_gmail_account:
   - text: "How do I set up my Gmail account?"
 
   utter_set_up_gmail_alias:
-  - text: "How do I set up a Gmail alias in Email?"
+  - text: "Edison Mail has alias support for Gmail, Outlook, and iCloud
+            accounts. An alias is something you have to set up with your email provider before you can add it to the Email app. Because of this, we only allow you to add aliases for accounts that already have thorough support for alias set up on their end. If we don't support your provider now, we may support it (and more) in the future.
+
+           If you're using a Gmail, Outlook, FastMail, or iCloud account, you can access aliases in our app by following these steps:
+           1. Launch Edison Mail.
+           2. Open Settings.
+           3. Tap the account you wish to enable an alias for.
+           4. Tap Add Alias and fill out the required information, then press Save."
 
   utter_set_up_icloud_account:
   - text: "How do I set up my iCloud account?"
@@ -553,7 +570,7 @@ templates:
   - text: "How do I forward an email?"
 
   utter_difference_between_archive_and_delete:
-  - text: "What is the difference between archiving and deleting an email?"
+  - text: "Archived emails and deleted emails both disappear from your inbox. Archived emails go into a folder on our app labeled All Archived. Deleted emails Go to a folder labeled All Trash and are permanently deleted after a set time that varies based on the email provider has passed. Deleted emails disappear forever, whereas archived emails do not."
 
   utter_how_archive_email:
   - text: "How do I archive an email?"
@@ -607,13 +624,42 @@ templates:
   - text: "How do I change what emails are classified as 'Important'?"
 
   utter_how_turn_off_badge_count:
-  - text: "How do I turn off or turn on the badge count?"
+  - text: "https://mailsupport.edison.tech/hc/en-us/articles/115000609843-How-do-I-turn-off-or-turn-on-the-badge-count-"
 
   utter_how_disable_or_enable_backgroud_app_refresh:
-  - text: "How do I disable or enable background app refresh?"
+  - text: "The Email app relies on background refresh to function as intended. However, should you wish to disable it (i.e. for potential battery improvements) please follow these steps:
+           1. Tap the iOS Settings icon
+           2. Tap General
+           3. Tap Background App Refresh
+           4. Scroll down to Email and either disable or enable (it should be on by default)"
 
   utter_why_not_receiving_notifications:
-  - text: "Why am I not receiving notifications or sound alerts?"
+  - text: "f you aren't receiving notifications, please follow these steps to resolve your issue:
+
+           iOS Users:
+           1. Open the Settings app
+           2. Tap 'Notifications'
+           3. Scroll down and tap on 'Email'
+           4. Ensure that you have 'Allow Notifications' enabled
+           5. Go back to the home screen of your Settings app
+           6. Tap on 'General'
+           7. Tap on 'Background App Refresh'
+           8. Ensure that it is enabled for 'Email'
+           9. Close the Settings app and open the Edison Mail app
+           10. Tap the menu icon in the top left
+           11. Tap the 'Settings button in the bottom left
+           12. Tap 'Notifications'
+           13. Ensure that you have the notifications you would like to receive enabled.
+           14. You can also change the notification sound by clicking on 'Notification Sound'
+
+           Android Users:
+           It's possible you have a battery saving feature/mode enabled on your
+           device which may be inhibiting these notifications. You can read more
+           about these features here and here. If you've verified that these aren't enabled on your device, please check to make sure you have the Google services framework installed.
+
+           If you've followed the instructions above and still aren't receiving notifications, please let us know and we'd be happy to take a closer look.
+
+           Important note: Due to technical limitations of how our app  is setup, you won't receive notifications for messages which get filtered into folders by way of server-side rules or third party services. We apologize for any inconvenience this may cause!"
 
   utter_how_customize_assistant_view:
   - text: "How do I customize the Assistant view?"
@@ -643,7 +689,7 @@ templates:
   - text: "What is the Entertainment folder?"
 
   utter_what_is_privacy_policy:
-  - text: "What is the Privacy Policy"
+  - text: "Your privacy is of the utmost importance to us, and we encourage you to read our privacy policy here. https://www.edison.tech/privacy.html"
 
   utter_what_are_terms_and_conditions:
   - text: "What are the Terms and Conditions?"
@@ -655,7 +701,18 @@ templates:
   - text: "Happy"
 
   utter_remove_app:
-  - text: "How do I remove the Email app from my device?"
+  - text: "If you've decided that you wish to remove the Email app, please
+           follow these instructions to delete the Email app from your device…
+
+           iOS Devices:
+
+           1. Press and hold the Email app icon until it jiggles.
+           2. Tap the  in the upper-left corner to delete the app.
+
+           Android Devices:
+
+           1. Tap and drag the Email app icon up to the top of the screen to the side which reads Uninstall.
+           2. Confirm your decision to complete this operation and delete the app."
 
   utter_weather_good:
   - text: "{city} weather is good"
@@ -766,7 +823,7 @@ templates:
   - text: "utter_add_multi_accounts"
 
   utter_like_it:
-  - text: "utter_like_it"
+  - text: "Thank you and let us know if you have any suggestions and feedback!"
 
   utter_dislike_it:
   - text: "utter_dislike_it"
@@ -781,7 +838,7 @@ templates:
   - text: "utter_reset_pwd"
 
   utter_need_desktop:
-  - text: "utter_need_desktop"
+  - text: "We are working on a desktop version now. Join the beta group to try it now: https://docs.google.com/forms/d/e/1FAIpQLSePJimgA9Mi9yGbOosydoagD8GwrWSzj0g0nca6a_n9JXicvA/viewform"
 
   utter_delete_from_spam:
   - text: "utter_delete_from_spam"
@@ -790,7 +847,7 @@ templates:
   - text: "utter_sync_email"
 
   utter_email_block:
-  - text: "utter_email_block"
+  - text: "https://mailsupport.edison.tech/hc/en-us/articles/360024617352-Block-Sender-FAQ"
 
   utter_need_calendar:
   - text: "utter_need_calendar"
@@ -802,7 +859,10 @@ templates:
   - text: "utter_vibration_notification"
 
   utter_need_mark_as_spam:
-  - text: "utter_need_mark_as_spam"
+  - text: "You can easily mark and move a message to the Spam folder by following these steps:
+           1. From the message view, tap the three dots icon in the upper-right corner
+           2. Tap Mark as Spam and the message will be moved to your Spam folder
+           Please Note: While our app allows you to move messages to the Spam folder, we do not have the ability to improve or teach your  email provider's servers how to handle future messages from these senders – you'll need to consult your provider's documentation for instructions on how to more effectively improving your spam filters on the server's side…"
 
   utter_add_assistant_folder:
   - text: "utter_add_assistant_folder"
@@ -832,7 +892,7 @@ templates:
   - text: "utter_retrieve_some_action"
 
   utter_need_dark_theme:
-  - text: "utter_need_dark_theme"
+  - text: "We will support Dark mode when iOS 13 is publicly released."
 
   utter_html_signature:
   - text: "utter_html_signature"
@@ -886,7 +946,7 @@ templates:
     - text: "utter_swipe_swipe_err_to_inbox"
 
   utter_frequency_crash:
-    - text: "utter_frequency_crash"
+    - text: "We're sorry your experience with our app has been less-than-stellar thus far. We're working on addressing crashes with our next release, for now please try deleting, restarting your device, and then reinstalling"
 
   utter_attach_video:
     - text: "utter_attach_video"
@@ -940,7 +1000,11 @@ templates:
     - text: "utter_view_focus"
 
   utter_font_size_change:
-    - text: "utter_font_size_change"
+    - text: "1. Go to iOS Settings
+             2. Tap 'Dsiplay & Brightness'
+             3. Tap 'Text Size'
+             4. Increase font size by dragging the slider
+             5. Return to Edison Mail, font size should be updated. "
 
   utter_unscribe_spam:
     - text: "utter_unscribe_spam"
@@ -1000,7 +1064,11 @@ templates:
     - text: "utter_different_colors_for_accounts"
 
   utter_stuck_in_outbox:
-    - text: "utter_stuck_in_outbox"
+    - text: "Occasionally our app may run into problems sending your message, and it will be stuck in the outbox as a result. Below, you can find a few common outbox errors, as well as suggestions for troubleshooting those issues:
+             'A stable connection to the server could not be established'
+              Ensure you have adequate reception and a strong data signal.
+              Connect to a reliable WIFI network and try sending the message again. Full bars doesn't necessarily indicate a reliable connection, please ensure your bandwidth speeds are fast by running this test.
+              If you're sending an attachment that's large in size, it may be causing your network to timeout. Please try resizing/compressing the attachment, and trying again."
 
   utter_turn_off_conversation:
     - text: "utter_turn_off_conversation"
@@ -1030,13 +1098,14 @@ templates:
     - text: "utter_about_sent_folder"
 
   utter_search_in_box:
-    - text: "utter_search_in_box"
+    - text: "Pull down in the email list, you will see a search box."
 
   utter_unblock_email:
     - text: "utter_unblock_email"
 
   utter_need_pwd:
-    - text: "utter_need_pwd"
+    - text: "If you wish to change your email account password(s), this is something only your email provider can help you with (i.e. Gmail, iCloud, Yahoo,
+             etc). Below, we've created a list of FAQ articles for how to change your password on popular email providers. If you've forgotten your password, or believe your account has been compromised, please contact your provider's customer support for assistance in recovering your account."
 
   utter_create_folder:
     - text: "utter_create_folder"
