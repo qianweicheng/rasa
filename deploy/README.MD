@@ -16,8 +16,11 @@ python -m spacy download en_core_web_lg
 - 在PyCharm中
     注意设置`Add Content Root to PYTHONPATH`
 - 命令行中
-    训练: `PYTHONPATH="$(pwd):../..";rasa train`
-    运行: `PYTHONPATH="`pwd`:../..";rasa shell`
+    训练: `PYTHONPATH="$(pwd):../..";rasa train` 
+    运行: `PYTHONPATH="$(pwd):../..";rasa shell`
+- 命令行中2
+    修改代码`examples.rasasc.__main__.py`, 然后`python -m examples.rasasc`
+    修改代码`examples.rasasc.__main__.py`, 然后`python -m examples.rasasc`
 ## BUG 
 在`which rasa`对应的lib/python3.7/site-packages中有个example包, 删除之
 ## Test

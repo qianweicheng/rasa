@@ -1,9 +1,9 @@
-FROM python3
+FROM python:3
 
 VOLUME ["/app"]
 WORKDIR /app
 
-COPY ../../ ./
+COPY ./ ./
 
 EXPOSE 5005
 
