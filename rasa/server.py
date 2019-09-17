@@ -915,7 +915,7 @@ def create_app(
     @app.post("/model/answer")
     @requires_auth(app, auth_token)
     @ensure_loaded_agent(app)
-    async def parse(request: Request):
+    async def parse_answer(request: Request):
         validate_request_body(
             request,
             "No text message defined in request_body. Add text message to request body "
