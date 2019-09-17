@@ -1,12 +1,12 @@
-FROM rasa/rasa
+FROM python3
 
 VOLUME ["/app"]
 WORKDIR /app
 
-COPY ./ ./
+COPY ../../ ./
 
 EXPOSE 5005
 
-ENTRYPOINT ["rasa"]
+ENTRYPOINT ["python -m examples.rasasc"]
 
 CMD ["--help"]

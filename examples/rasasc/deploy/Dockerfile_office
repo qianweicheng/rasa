@@ -1,0 +1,12 @@
+FROM rasa/rasa
+
+VOLUME ["/app"]
+WORKDIR /app
+
+COPY ./ ./
+
+EXPOSE 5005
+
+ENTRYPOINT ["rasa"]
+CMD ['run', '--enable-api', '--endpoint', 'endpoints.yml', '--credentials', 'credentials.yml']
+# CMD ["--help"]
