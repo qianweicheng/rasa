@@ -1,3 +1,8 @@
+# Deploy Step
+- pull code
+- pip requirements.txt and keras
+- train
+- run
 ## Install
 ```
 # git clone https://github.com/RasaHQ/rasa.git  
@@ -26,23 +31,14 @@ python -m spacy download en_core_web_lg
 ## Test
 1. Case1
 ```
-/webhooks/rest/webhook
-{
-    "message": "Please delete my account."
-}
+/webhooks/rest/webhook {"message": "Please delete my account."}
 ```
 2. Case2
 ```
-/model/parse 
-{"text": "hello"}
+/model/parse {"text": "hello"}
 ```
 3. Case3
 ```
-/model/answer
-{
-    "text":"Please delete my account."
-}
-{
-    "text":"What is Edison Privacy Policy for the Email app?"
-}
+/model/answer {"text":"Please delete my account."} 
+/model/answer {"text":"What is Edison Privacy Policy for the Email app?"}
 ```
