@@ -10,7 +10,8 @@ import asyncio
 
 
 if __name__ == "__main__":
-    os.chdir('/Users/lidayuan/Documents/edison/nlu/rasa/examples/EdisonCustomService')
+    os.chdir(os.getcwd())
+    # os.chdir('/Users/lidayuan/Documents/edison/nlu/rasa/examples/EdisonCustomService')
     rasa.train(domain='domain.yml', config='config.yml', training_files='./data')
     # rasa.run(model="models", endpoints="endpoints.yml")
     # loop = asyncio.get_event_loop()
