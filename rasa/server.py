@@ -1,11 +1,12 @@
 import logging
+import multiprocessing
 import os
 import tempfile
 import traceback
+import typing
 from functools import wraps, reduce
 from inspect import isawaitable
 from typing import Any, Callable, List, Optional, Text, Union
-from ssl import SSLContext
 
 from sanic import Sanic, response
 from sanic.request import Request
@@ -13,10 +14,12 @@ from sanic_cors import CORS
 from sanic_jwt import Initialize, exceptions
 
 import rasa
-import rasa.core.brokers.utils as broker_utils
+import rasa.core.brokers.utils
+import rasa.core.utils
 import rasa.utils.common
 import rasa.utils.endpoints
 import rasa.utils.io
+from rasa import model
 from rasa.constants import (
     MINIMUM_COMPATIBLE_VERSION,
     DEFAULT_MODELS_PATH,
@@ -35,11 +38,13 @@ from rasa.core.lock_store import LockStore
 from rasa.core.test import test
 from rasa.core.tracker_store import TrackerStore
 from rasa.core.trackers import DialogueStateTracker, EventVerbosity
-from rasa.core.utils import dump_obj_as_str_to_file, AvailableEndpoints
-from rasa.model import get_model_subdirectories, fingerprint_from_path
+from rasa.core.utils import AvailableEndpoints
 from rasa.nlu.emulators.no_emulator import NoEmulator
 from rasa.nlu.test import run_evaluation
 from rasa.utils.endpoints import EndpointConfig
+
+if typing.TYPE_CHECKING:
+    from ssl import SSLContext
 
 logger = logging.getLogger(__name__)
 
@@ -223,14 +228,28 @@ async def authenticate(request: Request):
 def create_ssl_context(
     ssl_certificate: Optional[Text],
     ssl_keyfile: Optional[Text],
-    ssl_password: Optional[Text],
-) -> Optional[SSLContext]:
-    """Create a SSL context (for the sanic server) if a proper certificate is passed."""
+    ssl_ca_file: Optional[Text] = None,
+    ssl_password: Optional[Text] = None,
+) -> Optional["SSLContext"]:
+    """Create an SSL context if a proper certificate is passed.
+
+    Args:
+        ssl_certificate: path to the SSL client certificate
+        ssl_keyfile: path to the SSL key file
+        ssl_ca_file: path to the SSL CA file for verification (optional)
+        ssl_password: SSL private key password (optional)
+
+    Returns:
+        SSL context if a valid certificate chain can be loaded, `None` otherwise.
+
+    """
 
     if ssl_certificate:
         import ssl
 
-        ssl_context = ssl.create_default_context(purpose=ssl.Purpose.CLIENT_AUTH)
+        ssl_context = ssl.create_default_context(
+            purpose=ssl.Purpose.CLIENT_AUTH, cafile=ssl_ca_file
+        )
         ssl_context.load_cert_chain(
             ssl_certificate, keyfile=ssl_keyfile, password=ssl_password
         )
@@ -280,7 +299,9 @@ async def _load_agent(
         action_endpoint = None
 
         if endpoints:
-            _broker = broker_utils.from_endpoint_config(endpoints.event_broker)
+            _broker = rasa.core.brokers.utils.from_endpoint_config(
+                endpoints.event_broker
+            )
             tracker_store = TrackerStore.find_tracker_store(
                 None, endpoints.tracker_store, _broker
             )
@@ -315,6 +336,21 @@ async def _load_agent(
     return loaded_agent
 
 
+def configure_cors(
+    app: Sanic, cors_origins: Union[Text, List[Text], None] = ""
+) -> None:
+    """Configure CORS origins for the given app."""
+
+    # Workaround so that socketio works with requests from other origins.
+    # https://github.com/miguelgrinberg/python-socketio/issues/205#issuecomment-493769183
+    app.config.CORS_AUTOMATIC_OPTIONS = True
+    app.config.CORS_SUPPORTS_CREDENTIALS = True
+
+    CORS(
+        app, resources={r"/*": {"origins": cors_origins or ""}}, automatic_options=True
+    )
+
+
 def add_root_route(app: Sanic):
     @app.get("/")
     async def hello(request: Request):
@@ -324,7 +360,7 @@ def add_root_route(app: Sanic):
 
 def create_app(
     agent: Optional["Agent"] = None,
-    cors_origins: Union[Text, List[Text]] = "*",
+    cors_origins: Union[Text, List[Text], None] = "*",
     auth_token: Optional[Text] = None,
     jwt_secret: Optional[Text] = None,
     jwt_method: Text = "HS256",
@@ -334,14 +370,7 @@ def create_app(
 
     app = Sanic(__name__)
     app.config.RESPONSE_TIMEOUT = 60 * 60
-    # Workaround so that socketio works with requests from other origins.
-    # https://github.com/miguelgrinberg/python-socketio/issues/205#issuecomment-493769183
-    app.config.CORS_AUTOMATIC_OPTIONS = True
-    app.config.CORS_SUPPORTS_CREDENTIALS = True
-
-    CORS(
-        app, resources={r"/*": {"origins": cors_origins or ""}}, automatic_options=True
-    )
+    configure_cors(app, cors_origins)
 
     # Setup the Sanic-JWT extension
     if jwt_secret and jwt_method:
@@ -358,6 +387,9 @@ def create_app(
         )
 
     app.agent = agent
+    # Initialize shared object of type unsigned int for tracking
+    # the number of active training processes
+    app.active_training_processes = multiprocessing.Value("I", 0)
 
     @app.exception(ErrorResponse)
     async def handle_error_response(request: Request, exception: ErrorResponse):
@@ -384,8 +416,9 @@ def create_app(
 
         return response.json(
             {
-                "model_file": app.agent.model_directory,
-                "fingerprint": fingerprint_from_path(app.agent.model_directory),
+                "model_file": model.get_latest_model(),
+                "fingerprint": model.fingerprint_from_path(app.agent.model_directory),
+                "num_active_training_jobs": app.active_training_processes.value,
             }
         )
 
@@ -650,27 +683,36 @@ def create_app(
         temp_dir = tempfile.mkdtemp()
 
         config_path = os.path.join(temp_dir, "config.yml")
-        dump_obj_as_str_to_file(config_path, rjs["config"])
+
+        rasa.utils.io.write_text_file(rjs["config"], config_path)
 
         if "nlu" in rjs:
             nlu_path = os.path.join(temp_dir, "nlu.md")
-            dump_obj_as_str_to_file(nlu_path, rjs["nlu"])
+            rasa.utils.io.write_text_file(rjs["nlu"], nlu_path)
 
         if "stories" in rjs:
             stories_path = os.path.join(temp_dir, "stories.md")
-            dump_obj_as_str_to_file(stories_path, rjs["stories"])
+            rasa.utils.io.write_text_file(rjs["stories"], stories_path)
 
         domain_path = DEFAULT_DOMAIN_PATH
         if "domain" in rjs:
             domain_path = os.path.join(temp_dir, "domain.yml")
-            dump_obj_as_str_to_file(domain_path, rjs["domain"])
+            rasa.utils.io.write_text_file(rjs["domain"], domain_path)
+
+        if rjs.get("save_to_default_model_directory", True) is True:
+            model_output_directory = DEFAULT_MODELS_PATH
+        else:
+            model_output_directory = tempfile.gettempdir()
 
         try:
+            with app.active_training_processes.get_lock():
+                app.active_training_processes.value += 1
+
             model_path = await train_async(
                 domain=domain_path,
                 config=config_path,
                 training_files=temp_dir,
-                output_path=rjs.get("out", DEFAULT_MODELS_PATH),
+                output_path=model_output_directory,
                 force_training=rjs.get("force", False),
             )
 
@@ -692,6 +734,9 @@ def create_app(
                 "TrainingError",
                 "An unexpected error occurred during training. Error: {}".format(e),
             )
+        finally:
+            with app.active_training_processes.get_lock():
+                app.active_training_processes.value -= 1
 
     def validate_request(rjs):
         if "config" not in rjs:
@@ -773,7 +818,7 @@ def create_app(
             raise ErrorResponse(409, "Conflict", "Loaded model file not found.")
 
         model_directory = eval_agent.model_directory
-        _, nlu_model = get_model_subdirectories(model_directory)
+        _, nlu_model = model.get_model_subdirectories(model_directory)
 
         try:
             evaluation = run_evaluation(data_path, nlu_model)

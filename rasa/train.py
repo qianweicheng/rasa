@@ -26,9 +26,13 @@ def train(
     output: Text = DEFAULT_MODELS_PATH,
     force_training: bool = False,
     fixed_model_name: Optional[Text] = None,
+    persist_nlu_training_data: bool = False,
     kwargs: Optional[Dict] = None,
+    loop: Optional[asyncio.AbstractEventLoop] = None,
 ) -> Optional[Text]:
-    loop = asyncio.get_event_loop()
+    if loop is None:
+        loop = asyncio.get_event_loop()
+
     return loop.run_until_complete(
         train_async(
             domain=domain,
@@ -37,6 +41,7 @@ def train(
             output_path=output,
             force_training=force_training,
             fixed_model_name=fixed_model_name,
+            persist_nlu_training_data=persist_nlu_training_data,
             kwargs=kwargs,
         )
     )
@@ -61,6 +66,8 @@ async def train_async(
         output_path: Output path.
         force_training: If `True` retrain model even if data has not changed.
         fixed_model_name: Name of model to be stored.
+        persist_nlu_training_data: `True` if the NLU training data should be persisted
+                                   with the model.
         kwargs: Additional training parameters.
 
     Returns:
@@ -115,13 +122,12 @@ async def _train_async_internal(
     """Trains a Rasa model (Core and NLU). Use only from `train_async`.
 
     Args:
-        domain: Path to the domain file.
-        config: Path to the config for Core and NLU.
+        file_importer: `TrainingDataImporter` which supplies the training data.
         train_path: Directory in which to train the model.
-        nlu_data_directory: Path to NLU training files.
-        story_directory: Path to Core training files.
         output_path: Output path.
         force_training: If `True` retrain model even if data has not changed.
+        persist_nlu_training_data: `True` if the NLU training data should be persisted
+                                   with the model.
         fixed_model_name: Name of model to be stored.
         kwargs: Additional training parameters.
 
@@ -361,6 +367,7 @@ def train_nlu(
     output: Text,
     train_path: Optional[Text] = None,
     fixed_model_name: Optional[Text] = None,
+    persist_nlu_training_data: bool = False,
 ) -> Optional[Text]:
     """Trains an NLU model.
 
@@ -371,7 +378,9 @@ def train_nlu(
         train_path: If `None` the model will be trained in a temporary
             directory, otherwise in the provided directory.
         fixed_model_name: Name of the model to be stored.
-        uncompress: If `True` the model will not be compressed.
+        persist_nlu_training_data: `True` if the NLU training data should be persisted
+                                   with the model.
+
 
     Returns:
         If `train_path` is given it returns the path to the model archive,
@@ -381,7 +390,14 @@ def train_nlu(
 
     loop = asyncio.get_event_loop()
     return loop.run_until_complete(
-        _train_nlu_async(config, nlu_data, output, train_path, fixed_model_name)
+        _train_nlu_async(
+            config,
+            nlu_data,
+            output,
+            train_path,
+            fixed_model_name,
+            persist_nlu_training_data,
+        )
     )
 
 

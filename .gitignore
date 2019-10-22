@@ -82,3 +82,7 @@ pip-wheel-metadata/*
 events.db
 rasa.db
 tracker.db
+*.swp
+*.coverage*
+env
+venv
