@@ -21,6 +21,7 @@ from rasa.nlu.constants import (
     MESSAGE_ATTRIBUTES,
     MESSAGE_SPACY_FEATURES_NAMES,
     MESSAGE_VECTOR_FEATURE_NAMES,
+    SPACY_FEATURIZABLE_ATTRIBUTES,
 )
 
 
@@ -223,17 +224,25 @@ class CountVectorsFeaturizer(Featurizer):
 
         tokens = self._get_message_tokens_by_attribute(message, attribute)
 
-        text = self.process_text(tokens)
+        text = self._process_text(tokens, attribute)
 
         text = self._replace_with_oov_token(text, attribute)
 
         return text
 
-    def process_text(self, tokens: List[Text]) -> Text:
-        """Apply an processing, cleaning steps to text"""
+    def _process_text(
+        self, tokens: List[Text], attribute: Text = MESSAGE_TEXT_ATTRIBUTE
+    ) -> Text:
+        """Apply processing and cleaning steps to text"""
+
+        text = " ".join(tokens)
+
+        if attribute == MESSAGE_INTENT_ATTRIBUTE:
+            # Don't do any processing for intent attribute. Treat them as whole labels
+            return text
 
         # replace all digits with NUMBER token
-        text = re.sub(r"\b[0-9]+\b", "__NUMBER__", " ".join(tokens))
+        text = re.sub(r"\b[0-9]+\b", "__NUMBER__", text)
 
         # convert to lowercase if necessary
         if self.lowercase:
@@ -269,7 +278,7 @@ class CountVectorsFeaturizer(Featurizer):
     ) -> List[Text]:
         """Get text tokens of an attribute of a message"""
 
-        if message.get(
+        if attribute in SPACY_FEATURIZABLE_ATTRIBUTES and message.get(
             MESSAGE_SPACY_FEATURES_NAMES[attribute]
         ):  # if lemmatize is possible
             tokens = [
@@ -433,6 +442,10 @@ class CountVectorsFeaturizer(Featurizer):
                 "Unable to train a shared CountVectorizer. Leaving an untrained CountVectorizer"
             )
 
+    @staticmethod
+    def _attribute_texts_is_non_empty(attribute_texts):
+        return any(attribute_texts)
+
     def _train_with_independent_vocab(self, attribute_texts: Dict[Text, List[Text]]):
         """Construct the vectorizers and train them with an independent vocab"""
 
@@ -449,13 +462,18 @@ class CountVectorsFeaturizer(Featurizer):
         )
 
         for attribute in MESSAGE_ATTRIBUTES:
-
-            try:
-                self.vectorizers[attribute].fit(attribute_texts[attribute])
-            except ValueError:
-                logger.warning(
-                    "Unable to train CountVectorizer for message attribute {}. "
-                    "Leaving an untrained CountVectorizer for it".format(attribute)
+            if self._attribute_texts_is_non_empty(attribute_texts[attribute]):
+                try:
+                    self.vectorizers[attribute].fit(attribute_texts[attribute])
+                except ValueError:
+                    logger.warning(
+                        "Unable to train CountVectorizer for message attribute {}. "
+                        "Leaving an untrained CountVectorizer for it".format(attribute)
+                    )
+            else:
+                logger.debug(
+                    "No text provided for {} attribute in any messages of training data. Skipping "
+                    "training a CountVectorizer for it.".format(attribute)
                 )
 
     def _get_featurized_attribute(
@@ -575,7 +593,7 @@ class CountVectorsFeaturizer(Featurizer):
         model_dir: Text = None,
         model_metadata: Metadata = None,
         cached_component: Optional["CountVectorsFeaturizer"] = None,
-        **kwargs: Any
+        **kwargs: Any,
     ) -> "CountVectorsFeaturizer":
 
         file_name = meta.get("file")

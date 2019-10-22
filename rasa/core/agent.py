@@ -11,7 +11,8 @@ from sanic import Sanic
 
 import rasa
 import rasa.utils.io
-from rasa.constants import DEFAULT_DOMAIN_PATH, LEGACY_DOCS_BASE_URL
+import rasa.core.utils
+from rasa.constants import DEFAULT_DOMAIN_PATH, LEGACY_DOCS_BASE_URL, ENV_SANIC_BACKLOG
 from rasa.core import constants, jobs, training
 from rasa.core.channels.channel import InputChannel, OutputChannel, UserMessage
 from rasa.core.constants import DEFAULT_REQUEST_TIMEOUT
@@ -35,7 +36,7 @@ from rasa.model import (
     get_model,
 )
 from rasa.nlu.utils import is_url
-from rasa.utils.common import update_sanic_log_level, set_log_level
+from rasa.utils.common import update_sanic_log_level
 from rasa.utils.endpoints import EndpointConfig
 
 logger = logging.getLogger(__name__)
@@ -132,7 +133,6 @@ async def _pull_model_and_fingerprint(
 
     async with model_server.session() as session:
         try:
-            set_log_level()
             params = model_server.combine_parameters()
             async with session.request(
                 "GET",
@@ -444,7 +444,7 @@ class Agent(object):
         self,
         message: UserMessage,
         message_preprocessor: Optional[Callable[[Text], Text]] = None,
-        **kwargs
+        **kwargs,
     ) -> Optional[List[Dict[Text, Any]]]:
         """Handle a single message."""
 
@@ -482,7 +482,7 @@ class Agent(object):
         self,
         message: UserMessage,
         message_preprocessor: Optional[Callable[[Text], Text]] = None,
-        **kwargs: Any
+        **kwargs: Any,
     ) -> DialogueStateTracker:
         """Append a message to a dialogue - does not predict actions."""
 
@@ -692,7 +692,7 @@ class Agent(object):
         channels: List[InputChannel],
         http_port: int = constants.DEFAULT_SERVER_PORT,
         route: Text = "/webhooks/",
-        cors=None,
+        cors: Union[Text, List[Text], None] = None,
     ) -> Sanic:
         """Start a webserver attaching the input channels and handling msgs."""
 
@@ -711,7 +711,12 @@ class Agent(object):
 
         update_sanic_log_level()
 
-        app.run(host="0.0.0.0", port=http_port)
+        app.run(
+            host="0.0.0.0",
+            port=http_port,
+            backlog=int(os.environ.get(ENV_SANIC_BACKLOG, "100")),
+            workers=rasa.core.utils.number_of_sanic_workers(self.lock_store),
+        )
 
         # this might seem unnecessary (as run does not return until the server
         # is killed) - but we use it for tests where we mock `.run` to directly
