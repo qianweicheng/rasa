@@ -18,3 +18,7 @@ python -m spacy download en_core_web_lg
 
 PYTHONPATH="`pwd`:../..";rasa train
 PYTHONPATH="`pwd`:../..";rasa shell
+
+create file 
+execute
+copy file
