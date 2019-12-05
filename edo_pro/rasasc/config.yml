@@ -6,7 +6,7 @@ pipeline: supervised_embeddings
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-  - name: "examples.rasasc.policy.EdisonPolicy"
+  - name: "policy.EdisonPolicy"
     epochs: 200
     batch_size: 50
     max_training_samples: 300
