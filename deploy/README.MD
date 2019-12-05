@@ -1,6 +1,7 @@
-# Deploy Step
+# Deploy
+## Steps
 - pull code
-- pip requirements.txt and keras
+- prepare third libraries
 - train
 - run
 ## Install
@@ -8,7 +9,9 @@
 # git clone https://github.com/RasaHQ/rasa.git  
 git clone git@github.com:qianweicheng/rasa.git
 cd rasa
-pip install -r requirements.txt  
+virtualenv -p python3 venv
+pip install -r requirements.txt
+# install rasa as ediable，把rasa安装到site-packages里面作为rasa.egg-link(其实就是一个快捷方式)
 pip install -e .
 # Optional
 pip install rasa[spacy]  
@@ -19,25 +22,29 @@ python -m spacy download en_core_web_lg
 ## 运行
 两种方式运行
 - 在PyCharm中
-    注意设置`Add Content Root to PYTHONPATH`
-- 命令行中
-    训练: `PYTHONPATH="$(pwd):../..";rasa train` 
-    运行: `PYTHONPATH="$(pwd):../..";rasa shell`
-- 命令行中2
-    修改代码`examples.rasasc.__main__.py`, 然后`python -m examples.rasasc`
-    修改代码`examples.rasasc.__main__.py`, 然后`python -m examples.rasasc`
+    由于PyCharm默认会`Add Content Root to PYTHONPATH`，所以直接运行就OK
+- 命令行中(如果当前目录在examples/rasasc)
+    - 使用了`pip install -e . `，所以可以直接运行  
+    `rasa train; rasa shell`
+    - 否则需要添加rasa到PYTHONPATH
+    ```
+    PYTHONPATH="$PYTHONPATH:../..";rasa train
+    PYTHONPATH="$PYTHONPATH:../..";rasa shell
+    ```
+- 命令行中(在根目录下)
+    `python -m examples.rasasc`
 ## BUG 
 在`which rasa`对应的lib/python3.7/site-packages中有个example包, 删除之
 ## Test
-1. Case1
+- Case1
 ```
 /webhooks/rest/webhook {"message": "Please delete my account."}
 ```
-2. Case2
+- Case2
 ```
 /model/parse {"text": "hello"}
 ```
-3. Case3
+- Case3
 ```
 /model/answer {"text":"Please delete my account."} 
 /model/answer {"text":"What is Edison Privacy Policy for the Email app?"}

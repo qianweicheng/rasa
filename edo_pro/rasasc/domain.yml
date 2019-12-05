@@ -1,1123 +1,849 @@
-entities:
-  - city
-  - order_num
-slots:
-  city:
-    type: text
-    initial_value: "city"
-  location:
-    type: text
-  account_type:
-    type: categorical
-    values:
-    - premium
-    - basic
-  order_num:
-    type: text
-
 intents:
-  - cancel_subscription
-  - cancel_order
-  - delete_account
-  - add_microsoft_attachment
-  - apple_watch_app
-  - enable_imessage_app
-  - support_exchange_features
-  - versions_ews_support
-  - whatis_ews_server
-  - change_account_pwd
-  - save_message_draft
-  - remove_app
-  - zero_inbox
-  - diff_easilydo_and_email
-  - diff_easilydo_and_macmail
-  - account_types
-  - sign_beta_testing
-  - for3d_touch_action
-  - select_multiple_message
-  - delete_self_messages_permantently
-  - personal_folders
-  - when_support_exchange
-  - how_remove_email_account
-  - why_email_free
-  - ios_support_version
-  - mail_providers_support
-  - set_up_gmail_account
-  - set_up_gmail_alias
-  - set_up_icloud_account
-  - set_up_yahoo_account
-  - set_up_outlook_account
-  - set_up_aol_account
-  - set_up_other_account
-  - view_just_one_account
-  - draft_and_send_mail
-  - add_attachments_to_emails
-  - add_images_to_emails
-  - reply_to_email
-  - forword_email
-  - difference_between_archive_and_delete
-  - how_archive_email
-  - how_delete_email
-  - green_shield_with_checkmark
-  - how_change_folders_list
-  - what_is_snooze
-  - what_are_my_snooze_options
-  - how_add_description_to_account
-  - how_always_bcc_myself
-  - how_change_notification_action
-  - how_create_signature
-  - how_change_swipe_options
-  - how_change_default_browser
-  - how_change_undo_time_window
-  - change_lines_number_in_preview
-  - change_default_address
-  - change_folder_list
-  - how_change_classified_important
-  - how_turn_off_badge_count
-  - how_disable_or_enable_backgroud_app_refresh
-  - why_not_receiving_notifications
-  - how_customize_assistant_view
-  - email_missed_by_assistant_add
-  - remove_a_assistant_folder_card
-  - what_are_assistant_folders
-  - what_is_subscrption_folder
-  - what_is_travel_folder
-  - what_is_packages_folder
-  - what_is_bills_folder
-  - what_is_the_entertainment_folder
-  - what_is_privacy_policy
-  - what_are_terms_and_conditions
-  - is_email_secure
-  - mood_happy
-  - ask_weather
-  - change_profile_picture
-  - add_profile_picture
-  - no_contents
-  - appreciates
-  - access_contact_lists
-  - add_my_email
-  - cancel_subscription_order
-  - how_delete_all_email
-  - sort_email
-  - change_language
-  - add_picture
-  - save_picture
-  - account_locked
-  - update_err
-  - want_ipad_version
-  - cannot_track_packages
-  - unsubscribe_email
-  - cannot_sign_in
-  - donot_work
-  - it_work
-  - slow_crash
-  - cannot_update
-  - badge_icon
-  - delete_attachment
-  - need_widget
-  - how_much_costs
-  - how_save_attachment
-  - delete_from_trash
-  - how_sign_out
-  - how_print
-  - connect_error
-  - link_calendar
-  - exchange_error
-  - where_save_attachments
-  - add_multi_accounts
-  - like_it
-  - dislike_it
-  - get_receipt_copy
-  - reset_pwd
-  - need_desktop
-  - delete_from_spam
-  - sync_email
-  - email_block
-  - need_calendar
-  - swipe_flag
-  - vibration_notification
-  - need_mark_as_spam
-  - add_assistant_folder
-  - how_flag_email
-  - flag_error
-  - update_info
-  - delete_email_error
-  - unread_num_error
-  - cannot_open_pdf_attachment
-  - send_pic_error
-  - retrieve_some_action
-  - need_dark_theme
-  - html_signature
-  - need_office365
-  - gmail_labels
-  - push_mail
-  - send_attachment
-  - alert_error
-  - notification_disappear
-  - zoomin_zoomout
-  - badge_error
-  - support_pop
-  - swiss_aapstore
-  - need_junk_folder
-  - message_instead_thread
-  - attach_from_cloud_driver
-  - add_touch_id
-  - send_error
-  - swipe_swipe_err_to_inbox
-  - frequency_crash
-  - attach_video
-  - open_attachment_error
-  - disable_image_auto_download
-  - need_exchange_and_office365
-  - brazilian_app_store
-  - too_many_receipts_selection
-  - out_box_connection_err
-  - appreciate_multi_accounts
-  - travel_message_err
-  - block_email_address
-  - assistant_err
-  - mark_read_error
-  - sync_completed
-  - show_all_accounts_email
-  - inbox_never_show_up
-  - need_for_iwatch_aciton
-  - view_focus
-  - font_size_change
-  - unscribe_spam
-  - delete_account_appear_again
-  - cannot_access_folder
-  - badge_count_error
-  - swipe_archive_as_read
-  - mark_all_as_read
-  - shake_to_undo
-  - delete_error
-  - notification_sound
-  - snooze_error
-  - need_hotmail
-  - picture_show_error
-  - reply_crash
-  - icloud_error
-  - how_to_subscribe_sth
-  - hyperlink_error
-  - need_report_spam
-  - where_is_archive
-  - different_colors_for_accounts
-  - stuck_in_outbox
-  - turn_off_conversation
-  - log_out
-  - add_conversation_view_error
-  - take_off_package_notification
-  - contacts_manager
-  - undo_subscribe
-  - turn_off_thread
-  - default_web_browser
-  - about_sent_folder
-  - search_in_box
-  - unblock_email
-  - need_pwd
-  - create_folder
-  - add_subscription_error
-  - empty_trash
-  - receiving_error
-  - uninstall_app
-  - need_android_version
-  - weather_city
-
-actions:
-  - utter_cancel_subscription
-  - utter_cancel_order
-  - utter_delete_account
-  - utter_add_microsoft_attachment
-  - utter_apple_watch_app
-  - utter_enable_imessage_app
-  - utter_support_exchange_features
-  - utter_versions_ews_support
-  - utter_whatis_ews_server
-  - utter_change_account_pwd
-  - utter_save_message_draft
-  - utter_remove_app
-  - utter_zero_inbox
-  - utter_diff_easilydo_and_email
-  - utter_diff_easilydo_and_macmail
-  - utter_account_types
-  - utter_sign_beta_testing
-  - utter_for3d_touch_action
-  - utter_select_multiple_message
-  - utter_delete_self_messages_permantently
-  - utter_personal_folders
-  - utter_when_support_exchange
-  - utter_how_remove_email_account
-  - utter_why_email_free
-  - utter_ios_support_version
-  - utter_mail_providers_support
-  - utter_set_up_gmail_account
-  - utter_set_up_gmail_alias
-  - utter_set_up_icloud_account
-  - utter_set_up_yahoo_account
-  - utter_set_up_outlook_account
-  - utter_set_up_aol_account
-  - utter_set_up_other_account
-  - utter_view_just_one_account
-  - utter_draft_and_send_mail
-  - utter_add_attachments_to_emails
-  - utter_add_images_to_emails
-  - utter_reply_to_email
-  - utter_forword_email
-  - utter_difference_between_archive_and_delete
-  - utter_how_archive_email
-  - utter_how_delete_email
-  - utter_green_shield_with_checkmark
-  - utter_how_change_folders_list
-  - utter_what_is_snooze
-  - utter_what_are_my_snooze_options
-  - utter_how_add_description_to_account
-  - utter_how_always_bcc_myself
-  - utter_how_change_notification_action
-  - utter_how_create_signature
-  - utter_how_change_swipe_options
-  - utter_how_change_default_browser
-  - utter_how_change_undo_time_window
-  - utter_change_lines_number_in_preview
-  - utter_change_default_address
-  - utter_change_folder_list
-  - utter_how_change_classified_important
-  - utter_how_turn_off_badge_count
-  - utter_how_disable_or_enable_backgroud_app_refresh
-  - utter_why_not_receiving_notifications
-  - utter_how_customize_assistant_view
-  - utter_email_missed_by_assistant_add
-  - utter_remove_a_assistant_folder_card
-  - utter_what_are_assistant_folders
-  - utter_what_is_subscrption_folder
-  - utter_what_is_travel_folder
-  - utter_what_is_packages_folder
-  - utter_what_is_bills_folder
-  - utter_what_is_the_entertainment_folder
-  - utter_what_is_privacy_policy
-  - utter_what_are_terms_and_conditions
-  - utter_is_email_secure
-  - utter_mood_happy
-  - action_ask_weather
-  - utter_change_profile_picture
-  - utter_add_profile_picture
-  - utter_no_contents
-  - utter_appreciates
-  - utter_access_contact_lists
-  - utter_add_my_email
-  - utter_cancel_subscription_order
-  - utter_how_delete_all_email
-  - utter_sort_email
-  - utter_change_language
-  - utter_add_picture
-  - utter_save_picture
-  - utter_account_locked
-  - utter_update_err
-  - utter_want_ipad_version
-  - utter_cannot_track_packages
-  - utter_unsubscribe_email
-  - utter_cannot_sign_in
-  - utter_donot_work
-  - utter_it_work
-  - utter_slow_crash
-  - utter_cannot_update
-  - utter_badge_icon
-  - utter_delete_attachment
-  - utter_need_widget
-  - utter_how_much_costs
-  - utter_how_save_attachment
-  - utter_delete_from_trash
-  - utter_how_print
-  - utter_connect_error
-  - utter_link_calendar
-  - utter_exchange_error
-  - utter_where_save_attachments
-  - utter_add_multi_accounts
-  - utter_like_it
-  - utter_dislike_it
-  - utter_get_receipt_copy
-  - utter_need_android_version
-  - utter_reset_pwd
-  - utter_need_desktop
-  - utter_delete_from_spam
-  - utter_sync_email
-  - utter_email_block
-  - utter_need_calendar
-  - utter_swipe_flag
-  - utter_vibration_notification
-  - utter_need_mark_as_spam
-  - utter_add_assistant_folder
-  - utter_how_flag_email
-  - utter_flag_error
-  - utter_update_info
-  - utter_delete_email_error
-  - utter_unread_num_error
-  - utter_cannot_open_pdf_attachment
-  - utter_send_pic_error
-  - utter_retrieve_some_action
-  - utter_need_dark_theme
-  - utter_html_signature
-  - utter_need_office365
-  - utter_gmail_labels
-  - utter_push_mail
-  - utter_send_attachment
-  - utter_alert_error
-  - utter_notification_disappear
-  - utter_zoomin_zoomout
-  - utter_badge_error
-  - utter_support_pop
-  - utter_swiss_aapstore
-  - utter_need_junk_folder
-  - utter_message_instead_thread
-  - utter_attach_from_cloud_driver
-  - utter_add_touch_id
-  - utter_send_error
-  - utter_swipe_swipe_err_to_inbox
-  - utter_frequency_crash
-  - utter_attach_video
-  - utter_open_attachment_error
-  - utter_disable_image_auto_download
-  - utter_need_exchange_and_office365
-  - utter_brazilian_app_store
-  - utter_too_many_receipts_selection
-  - utter_out_box_connection_err
-  - utter_appreciate_multi_accounts
-  - utter_travel_message_err
-  - utter_block_email_address
-  - utter_assistant_err
-  - utter_mark_read_error
-  - utter_sync_completed
-  - utter_show_all_accounts_email
-  - utter_inbox_never_show_up
-  - utter_need_for_iwatch_aciton
-  - utter_view_focus
-  - utter_font_size_change
-  - utter_unscribe_spam
-  - utter_delete_account_appear_again
-  - utter_cannot_access_folder
-  - utter_badge_count_error
-  - utter_swipe_archive_as_read
-  - utter_mark_all_as_read
-  - utter_shake_to_undo
-  - utter_delete_error
-  - utter_notification_sound
-  - utter_snooze_error
-  - utter_need_hotmail
-  - utter_picture_show_error
-  - utter_reply_crash
-  - utter_icloud_error
-  - utter_how_to_subscribe_sth
-  - utter_hyperlink_error
-  - utter_need_report_spam
-  - utter_where_is_archive
-  - utter_different_colors_for_accounts
-  - utter_stuck_in_outbox
-  - utter_turn_off_conversation
-  - utter_log_out
-  - utter_add_conversation_view_error
-  - utter_take_off_package_notification
-  - utter_contacts_manager
-  - utter_undo_subscribe
-  - utter_turn_off_thread
-  - utter_default_web_browser
-  - utter_about_sent_folder
-  - utter_search_in_box
-  - utter_unblock_email
-  - utter_need_pwd
-  - utter_how_sign_out
-  - utter_create_folder
-  - utter_add_subscription_error
-  - utter_empty_trash
-  - utter_receiving_error
-  - utter_uninstall_app
-  - utter_weather_good
+- never_received_package
+- search_in_box
+- where_email
+- mood_great
+- did_not_order
+- mood_unhappy
+- retrieve_archive_delete
+- cannot_track_packages
+- email_block
+- not_getting_mail
+- withdraw_consent
+- sent_edison_mail
+- goodbye
+- environment_staging_release
+- criticise
+- gratitude
+- bot_challenge
+- deny
+- snooze_problem
+- no_content
+- change_password
+- delete_account
+- praise
+- frequency_crash
+- unsubscribe_mail
+- support_exchange_features
+- sign_out_problem
+- test
+- want_ipad_version
+- mark_as_spam
+- account_offline
+- cancel_subscription_account
+- greet
+- mark_all_read
+- affirm
+- no_notification
+- request_help
+- add_firefox_browser
+- apple_watch_app
+- email_not_loading
+- cancel_order
+- change_notification_sound
+- sign_in_problem
+- need_dark_theme
+- not_working
+- save_message_draft
+- account_types
+- like_it
+- why_email_free
+- what_is_bills_folder
+- what_is_packages_folder
+- personal_folders
+- need_desktop
+- is_free
+- how_create_signature
+- how_change_classified_important
+- change_account_pwd
+- green_shield_with_checkmark
+- when_support_exchange
+- how_change_swipe_options
+- how_add_description_to_account
+- set_up_gmail_account
+- reply_to_email
+- select_multiple_message
+- whatis_ews_server
+- change_default_address
+- add_microsoft_attachment
+- versions_ews_support
+- enable_imessage_app
+- how_always_bcc_myself
+- how_change_folders_list
+- set_up_outlook_account
+- why_not_receiving_notifications
+- draft_and_send_mail
+- backgroud_app_refresh
+- how_archive_email
+- mail_providers_support
+- how_change_undo_time_window
+- change_lines_number_in_preview
+- diff_easilydo_and_email
+- set_up_other_account
+- set_up_yahoo_account
+- email_missed_by_assistant_add
+- need_mark_spam
+- setup_gmail_alias
+- add_attachments_to_emails
+- how_turn_off_badge_count
+- elete_account
+- sign_beta_testing
+- diff_easilydo_and_macmail
+- how_change_default_browser
+- for3d_touch_action
+- archive_delete_difference
+- forword_email
+- stuck_in_outbox
+- set_up_icloud_account
+- what_privacy_policy
+- set_up_aol_account
+- zero_inbox
+- how_customize_assistant_view
+- what_is_the_entertainment_folder
+- how_delete_email
+- delete_self_messages_permantently
+- how_change_notification_action
+- ios_support_version
+- remove_app
+- font_size_change
+- add_images_to_emails
+- off_badge_count
+- view_just_one_account
+- view_all_my_email_accounts
+- is_email_secure
+- cancel_easilydo_account
+- set_up_gmail_alias
+- not_receiving_notifications
+- what_is_travel_folder
+- what_are_terms_and_conditions
+- remove_a_assistant_folder_card
+- what_are_assistant_folders
+- how_disable_or_enable_backgroud_app_refresh
+- what_is_snooze
+- change_folder_list
+- what_is_privacy_policy
+- mood_angry
+- cancel_subscription
+- not_working
+- not_getting_mail
+- test
+- where_email
+- account_offline
+- sent_edison_mail
+- mark_all_read
+- praise
+- criticise
+- environment_staging_release
+- sign_out_problem
+- sign_in_problem
+- withdraw_consent
+- account_offline
+- did_not_order
+- change_notification_sound
+- want_ipad_version
+- cannot_track_packages
+- add_firefox_browser
+- email_not_loading
 
 templates:
-  utter_cancel_subscription:
-  - text: "Please cancel my subscription"
-
-  utter_cancel_order:
-  - text: "I'd like to cancel my order."
-
-  utter_delete_account:
-  - text: "Please delete my account."
-
-  utter_add_microsoft_attachment:
-  - text: "Adding attachments from Microsoft Office apps to your message"
-
-  utter_apple_watch_app:
-  - text: "Is there an Apple Watch app for Email?"
-
-  utter_enable_imessage_app:
-  - text: "How do I enable the iMessage app for Email?"
-
-  utter_support_exchange_features:
-  - text: "Does Email support any additional Microsoft Exchange features?"
-
-  utter_versions_ews_support:
-  - text: "Which versions of Microsoft Exchange does Email support?"
-
-  utter_whatis_ews_server:
-  - text: "What is Microsoft Exchange Server, and how does it work with Email?"
-
-  utter_change_account_pwd:
-  - text: "If you wish to change your account password at this time, you'll need to remove your account from Email and then re-add it:
-           1. Tap the menu icon in the top-left corner
-           2. Tap Settings
-           3. Select the email address you wish to remove from the list at the top
-           4. Tap Delete Account and confirm
-           5. From the previous screen, tap Add Account and re-add your email address with your updated password"
-
-  utter_save_message_draft:
-  - text: "How do I save a message as a draft?"
-
-  utter_cancel_easilydo_account:
-  - text: "Some folks are getting confused between our two apps, Email and Assistant. If you've accidentally signed up for an Assistant subscription and wish to have it cancelled, please contact us support@edison.tech and we'd be happy to assist you with this!"
-
-  utter_zero_inbox:
-  - text: "What is Inbox Zero?"
-
-  utter_diff_easilydo_and_email:
-  - text: "What's the difference between the apps EasilyDo, and Email - EasilyDo Mail?"
-
-  utter_diff_easilydo_and_macmail:
-  - text: "What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?"
-
+  utter__apple_watch_app:
+  - text: "While we don't currently have a dedicated Email app for Apple Watch, it's\
+      \ one of the many great ideas we're considering for future releases. ⌚️\n\n\
+      In the meantime, please feel free to utilize Apple Watch notifications by mirroring\
+      \ the alerts from your iPhone. You can do so by following these steps:"
+  utter_account_details:
+  - text: What are your account details?
   utter_account_types:
-  - text: "What type of accounts does Email support?"
-
-  utter_sign_beta_testing:
-  - text:  "How do I sign up for BETA testing of new products?"
-
-  utter_for3d_touch_action:
-  - text: "How do 3D Touch Quick Actions work?"
-
-  utter_select_multiple_message:
-  - text: "How do I select multiple messages at once?"
-
-  utter_delete_self_messages_permantently:
-  - text: "How can I permanently delete my messages?"
-
-  utter_personal_folders:
-  - text: "Where are my personal folders associated with each email account (Yahoo or Gmail folders)?"
-
-  utter_when_support_exchange:
-  - text: "When will you support Exchange accounts?"
-
-  utter_how_remove_email_account:
-  - text: "In order to remove an email account from the app, follow these steps:
-           1. Tap the menu icon
-           2. Tap Settings
-           3. Tap on the account you would like to remove
-           4. Scroll down to the bottom of the page and tap Delete Account"
-
-  utter_why_email_free:
-  - text: "Why is Email free?"
-
-  utter_ios_support_version:
-  - text: "What version of iOS does Email support?"
-
-  utter_mail_providers_support:
-  - text: "Our app provides support for a large number of mail providers. We currently support Gmail, iCloud, Yahoo, AOL, Microsoft Outlook, Microsoft Exchange, Office365, and several other email providers. As of right now, we do not support POP accounts, our apologies!
-           If you have a custom account or type which isn't working (but should according to the information above) please"
-
-  utter_set_up_gmail_account:
-  - text: "How do I set up my Gmail account?"
-
-  utter_set_up_gmail_alias:
-  - text: "Edison Mail has alias support for Gmail, Outlook, and iCloud
-            accounts. An alias is something you have to set up with your email provider before you can add it to the Email app. Because of this, we only allow you to add aliases for accounts that already have thorough support for alias set up on their end. If we don't support your provider now, we may support it (and more) in the future.
-
-           If you're using a Gmail, Outlook, FastMail, or iCloud account, you can access aliases in our app by following these steps:
-           1. Launch Edison Mail.
-           2. Open Settings.
-           3. Tap the account you wish to enable an alias for.
-           4. Tap Add Alias and fill out the required information, then press Save."
-
-  utter_set_up_icloud_account:
-  - text: "How do I set up my iCloud account?"
-
-  utter_set_up_yahoo_account:
-  - text: "How do I set up my Yahoo account?"
-
-  utter_set_up_outlook_account:
-  - text: "How do I set up my Outlook account?"
-
-  utter_set_up_aol_account:
-  - text: "How do I set up my Aol account?"
-
-  utter_set_up_other_account:
-  - text: "How do I set up all other email accounts?"
-
-  view_all_my_email_accounts:
-  - text: "How do I view all my email accounts in one inbox?"
-
-  utter_view_just_one_account:
-  - text: "How do I view just one of my email accounts in the inbox?"
-
-  utter_draft_and_send_mail:
-  - text: "How do I draft and send a new email?"
-
+  - text: The app works with Gmail, iCloud, Yahoo, Outlook, and IMAP accounts on iOS.
+      POP accounts are NOT supported. Built on the world’s best AI technology for
+      mail and tested on over 8 billion messages.
   utter_add_attachments_to_emails:
-  - text: "How do I add attachments to emails?"
-
+  - text: "In order to add attachments to emails, please follow these steps:\n\nBegin\
+      \ drafting your email\nTap the white area underneath \"Subject\"\nTap the paperclip\
+      \ icon\nSelect the place your attachment is located\nSelect the attachment you\
+      \ would like to attach\nIf you have any issues, questions, or suggestions, please\
+      \ do not hesitate to contact our customer support at support@easilydo.com."
   utter_add_images_to_emails:
-  - text: "How do I add images from my phone to emails?"
-
-  utter_reply_to_email:
-  - text: "How do I reply to an email?"
-
-  utter_forword_email:
-  - text: "How do I forward an email?"
-
-  utter_difference_between_archive_and_delete:
-  - text: "Archived emails and deleted emails both disappear from your inbox. Archived emails go into a folder on our app labeled All Archived. Deleted emails Go to a folder labeled All Trash and are permanently deleted after a set time that varies based on the email provider has passed. Deleted emails disappear forever, whereas archived emails do not."
-
-  utter_how_archive_email:
-  - text: "How do I archive an email?"
-
-  utter_how_delete_email:
-  - text: "How do I delete an email?"
-
-  utter_green_shield_with_checkmark:
-  - text: "What is the green shield emblem with a checkmark that appears next to some emails when you open them?"
-
-  utter_how_change_folders_list:
-  - text: "How do I change the folders (mailboxes) listed in my menu?"
-
-  utter_what_is_snooze:
-  - text: "What is Snooze?"
-
-  utter_what_are_my_snooze_options:
-  - text: "What are my Snooze options?"
-
-  utter_how_add_description_to_account:
-  - text: "How do I add a description/nickname to my accounts?"
-
-  utter_how_always_bcc_myself:
-  - text: "How do I always Bcc myself?"
-
-  utter_how_change_notification_action:
-  - text: "How do I change my notification actions?"
-
-  utter_how_create_signature:
-  - text: "How do I create a signature?"
-
-  utter_how_change_swipe_options:
-  - text: "How do I change my swipe options?"
-
-  utter_how_change_default_browser:
-  - text: "How do I change the Default Browser?"
-
-  utter_how_change_undo_time_window:
-  - text: "How do I change the undo time window?"
-
-  utter_change_lines_number_in_preview:
-  - text: "How do I change the number of lines I can preview in a message?"
-
+  - text: "In order to add images to emails, please follow these steps:\n\nBegin drafting\
+      \ your email\nTap the white area underneath \"Subject\"\nTap the icon that looks\
+      \ like a landscape\nSelect the image you would like to attach. The blue and\
+      \ white icon in the bottom left will pull up all the photos in Moments\nIf you\
+      \ have any issues, questions, or suggestions, please do not hesitate to contact\
+      \ our customer support at support@easilydo.com."
+  utter_add_microsoft_attachment:
+  - text: "If you wish to add files from your Microsoft apps to a message you're composing,\
+      \ you can do so by using the OneDrive app from Microsoft.\n\nWe're always evaluating\
+      \ and considering new integrations for future releases. If you have any requests\
+      \ or suggestions, please drop us a line on Twitter!"
+  utter_apologise:
+  - text: We apologise for the inconvenience
+  utter_archive_delete_difference:
+  - text: Archived emails and deleted emails both disappear from your inbox. Archived
+      emails go into a folder on our app labeled 'All Archived'. Deleted emails Go
+      to a folder labeled 'All Trash' and are permanently deleted after a set time
+      that varies based on the email provider has passed. Deleted emails disappear
+      forever, whereas archived emails do not.
+  utter_cancel_easilydo_account:
+  - text: Some folks are getting confused between our two apps, Email and EasilyDo.
+      If you've accidentally signed up for an EasilyDo account and wish to have it
+      cancelled, please contact our support and we'd be happy to assist you with this!
+  utter_cancel_subscription_account:
+  - text: Some folks are getting confused between our two apps, Email and EasilyDo.
+      If you've accidentally signed up for an EasilyDo account and wish to have it
+      cancelled, please contact our support and we'd be happy to assist you with this!
+  utter_change_account_pwd:
+  - text: "If you wish to change your account password at this time, you'll need to\
+      \ remove your account from Email and then re-add it:\n\nTap the list view icon\
+      \ in the top-left corner\nTap \"Settings\"\nSelect the email address you wish\
+      \ to remove from the list at the top\nTap \"Delete Account\" and confirm\nFrom\
+      \ the previous screen, tap \"Add Account\" and re-add your email address with\
+      \ your updated password\nWhile updating your account passwords isn't easier\
+      \ at the moment, we hope to simplify this process in the future."
   utter_change_default_address:
-  - text: "How do I change my Default Address?"
-
+  - text: "Your default address is the email address which Email automatically enters\
+      \ as the sender when you draft an email. You can change your default address\
+      \ by following these steps:\n\nTap the menu icon in the top left\nTap the \"\
+      Settings\" button in the bottom left\nTap \"Default Address\"\nSelect the address\
+      \ you would like to use as your default\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com. "
   utter_change_folder_list:
-  - text: "How do I change the folders (mailboxes) listed in my menu?"
-
-  utter_how_change_classified_important:
-  - text: "How do I change what emails are classified as 'Important'?"
-
-  utter_how_turn_off_badge_count:
-  - text: "https://mailsupport.edison.tech/hc/en-us/articles/115000609843-How-do-I-turn-off-or-turn-on-the-badge-count-"
-
-  utter_how_disable_or_enable_backgroud_app_refresh:
-  - text: "The Email app relies on background refresh to function as intended. However, should you wish to disable it (i.e. for potential battery improvements) please follow these steps:
-           1. Tap the iOS Settings icon
-           2. Tap General
-           3. Tap Background App Refresh
-           4. Scroll down to Email and either disable or enable (it should be on by default)"
-
-  utter_why_not_receiving_notifications:
-  - text: "f you aren't receiving notifications, please follow these steps to resolve your issue:
-
-           iOS Users:
-           1. Open the Settings app
-           2. Tap 'Notifications'
-           3. Scroll down and tap on 'Email'
-           4. Ensure that you have 'Allow Notifications' enabled
-           5. Go back to the home screen of your Settings app
-           6. Tap on 'General'
-           7. Tap on 'Background App Refresh'
-           8. Ensure that it is enabled for 'Email'
-           9. Close the Settings app and open the Edison Mail app
-           10. Tap the menu icon in the top left
-           11. Tap the 'Settings button in the bottom left
-           12. Tap 'Notifications'
-           13. Ensure that you have the notifications you would like to receive enabled.
-           14. You can also change the notification sound by clicking on 'Notification Sound'
-
-           Android Users:
-           It's possible you have a battery saving feature/mode enabled on your
-           device which may be inhibiting these notifications. You can read more
-           about these features here and here. If you've verified that these aren't enabled on your device, please check to make sure you have the Google services framework installed.
-
-           If you've followed the instructions above and still aren't receiving notifications, please let us know and we'd be happy to take a closer look.
-
-           Important note: Due to technical limitations of how our app  is setup, you won't receive notifications for messages which get filtered into folders by way of server-side rules or third party services. We apologize for any inconvenience this may cause!"
-
-  utter_how_customize_assistant_view:
-  - text: "How do I customize the Assistant view?"
-
+  - text: "1. Tap on the menu (hamburger icon) in the top left.\n2. Once on the Menu,\
+      \ tap the 'Edit List' button at the bottom of the screen.\n3. The screen will\
+      \ switch to editing mode. You can now select the folders you would like to appear.\
+      \ To add a folder from a specific account, select 'Add Mailbox...' and navigate\
+      \ to the desired folder. "
+  utter_change_lines_number_in_preview:
+  - text: "In order to change the number of preview lines, please follow these steps:\n\
+      \nTap the menu icon in the top left\nTap the \"Settings\" button in the bottom\
+      \ left\nTap the \"Preview Lines\" button\nSelect the number of lines you would\
+      \ like to preview\nIf you have any issues, questions, or suggestions, please\
+      \ do not hesitate to contact our customer support at support@easilydo.com. "
+  utter_change_password:
+  - text: "If you wish to change your email account password(s), this is something\
+      \ only your email provider can help you with (i.e. Gmail, iCloud, Yahoo, \n\
+      etc). Below, we've created a list of FAQ articles for how to change your password\
+      \ on popular email providers. If you've forgotten your password, or believe\
+      \ your account has been compromised, please contact your provider's customer\
+      \ support for assistance in recovering your account."
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_cooldown:
+  - text: Yo chill bro!
+  utter_dark_theme:
+  - text: We will support Dark mode when iOS 13 is publicly released.
+  utter_delete_self_messages_permantently:
+  - text: "When you delete a message from your Inbox, it is sent to a \"Trash\" folder\
+      \ for that account. If you would like to permanently delete the messages in\
+      \ this folder, take the following steps:\n\n\n1. Tap on the menu (hamburger\
+      \ icon) on the top left and scroll down to Accounts.\n2. Tap on the account\
+      \ you would like to permanently delete messages from. You will see the list\
+      \ of folders for that account.\n3. Scroll down and tap on the \"Trash\" folder.\n\
+      4. Within this folder you can swipe left to permanently delete a message, or\
+      \ tap and hold to select multiple messages at once."
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_diff_easilydo_and_email:
+  - text: "Email - EasilyDo Mail is full of rich advanced features like the ability\
+      \ to unsubscribe to junk mail with literally one tap – with a folder to view\
+      \ and manage all your mail subscriptions. Snooze messages to remind you to read\
+      \ them when you have more brain space. Automatically organize your trips with\
+      \ real-time travel notifications (like TripIt Pro in your inbox for free). Notifications\
+      \ for package deliveries, and real-time flight updates. Track bills and receipts\
+      \ for organized finances. Take control of read receipts and undo sent emails.\
+      \ Take advantage of great security and privacy. Interactive notifications, customizable\
+      \ swipes & notifications, drafts, aliases, multiple signatures, unified inbox,\
+      \ landscape layout and much more!\n\nEasilyDo is a smart virtual assistant app\
+      \ available on iOS and Android. It connects to your contacts, calendar, and\
+      \ email to help you complete important tasks. You can do everything from merging\
+      \ duplicate contacts, check traffic so you know when to leave for a meeting,\
+      \ identify email you may have forgotten to respond to, discover meetings scheduled\
+      \ in email that aren’t on your calendar yet, add flights to your calendar and\
+      \ be notified of flight delays or cancellations and many more!"
+  utter_diff_easilydo_and_macmail:
+  - text: "Email - EasilyDo Mail is one of the fastest mail apps available for iPhone.\
+      \ Many of the features were built specifically for iPhone users, for the best\
+      \ possible experience. Email - EasilyDo Mail has a built-in assistant with smart\
+      \ folders that sift relevant information out of the body of the message and\
+      \ surface it in an easily accessible card.\n\n\nThe search capabilities of Email\
+      \ differentiate it the most from the Apple Mail app. The machine intelligence\
+      \ team at EasilyDo has a unique two-pronged approach to mail search. First,\
+      \ the search functionality for Email has been built from the ground up with\
+      \ a focus on speed and usability on mobile — allowing users to search quickly\
+      \ by keyword, phrase or name. Second, based on extensive user research they\
+      \ learned that people search for certain types of mail more frequently than\
+      \ others (e.g. attachments, travel confirmations, bills, receipts, event reservations,\
+      \ and package shipment details). What we learned, and the most advanced AI technology\
+      \ for mail make it fast and easy to search for mail on-the-go!"
+  utter_difference_between_archive_and_delete:
+  - text: "Archived emails and deleted emails both disappear from your inbox. Archived\
+      \ emails go into a folder on our app labeled \"All Archived\". Deleted emails\
+      \ Go to a folder labeled \"All Trash\" and are permanently deleted after a set\
+      \ time that varies based on the email provider has passed. Deleted emails disappear\
+      \ forever, whereas archived emails do not.\n\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com. "
+  utter_draft_and_send_mail:
+  - text: "In order to draft and send a new email, please follow these steps:\n\n\
+      From the main screen, tap the blue and white pencil icon in the bottom right\
+      \ corner\nIn the \"To\" box enter your intended recipients. You can also \"\
+      cc\" and \"bcc\" people by tapping on those boxes and entering your intended\
+      \ recipients. There will be gray boxes with your suggested contacts that appear\
+      \ underneath.\nIf you have multiple accounts, you can tap on the \"From\" box\
+      \ to specify which email account the email will be sent from\nTap the \"Subject\"\
+      \ box and enter the subject or title of your email\nTap the white space underneath\
+      \ \"Subject\" to type your email\nYou can also attach files by tapping the paperclip,\
+      \ or you can attach images by tapping the landscape icon\nOnce you are done\
+      \ composing your email, you can send it by tapping on the blue paper plane icon\
+      \ in the top right corner\nIf you have any issues, questions, or suggestions,\
+      \ please do not hesitate to contact our customer support at support@easilydo.com. "
   utter_email_missed_by_assistant_add:
-  - text: "An email was missed by the Assistant. How can I add it?"
-
-  utter_remove_a_assistant_folder_card:
-  - text: "Can I remove a card from the Assistant folders?"
-
-  utter_what_are_assistant_folders:
-  - text: "What are the Assistant folders?"
-
-  utter_what_is_subscrption_folder:
-  - text: "What is the Subscriptions folder?"
-
-  utter_what_is_travel_folder:
-  - text: "What is the Travel folder?"
-
-  utter_what_is_packages_folder:
-  - text: "What is the Packages folder?"
-
-  utter_what_is_bills_folder:
-  - text: "What is the Bills & Receipts folder?"
-
-  utter_what_is_the_entertainment_folder:
-  - text: "What is the Entertainment folder?"
-
-  utter_what_is_privacy_policy:
-  - text: "Your privacy is of the utmost importance to us, and we encourage you to read our privacy policy here. https://www.edison.tech/privacy.html"
-
-  utter_what_are_terms_and_conditions:
-  - text: "What are the Terms and Conditions?"
-
+  - text: "If you find an email that the Assistant missed, you can tag (and correct)\
+      \ it by following these steps:\n\nOpen the email you would like to tag\nTap\
+      \ the three dots in the top right"
+  utter_enable_imessage_app:
+  - text: "Please ensure you're running the latest version of iOS, the latest version\
+      \ of Email, and then follow these steps to enable the Email iMessage app:\n"
+  utter_for3d_touch_action:
+  - text: "3D Touch is a feature available on Apple’s iPhone 6s (and newer models)\
+      \ that allows you to quickly access or preview content. Email - EasilyDo Mail\
+      \ allows you to customize the 3D Touch actions you see from the app icon on\
+      \ your homescreen. To select your 3D Touch options, take the following steps:<br>\n\
+      \n1. Tap the menu (hamburger icon) on the top left.<br>\n2. Scroll to the bottom\
+      \ and tap on ‘Settings’.<br>\n3. Within Settings, click on the option for 3D\
+      \ Touch. Select the folders you want to access quickly.\n\nTo access the Quick\
+      \ Action menu, navigate to the app icon on your homepage. Press hard on the\
+      \ app icon and a menu will pop-up containing shortcuts to the options you selected\
+      \ in your app Settings."
+  utter_forword_email:
+  - text: "In order to forward an email you are reading, please follow these steps:\n\
+      \nTap the arrow icon that points right\nType in your intended recipient(s)\n\
+      Type in your new subject if you want to change it\nType in your message if you\
+      \ want to add one\nTap the paper airplane icon in the top right to send the\
+      \ email\nIf you have any issues, questions, or suggestions, please do not hesitate\
+      \ to contact our customer support at support@easilydo.com."
+  utter_goodbye:
+  - text: Goodbye!
+  utter_gratitude:
+  - text: How kind of you, thank you!
+  utter_green_shield_with_checkmark:
+  - text: "When you are checking your email, you may notice that sometimes a green\
+      \ shield emblem with a checkmark will appear next to the email when you open\
+      \ it. This indicates that mail tracking has been blocked. Many email senders\
+      \ request read receipts when you have seen their message. Another method they\
+      \ commonly use are tracking cookies. These tracking cookies allow the sender\
+      \ to see both when you open the email and what you do online afterwards. This\
+      \ allows them to gather information about your online activities. However, we\
+      \ care about your privacy, security, and peace of mind so we both block these\
+      \ trackers and notify you of their presence. \n\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com. "
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_how_add_description_to_account:
+  - text: "1. Tap on the menu (hamburger icon) on the top left of the app and then\
+      \ scroll down until you see ‘Settings'.\n\n2. Within Settings tap on the account\
+      \ that you would like to create a nickname for.\n\n3. You will see 'Description'\
+      \ and can add any name you'd like to call that account."
+  utter_how_always_bcc_myself:
+  - text: "If you would like to always Bcc yourself, please follow these steps:\n\n\
+      Tap the menu icon in the top left\nTap the \"Settings\" button in the bottom\
+      \ left\nTap the account you would always like to Bcc yourself for\nTurn on \"\
+      Always Bcc Myself\"\nIf you have any issues, questions, or suggestions, please\
+      \ do not hesitate to contact our customer support at support@easilydo.com."
+  utter_how_archive_email:
+  - text: "There are multiple ways to archive an email in our app. \n\nMethod 1:\n\
+      \nTap \"Edit\" in the top right\nSelect all emails you would like to archive.\
+      \ (The empty circle to the left of the email will have a checkmark appear in\
+      \ it when selected)\nTap the icon at the bottom of the screen that looks like\
+      \ a box with a downward arrow in it (it is second from the left)\nMethod 2:\n\
+      \nLong hold on the email you would like to archive\nSelect all emails you would\
+      \ like to archive. (The empty circle to the left of the email will have a checkmark\
+      \ appear in it when selected)\nTap the icon at the bottom of the screen that\
+      \ looks like a box with a downward arrow in it (it is second from the left)\n\
+      Method 3: For this method you can do a swipe option to archive your email. If\
+      \ you would like to learn more about how to set this up, please go to our FAQ\
+      \ titled \"How do I change my swipe options?\" or just click the link to it\
+      \ here.\n\nMethod 4: This method is used when you are archiving an email you\
+      \ currently have opened up and are reading\n\nTap the icon at the bottom of\
+      \ the screen that looks like a box with a downward arrow in it (it is second\
+      \ from the left)\nIf you have any issues, questions, or suggestions, please\
+      \ do not hesitate to contact our customer support at support@easilydo.com."
+  utter_how_change_classified_important:
+  - text: "The Email app does not decide what messages are considered important. Importance\
+      \ is based on the settings within your Google account. In order to change these\
+      \ settings, you will need to log into your Google account online. \n\nIf you\
+      \ have any issues, questions, or suggestions, please do not hesitate to contact\
+      \ our customer support at support@easilydo.com. "
+  utter_how_change_default_browser:
+  - text: "Our app offers two different browsers which you can use as your default\
+      \ browser. These two browsers are Safari and the In-App browser. You can change\
+      \ the default browser by following these steps:\n\nTap the menu icon in the\
+      \ top left\nTap the \"Settings\" button in the bottom left\nScroll down and\
+      \ tap \"Default Browser\"\nSelect the browser you would like to use as the default\n\
+      If you have any issues, questions, or suggestions, please do not hesitate to\
+      \ contact our customer support at support@easilydo.com. "
+  utter_how_change_folders_list:
+  - text: "1. Tap on the menu (hamburger icon) in the top left.\n2. Once on the Menu,\
+      \ tap the 'Edit List' button at the bottom of the screen.\n3. The screen will\
+      \ switch to editing mode. You can now select the folders you would like to appear.\
+      \ To add a folder from a specific account, select 'Add Mailbox...' and navigate\
+      \ to the desired folder. "
+  utter_how_change_notification_action:
+  - text: "When you receive a notification, you can swipe left on it to see actions.\
+      \ You can change or disable these actions by following these steps:\n\nTap the\
+      \ menu icon on the top left\nTap the \"Settings\" button on the bottom left\n\
+      Tap the \"Notifications\" button\nScroll the whole way to the bottom of the\
+      \ page and tap the \"Notification Actions\" button\nTap on the different actions\
+      \ to enable and disable them. Please note that you can only enable two actions\
+      \ and the actions with check marks next to them are enabled.\nIf you have any\
+      \ issues, questions, or suggestions, please do not hesitate to contact our customer\
+      \ support at support@easilydo.com. "
+  utter_how_change_swipe_options:
+  - text: "Your swipe options can help simplify your inbox operations. In order to\
+      \ change them, please follow these steps:\n\nTap the menu icon in the top left\n\
+      Tap the \"Settings\" button in the bottom left\nTap the \"Swipe Options\" button\n\
+      Select the swipe option you would like to change (There are four swipe options:\
+      \ short-swipe left, long-swipe left, short-swipe right, and long-swipe right.)\n\
+      Select the action you would like that swipe option to do\nIf you have any issues,\
+      \ questions, or suggestions, please do not hesitate to contact our customer\
+      \ support at support@easilydo.com. "
+  utter_how_change_undo_time_window:
+  - text: "Whenever you complete an action in your inbox, a blue undo button appears\
+      \ at the bottom of the screen. You can customize the length of time for which\
+      \ this button appears. In order to do this, please follow these steps:\n\nTap\
+      \ the menu icon in the top left\nTap the \"Settings\" button in the bottom left\
+      \ of the screen\nTap the \"Undo Time Window\" button\nSelect the period of time\
+      \ you would like the undo button to appear for\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com. "
+  utter_how_create_signature:
+  - text: "Your signature appears at the bottom of your emails you send.\n\nIn order\
+      \ to create your own signature, follow these steps:\n\nTap the menu icon in\
+      \ the top left corner\nTap the \"Settings\" button in the bottom right corner\n\
+      Tap the \"Signature\" button\nEnter the text you would like to have appear in\
+      \ your signature in the white box. You can choose to use the same signature\
+      \ for all email accounts or have a different one for each email account. This\
+      \ is done by enabling or disabling \"Customize for each account\" at the top\
+      \ of the page.\nYou can also disable or enable the Email Footer Link here.\n\
+      \nIf you have any issues, questions, or suggestions, please do not hesitate\
+      \ to contact our customer support at support@easilydo.com. "
+  utter_how_customize_assistant_view:
+  - text: "You can customize which items are shown in your Assistant, including Subscriptions,\
+      \ Travel, Packages, Bills & Receipts, and Entertainment.\n\nFollow the steps\
+      \ below to customize your Assistant:\n\nWith Email open, tap the list view icon\
+      \ in the top-right corner\nTap \"Edit List\" and items will become options you\
+      \ can enable, disable, or re-order."
+  utter_how_delete_email:
+  - text: "There are multiple ways to delete emails on our app.\n\nMethod 1:\n\nTap\
+      \ \"Edit\" in the top right\nSelect all emails you would like to delete. (The\
+      \ empty circle to the left of the email will have a checkmark appear in it when\
+      \ selected)\nTap the blue trashcan icon in the middle of the icons at the bottom\
+      \ of the screen\nMethod 2:\n\nLong hold on the email you would like to delete\n\
+      Select all emails you would like to delete. (The empty circle to the left of\
+      \ the email will have a checkmark appear in it when selected)\nTap the blue\
+      \ trashcan icon in the middle of the icons at the bottom of the screen\nMethod\
+      \ 3: For this method you can do a swipe option to delete your email. If you\
+      \ would like to learn more about how to set this up, please go to our FAQ titled\
+      \ \"How do I change my swipe options?\" or just click the link to it here.\n\
+      \nMethod 4: This method is used when you are deleting an email you currently\
+      \ have opened up and are reading\n\nTap the blue trashcan icon in the middle\
+      \ of the icons at the bottom of your screen\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com."
+  utter_how_disable_or_enable_backgroud_app_refresh:
+  - text: "In order to disable or enable background app refresh, please follow these\
+      \ steps:\n\nOpen the Settings app\nTap on \"General\"\nTap on \"Background App\
+      \ Refresh\"\nScroll down to Email and enable or disable it\nIf you have any\
+      \ issues, questions, or suggestions, please do not hesitate to contact our customer\
+      \ support at support@easilydo.com."
+  utter_how_remove_email_account:
+  - text: "In order to remove an email account from the app, follow the steps below:\n\
+      \nTap on the menu icon\nTap on the \"Settings\" button\nTap on the email account\
+      \ you would like to remove\nScroll down to the bottom of the page and tap the\
+      \ red button that reads \"Delete Account\""
+  utter_how_turn_off_badge_count:
+  - text: "In order to turn off or turn on the badge count, please follow these steps:\n\
+      \nOpen the Settings app\nTap on \"Notifications\"\nScroll down and tap on \"\
+      Email\"\nDisable or enable \"Badge App Icon\" (If you can't see anything, turn\
+      \ on \"Allow Notifications\" to see it)\nClose the Settings app and open the\
+      \ EasilyDo Email app\nTap on the menu icon in the top left\nTap on \"Settings\"\
+      \ in the bottom left\nTap on \"Badge Count\"\nEnable and disable your badge\
+      \ count as you please. Please note that you can also customize the badge count\
+      \ for every account you have on the app by tapping on \"Customize for each account\"\
+      \nIf you have any issues, questions, or suggestions, please do not hesitate\
+      \ to contact our customer support at support@easilydo.com."
+  utter_iamabot:
+  - text: I am Edison, a bot powered by Rasa here to answer your queries.
+  utter_ios_support_version:
+  - text: "Our app works on devices running iOS 8.0 or later. It is currently available\
+      \ only iPhone, but we are hoping to release the app for the iPad by the end\
+      \ of August.\n\nIf you have any issues, questions, or suggestions, please do\
+      \ not hesitate to contact our customer support at support@easilydo.com. "
   utter_is_email_secure:
-  - text: "Is my email secure?"
-
-  utter_mood_happy:
-  - text: "Happy"
-
-  utter_remove_app:
-  - text: "If you've decided that you wish to remove the Email app, please
-           follow these instructions to delete the Email app from your device…
-
-           iOS Devices:
-
-           1. Press and hold the Email app icon until it jiggles.
-           2. Tap the  in the upper-left corner to delete the app.
-
-           Android Devices:
-
-           1. Tap and drag the Email app icon up to the top of the screen to the side which reads Uninstall.
-           2. Confirm your decision to complete this operation and delete the app."
-
-  utter_weather_good:
-  - text: "{city} weather is good"
-
-  utter_change_profile_picture:
-  - text: "utter_change_profile_picture"
-
-  utter_add_profile_picture:
-  - text: "utter_add_profile_picture"
-
-  utter_no_contents:
-  - text: "utter_no_contents"
-
-  utter_appreciates:
-  - text: "utter_appreciates"
-
-  utter_access_contact_lists:
-  - text: "access_contact_lists"
-
-  utter_add_my_email:
-  - text: "add_my_email"
-
-  utter_cancel_subscription_order:
-  - text: "cancel_subscription_order"
-
-  utter_how_delete_all_email:
-  - text: "utter_how_delete_all_email"
-
-  utter_sort_email:
-  - text: "utter_sort_email"
-
-  utter_change_language:
-  - text: "utter_change_language"
-
-  utter_add_picture:
-  - text: "utter_add_picture"
-
-  utter_save_picture:
-  - text: "utter_save_picture"
-
-  utter_account_locked:
-  - text: "utter_account_locked"
-
-  utter_update_err:
-  - text: "utter_update_err"
-
-  utter_want_ipad_version:
-  - text: "utter_want_ipad_version"
-
-  utter_cannot_track_packages:
-  - text: "utter_cannot_track_packages"
-
-  utter_unsubscribe_email:
-  - text: "utter_unsubscribe_email"
-
-  utter_cannot_sign_in:
-  - text: "utter_cannot_sign_in"
-
-  utter_donot_work:
-  - text: "utter_donot_work"
-
-  utter_it_work:
-  - text: "utter_it_work"
-
-  utter_slow_crash:
-  - text: "utter_slow_crash"
-
-  utter_cannot_update:
-  - text: "utter_cannot_update"
-
-  utter_badge_icon:
-  - text: "utter_badge_icon"
-
-  utter_delete_attachment:
-  - text: "utter_delete_attachment"
-
-  utter_need_widget:
-  - text: "utter_need_widget"
-
-  utter_how_much_costs:
-  - text: "utter_how_much_costs"
-
-  utter_how_save_attachment:
-  - text: "utter_how_save_attachment"
-
-  utter_delete_from_trash:
-  - text: "utter_delete_from_trash"
-
-  utter_how_sign_out:
-  - text: "utter_how_sign_out"
-
-  utter_how_print:
-  - text: "utter_how_print"
-
-  utter_connect_error:
-  - text: "utter_connect_error"
-
-  utter_link_calendar:
-  - text: "utter_link_calendar"
-
-  utter_exchange_error:
-  - text: "utter_exchange_error"
-
-  utter_where_save_attachments:
-    - text: "utter_where_save_attachments"
-
-  utter_add_multi_accounts:
-  - text: "utter_add_multi_accounts"
-
-  utter_like_it:
-  - text: "Thank you and let us know if you have any suggestions and feedback!"
-
-  utter_dislike_it:
-  - text: "utter_dislike_it"
-
-  utter_get_receipt_copy:
-  - text: "utter_get_receipt_copy"
-
-  utter_need_android_version:
-  - text: "utter_need_android_version"
-
-  utter_reset_pwd:
-  - text: "utter_reset_pwd"
-
+  - text: Yes! We follow the leading industry standards and then some. We know how
+      important it is for your data to remain secure and private. Email credentials
+      are encrypted on your device, and all communication with our Email server is
+      encrypted (IMAP over SSL). Additionally, emails are NOT stored on our cloud.
+  utter_is_free:
+  - text: No. Email - EasilyDo Mail is a free app.
+  utter_mac_plans:
+  - text: We are definitely considering it in the future
+  utter_mail_providers_support:
+  - text: "Our app provides support for a large number of mail providers. We currently\
+      \ support Gmail, iCloud, Yahoo, Aol, Outlook, Office365, and several other email\
+      \ providers. As of right now, we do not support POP, Office 365, and Exchange;\
+      \ however, our product team is working hard to improve our app so that we can\
+      \ support them in the future. \n\nIf you have any issues, questions, or suggestions,\
+      \ please do not hesitate to contact our customer support at support@easilydo.com. "
   utter_need_desktop:
-  - text: "We are working on a desktop version now. Join the beta group to try it now: https://docs.google.com/forms/d/e/1FAIpQLSePJimgA9Mi9yGbOosydoagD8GwrWSzj0g0nca6a_n9JXicvA/viewform"
-
-  utter_delete_from_spam:
-  - text: "utter_delete_from_spam"
-
-  utter_sync_email:
-  - text: "utter_sync_email"
-
-  utter_email_block:
-  - text: "https://mailsupport.edison.tech/hc/en-us/articles/360024617352-Block-Sender-FAQ"
-
-  utter_need_calendar:
-  - text: "utter_need_calendar"
-
-  utter_swipe_flag:
-  - text: "utter_swipe_flag"
-
-  utter_vibration_notification:
-  - text: "utter_vibration_notification"
-
-  utter_need_mark_as_spam:
-  - text: "You can easily mark and move a message to the Spam folder by following these steps:
-           1. From the message view, tap the three dots icon in the upper-right corner
-           2. Tap Mark as Spam and the message will be moved to your Spam folder
-           Please Note: While our app allows you to move messages to the Spam folder, we do not have the ability to improve or teach your  email provider's servers how to handle future messages from these senders – you'll need to consult your provider's documentation for instructions on how to more effectively improving your spam filters on the server's side…"
-
-  utter_add_assistant_folder:
-  - text: "utter_add_assistant_folder"
-
-  utter_how_flag_email:
-  - text: "utter_how_flag_email"
-
-  utter_flag_error:
-  - text: "utter_flag_error"
-
-  utter_update_info:
-  - text: "utter_update_info"
-
-  utter_delete_email_error:
-  - text: "utter_delete_email_error"
-
-  utter_unread_num_error:
-  - text: "utter_unread_num_error"
-
-  utter_cannot_open_pdf_attachment:
-  - text: "utter_cannot_open_pdf_attachment"
-
-  utter_send_pic_error:
-  - text: "utter_send_pic_error"
-
-  utter_retrieve_some_action:
-  - text: "utter_retrieve_some_action"
-
-  utter_need_dark_theme:
-  - text: "We will support Dark mode when iOS 13 is publicly released."
-
-  utter_html_signature:
-  - text: "utter_html_signature"
-
-  utter_need_office365:
-  - text: "utter_need_office365"
-
-  utter_gmail_labels:
-    - text: "utter_gmail_labels"
-
-  utter_push_mail:
-    - text: "utter_push_mail"
-
-  utter_send_attachment:
-    - text: "utter_send_attachment"
-
-  utter_alert_error:
-    - text: "utter_alert_error"
-
-  utter_notification_disappear:
-    - text: "utter_notification_disappear"
-
-  utter_zoomin_zoomout:
-    - text: "utter_zoomin_zoomout"
-
-  utter_badge_error:
-    - text: "utter_badge_error"
-
-  utter_support_pop:
-    - text: "utter_support_pop"
-
-  utter_swiss_aapstore:
-    - text: "utter_swiss_aapstore"
-
-  utter_need_junk_folder:
-    - text: "utter_need_junk_folder"
-
-  utter_message_instead_thread:
-    - text: "utter_message_instead_thread"
-
-  utter_attach_from_cloud_driver:
-    - text: "utter_attach_from_cloud_driver"
-
-  utter_add_touch_id:
-    - text: "utter_add_touch_id"
-
-  utter_send_error:
-    - text: "utter_send_error"
-
-  utter_swipe_swipe_err_to_inbox:
-    - text: "utter_swipe_swipe_err_to_inbox"
-
-  utter_frequency_crash:
-    - text: "We're sorry your experience with our app has been less-than-stellar thus far. We're working on addressing crashes with our next release, for now please try deleting, restarting your device, and then reinstalling"
-
-  utter_attach_video:
-    - text: "utter_attach_video"
-
-  utter_open_attachment_error:
-    - text: "utter_open_attachment_error"
-
-  utter_disable_image_auto_download:
-    - text: "utter_disable_image_auto_download"
-
-  utter_need_exchange_and_office365:
-    - text: "utter_need_exchange_and_office365"
-
-  utter_brazilian_app_store:
-    - text: "utter_brazilian_app_store"
-
-  utter_too_many_receipts_selection:
-    - text: "utter_too_many_receipts_selection"
-
-  utter_out_box_connection_err:
-    - text: "utter_out_box_connection_err"
-
-  utter_appreciate_multi_accounts:
-    - text: "utter_appreciate_multi_accounts"
-
-  utter_travel_message_err:
-    - text: "utter_travel_message_err"
-
-  utter_block_email_address:
-    - text: "utter_block_email_address"
-
-  utter_assistant_err:
-    - text: "utter_assistant_err"
-
-  utter_mark_read_error:
-    - text: "utter_mark_read_error"
-
-  utter_sync_completed:
-    - text: "utter_sync_completed"
-
-  utter_show_all_accounts_email:
-    - text: "utter_show_all_accounts_email"
-
-  utter_inbox_never_show_up:
-    - text: "utter_inbox_never_show_up"
-
-  utter_need_for_iwatch_aciton:
-    - text: "utter_need_for_iwatch_aciton"
-
-  utter_view_focus:
-    - text: "utter_view_focus"
-
-  utter_font_size_change:
-    - text: "1. Go to iOS Settings
-             2. Tap 'Dsiplay & Brightness'
-             3. Tap 'Text Size'
-             4. Increase font size by dragging the slider
-             5. Return to Edison Mail, font size should be updated. "
-
-  utter_unscribe_spam:
-    - text: "utter_unscribe_spam"
-
-  utter_delete_account_appear_again:
-    - text: "utter_delete_account_appear_again"
-
-  utter_cannot_access_folder:
-    - text: "utter_cannot_access_folder"
-
-  utter_badge_count_error:
-    - text: "utter_badge_count_error"
-
-  utter_swipe_archive_as_read:
-    - text: "utter_swipe_archive_as_read"
-
-  utter_mark_all_as_read:
-    - text: "utter_mark_all_as_read"
-
-  utter_shake_to_undo:
-    - text: "utter_shake_to_undo"
-
-  utter_delete_error:
-    - text: "utter_delete_error"
-
-  utter_notification_sound:
-    - text: "utter_notification_sound"
-
-  utter_snooze_error:
-    - text: "utter_snooze_error"
-
-  utter_need_hotmail:
-    - text: "utter_need_hotmail"
-
-  utter_picture_show_error:
-    - text: "utter_picture_show_error"
-
-  utter_reply_crash:
-    - text: "utter_reply_crash"
-
-  utter_icloud_error:
-    - text: "utter_icloud_error"
-
-  utter_how_to_subscribe_sth:
-    - text: "utter_how_to_subscribe_sth"
-
-  utter_hyperlink_error:
-    - text: "utter_hyperlink_error"
-
-  utter_need_report_spam:
-    - text: "utter_need_report_spam"
-
-  utter_where_is_archive:
-    - text: "utter_where_is_archive"
-
-  utter_different_colors_for_accounts:
-    - text: "utter_different_colors_for_accounts"
-
-  utter_stuck_in_outbox:
-    - text: "Occasionally our app may run into problems sending your message, and it will be stuck in the outbox as a result. Below, you can find a few common outbox errors, as well as suggestions for troubleshooting those issues:
-             'A stable connection to the server could not be established'
-              Ensure you have adequate reception and a strong data signal.
-              Connect to a reliable WIFI network and try sending the message again. Full bars doesn't necessarily indicate a reliable connection, please ensure your bandwidth speeds are fast by running this test.
-              If you're sending an attachment that's large in size, it may be causing your network to timeout. Please try resizing/compressing the attachment, and trying again."
-
-  utter_turn_off_conversation:
-    - text: "utter_turn_off_conversation"
-
-  utter_log_out:
-    - text: "utter_log_out"
-
-  utter_add_conversation_view_error:
-    - text: "utter_add_conversation_view_error"
-
-  utter_take_off_package_notification:
-    - text: "utter_take_off_package_notification"
-
-  utter_contacts_manager:
-    - text: "utter_contacts_manager"
-
-  utter_undo_subscribe:
-    - text: "utter_undo_subscribe"
-
-  utter_turn_off_thread:
-    - text: "utter_turn_off_thread"
-
-  utter_default_web_browser:
-    - text: "utter_default_web_browser"
-
-  utter_about_sent_folder:
-    - text: "utter_about_sent_folder"
-
-  utter_search_in_box:
-    - text: "Pull down in the email list, you will see a search box."
-
-  utter_unblock_email:
-    - text: "utter_unblock_email"
-
-  utter_need_pwd:
-    - text: "If you wish to change your email account password(s), this is something only your email provider can help you with (i.e. Gmail, iCloud, Yahoo,
-             etc). Below, we've created a list of FAQ articles for how to change your password on popular email providers. If you've forgotten your password, or believe your account has been compromised, please contact your provider's customer support for assistance in recovering your account."
-
-  utter_create_folder:
-    - text: "utter_create_folder"
-
-  utter_add_subscription_error:
-    - text: "utter_add_subscription_error"
-
-  utter_empty_trash:
-    - text: "utter_empty_trash"
-
-  utter_receiving_error:
-    - text: "utter_receiving_error"
-
-  utter_uninstall_app:
-    - text: "utter_uninstall_app"
+  - text: 'We are working on a desktop version now. Join the beta group to try it
+      now: https://docs.google.com/forms/d/e/1FAIpQLSePJimgA9Mi9yGbOosydoagD8GwrWSzj0g0nca6a_n9JXicvA/viewform'
+  utter_off_badge_count:
+  - text: https://mailsupport.edison.tech/hc/en-us/articles/115000609843-How-do-I-turn-off-or-turn-on-the-badge-count-
+  utter_personal_folders:
+  - text: Tap the menu (hamburger icon) on the top left of the app and scroll down
+      to Accounts. Then tap the account name, and you will see a list of all the folders
+      in that account.
+  utter_privacy_policy:
+  - text: Your privacy is of the utmost importance to us, and we encourage you to
+      read our privacy policy here. https://www.edison.tech/privacy.html
+  utter_prompt:
+  - text: How may i help you?
+  utter_remove_a_assistant_folder_card:
+  - text: "To remove a card from your Assistant view tap the card you want to remove,\
+      \ and then tap the share icon in the top right of your screen. A menu will open\
+      \ with the option to Delete the card. This will only delete the card from your\
+      \ Assistant, and will NOT delete the email itself.\n\nIf you have any issues,\
+      \ questions, or suggestions, please do not hesitate to contact our customer\
+      \ support at support@easilydo.com."
+  utter_remove_account:
+  - text: In order to remove an email account from the app, follow the steps below:Tap
+      on the menu icon Tap on the ""Settings"" button. Tap on the email account you
+      would like to remove Scroll down to the bottom of the page and tap the red button
+      that reads ""Delete Account""
+  utter_remove_app:
+  - text: "If you've decided that you wish to remove the Email app, please follow\
+      \ these instructions to delete the Email app from your iPhone or iPad:\n\nPress\
+      \ and hold the app icon until it jiggles.\nTap the  in the upper-left corner\
+      \ to delete."
+  utter_reply_to_email:
+  - text: "In order to reply to an email, please follow these steps:\n\nTap the arrow\
+      \ icon that points left\nType your response\nTap the paper airplane icon in\
+      \ the top right to send your email\nIf you have any issues, questions, or suggestions,\
+      \ please do not hesitate to contact our customer support at support@easilydo.com."
+  utter_save_message_draft:
+  - text: "If you're interested in manually saving your message as a draft that you\
+      \ can access later, follow these steps:\n\nFrom the main screen, tap the blue\
+      \ and white pencil icon in the bottom right corner\nMake sure at least one of\
+      \ the \"To\", \"Cc/Bcc\", or \"Subject\" fields are filled out\nOnce you're\
+      \ ready to save the email as a draft for later, tap \"Cancel\" in the top left-hand\
+      \ corner of the app.\nYou'll be prompted to save or delete the draft – tap \"\
+      Save Draft\".\nYou can always access this draft and others by tapping the list\
+      \ view icon (top left-hand corner) and tapping \"All Drafts\":"
+  utter_select_multiple_message:
+  - text: Press and hold on any email in your inbox to activate the bulk edit mode.
+  utter_set_up_aol_account:
+  - text: "In order to add your Aol account, please complete the following steps:\n\
+      \nTap the menu icon in the top left of the screen\n\nTap th “Settings” button\
+      \ in the bottom left of the screen\n\nTap the “Add Account” button\n\nTap the\
+      \ “Aol” icon\n\nEnter your email address and password\n\nTap “Next”\n\nPlease\
+      \ make sure that you enter all information correctly or your email will not\
+      \ function properly. If you have any issues, questions, or suggestions, please\
+      \ do not hesitate to contact our customer support at support@easilydo.com. "
+  utter_set_up_gmail_account:
+  - text: "In order to add your Gmail account, please complete the following steps:\n\
+      \nTap the menu icon in the top left of the screen\n\nTap the “Settings” button\
+      \ in the bottom left of the screen\n\nTap the “Add Account” button\n\nTap the\
+      \ “Gmail” icon\n\nEnter your email address\n\nEnter you account password\n\n\
+      Tap “Allow” to give the app access to your email account\nPlease make sure that\
+      \ you enter all information correctly or your email will not function properly.\
+      \ If you have any issues, questions, or suggestions, please do not hesitate\
+      \ to contact our customer support at support@easilydo.com. "
+  utter_set_up_gmail_alias:
+  - text: "In order to set up a Gmail alias, please complete the following steps:\n\
+      \nTap the menu icon in the top left corner\nTap \"Settings\" in the bottom left\
+      \ corner\nTap the Gmail account you would like to set up an alias for\nTap \"\
+      Add Alias\" \nEnter the email address you would like to use as the alias\nEnter\
+      \ the sender name you would like to use\nYou can choose to send email from this\
+      \ alias by default. However, please note that aliases must be added and verified\
+      \ in your primary Gmail settings first. Otherwise, your emails will not send.\n\
+      Tap \"Save\" in the top right corner\nIf you have any issues, questions, or\
+      \ suggestions, please do not hesitate to contact our customer support at support@easilydo.com.\
+      \ \n"
+  utter_set_up_icloud_account:
+  - text: "In order to add your iCloud account, please complete the following steps:\n\
+      \nTap the menu icon in the top left of the screen\n\nTap the “Settings” button\
+      \ in the bottom left of the screen\n\nTap the “Add Account” button\n\nTap the\
+      \ “iCloud” icon\n\nEnter your email address and password\n\nTap “Next”\n\nPlease\
+      \ make sure that you enter all information correctly or your email will not\
+      \ function properly. If you have any issues, questions, or suggestions, please\
+      \ do not hesitate to contact our customer support at support@easilydo.com. "
+  utter_set_up_other_account:
+  - text: "Please note that our current version of Email does not support POP, Office\
+      \ 365, and Exchange accounts. If you use two-step verification on your account,\
+      \ make sure you enter your app-specific password or check with your mail provider\
+      \ about your app-specific password.\n\nIn order to set up all other email accounts,\
+      \ please complete the following steps:\n\nTap the menu icon in the top left\
+      \ of the screen\n\nTap th “Settings” button in the bottom left of the screen\n\
+      \nTap the “Add Account” button\n\nTap the “Other” icon\n\nEnter your email address\
+      \ and password\n\nTap “Next”\n\nPlease make sure that you enter all information\
+      \ correctly or your email will not function properly. If you have any issues,\
+      \ questions, or suggestions, please do not hesitate to contact our customer\
+      \ support at support@easilydo.com. "
+  utter_set_up_outlook_account:
+  - text: "In order to set up your Outlook account, please complete the following\
+      \ steps:\n\nTap the menu icon in the top left of the screen\n\nTap th “Settings”\
+      \ button in the bottom left of the screen\n\nTap the “Add Account” button\n\n\
+      Tap the “Outlook” icon\n\nEnter your email and password\nPlease make sure that\
+      \ you enter all information correctly or your email will not function properly.\
+      \ If you have any issues, questions, or suggestions, please do not hesitate\
+      \ to contact our customer support at support@easilydo.com. "
+  utter_set_up_yahoo_account:
+  - text: "In order to add your Yahoo account, please complete the following steps:\n\
+      \nTap the menu icon in the top left of the screen\n\nTap th “Settings” button\
+      \ in the bottom left of the screen\n\nTap the “Add Account” button\n\nTap the\
+      \ “Yahoo” icon\n\nEnter your email address\n\nEnter your passworrd\n\nTap “Agree”\
+      \ to give the app access to your email account\nPlease make sure that you enter\
+      \ all information correctly or your email will not function properly. If you\
+      \ have any issues, questions, or suggestions, please do not hesitate to contact\
+      \ our customer support at support@easilydo.com. "
+  utter_sign_beta_testing:
+  - text: "If you would like to sign up for BETA testing our new products, please\
+      \ sign up at this link here. Please note that we aren't constantly testing with\
+      \ a BETA group, but we will be sure to send you a note before each round of\
+      \ testing.\n\nIf you have any issues, questions, or suggestions, please do not\
+      \ hesitate to contact our customer support at support@easilydo.com."
+  utter_successful:
+  - text: Request has been successful
+  utter_support_exchange_features:
+  - text: "At this time, Email supports the following Microsoft Exchange features:\n\
+      \nConversation threading\nOvertime we plan on adding to this list, and we appreciate\
+      \ your patience as we work on improving Email. \U0001F642"
+  utter_unsubscribe_mail:
+  - text: "The \"\"Subscriptions\"\" folder has a list of all your subscriptions that\
+      \ are organized alphabetically. Additionally, you can unsubscribe from subscriptions\
+      \ you no longer want to receive directly from this folder. Unsubscribe by clicking\
+      \ the icon of a blue clipboard with a white x.\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com."
+  utter_unsuccessful:
+  - text: Request has been unsuccessful
+  utter_versions_ews_support:
+  - text: While there have been a few versions of Microsoft Exchange released over
+      the years, Email supports Microsoft Exchange 2010 SP2 and later.
+  utter_view_all_my_email_accounts:
+  - text: "In order to view all your email accounts in one inbox, follow these steps:\n\
+      \nTap the menu icon in the top left\nTap \"All Inboxes\"\nIf you have any issues,\
+      \ questions, or suggestions, please do not hesitate to contact our customer\
+      \ support at support@easilydo.com. "
+  utter_view_just_one_account:
+  - text: "In order to view just one email account in your inbox, follow these steps:\n\
+      \nTap the menu icon in the top left\nTap the inbox you would like to view\n\
+      If you have any issues, questions, or suggestions, please do not hesitate to\
+      \ contact our customer support at support@easilydo.com. "
+  utter_welcome:
+  - text: You are welcome! How else may i help?
+  utter_what_are_assistant_folders:
+  - text: "There are five Assistant folders: Subscriptions, Travel, Packages, Bills\
+      \ & Receipts, and Entertainment. They scan through incoming emails to find any\
+      \ and all material that belong in their folders to help keep you organized.\n\
+      \nIf you have any issues, questions, or suggestions, please do not hesitate\
+      \ to contact our customer support at support@easilydo.com."
+  utter_what_are_my_snooze_options:
+  - text: "There are several ways to snooze mail. One method is to make snooze one\
+      \ of your swipe options. Another method is useful when you are already looking\
+      \ at an email. Tap the three dots in the top right and then snooze will appear\
+      \ as one of your options.\n\nIn order to change your snooze options, follow\
+      \ these steps:\n\nTap the menu icon in the top left\nTap the \"Settings\" button\
+      \ in the bottom left\nTap \"Snooze Options\"\nSelect the snooze option you would\
+      \ like to change and select your new time\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com. "
+  utter_what_are_terms_and_conditions:
+  - text: Click here to view our Terms and Conditions.
+  utter_what_is_bills_folder:
+  - text: "The \"Bills & Receipts\" folder keeps track of all bills and receipts that\
+      \ are sent to your email.\n\nIf you have any issues, questions, or suggestions,\
+      \ please do not hesitate to contact our customer support at support@easilydo.com."
+  utter_what_is_packages_folder:
+  - text: "The \"Packages\" folder keeps track of your orders and deliveries. You\
+      \ can find tracking numbers for your orders here too.\n\nIf you have any issues,\
+      \ questions, or suggestions, please do not hesitate to contact our customer\
+      \ support at support@easilydo.com."
+  utter_what_is_privacy_policy:
+  - text: Click here to view our Privacy Policy.
+  utter_what_is_snooze:
+  - text: "When you snooze mail, you are reassigning it to the snooze folder. It will\
+      \ stay there until the later time you have specified. When it reaches this time,\
+      \ the mail will move from the snooze folder back into your inbox as long as\
+      \ your app is running in the background. You will also receive a mail notification\
+      \ when something is unsnoozed. \n\nIf you have any issues, questions, or suggestions,\
+      \ please do not hesitate to contact our customer support at support@easilydo.com. "
+  utter_what_is_subscrption_folder:
+  - text: "The \"Subscriptions\" folder has a list of all your subscriptions that\
+      \ are organized alphabetically. Additionally, you can unsubscribe from subscriptions\
+      \ you no longer want to receive directly from this folder. Unsubscribe by clicking\
+      \ the icon of a blue clipboard with a white x. \n\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com."
+  utter_what_is_the_entertainment_folder:
+  - text: "The \"Entertainment\" folder keeps track of your tickets for upcoming events\
+      \ such as movies, concerts, and plays.\n\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com."
+  utter_what_is_travel_folder:
+  - text: "The \"Travel\" folder keeps track of your upcoming trips. Hotel bookings,\
+      \ train tickets, flight itineraries, car rentals, and upcoming cruises you have\
+      \ are found here.\n\nIf you have any issues, questions, or suggestions, please\
+      \ do not hesitate to contact our customer support at support@easilydo.com."
+  utter_whatis_ews_server:
+  - text: Microsoft Exchange, also known as Microsoft Exchange Server, is a type of
+      account you can add to the Email app. It's current version is Exchange Server
+      2016. Email accesses Microsoft Exchange via the Exchange Web Services API (EWS).
+      It joins the other family of account types supported by Email, including Gmail,
+      iCloud, Yahoo, Outlook, Office365, and more…
+  utter_when_support_exchange:
+  - text: Email will support Exchange accounts should be coming VERY soon. We are
+      400 cups of coffee into the integration and only 200 left.
+  utter_why_email_free:
+  - text: "Some people have asked us why our Email app is free. Our Email app is free\
+      \ because we use it to showcase the use of our Sift tool to developers. It is\
+      \ simply used as a showcase for our paid services. If you would like to learn\
+      \ more about the Sift tool, visit us at https://developer.easilydo.com.\n\n\
+      If you have any issues, questions, or suggestions, please do not hesitate to\
+      \ contact our customer support at support@easilydo.com."
+  utter_why_not_receiving_notifications:
+  - text: "If you aren't receiving notifications, please follow these steps to resolve\
+      \ your issue:\n\nOpen the Settings app\nTap \"Notifications\"\nScroll down and\
+      \ tap on \"Email\" \nEnsure that you have \"Allow Notifications\" enabled\n\
+      Go back to the home screen of your Settings app\nTap on \"General\"\nTap on\
+      \ \"Background App Refresh\"\nEnsure that it is enabled for \"Email\"\nClose\
+      \ the Settings app and open the EasilyDo Email app\nTap the menu icon in the\
+      \ top left\nTap the \"Settings button in the bottom left\nTap \"Notifications\"\
+      \ \nEnsure that you have the notifications you would like to receive enabled.\n\
+      You can also change the notification sound by clicking on \"Notification Sound\"\
+      \nIf you have any issues, questions, or suggestions, please do not hesitate\
+      \ to contact our customer support at support@easilydo.com."
+  utter_zero_inbox:
+  - text: "While clearing out your inbox, you may encounter a screen which congratulates\
+      \ you on reaching Ground Zero. This is quite the accomplishment. It means that\
+      \ you have completely cleared your inbox of all emails by archiving and trashing\
+      \ your emails.\n\nIf you have any issues, questions, or suggestions, please\
+      \ do not hesitate to contact our customer support at support@easilydo.com."
+  utter_general_response:
+  - text: Your query has been received and our team will look into this matter
+actions:
+- utter_greet
+- utter_prompt
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_cooldown
+- utter_gratitude
+- utter_welcome
+- utter_privacy_policy
+- utter_mac_plans
+- utter_remove_account
+- utter_account_details
+- utter_successful
+- utter_unsuccessful
+- utter_dark_theme
+- utter_apologise
+- utter_unsubscribe_mail
+- utter_cancel_subscription_account
+- utter__apple_watch_app
+- utter_account_types
+- utter_add_attachments_to_emails
+- utter_add_images_to_emails
+- utter_add_microsoft_attachment
+- utter_cancel_easilydo_account
+- utter_change_account_pwd
+- utter_change_default_address
+- utter_change_folder_list
+- utter_change_lines_number_in_preview
+- utter_delete_self_messages_permantently
+- utter_diff_easilydo_and_email
+- utter_diff_easilydo_and_macmail
+- utter_difference_between_archive_and_delete
+- utter_draft_and_send_mail
+- utter_email_missed_by_assistant_add
+- utter_enable_imessage_app
+- utter_for3d_touch_action
+- utter_forword_email
+- utter_green_shield_with_checkmark
+- utter_how_add_description_to_account
+- utter_how_always_bcc_myself
+- utter_how_archive_email
+- utter_how_change_classified_important
+- utter_how_change_default_browser
+- utter_how_change_folders_list
+- utter_how_change_notification_action
+- utter_how_change_swipe_options
+- utter_how_change_undo_time_window
+- utter_how_create_signature
+- utter_how_customize_assistant_view
+- utter_how_delete_email
+- utter_how_disable_or_enable_backgroud_app_refresh
+- utter_how_remove_email_account
+- utter_how_turn_off_badge_count
+- utter_ios_support_version
+- utter_is_email_secure
+- utter_is_free
+- utter_mail_providers_support
+- utter_personal_folders
+- utter_remove_a_assistant_folder_card
+- utter_remove_app
+- utter_reply_to_email
+- utter_save_message_draft
+- utter_select_multiple_message
+- utter_set_up_aol_account
+- utter_set_up_gmail_account
+- utter_set_up_gmail_alias
+- utter_set_up_icloud_account
+- utter_set_up_other_account
+- utter_set_up_outlook_account
+- utter_set_up_yahoo_account
+- utter_sign_beta_testing
+- utter_support_exchange_features
+- utter_versions_ews_support
+- utter_view_all_my_email_accounts
+- utter_view_just_one_account
+- utter_what_are_assistant_folders
+- utter_what_are_my_snooze_options
+- utter_what_are_terms_and_conditions
+- utter_what_is_bills_folder
+- utter_what_is_packages_folder
+- utter_what_is_privacy_policy
+- utter_what_is_snooze
+- utter_what_is_subscrption_folder
+- utter_what_is_the_entertainment_folder
+- utter_what_is_travel_folder
+- utter_whatis_ews_server
+- utter_when_support_exchange
+- utter_why_email_free
+- utter_why_not_receiving_notifications
+- utter_zero_inbox
+- utter_change_password
+- utter_need_desktop
+- utter_off_badge_count
+- utter_archive_delete_difference
+- utter_not_receiving_notifications
+- utter_font_size_change
+- utter_search_in_box
+- utter_delete_account
+- utter_like_it
+- utter_need_dark_theme
+- utter_what_privacy_policy
+- utter_need_mark_spam
+- utter_setup_gmail_alias
+- utter_stuck_in_outbox
+- utter_email_block
+- utter_backgroud_app_refresh
+- utter_general_response
+- utter_frequency_crash
