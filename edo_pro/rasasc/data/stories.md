@@ -872,7 +872,7 @@
 
 * sign_beta_testing
     - utter_sign_beta_testing
-  
+
 ## New Story
 
 * sign_beta_testing
@@ -914,83 +914,83 @@
 
 ## story_not_working
 * not_working
-  - utter_not_working
+  - utter_general_response
 
 ## story_not_getting_mail
 * not_getting_mail
-  - utter_not_getting_mail
+  - utter_general_response
 
 ## story_test
 * test
-  - utter_test
+  - utter_general_response
 
 ## story_where_email
 * where_email
-  - utter_where_email
+  - utter_general_response
 
 ## story_account_offline
 * account_offline
-  - utter_account_offline
+  - utter_general_response
 
 ## story_sent_edison_mail
 * sent_edison_mail
-  - utter_sent_edison_mail
+  - utter_general_response
 
 ## story_mark_all_read
 * mark_all_read
-  - utter_mark_all_read
+  - utter_general_response
 
 ## story_praise
 * praise
-  - utter_praise
+  - utter_general_response
 
 ## story_criticise
 * criticise
-  - utter_criticise
+  - utter_general_response
 
 ## story_environment_staging_release
 * environment_staging_release
-  - utter_environment_staging_release
+  - utter_general_response
 
 ## story_sign_out_problem
 * sign_out_problem
-  - utter_sign_out_problem
+  - utter_general_response
 
 ## story_sign_in_problem
 * sign_in_problem
-  - utter_sign_in_problem
+  - utter_general_response
 
-## story_withdraw_consent
+## story_
 * withdraw_consent
-  - utter_withdraw_consent
+  - utter_general_response
 
 ## story_account_offline
 * account_offline
-  - utter_account_offline
+  - utter_general_response
 
 ## story_did_not_order
 * did_not_order
-  - utter_did_not_order
+  - utter_general_response
 
 ## story_change_notification_sound
 * change_notification_sound
-  - utter_change_notification_sound
+  - utter_general_response
 
 ## story_want_ipad_version
 * want_ipad_version
-  - utter_want_ipad_version
+  - utter_general_response
 
 ## story_cannot_track_packages
 * cannot_track_packages
-  - utter_cannot_track_packages
+  - utter_general_response
 
 ## story_add_firefox_browser
 * add_firefox_browser
-  - utter_add_firefox_browser
+  - utter_general_response
 
 ## story_email_not_loading
 * email_not_loading
-  - utter_email_not_loading
+  - utter_general_response
 
 ## story_what_privacy_policy
 * what_privacy_policy
@@ -1076,3 +1076,15 @@
 * font_size_change
   - utter_font_size_change
 
+## New Story
+
+* greet
+* greet
+    - utter_greet
+    - utter_greet
+* no_notification
+* no_notification
+    - utter_why_not_receiving_notifications
+    - utter_why_not_receiving_notifications
+    - utter_did_that_help
+    - utter_did_that_help

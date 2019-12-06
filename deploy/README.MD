@@ -20,19 +20,17 @@ python -m spacy link en_core_web_md en
 python -m spacy download en_core_web_lg
 ```
 ## 运行
-两种方式运行
 - 在PyCharm中
     由于PyCharm默认会`Add Content Root to PYTHONPATH`，所以直接运行就OK
 - 命令行中(如果当前目录在examples/rasasc)
-    - 使用了`pip install -e . `，所以可以直接运行  
-    `rasa train; rasa shell`
+    - 使用了`pip install -e . `，所以可以直接运行`rasa train; rasa shell`
     - 否则需要添加rasa到PYTHONPATH
     ```
     PYTHONPATH="$PYTHONPATH:../..";rasa train
     PYTHONPATH="$PYTHONPATH:../..";rasa shell
     ```
 - 命令行中(在根目录下)
-    `python -m examples.rasasc`
+    `python -m examples.rasasc` (有__main__.py文件)
 ## BUG 
 在`which rasa`对应的lib/python3.7/site-packages中有个example包, 删除之
 ## Test

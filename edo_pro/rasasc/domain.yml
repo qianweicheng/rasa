@@ -1,16 +1,13 @@
 intents:
 - never_received_package
 - search_in_box
-- where_email
 - mood_great
 - did_not_order
 - mood_unhappy
 - retrieve_archive_delete
 - cannot_track_packages
 - email_block
-- not_getting_mail
 - withdraw_consent
-- sent_edison_mail
 - goodbye
 - environment_staging_release
 - criticise
@@ -21,15 +18,10 @@ intents:
 - no_content
 - change_password
 - delete_account
-- praise
 - frequency_crash
 - unsubscribe_mail
 - support_exchange_features
-- sign_out_problem
-- test
-- want_ipad_version
 - mark_as_spam
-- account_offline
 - cancel_subscription_account
 - greet
 - mark_all_read
@@ -41,9 +33,7 @@ intents:
 - email_not_loading
 - cancel_order
 - change_notification_sound
-- sign_in_problem
 - need_dark_theme
-- not_working
 - save_message_draft
 - account_types
 - like_it
@@ -130,21 +120,10 @@ intents:
 - where_email
 - account_offline
 - sent_edison_mail
-- mark_all_read
 - praise
-- criticise
-- environment_staging_release
 - sign_out_problem
 - sign_in_problem
-- withdraw_consent
-- account_offline
-- did_not_order
-- change_notification_sound
 - want_ipad_version
-- cannot_track_packages
-- add_firefox_browser
-- email_not_loading
-
 templates:
   utter__apple_watch_app:
   - text: "While we don't currently have a dedicated Email app for Apple Watch, it's\
@@ -847,3 +826,5 @@ actions:
 - utter_backgroud_app_refresh
 - utter_general_response
 - utter_frequency_crash
+- utter_never_received_package
+- uutter_general_response
