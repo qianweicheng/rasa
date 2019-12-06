@@ -30,7 +30,7 @@ python -m spacy download en_core_web_lg
     PYTHONPATH="$PYTHONPATH:../..";rasa shell
     ```
 - 命令行中(在根目录下)
-    `python -m examples.rasasc` (有__main__.py文件)
+    `python -m edo_pro.rasasc -h` (因为在edo_pro.rasasc有__main__.py文件)
 ## BUG 
 在`which rasa`对应的lib/python3.7/site-packages中有个example包, 删除之
 ## Test

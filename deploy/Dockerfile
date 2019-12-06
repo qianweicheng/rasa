@@ -42,7 +42,7 @@ RUN pip install keras
 
 VOLUME ["/app"]
 WORKDIR /app
-COPY ./examples ./examples
+COPY ./edo_pro ./edo_pro
 
 EXPOSE 5005
 
@@ -50,4 +50,4 @@ EXPOSE 5005
 #CMD ["--help"]
 
 ENTRYPOINT ["python"]
-CMD ["-m", "edo_pro.rasasc"]
+CMD ["-m", "edo_pro.rasasc", "-r"]
