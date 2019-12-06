@@ -33,6 +33,9 @@ python -m spacy download en_core_web_lg
     `python -m edo_pro.rasasc -h` (因为在edo_pro.rasasc有__main__.py文件)
 ## BUG 
 在`which rasa`对应的lib/python3.7/site-packages中有个example包, 删除之
+## APIS
+Backend: http://cp.stag.easilydo.cc/api/rasa/
+Frontend: https://admin.stag.easilydo.cc:8091
 ## Test
 - Case1
 ```

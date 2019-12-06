@@ -25,16 +25,18 @@ def run():
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(__file__))
+    print("Current working space:" + os.getcwd())
     opts, args = getopt.getopt(sys.argv[1:], "hrt")
     for op, value in opts:
         if op in ("-h",):
             help_me()
             break
         elif op in ("-r",):
-            train()
+            run()
             break
         elif op in ("-t",):
             train()
             break
         else:
             help_me()
+            break
