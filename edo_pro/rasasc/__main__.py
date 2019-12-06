@@ -29,9 +29,12 @@ if __name__ == "__main__":
     for op, value in opts:
         if op in ("-h",):
             help_me()
+            break
         elif op in ("-r",):
             train()
+            break
         elif op in ("-t",):
             train()
+            break
         else:
             help_me()
