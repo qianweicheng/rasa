@@ -1,0 +1,2968 @@
+## intent:account_offline
+- my accounts keep going offline why
+- my email keeps on going offline and i keep having to sign back in
+- my accounts keep going offline
+- all gmail accounts keep going offline
+- my gmail accounts keep going offline what gives
+- my email account keep going offline
+- my account keeps going offline help
+- my account keeps going offline and i keep having to re sign in to gmail its very annoying and has happened a times today alone don't understand why it keeps going offline
+- i keep having issues where both my gmail accounts keep going offline multiple times a day
+- hello i have about a email accounts in the app and all of the gmail ones keep going offline i reconnect them and later they go offline again
+- my account keeps going offline please fix
+- google account keeps going offline
+- my google account keeps going offline what can i do to fix this
+- why my accounts keep going offline
+- why do my accounts keep going offline
+- gmail still keeps going offline
+- why do my accounts keep going offline ism not logging out yet each time i open the app one of my accounts is offline
+- accounts keep going offline
+- i keep getting a account offline message
+- my accounts keep going offline even after i reconnect them
+- i keep having my account go offline please help its annoying
+- why does my account keep going offline
+- my email accounts keep going offline
+- my email accounts keep going offline several times a day
+- why are my google accounts now going offline
+- the gmail accounts keep going offline
+- why do my email accounts keep going offline
+- why do all my accounts keep going offline all the time
+- my email keeps going offline and i keep having to reconnect it
+- account still going offline
+- my gmail account keeps going offline i keep reconnecting it
+- my gmail accounts keep going offline
+- why do my google accounts keep going offline
+- account keep going offline and asking for a password
+- says my account is offline but it is not
+- my account says offline why and how do i fix it
+- says my account is offline what do i need to do
+- offline why
+- why is my email offline
+- my account says account offline
+- a is my account offline
+- my account keeps saying offline
+- my gmail account keeps saying i am offline how do i fix this i am still getting email but its showing offline
+- gmail account keeps signing out and saying account is offline
+- keeps saying mail offline
+- inbox keeps saying offline
+- app keeps saying my gmail accounts is offline
+- accounts are getting offline again again
+- app keeps saying account offline even after the update
+- i have updated and am still having issues with it saying my account is offline
+- why is it saying account offline i did not change anything
+- why does it keep saying my account is offline
+- my account always says i am offline
+- my account keeps saying that it is offline but it is not and i receive new emails while it says it is offline
+- my account is offline
+- my email accounts keep saying you are offline please help
+- my email account is offline
+- my email app keeps saying it is offline how do i fix this
+- says ism offline
+- hi my account keeps going offline
+
+## intent:account_types
+- What type of accounts does Email support?
+- which accounts are compatible with edison email?
+- what email apps work with edison mail?
+- Hello, What type of accounts does Email support?
+
+## intent:add_attachments_to_emails
+- How do I add attachments to emails?
+- Hello, How do I add attachments to emails?
+
+## intent:add_firefox_browser
+- add firefox as option for browser
+- liking what i see would be good to add firefox to the browser list
+- when will you have a firefox option for the default browser
+- please add default browser support for firefox thank you
+- browser options are very limited i use chrome and firefox and a block browser
+- offer firefox as browser option
+- you really need to add firefox is app as a default browser option
+- please allow firefox to be an option for default browser thank you
+- please add firefox as browser choice
+- can you add the mobile version of firefox as an option in the default browser list
+- it would be great if on the iphone i had an option of default browser of firefox i prefer to use firefox for a lot of reasons including that we have apps for work that work specifically in firefox browser and don't work well in safari
+- no option to select firefox as default browser in is why
+- i use firefox on is please add it as a browser
+- hey could you please add support for the firefox browser thanks
+- add firefox as a browser option please thanks
+- why cant we use firefox as a browser to link to from our emails
+- i use firefox as my default browser on my is device but it is not shown as an option for default browser in edison i only have the choices of safari in app or google chrome can firefox be added to that list
+- i can you please add support for all the browsers installed in the iphone i would like to use firefox with my email
+- will it be possible to have firefox as your default browser
+- add option to make firefox the default browser if not for the lack of this option this app would be perfect
+- why cant i select firefox as default browser
+- hello, i want to add firefox browser
+- hi, i would like to add this to firefox browser
+
+## intent:add_images_to_emails
+- How do I add images from my phone to emails?
+- Hello, How do I add images from my phone to emails?
+
+## intent:add_microsoft_attachment
+- hello, i would like to add attachments from microsoft apps to my messages
+- how do i add attachments from microsoft to my email ?
+- Adding attachments from Microsoft Office apps to your message
+- Hello, Adding attachments from Microsoft Office apps to your message
+- how do i ad attachents from ms office to my message?
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- yes it did, thnaks!
+- yes it did
+- its cool, that is all
+- yes it helped, thank you!
+- yes i did
+- yes!
+- yes it did!
+- yes it did. byebye!
+
+## intent:apple_watch_app
+- what about watch
+- apple watch app please
+- any support for apple watch
+- apple watch support
+- is apple watch supported
+- get on the apple watch
+- apple watch app
+- are you planning an i watch add on
+- apple watch
+- please consider adding your app to apple watch i want to use this email app for all my email but can't until i can use it on the watch
+- add watch functionality i love this app but stopped using it so i could get mail on my watch please
+- will you develop for i watch
+- i is there a i watch app
+- please add an apple watch app
+- why can i not get this to work i have the app on the so watch and my phone and the watch keeps telling me to install the app on the phone when i press the button on the watch to do so it takes me to the play store but then says not found
+- i please make a watches app love your app and would love it more if it had a watches app
+- will there be an apple watch connection
+- can you make support for the i watch
+- is there an apple watch app
+- do you have an apple watch app in the works
+- i watch support please
+- does this app work on i watch
+- we need apple watch app
+- watch app soon
+- when i first installed edison to my phone notifications worked on the phone and my watch now this has suddenly stopped on my watch and the face complication has disappeared please advise iphone or is of a a and apple watch a on watch of a a thanks bill sands
+- a delete option for the apple watch please
+- please allow to trash from apple watch
+- i i love your app its amazing one little thing that all of the apple watch users out there really want apple watch support it would be awesome if you could develop an app for the apple watch
+- any support for apple watch coming
+- i will you be adding an apple watch app thank you
+- it works quite well on my ipad and my iphone however i simply cannot use this as my daily driver until it supports apple watch i would love to use this mail app if it had an apple watch app after all watches a made things way better for both developers and users and it does not take too much time to build an apple watch app device information text
+- please release the apple watch version
+- hello is the email app available for apple watch or will it be made available for the apple watch soon thanks
+- are you planning on having it work on the apple watch
+- please create an app for apple watch
+- please add an apple watch app thank you
+- please create an apple watch app thank you
+- please consider creating an apple watch app i just purchased an apple watch and have been forced to use a different third party email app to manage my gmail accounts i don't like the other apps and prefer to use yours but they offer an apple watch app
+- any plans for the email app on apple watch
+- are there any plans to make an apple watch app
+- email does not appear under notifications on apple watch
+- are you planning on making an apple watch app
+- i suggest you to have the app on the apple watch
+- please add apple watch integration thank you as
+- apple watch app i love your app however i have now moved away form using you app for one simple reason you don't offer an apple watch app i have an apple watch series a cellular model and the ability to not have my phone with me all the time means i require an email app that is on the apple watch can you please let me know if this is in your plans
+- please please could we get apple watch support
+- hello! when will the apple watch app be released?
+- hello, when will the apple watch app be released?
+- hello! is there an apple watch app for email
+- Is there an Apple Watch app for Email?
+- Hello, Is there an Apple Watch app for Email?
+
+## intent:bot_challenge
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+- what are you?
+- aw thanks!
+
+## intent:cancel_easilydo_account
+- I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
+- Hello, I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
+
+## intent:cancel_order
+- and like to cancel my order
+- and like to cancel my order i am removing the app from my phone now
+- cancel this order
+- i would like to cancel further orders
+- please cancel this i did not order it
+- i did not order this cancel this
+- i was charge for this order and order had been cancelled would appreciate if this was looked into
+- order was cancelled
+- i want to cancel my order
+- i will like to cancel my order
+- hello,  i would like to cancel my order
+
+## intent:cancel_subscription_account
+- how do i unsubscrube to mail services
+- i need help to unsubscribe my account
+- how do i cancel my account subscription?
+- please cancel my subscription
+- i want to cancel my subscription thank you
+- cancel subscription
+- please cancel now
+- cancel my account please
+- i want to cancel my premium subscription
+- please cancel my premium subscription
+- i want to cancel subscription
+- please cancel my subscription to the easilydo app for my android phone
+- please cancel my account
+- i would like to cancel my subscription how can i do that
+- i want to cancel my subscription
+- cancel my account please i cancelled my subscription
+- please cancel my subscription please
+- how do i cancel my subscription
+- i have cancelled my subscription and would like for my account to be deleted
+- trying to cancel my subscription
+- please delete my account i have cancelled my subscription
+- i want to cancel my subscription not using at all
+- i cancelled my subscription and would like to delete my account
+- please make sure this subscription is cancelled please confirm
+- i have turned of subscription so please cancel
+- would like to cancel my subscription please
+- i cancelled my premium subscription please delete my account
+- i cancelled my subscription please cancel my account
+- i have tried and tried to cancel my subscription and have been charged a times please refund me my money and cancel my subscription
+- please cancel my subscription my apple mail is working again
+- i had already cancel the trial on google play store but i can not cancel or delete the subscription please cancel the subscription
+- please cancel this account
+- i would like to cancel my subscription please thank you
+- delete my account please i already cancelled the subscription
+- please cancel
+- cancel this please have been trying to cancel this for while
+- please cancel my monthly subscription
+- cancel subscriptions
+- i am trying to cancel my account i go to itunes to end my subscription and that option is not available i just want to cancel my subscription
+- cancel the please
+- i unsubscribed a few subscriptions from my email accounts however id like to re subscript to one of them how do i cancel the a subscription
+- how can i delete the cancelled subscriptions need a way to do it
+- please cancel my account have already cancelled the subscription in my itunes thanks
+- please delete my account and cancel my subscription
+- hello please cancel my subscription
+- how do i cancel my subscription and delete my account
+- how do i cancel my subscription help
+- i need to cancel my subscription
+- indeed to cancel my subscription how do i do that
+- i need to cancel my account how do i do this
+- please cancel my account and email me at this address to confirm cancellation thank you
+- i would like to delete my account i have already cancelled what i needed to cancel
+- i had cancelled this a while back
+- how do i cancel my account
+- please cancel my account best regard him
+- please cancel my account that i just set up
+- cancel account
+- how can i cancel my account
+- can you cancel my account
+- could you please cancel my account
+- i can't figure out how to cancel my premium account can you please cancel for me
+- please cancel account thank you
+- not reading cancellation
+- can you please cancel my account thank you
+- been trying to cancel
+- trying to cancel
+- have been trying to cancel
+- cancel my account
+- would like to cancel
+- cancel this please i can't get into my account to do it please
+- how do i cancel my account with you
+- i cannot get into cancel my easilydo account because i no longer have access to an iphone can you please cancel for me
+- i would like to cancel how do i do it
+- and like to cancel my order
+- and like to cancel my order i am removing the app from my phone now
+- cancel this order
+- i would like to cancel further orders
+- please cancel this i did not order it
+- i did not order this cancel this
+- i was charge for this order and order had been cancelled would appreciate if this was looked into
+- order was cancelled
+- i want to cancel my order
+- i will like to cancel my order
+- please cancel my membership immediately please
+- cancel membership
+- please cancel my membership
+- need to cancel membership
+- cancel my membership
+- please cancel immediately
+- please cancel and do not charge me
+- how can i cancel with out being charged
+- please cancel my subscription so i do not get charged in june please email me a confirmation of the cancellation thank you
+- i would like to cancel my account i am being charged a of per month but i do not use the app please let me now what i need to do to cancel
+- i cancel and i was still charge
+- what is this charge
+- i cancelled this charge and i still get charged cid 977a0fee de of of do a 540c2af5af60
+- i was charged
+- can you cancel my services thanks
+- don't want the service at this time please cancel it
+- i i just want to cancel my services and account regards
+- cancel emails and service
+- them trying to cancel my service how do i do that
+- how to cancel unsubscribe for your service
+- remove my memberhsip
+- i also need to unsubscribe to easilydo account
+- i want to unsubscribe my account
+- i would like to cancel my subscription
+- pls cancel my subscription
+- i want to stop subscription
+- i want to stop my subscription service
+- i want to remove my email subscription
+- i need to stop my account subscription
+- i want to remove my subscription
+- i want to cancel my membership
+- i want to cancel my sibscriptioion
+- i wanna cancel subscription
+- i would like to remove my subscription service
+- i vincent were sorry to see you go please see below for instructions on how to cancel your premium subscription as this is not something we can do from our side google play does not allow us to manage any in app subscription purchased through the google wallet here are the steps google play provides for managing your premium subscription with easilydo to cancel a subscription visit your my subscriptions page link here on google wallet and use the cancel subscription buttons important uninstalling an app will not automatically stop your subscription you must cancel your subscription to end your subscription if you uninstall the app without cancelling your subscription you will still be charged cancelling a subscription will not retroactively refund subscription payments and previously charged subscription fees cannot be pro rated based on cancellation date for example if you purchased a one year subscription on jan a for of and decide to cancel your subscription on july a you will have access to the subscription until dec of and will be charged the full of but you will not be charged another yearly subscription of of the following jan a if you have any other questions about this or anything else please feel free to ask best metal on mon may a of of a of pm no reply via all all easilydo com wrote please delete my account
+- were sorry to see you go unfortunately we can't access your subscription to be able to cancel it for you google play does not allow us to manage any in app subscription purchased through the google wallet so here are the steps google play provides for managing your premium subscription with easilydo to cancel a subscription visit your my subscriptions page link here in google wallet and use the cancel subscription buttons important uninstalling an app will not automatically stop your subscription you must cancel your subscription to end your subscription if you uninstall the app without cancelling your subscription you will still be charged cancelling a subscription will not retroactively refund subscription payments and previously charged subscription fees cannot be pro rated based on cancellation date for example if you purchased a one year subscription on jan a for of and decide to cancel your subscription on july a you will have access to the subscription until dec of and will be charged the full of but you will not be charged another yearly subscription of of the following jan a if you have any other questions about this or anything else please feel free to ask best metal on fri may of of of a of pm no reply via all all easilydo com wrote id like to cancel my order
+- i need help to  unsubscribe to my account
+- i need help to cancel my subscription account
+- hello ! how do i cancel my easilydo account
+- how do i cancel my easilydo subscription?
+
+## intent:cannot_track_packages
+- package tracking is not working
+- missed package tracking
+- i'm not getting my package tracking notifications
+- my package tracking has disappeared where is it
+- hello how do i use the package tracking feature
+- amazon has changed their email format and now the email app does not track packages like it used to i have done the add to assistant but the package tracking does not work like it used to
+- it is not letting me track my package
+- my app is not tracking my packages from emails the setting is on
+- i love the package tracking feature of this app
+- re 53867 this package is not being tracked
+- i can't track my package
+- why i can't track this package
+- won't allow me to track packages the packages show up in the past category but give no tracking information
+- packages assistant does not track packages from apple
+- the packages tracking functionality no longer works
+- package tracking stopped working with my gmail account
+- my package tracking is not working
+- is there a way to turn off package tracking
+- love the package tracking and subscription
+- how can i stop tracking packages i have another app for this
+- hi, i have difficulty tracking my packages
+
+## intent:change_account_pwd
+- I've changed my email account password, how can I update this information in the app?
+- Hello, I've changed my email account password, how can I update this information in the app?
+
+## intent:change_default_address
+- How do I change my Default Address?
+- Hello, How do I change my Default Address?
+
+## intent:change_folder_list
+- How do I change the folders (mailboxes) listed in my menu?
+- Hello, How do I change the folders (mailboxes) listed in my menu?
+
+## intent:change_lines_number_in_preview
+- How do I change the number of lines I can preview in a message?
+- Hello, How do I change the number of lines I can preview in a message?
+
+## intent:change_notification_sound
+- i changed all my notification sounds but when i get notified the default notification sound still plays
+- when i receive notification i always get the default sound but i set the mail sound for all accounts
+- better notification sounds please
+- notification sounds request
+- notifications i have set notifications to important only and i have set notification sound to mail yet every time i get an an email from ups for a delivery i get a banner notification not something that i or gmail considers important and annoyingly the sound used for that notification is different its the try tone sound rather than the mail sound
+- cannot turn notification sound off when sound is setup for all accounts it will not turn off if i set notification sounds up for each account individually my office of a account won't allow sound notification to be turned off must be something with that account type
+- i can't turn off the notification sound for any emails when i click on the sound options and click none it reverts back to the default sound i'm not sure what to do but i don't want a notification sound for every single email
+- more sounds please
+- i can you please add the option to choose my inbox notification sound from the sounds from my iphone and the manually installed sounds i have thank you
+- my notification sounds are not working and what is assistant
+- how do i change the email notification sound when i go into the settings in your of and choose notifications and then sound it takes me to the android app info page instead of letting me choose a sound
+- how do you set a notification sound for incoming mail
+- i want to be able to customize the sounds for my email accounts with one of the sounds i have stored on my phone i seem to be limited to just the sounds for the app how can i be able to add my own sounds to each of my emails
+- i seems to have developed a notifications bug i don't have sound as an email notification as it would always be going off but the last update i started getting the sound notification on checking the settings when selecting sound to check what sound it was set to instead it took me to the android application settings but weird but i checked again restarted the phone and selecting sound does not take me to the sound selection panel but to the android application settings for this app reluctant to reset the app as it takes a while to set all the accounts again thoughts
+- where do i set what sound notifications i want
+- the only issue i have is the current version won't allow you to set the sound for email notifications to no sound if select no sound in the picker as soon as you save the setting it goes back to the previous sound
+- cannot turn off notification sounds in the app i select none from the list of sounds but the email app sound setting does not accept this change and retains the default notification sound mike lucas
+- why is the application continuing switching the notifications from no sound to sound i do not want sound in notifications and i cannot put no sound in app when i change the options in the system it goes back to sound is there a way to solve this i like the app but i cannot use it with this issue
+- individual notification sounds reset all the time to the default sound
+- i again i have more information re notification sounds issue i believe case 118230 the notification sound from this app still sounds even with notification sounds on the phone turned off it obviously presents as a ringing sound rather than a notification sound on the samsung there are separate controls for notification and ring sounds unlike many other android devices the issue about incorrect selection of sound type was solved by blocking and then unblocking notification sounds for the app i can only assume the setting was incorrect upon initial install but is fine now in short the logic of notification sounds by the app now seems fine the only issue is that notification sounds for this app appear as a ringing sound and are hence controlled on the samsung by the volume control for ringing as this is set loud in my case the notification sound is also annoyingly loud hope you can assist as otherwise this seems to be an excellent email app all the best colin
+- i regardless of what i put in the notification settings the app always reverts to a notification sound i would like the badges but with no sound i have set it to no sound but it still makes a sound i have set it to a different sound but it reverts to the default skyline i don't want to turn notifications off altogether but that is the only thing that seems to work please help ian
+- customize notification for each account not working when i set a custom sound within a day application lost sound settings and replace it with standard system notification sound
+- i want to change my notification sounds
+- i would like to change my notification sounds
+
+## intent:change_password
+- i how can change my password please
+- had to change my password so here it
+- how i can change my email password
+- how do i change my password
+- how do i change my email password
+- how do i change password
+- how change password
+- how to change password
+- i need to change password
+- please help my password was change tofu045qvz new password
+- how do i change my email and password
+- i did not request a password change
+- i am not able to change password on my email account
+- trying to change password how and where
+- good app but how do i change my account password
+- how do i change the password on my account it is an exchange account and have already changed the password on the server but cannot change in the app
+- how do i change password for an account
+- i need to change my password
+- password change
+- how can you change a password for an account
+- how change my password
+- is there option for changing account password
+- cannot change mails password
+- how do you change your password for an email account
+- want to change my password
+- how do i change my password for this account
+- where do i change my password
+- can i change my password
+- how do i change my password on this email account
+- how do i change my password on here
+- i need change my password please can you help me
+- i need change my password
+- changing password not possible what
+- how can i change my password
+- how to change password in this app thanks
+- how to change the password
+- i can you please help me to change my password with edison
+- i how i can change my password
+- i would like to change my password
+- how do we change password in us most of
+- nice app in us est
+- test in us est
+- where is the option to add a message to the assistant in us est
+- need a search in us est
+- not receiving emails in us est
+- not working in us est
+- does not work with yahoo mail in us est
+- where is my sent file in us est of
+- new mail is not loading in us est
+- i can not see my sent emails in us est
+- how do i change password in us est
+- i want to change my password
+- i would want to change my email account password
+
+## intent:criticise
+- app sucks
+- this app sucks
+- this sucks how do i reply there is no such function
+- it sucks
+- this update sucks
+- i think its not what i'm looking for and it sucks
+- your new app sucks i mean really sucks
+- this sucks
+- this double screen sucks sucks sucks stop fucking stuff up leave my email alone
+- system sucks
+- its sucks
+- the app sucks presently because you cannot send it any emails
+- a suck
+- app stopped working it sucks
+- this app really sucks
+- sucks
+- will not open at all sucks
+- this system sucks
+- mail box sucks
+
+## intent:delete_account
+- please delete my account
+- can you please delete my account
+- delete my account please
+- please delete my account thanks
+- i please delete my account
+- please delete my account please delete my account
+- pleased delete my account
+- hello please delete my account
+- please delete my account and all the information
+- delete my account now
+- delete my account
+- i want to delete my account please
+- how do i delete an account
+- please delete my account thank you
+- please delete this account
+- how do i delete my account
+- how do i delete account
+- i please delete my account thanks
+- i would like to delete my account please
+- how i delete my account
+- how do you delete an account
+- delete account
+- please delete my account your delete account function in the is app is not working
+- delete does not work please fiiiiixxxxxxxxxxxxx
+- i need to delete my account please
+- app will not delete account
+- have tried to delete my account a times and it still will not please delete
+- it does not allow me to delete my account please tell me how i can delete my account
+- please delete this email account
+- please delete my account i deleted the app but am now not able to delete my account please delete all data associated with my email address
+- cannot delete email
+- i cannot delete emails how can i delete
+- how do i delete this app
+- how do a delete an email
+- how do you delete of emails all at once
+- how do i delete all my emails
+- where is the delete all
+- delete all
+- delete all emails
+- how do i delete all these emails
+- cannot delete emails
+- i cannot delete my emails
+- how can i delete all my email all at once
+- how do i delete all my email
+- emails are not deleting
+- i have of of a emails on this account i need to delete all of
+- of just deleted
+- please delete my account i am unable to delete it using the delete account button within the app
+- i need to delete an account in my account
+- how do i delete all the emails i have have of of a
+- how do you delete all emails
+- all my email had been deleted
+- i have 30000 emails how can i delete all at once
+- how do i delete all email
+- how do i delete emails
+- i need to delete my account
+- i want to delete this account
+- i want to delete all google accounts
+- on this app how do i delete an account from it on my phone i want to delete one of my email accounts
+- i want deleted email
+- i i want to delete my account
+- i want to delete my account and i cannot look to the screenshots and delete my account now
+- i want to delete my account but the app does not allow me to do it
+- i do not want to delete this account
+- i want to remove my account
+- i want to remove my email account
+- how do i delete my account?
+- i want to delete my account
+- how do i delete emails?
+- how do i delete my emails?
+- how to delete my emails?
+- how do i delete my acount?
+- how do i delete my emails
+
+## intent:delete_self_messages_permantently
+- How can I permanently delete my messages?
+- how to delete my messages forever
+- Hello, How can I permanently delete my messages?
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- nothing
+- no it didnt
+- aww thanks!
+
+## intent:did_not_order
+- i have other questions about this order
+- where is my order
+- i did not order this
+- i did not order these
+- this is not an order
+- i did not order
+- we did not order this
+- did not order this
+
+## intent:diff_easilydo_and_email
+- what is the difference between easily do apps and easilydo email?
+- hello! how does easilydo app differ from easilydo email?
+- What's the difference between the apps EasilyDo, and Email - EasilyDo Mail?
+- Hello, What's the difference between the apps EasilyDo, and Email - EasilyDo Mail?
+- is there any difference between easilydo apps and the email?
+
+## intent:diff_easilydo_and_macmail
+- What's the difference between Email - EasilyDo Mail and the\n  Apple Mail app that comes on your iPhone?
+- what is the difference between easilydo email compared to the apple mail app?
+- What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
+- Hello, What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
+- what is the green icon that appears beside my email
+- What's the difference between Email - EasilyDo Mail and the\n  Apple Mail app that comes on your iPhone?
+- what is the green icon that apears beside my email?
+
+## intent:draft_and_send_mail
+- How do I draft and send a new email?
+- Hello, How do I draft and send a new email?
+
+## intent:elete_account
+- How do I remove an email account from the app?
+- Hello, How do I remove an email account from the app?
+
+## intent:email_block
+- please add block for emails
+- please add option to block emails
+- please in block me i block you out by mistake
+- how do i block email a this app
+- how do you block emails
+- how do you block an email from this app
+- this block my account
+- how can i block an email address please
+- how do i block emails on this app
+- please can you add a block sender option
+- email blocked
+- help my email is blocked
+- how do i block email
+- how do i block an email
+- can i block emails
+- how do i block emails
+- how can i block emails the
+- how do i block a email
+
+## intent:email_missed_by_assistant_add
+- An email was missed by the Assistant. How can I add it?
+- Hello, An email was missed by the Assistant. How can I add it?
+
+## intent:email_not_loading
+- how to load more than of a emails
+- stopped loading email
+- its not loading my messages
+- i i cant load my emails
+- i'm having issues with my emails loading
+- i'm having problems with my email loading
+- it seems i can only load of a messages at a time i would like to load my entire of of a emails
+- my email app will not load my emails there are notifications they are there but simply does not load
+- a loading
+- my emails will not load
+- fast loading
+- email does not load or load correctly please see attachments
+- some emails are not loading for me
+- i pull down to load new mail and nothing loads
+- its not loading all of my emails
+- email is not loading
+- edison only lets me load of a conversations from my account how do i get it to load more
+- all inboxes does not load messages
+- not loading up email content
+- not loading my emails
+- the signature is not loading a picture but it will load on my other accounts those are the images it won't load it when they all work on desktop gmail
+
+## intent:enable_imessage_app
+- how to link imessage app for email?
+- hi! how do i link imessage app for email?
+- How do I enable the iMessage app for Email?
+- Hello, How do I enable the iMessage app for Email?
+
+## intent:environment_staging_release
+- test environment staging release of of iphone
+- environment staging release
+- why is my account disabled environment staging release
+- why are my notifications not showing up on my easily do app environment staging release
+- will not refresh environment staging release
+- cannot connect to my icloud account environment staging release
+- i just had to open a new account why environment staging release
+
+## intent:for3d_touch_action
+- How do 3D Touch Quick Actions work?\n\n \n\n\n\n\n'
+- how to use 3d touch actions
+- How do 3D Touch Quick Actions work?
+- Hello, How do 3D Touch Quick Actions work?
+- How do 3D Touch Quick Actions work?\n\n \n\n\n\n\n'
+
+## intent:forword_email
+- How do I forward an email?
+- Hello, How do I forward an email?
+
+## intent:frequency_crash
+- your app keeps crashing
+- the app is crashing
+- app does not like to send email just keeps crashing
+- it keeps crashing
+- app is crashing
+- app keeps crashing and not opening on iphone be
+- my app keeps crashing
+- today my email app on is keeps crashing every time i go into it it crashes and i have reset my phone and still my email app keeps crashing over and over this has not happened before is this a bug that will be fixed
+- keeps crashing any time i try to delete an email
+- why does it keep crashing love your app but i will have to delete please fix
+- keeps crashing
+- crash app crashes all the time fix this
+- it keeps crashing on my phone
+- keeps crashing when opening
+- would have liked it but it keeps crashing
+- keeps on crashing
+- i the app keeps crashing when i try searching for an email
+- i i have installed the app and it keeps crashing
+- email keeps crashing
+- needs to be fixed so does not keep crashing
+- keep crashing
+- app keeps crashing
+- keeps crashing when i try to search my emails
+- keeps crashing when searching
+- i app keep crashing
+- this app keeps crashing
+- app crashes
+- app keeps keeps crashing and freezing
+- this app crashes all the time
+- app keeps crashing as soon as i open it cant access any emails before it crashes
+- the new update keeps crashing
+- keep crashing over and over again
+- my app keeps crashing on all my phones
+- keeps crashing in the background
+- i keeps crashing when i open an email if i zoom in quick then it does not crash
+- keeps crashing when an email is opened from notification
+- keeps crashing after deleting email from notification
+- have iphone a app keeps crashing on opening
+- app crashed on me
+- searches keep crashing the app
+- the app keeps on crashing as soon as i launch it
+- crashing on launch
+- great when it works keeps crashing search function causes the app to crash for the last a month app has been crashing as soon as i launch it
+- app on is keeps crashing on launch
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- bye bye!
+- good bye
+
+## intent:gratitude
+- thank you
+- thanks for the help!
+- thank you very much
+- thanks
+- thanks alot
+- thank you very
+- appreciate it
+- i am grateful
+- you have been helpful
+- i am thankful
+- yes thank you!
+- yes thanks!
+- thanks!
+- yes it did thank you very much
+- yes it did thanks1
+- yes it did thank you!
+- yes it did thank you
+- okay thank you
+- yes it did! thanks
+- yes it did! thank you
+- yes it did! many thanks
+- yes it did! thanks alot
+- yes it did thankyou!
+
+## intent:green_shield_with_checkmark
+- What is the green shield emblem with a checkmark that appears next to some emails when you open them?
+- Hello, What is the green shield emblem with a checkmark that appears next to some emails when you open them?
+- what is the green shield that appears beside my emails
+- what is the green emblem that appears beside my emails
+- what is the green icon that appears next to emails?
+- what is the green icon that appears beside my email?
+- what is the green image that shows beside the email when i open them
+- what is the green shield that pops out beside my email?
+- what is the green icon with checkmark that is shown beside my emails
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- hihi
+- hi rasa!
+- hi rasa
+- hello!
+- hello rasA!
+- hi!
+
+## intent:how_add_description_to_account
+- How do I add a description/nickname to my accounts?
+- Hello, How do I add a description/nickname to my accounts?
+
+## intent:how_always_bcc_myself
+- How do I always Bcc myself?
+- Hello, How do I always Bcc myself?
+
+## intent:how_archive_email
+- How do I archive an email?
+- Hello, How do I archive an email?
+- how do i archive my emails
+
+## intent:how_change_classified_important
+- How do I change what emails are classified as 'Important'?
+- Hello, How do I change what emails are classified as 'Important'?
+- what is the green icon that appears beside my  emails
+
+## intent:how_change_default_browser
+- How do I change the Default Browser?
+- Hello, How do I change the Default Browser?
+- how do i change the default browser for the app?
+
+## intent:how_change_folders_list
+- How do I change the folders (mailboxes) listed in my menu?
+- Hello, How do I change the folders (mailboxes) listed in my menu?
+
+## intent:how_change_notification_action
+- How do I change my notification actions?
+- Hello, How do I change my notification actions?
+- how do i enable notifications?
+
+## intent:how_change_swipe_options
+- How do I change my swipe options?
+- Hello, How do I change my swipe options?
+
+## intent:how_change_undo_time_window
+- How do I change the "undo" time window?
+- Hello, How do I change the "undo" time window?
+
+## intent:how_create_signature
+- How do I create a signature?
+- Hello, How do I create a signature?
+
+## intent:how_customize_assistant_view
+- How do I customize the Assistant view?
+- Hello, How do I customize the Assistant view?
+
+## intent:how_delete_email
+- How do I delete an email?
+- Hello, How do I delete an email?
+- how do i delete an email?
+- how can i delete my emails?
+
+## intent:how_disable_or_enable_backgroud_app_refresh
+- How do I disable or enable background app refresh?
+- Hello, How do I disable or enable background app refresh?
+
+## intent:how_turn_off_badge_count
+- How do I turn off or turn on the badge count?
+- Hello, How do I turn off or turn on the badge count?
+
+## intent:ios_support_version
+- What version of iOS does Email support?
+- Hello, What version of iOS does Email support?
+
+## intent:is_email_secure
+- Is my email secure?
+- Hello, Is my email secure?
+
+## intent:is_free
+- Do I have to pay to use the app?
+- hello! is this app for free?
+- Hello, Do I have to pay to use the app?
+
+## intent:mail_providers_support
+- What mail providers does this app support?
+- Hello, What mail providers does this app support?
+
+## intent:mark_all_read
+- is there a way to mark all email as read
+- how do i mark emails as being read
+- is there not a feature to mark all as read
+- is there a way to select all emails and mark as read
+- is there a way to mark all emails as read like you can do in apple mail
+- how do i mark all messages as read
+- i how do i mark all emails as read
+- how do i mark all mail as read
+- mark read option never mark all mails read at the same time
+- wish there was a way to mark read on all of my emails at once
+- app marks my emails as read before i open and read them have no way to see unread
+- how do mark all read using email app
+- is there a way to select all of my emails and mark them as read
+- how do i mark all my emails as read unread i have of emails i want to mark them as read
+- how do i mark all as read of a of a of of
+- how do i my email mark all as read
+- is there a way to mark all as read
+- is there a way to mark all as read in the app have searched and cannot find it
+- have been having problems with emails being marked read before i have read them
+- how do i mark emails as read
+- how can i mark as read all of my emails of only one account
+- how do i mark all email as read
+- is there a way to mark all emails as read in the app
+- how do i mark all my emails as being read
+- need to mark all emails as read
+- is there a way to be able to mark as read in the notification window right now there is delete and archive but i just want to mark as read
+- i how do i mark all as read
+- is there a way to mark all mail as read
+- is there a way to mark all emails as read
+- is there a way to mark several messages as read thanks
+- how do i mark all unread email as read
+- the app does not actually marks emails as read if marked as read from notification centres
+- how do i mark all as read the app imported all of my a of a plus emails as unread and i'm only able to mark as read about of a to of a at a time
+- why won't your app mark emails mark as archived also as read
+- how to mark multiple messages read
+- need to be able to mark all read
+- please add mark as read in the notification
+- what i like the most about this app is that you can mark as read from the notification very good
+- how do you mark all as read after using select all
+- how to select all and then mark all as read
+- how do i mark all my unread as read at the same time
+- i am trying to select all of my unread emails and mark them as read every time i try it only reads of a messages i have of of i am trying to mark as read
+- how do i select mark emails as read so i can keep them without reading
+- how do i mark all emails as read iphone thanks
+- is it possible to mark all as read thanks
+- i how do i mark all as read in the app for the unread folder
+- is there an option to mark all unread email as read
+- hey i have a question i have lots of unread emails is there a way to mark them all as read instead of of at a time i know i can select all of my emails but i cannot mark them as read i was able to mark them all as read on gmail com but for some reason they stay marked as unread in the app please help tom
+- need an option for mark all as read
+- i why are all messages always marked read even new mails are marked read automatically
+- its of you just can't mark all emails as read at the same time
+- ism using this email app on my iphone because i like it better than the native mail app but all messages coming in are being marked as read before i can even read them sometimes when i open the app they are marked as unread but within a second or two get automated marked as read other times they are already marked as read when i open the app whats up tony splat
+
+## intent:mark_as_spam
+- how do i mark as spam
+- please add mark as spam option
+- we need an option to mark an email as spam
+- how to mark as spam on the mail
+- how can i change an email in my spam folder to mark it as not spam
+- how can i mark a message as spam
+- how do you mark as spam
+- how do i mark a message as spam love the app so far but there needs to be a way to mark emails as spam
+- it would be nice if we could mark emails that are spam
+- this is spam
+- how to mark as spam
+- where is the mark as spam swipe
+- need a multiple spam support or swipe to mark as spam
+- spam
+- i is there any way to mark emails as spam
+- how do i mark spam as not spam
+- i keep marking messages as spam to no avail how can i stop all the spam this is too much
+- i am not able to mark the email as spam
+- spam spam spam spam spam spam spam spam
+- when i mark something as spam why do i keep getting spam from the same email address
+- i i am trying to mark an email as spam but when i tap the a dots on the top of the mail there is no mark as spam regards from
+- please advise how to mark messages as spam
+- i i have been received emails that i marked spam and they re keep coming any way for me to get rid of them after i mark them spam thanks
+- i cannot mark emails as spam it says in the fax i can tap the three dots and then mark as spam but mark as spam does not show up as an option
+- if you get a spam message how exactly do you mark it as spam
+- how do i mark a message as spam
+- how do i mark a mail as not spam
+- how can i mark an email as spam
+- how do i mark spam messages as not spam my emails keep going to spam folder when i never marked it as spam and it has never done this before
+- how can i mark as spam and how can i default to one inbox
+- following your instructions to mark a message as spam when i tap on the a dots upper right i get a choices none of which is mark as spam so how do i mark a message as spam
+- your online instructions to mark a message as spam are in error tapping the a dots top right gives me a choices none of which is mark as spam so how do i mark a message as spam
+- ism wondering how to mark an email as not spam have seen some emails in my spam folder which are definitely not spam but ism not sure how to mark them as being safe i have moved them to my inbox is that enough or do i need to somehow mark them as not spam
+- how do i mark an email as not spam or could this be added please
+- how do i mark an email as not spam
+- how to mark emails as no spam when they are in the spam folder is there any possibility
+- i i have notice that there is no option to mark an email not spam
+- app is marking one of my contacts as spam i have no way to remove the spam marking
+- why not mark as spam on swipe
+- how do mark spam emails as not spam so that they go to my inbox
+- i is there an option to mark an email as not spam
+
+## intent:mood_angry
+- angry
+- furious
+- pissed
+- hate
+- grr
+- fuming
+- im feeling angry
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+- close
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+- my emotion is sadness
+- im feeling sad
+
+## intent:need_dark_theme
+- could you please make a dark mode dark theme
+- dark mode please
+- please make a dark theme the
+- where is dark theme
+- will you do a dark theme
+- needs dark theme
+- i need a dark mode please
+- i could you add a dark theme please
+- dark theme please
+- make a dark theme please
+- needs a dark mode theme
+- could you add a dark mode please
+- how about having a dark mode
+- make a dark mode please
+- dark theme
+- need a dark theme please
+- no dark mode
+- add dark theme
+- dark theme please thanks
+- do you have a dark theme
+- need dark theme mode
+- please add a dark mode
+- no dark theme
+- can we get a dark theme
+- i please add a dark mode
+- please make dark theme or night mode
+- please add a dark theme
+- please add dark mode
+- i want a dark theme please
+- please make a dark theme
+- it needs dark theme
+- you need a dark mode or dark theme
+- please please get a dark theme
+- please add dark mode theme support
+- is there not an option for a dark theme
+- how about a dark theme
+- you need a dark theme
+- this should have a dark mode
+- please add dark mode theme
+- please add dark theme
+- hello could you please add a dark mode
+- excellent make dark theme mode please
+- dark mode
+- can we have a dark mode in the settings please
+- could you make dark theme please
+- dark mode please this would make this my go to a mail app
+- great email app but could use a dark mode
+- dark mode dark theme its much needed
+- a dark mode or theme would be helpful
+- need a dark theme
+- if you can make a dark mode
+- add a dark theme
+- dark mode and all is great
+- will there be a dark mode
+- i want the dark theme
+- could use a dark mode
+- dark theme please and thank you
+- is there a dark mode
+- do you guys have any plans to release a dark mode or dark theme
+- i its of of dark mode please thanks
+- dark mode for is
+- dark mode dark mode
+- can you add dark theme
+- how about a dark mode
+- add dark theme to this app please
+- need dark mode
+- is it possible to have a dark mode
+- would love to see a dark mode
+- is there any dark mode or night mode support for this app
+- would be great to get a dark mode
+- very nice app but needs a dark mode
+- can you please provide a dark mode
+- dark mode would be a great feature in app
+- i can i enable dark mode
+- i are there any plans for a dark night mode it would be awesome to be the first email app with a dark mode it
+- nice app is there going to be a dark mode
+- love it but it needs a dark mode
+- needs a dark mode
+- needs a dark mode then it would be perfect
+- a dark mode would be great
+- hello do you have a dark mode setting
+- needs dark mode
+- love it but i miss dark mode
+- missing dark mode
+- needs dark mode otherwise great
+- can we have dark mode support
+- a dark mode would be good
+- needs a dark mode but otherwise excellent
+- id love dark mode
+- dark mode would be great
+- dear support its been a trend to have dark mode in everything can you also include this feature of dark mode in this app it will be more attractive with dark mode
+- any plans for dark mode
+- need a dark mode
+- add an option for a dark mode
+- is there a dark mode coming at all
+- still needs dark mode
+- need dark mode will that be coming
+- enable dark mode
+- only missing a dark mode
+- how do i switch on dark mode?
+- how do i switch on dark theme on my phone
+- how do i enable dark mode?
+- how do i switch to dark mode?
+- a star app would love a dark theme
+- thoughts on a dark theme
+- it would be awesome if you had a dark theme for this app
+- clean but need dark theme
+- support of dark theme needed
+- you need a dark theme that would be perfect
+- if you add a dark theme this will be my new email app
+- would please add a dark theme and a night theme worth paying for your app as it is and more so if the dark and night themes were to be added
+- still waiting for dark theme
+- great email any plans to add dark theme
+- add dark theme support
+- please add a night dark theme
+- dark theme plus
+- is it possible to enable a dark theme
+- any chance of a dark theme please
+- great when will dark theme available
+- need a dark colour theme for mail thanks
+- excellent app please add a dark theme
+- can you add a feature request for dark theme
+- great just i miss the dark theme
+- a dark theme would be appreciated
+- need ability to use dark theme
+- is it possible to get a dark theme
+- update a of of missing dark theme of of of when are these apps going to offer you a dark theme this is a major miss
+- any thoughts about dark theme great app
+- i we need the dark theme is very nice its possible
+- its the best app that i have used it would be great to have a dark theme
+- any chance of having a dark theme in the app
+- any plans for a dark theme
+- i would like a dark theme if this is possible to be
+- wish it had dark theme
+- will there be a dark theme soon
+- perfect but how can i set up dark theme
+- just dark theme is missed feature
+- did not see any theme option as i prefer dark theme
+- no dark theme otherwise a good app
+- when can we expect to see a dark theme
+- please add a black theme
+- please include a dark and black theme
+- what is about black theme
+- it would be great if it had a dark or black theme
+- love the app please add a dark black theme
+- love it just black theme please
+- hello great app only what i am missing is a black theme please and a black theme with regards rob
+- where can i find the black theme
+- please add black theme and sync settings
+- you need to add themes id like a black background
+- black or dark theme needed
+- hello there could you please add a dark or black theme please love the app
+- a stars if you add a black theme
+- hello please if possible provide a black theme i'm using on plus with in build black theme and when i open the email is bright white should be nice to add themes
+- black theme please
+- please add black dark theme
+- black
+- good application please add black theme and support to schedule email
+- try to add totally black theme please thanks
+- i it is plan to add black theme
+- i would like to see a black theme
+- black theme
+- no black theme the
+- plus add snooze option and black theme
+- when will dark mode be out?
+- how do i enable darkmode
+- how can i enable dark mode?
+
+## intent:never_received_package
+- never received
+- never received item
+- i never received this order
+- i i never received this order
+- i never received this
+- i never received my package
+- i never received my order
+- never received this item
+- never received my order
+- i never received this product
+- have never received this item
+- i never received this service
+- never received my package
+- i never received the item
+- never receive my package
+- i never received the package
+- never received this
+- never received this package
+- never have received this
+- i never received these item
+- i never received this package
+- i never received this service for a of
+- i never received my items
+- never receive this package
+- never receive
+- i never receive my package
+- i never receive anything
+- i have never received this item
+- order was never received
+- i never received this item
+- i never received it been waiting
+- never received this order
+- i never received this package what can i do
+- i have never ordered this nor received this
+- i never received these products
+- the package was never received
+- i never received my item
+- hello missing several packages from the packages feature any idea why thanks
+- i have not received the package
+- where is my package please help
+- i did not receive this package
+- i did not get the package
+- i did not get this package but i received my other one
+- the package was not there nor did i get an email
+- i still have not received my package
+- i have not received my package
+- i have not received any packages
+- should be listed under packages
+- i i have not received my package what going
+- i haven received my package what can i do
+- i did not receive my package
+- i have not received this package
+- package has not been received
+- did not receive package
+- package was not received
+- i am not receiving this package
+- have not received my package
+- package was not in mailbox another package was delivered from amazon but not this package
+- no i have not received this package
+- 1z3756w11200043513 i did not get this package
+- i have not received a package
+- packages not showing up in in packages section
+- packages folder is not updating
+- why my packages is not updating
+- i am no longer getting package updates when i have packages that are on the way
+- how do i turn off the package notifications i don't want to notified about my packages
+- my packages are no longer updating it only shows past packages
+- love the packaging folder allows me to see what packages are coming
+- where is the name package
+- this should come up under packages but did not
+- package was not delivered
+- already delivered
+- this package has not been delivered
+- this item was not delivered
+- when will my package be delivered
+- shows that there are of a days till a package is delivered when it is already delivered
+- my package has not delivered
+- where are you delivering my packages i am not getting them
+- marked delivered and it is not
+- how do i delete packages that have been delivered
+- it was reported delivered it was not delivered to my house i have had this problem with fedex before please see if they will deliver to me
+- i have not received the package it was not delivered to me
+- this is not past has not been delivered
+- my package was not delivered
+- not delivered yet
+- when and where was this order delivered
+- no the package has not been delivered
+- the package was not delivered
+- this was never delivered
+- great always deliver
+- i just want to email and this app delivers
+- hello! where are my packages?
+- i did not receive any packages
+- i didnt receive any package
+- i didnt receive any packages
+- how do i check my packages
+
+## intent:no_content
+- no content
+- this message has no content
+- i will see i have a new email it will show a few lines of content but when i open it there is no content if i check my same email from my laptop not using this app i will see the content
+- i keep getting on some emails message has no content i can see the content on my apple email app how can i fix this
+- some of the emails show up as no content and no access to the content of the mail
+- i have had several emails that had no content i checked the emails on apple email and the content was available how can i get the content to load bob
+- how can i load a message that has no content when it actually has content
+
+## intent:no_notification
+- not receiving notifications
+- not received
+- have not received
+- i have not received this
+- i am not receiving notifications for new emails
+- i have not received it
+- how do you receive notifications that you have an email
+- i did not receive this
+- did not receive
+- did not receive 162336327009
+- did not receive it
+- need notifications when receiving an a mail
+- no notification received for new mails
+- ism not receiving any notification when i receive email and the email app notification is on
+- ism not receiving email notifications
+- can't received notifications
+- of i receive a email why does the notification says of a email
+- how do i set my email up to receive notification when emails are read
+- i did not receive any email notifications
+- can i run microsoft apps on this email?
+- i m not receiving any notifications
+
+## intent:not_getting_mail
+- not getting mail why
+- i am not getting any mail
+- not getting mail
+- i am not getting my emails
+- why i can get emails
+- why am i not getting my email
+- not getting all of my emails
+- not getting my email
+- not getting my emails
+- get app now
+- cannot get emails
+- get app
+- i can not get my emails
+- what do i have to do to get my emails
+- cannot get any emails
+- get mail
+- i who are you and why are you a get
+- not getting all my mail
+- i did not get any email
+- i am not getting any emails
+- i cannot get my email
+- i am not receiving any emails
+- not receiving emails
+- not receiving all emails
+- i cannot send or receive emails
+- help with receiving email
+- i am not receiving emails help
+- i not received email
+- can not send or receive emails
+- i am not receiving all of my emails
+- i am not receiving any email
+- i am not receiving my emails
+- send receive emails
+- not receiving any emails
+- i cannot receive emails only send them
+- cannot receive emails
+- i am not receiving emails
+- cannot send email only receive
+- why am i not receiving all my emails now
+- i am not receiving emails at all
+- i am not receiving emails can you help
+- in not receiving any mail
+- i'm not received my email
+- i can send but cannot receive emails
+- email receiving
+- not receiving emails mail
+- not receiving any mail
+- i am not receiving emails gmail
+- i am not receiving all my emails
+- i cannot send or receive emails from the app
+- can receive email
+- when receiving email from my yahoo account i receive a of the same emails
+- i'm not receiving any of my emails
+
+## intent:not_working
+- not working again
+- did not work
+- does not work
+- this does it work too
+- this is not working for me
+- how does this app work
+- this does not work
+- not working
+- don't work
+- its not working
+- my mail is not working
+- email not working
+- just works
+- my email is not working
+- it does all the work for you
+- email not working again
+- works for me
+- it works
+- it just works
+- working like was for me
+- not working with in email
+- it works like it should
+- works
+- the app works as it should
+- app is not working
+- of of of just works
+- works like it should
+- works of for me
+
+## intent:personal_folders
+- Where are my personal folders associated with each email account (Yahoo or Gmail folders)?
+- Hello, Where are my personal folders associated with each email account (Yahoo or Gmail folders)?
+
+## intent:praise
+- good
+- going good
+- is very good
+- this is good
+- is it very good
+- good app
+- its very good
+- very good
+- very good app
+- its good
+- good email app
+- good features
+- it good to have
+- its so good
+- good good
+- no good
+- get it its good
+- its a good app for emailing
+- it is good
+- i good
+- love it do good
+- good apps
+- its a very good app
+- great app
+- i love it great app
+- great app keep doing what you re doing
+- great app i love it
+- great app love it
+- great
+- a great to do
+- great app thanks
+- it great
+- great email app
+- works great
+- its great
+- this was great
+- i like it its great
+- this is great
+- great mail app
+- its very great
+- works great for me
+- great app works great with my android
+- great email
+- its a great app
+- great app to have for your email
+- is great
+- app is not that great
+- this is a great app
+- it is a great email app
+- its a great email app
+- great app doing the work
+- for emails its great
+- great i
+- it is great
+- great for work
+- great for email
+- great apps love it
+- just great
+- working great
+- great app with great features
+- a great app
+- great email apps
+- great app thank
+- its great really great like better than gmail great
+- great use
+- it works great
+- its a great app i love it
+- its great email app
+- its great app
+- great just great
+- great apps
+- great app thank you
+- its a great app thanks
+- this is a great app for email
+- email is so great
+- i this app its great
+- great a
+- great app very useful
+- 试了很多邮件app都无法在note8上及时推送 这款app完美解决了这个问题 而且无广告很良心 thank you for this great app
+- just a great email app
+- this app is just great
+- great app a a
+- it a great
+- a had is great app
+- more options for assistant would be great great app
+- this app works great for me
+- it is a great app
+- very great app thank you
+- it is working great
+- great boil
+- a great app thanks
+- great app for email
+- just a great app
+- great would be
+- its great at mail
+- great app as i want
+- great app for all my emails very useful
+- great for sniping
+- great app useful
+- great mail app great user interface great features
+- great app a
+- a great email app
+- its a great app for what it does
+- this app is great
+- great all
+- great app works great
+- great its great just great
+- love it
+- love this
+- love love love this app i love the idea that it keeps track of my receipts
+- i love this bill organizer love love love
+- i love it
+- i love
+- loving this
+- love
+- love this app love it cayenne
+- i love you
+- loved it
+- love you
+- love it in
+- i just love it
+- love love love it
+- love of
+- love this mail app
+- i love you sweetheart
+- i love my email i love my email
+- i love email
+- love by
+- love it love it
+- love it my
+- i loved it
+- love this email
+- love it the
+- i love this
+- love it this is how an email app should work
+- what is love mail
+- i love it linear i she
+- in love it
+- love it for all email
+- love to use
+- lovely
+- i just love this app its very very usefully app
+- loving it
+- just love it i love my mail again
+- i love it because it is very simple very lovely very likely i love you very much
+- of very nice
+- nice
+- nice app
+- very nice
+- is nice
+- it works nice
+- nice apps
+- great nice app
+- very nice i get this app
+- nice a like
+- its very nice
+- its nice
+- nice one
+- useful very nice app
+- very nice app
+- nice one app
+- this is so nice
+- nice try
+- of nice
+- good nice app than
+- very nice this email apps
+- so nice
+- its very nice apps
+- nice app use it once you too love it
+- very useful and very nice app
+- nice very nice
+- a nice app
+- very very nice apps
+- i need nice sating
+- love it nice app
+- have all emails very nice
+- nice i love it
+- its a very good app very nice
+- nice email app
+- nice use it
+- this is a very nice working email app
+- nice nice
+- nice app for email
+- a very nice email app
+- good app nice
+- very very very nice
+- very nice i like it
+- nice working app
+- its a nice app
+- nice app love it
+- folders would be nice
+- its really nice
+- good very nice
+- a nice
+- very nice i love it
+- nice mailing app
+- nice work
+- nice app working great
+- nice app so far
+- nice loved it
+- very nice apps
+- is very nice
+- useful nice
+- nice to use
+- very nice a
+- excellent
+- excellent mail app i love it
+- this is excellent application i liked it
+- is really excellent
+- its an excellent email client
+- excellent thanks
+- excellent thank you
+- excellent app
+- excellent love it
+- excellent services
+- excellent all mails under one app
+- excellent email app does what it says
+- excellent very fast
+- nice a excellent
+- excellent application
+- excellently
+- excellent simple
+- very good app excellent
+- excellent mail app
+- excellence
+- excellent and easy to use
+- excellent app this is what am looking for
+- excellent mail apps
+- excellent email thanks
+- excellent email app
+- excellent app thank you
+- very excellent app
+- i love it excellent
+- easy to use it is excellent
+- excellent work
+- excellent does what it says
+- excellent mail
+- excellent track to
+- the most excellent application that i have been used
+- excellent easy app
+- excellent easy to use
+- excellent applicative
+- excellent app loved it
+- excellent easy to set up
+- excellent email client
+- really excellent mail app
+- excellent app i use it all the time
+- just excellent
+- excellent mailing app
+- excellent service
+- good excellent very useful
+- app excellent
+- its excellent
+- excellent mail application
+- excellent app and i love this app
+- excellent app no problems in getting my emails
+- excellent app for my emails accounts
+- excellent support thank you
+- very excellent
+- excellent apps
+- excellent app i like it
+- excellent of of
+- excellent app i love this app
+- excellent excellent
+- excellent client de correl
+- excellent correl
+- best email app
+- the best
+- the best email app i have used
+- best email app out there
+- best
+- the best email app
+- my best
+- its the best
+- best mail app
+- the best email app out there
+- its the best app to me
+- best email app have had
+- the best email app i love it
+- best app for emails
+- best app for all mails
+- best email app i have used
+- best email app for of of
+- best email apps
+- really best email app
+- best app
+- the best email app have used
+- best email app about
+- best messaging app
+- this is the best email app for me
+- best email app i used
+- best email app have used
+- best of the best
+- best all in one email app
+- the best of all
+- best email app for me
+- best app for email
+- it is the best
+- the best app
+- best email ives tried
+- using it best of all apps
+- best email app there is
+- great email app best there is
+- the best mail app
+- best mail app out there
+- this is the best email app i love it
+- the best app to
+- best email app i love it
+- best mailing app
+- this is best app
+- one of the best email apps out there
+- best email i am using now
+- best email
+- best than any other app
+- the best apps
+- best of best
+- its best app to have all in one app
+- this email app is the best from all mail apps
+- best email app i try
+- best app in mail
+- best email app that i have tried
+- best of the bests
+- its the best email app
+- best app i have used
+- best mailing for all
+- the best of them all
+- this app is the best app
+- one of the best email app that i have for my email account
+- you are the best
+- the best mail app for me
+- best mail apps
+- best email in used
+- best email app best for security too
+- best mail app have used
+- the best app just use it
+- the best until now
+- best for me
+- скажем просто the best
+- so far so good
+- good so far
+- seems really good so far
+- just installed this so far so good
+- just now trying it out so good so far
+- so far so good easy to use
+- so far good
+- works good so far
+- good so far the
+- very good so far easy
+- so far so good time will tell
+- a week so far so good
+- all good so far
+- so far all good
+- so far so good see if it works better than the mail service currently using looks good so far
+- good one so far
+- so far very good email app
+- so far its good
+- so far so good just installed it
+- so far good app for me
+- so far the app is good
+- so far very good app
+- so far so good fast
+- so far this email a has worked good no issues at this time
+- very good so far
+- so far this email app works good
+- good for emails so far all i use it for works
+- trying it out so far so good
+- so good so far
+- so far its been all good
+- working good so far
+- so far so good keep it
+- very easy to add email
+- not easy to use
+- its easy to use
+- easy
+- easy to use
+- its so easy to use
+- very easy to use
+- that is was easy
+- its very easy to use
+- easy to use and easy to read
+- i it very easy to use
+- so easy to use
+- easy to set up and easy to use
+- easy easy
+- its so easy to use to
+- its easy
+- easy set up easy to use
+- super i love it
+- super fast
+- super
+- super so far
+- super email app
+- super mailing app
+- super app
+- super mail app
+- just super app
+- great interface and super fast mail client i love this app super like
+- very fast and super easy use love it
+- super email app love it
+- all super
+- love it super easy to use
+- super fast love it
+- super fast i love it
+- super links
+- super and easy
+- super been
+- cool
+- very cool thank you
+- very cool app thanks
+- cool app
+- cool mail app for all your email accounts
+- cool easy
+- its cool
+- its pretty cool
+- it cool
+- it is cool and easy to use
+- very cool app
+- really cool
+- cool very cool
+- cool lovely
+- great cool awesome
+- cool for work
+- great app mail cool
+- fast and cool
+- its so cool
+- cool apps
+- its a pretty cool app
+- very cool
+- very simple
+- really simple
+- simple
+- its simple and i like it
+- very good email app simple to use
+- very good and simple
+- simple that is all i wanted
+- simple easy to use
+- simple and nice
+- simple and easy to use
+- only for simple used
+- good and simple to use
+- i locket the app have notification and simple
+- i love this email app so easy and simple love the simple interface
+- simple and good
+- simple to use
+- great app simple to use
+- nice app simple to use
+- simple and great
+- simple and fast
+- nice and simple
+- simple and useful
+- fast and simple
+- simple and it works
+- love how simple it is to use
+- nice and simple to use
+- good simple
+- simple works
+- nice simple email app
+- great simple email app
+- it is simple and easy to use
+- great app simple
+- simple and easy
+- i like it because its really simple just what i needed simple and fast
+- simple i great app to use
+- simple email client
+- its simple and that what i love
+- the app is more simple to use
+- very fast simple to use
+- i like it its simple and functional
+- this is a simple email app it is great for all sorts of things easy to use and simple
+- fast and simple to use
+- simple fast
+- good and simple
+- simple and functional
+- its simple and fast
+- simple and working app
+- great and simple
+- fast easy to use
+- easy to use fast
+- easy to use this app does what i was looking for
+- fast and easy to use
+- easy to get on
+- it easy to use it very helpful app
+- does what it says very easy to use
+- i love this so easy
+- if you re looking for an easy to use email this is the app for you
+- easy to use and very accessible
+- easy to access and use
+- very good easy to use
+- very fast and easy to use
+- is good and very easy to use
+- easy to use and very fast
+- easy to use and fast
+- very good app easy to use
+- its a very easy app i love
+- i liked my new email its easy to use
+- good and easy to use
+- so easy to use love the set up
+- easy love it
+- love this app its easy to use thanks
+- very fast and easy to use it
+- so good a very easy to use
+- very good and easy to use
+- very easy to use and it was easy for me to sync my old email accounts with this app
+- lovely so easy
+- very fast and easy to use email too
+- good and easy a use
+- very good and easy to use app
+- love it easy to is
+- i really like it and its easy to use
+- easy to install and use
+- love it so easy to use just the way it should be
+- easy to use and helpful app
+- its such a wonderful and easy app to use
+- good app and easy to use
+- very fast easy to use
+- good easy to use
+- good app easy to use
+- easy to use and very good apps
+- this app does what i need and is easy to use
+- its good and easy to use
+- this is easy to use and makes my business email easy to manage
+- very good email app easy to use
+- one of the best email easy to use
+- easy use easy setup love it
+- best and easy
+- good mail app easy to use
+- very easy to use just what have been looking for
+- very fast app and easy to use
+- i don't like a mail like this
+- don't like it
+- like the app
+- i like this app
+- i like it
+- i like the email
+- i like email
+- like this i like this
+- don't like
+- like it
+- like this app
+- like app
+- like
+- just like it
+- i just like
+- i like this email
+- i like
+- i like pancakes
+- i don't like it
+- it wooorrkkkkksssss i like it
+- this is not to my liking
+- i like it this app
+- i just like it
+- i like the app
+- the only email app i like
+- i like this
+- i love this app
+- this is great i love this new app
+- love this app
+- great work really in love with this app
+- i love it this app
+- love the app
+- lovely app
+- i love the apps works great for me
+- great mail app i love it
+- great app love the features
+- i love this email apps works great on me
+- love your app
+- love the app works great
+- love app
+- i love the app
+- great i love it
+- works great i love it
+- its great for me i love it
+- i love it works great for me
+- great love it
+- love it works great
+- i really like the app, it is great!
+- yes it did, thank you!
+- i think your app is really good
+- bueno a
+- bueno
+- my bueno
+- bueno app
+- bueno in to do
+- is my bueno
+- my bueno app
+- my bueno very good
+- my bueno application
+- my bueno est app
+- my bueno a complete
+- my bueno option velez a my been organize a
+- my bueno a velez
+- very fast
+- very fast when deleting
+- fast and easy
+- its very fast
+- very fast love it
+- fast works great
+- this is fast
+- nice fast app fast sync with gmail love it
+- fast
+- this mail app is so fast
+- its fast
+- good apps fast
+- easy and fast
+- treacly fast
+- fast and useful
+- fast sync
+- fast and it works
+- fast and works great
+- works great and fast
+- this email app is so fast
+- fast and good
+- does what it should fast and easy
+- fast and just works
+- very good and fast
+- fast any email
+- fast email
+- fast be job it be fast been
+- so fast
+- this app is great for me because it works fast and loads fast does not give me any problems
+- good and fast mail app
+- good and fast
+- very easy and fast app
+- very fast very good
+- very fast love the i
+- fast and functional
+- it is too fast
+- best app very fast
+- fast and easy does what it should do
+- fast is easy
+- does not work with fast mail
+- amazing love it
+- amazing app
+- this app is amazing
+- app is amazing
+- amazing
+- amazing just amazing it really works
+- amazing app love it
+- amazing email client i love it
+- amazing app so helpful
+- amazing and i love it
+- this app was so amazing i really love it
+- amazing app loving it
+- its just amazing i loved it
+- amazing mail app
+- its amazing
+- amazing so far
+- amazing app thank you for this
+- is amazing
+- amazing and lovely
+- very amazing app
+- i this app is absolutely amazing i love it the
+- amazing email app
+- really amazing app
+- in love such an amazing app in us most
+- amazing app thank a
+- great easy use
+- way easy to use
+- works great and easy to use
+- works great very easy to use
+- great app so easy to use
+- great app easy accessibility
+- it was easy to set up it has been a great help
+- it is very useful an easy to use
+- great app easy to use
+- great app easy to set up and use
+- works great easy to use a a
+- works well easy to use great app
+- as a email app its great it was easy to set and easy to use
+- great easy to use
+- great features easy to use
+- great app and easy to use
+- easy to set up great app
+- easy to use and great features
+- great email app easy to use and fast
+- very useful and easy to use thank you
+- just great and easy to use
+- very easy to set up and use
+- great app very easy to use
+- great email easy to use
+- great easy to use app works great with exchange
+- this is the best email app out there its so easy to use and looks great
+- great easy email
+- great and easy to use
+- easy to use delete mail is really easy
+- great very simple and easy to use
+- easy to use useful
+- great and simple easy to use
+- great easy to use email thank you
+- i think its great easy to set up easy to use
+- this happens so easy to use this app is so easy to use
+- its easy set up and works great for me
+- like it and easy to use
+- great apps and easy to use
+- great app fast and easy to use
+- great app easy too use
+- great app easy to use does what is says
+- great app easy to use and quick
+- great i and great performance
+- so easy to use and great performance
+- just so clean and perfect
+- its perfect
+- perfect
+- just perfect
+- so clean
+- perfect the
+- this is perfect
+- useful app
+- its not uses
+- useful
+- very useful app
+- very useful
+- useful apps
+- its useful
+- useful to me
+- it is useful
+- very useful mail app
+- thank
+- thank you it works
+- its working thank you
+- thank a
+- a thanks
+- very useful thank you
+- this app is very useful thanks
+- very functional and useful app a a
+- brilliant app
+- brilliant
+- brilliant work developers
+- brilliant however notifications don't work at times
+- brilliant app thanks
+- one word brilliant
+- getting brilliant email apps
+- brilliant no issues love it
+- absolutely brilliant
+- brilliant and quick
+- brilliant and easy access
+- its brilliant
+- simple brilliant
+- just brilliant
+- i love this app i think its brilliant and fast
+- brilliant little app for all your email needs
+- very brilliant
+- brilliant so far
+- is a fantastic app
+- fantastic app keep it up
+- fantastic
+- fantastic thank you
+- works fantastically
+- its a fantastic app
+- how do i send an email to another app a a to do or fantastical
+- this is a fantastic app i love it
+- fantastic email app
+- fantastic it have all new features thank you
+- functional and fantastic
+- great app really fantastic
+- easy to use fantastic
+- its fantastic
+- fantastic mail management app
+- fantastic recommend
+- one of the fantastic emails app
+- fantastic make a calendar app please
+- nice user friendly
+- this version is not user friendly
+- not very user friendly
+- very user friendly
+- user friendly
+- its fast and user friendly
+- nice interface easy setup user friendly
+- user friendly secure nice app
+- user friendly nice app
+- great app for emailing user friendly
+- very much user friendly
+- user friendly one of the best
+- very helpful and user friendly
+- excellent app very user friendly love it
+- very nice user friendly email application
+- very user friendly easy to use
+- good friendly user
+- good very useful and user friendly app
+- user friendly good app for emails
+- good features and user friendly
+- user friendly loving is so far
+- nice app and friendly use
+- its user friendly good
+- user friendly and helpful
+- very good user friendly
+- by far the best email app i have tried them all
+- by far the best email app available
+- the best app for email so far
+- best so far
+- one of the best so far
+- had many email apps this is by far the best
+- so far the best
+- best one have used so far
+- so far the best have used
+- so far the best email program have used
+- so far its one of the best email apps
+- the best email client so far
+- best email app so far
+- the best email app so far
+- this is the best so far
+- best email app so far for me
+- this is the best email client that i used so far
+- best client i used so far
+- best mail app so far
+- so far is the best
+- so far this app is the best
+- its far the best app
+- so far the best email client i have used
+- best email so far
+- the best app for email that have used so far on android
+- so far best
+- efficient
+- very fast and efficient
+- one of the most efficient email clients
+- great efficiency
+- very efficient
+- good and efficient app
+- fast and efficient mail app
+- fast and efficient email client
+- fast and efficient
+- very efficient and fast
+- very efficient and easy to manage
+- love it easy to use and efficient to use and efficient
+- excellent efficient
+- great mail app very fast and efficient
+- very efficient love it
+- super efficient
+- fast a efficient
+- easy and efficient
+- awesome app does more and more efficient than other email apps
+- simple and efficient
+- my efficient
+- efficient email management
+- very efficient email app
+- fast efficient great app
+- very efficient but so limited
+- love so far
+- loving it so far day a
+- of so far
+- so far love it
+- love it so far
+- so far loving it its really good at what it does
+- so far i love this app
+- so far i'm finding i more than love it because so far its doing more as i keep using my blue be mail loving it my
+- i love this app no problems so far
+- i love this email app the best on so far
+- still new but so far i love it
+- loving it so far
+- loved this app so far so good
+- i just started using this app so far i love it
+- so far so
+- still new to app in loving it so far
+- love this app best email app so far
+- new to this app but i love it so far
+- love it have not had any problems so far
+- loving it so far so good
+- getting better this is how i email now
+- better than gmail
+- better than most
+- it works better
+- its better than the other app i tried
+- better than email gmail
+- getting better with each update
+- better than gmail app
+- it is getting better i like the functionality
+- better than any other mail app
+- it is better than all other apps
+- better i am like this app
+- before i used gmail and email from of it is better
+- better than other mails
+- better app
+- better than what i have
+- better than inbox
+- this is better than my mail
+- i like it better then other email apps
+- its better now
+- works better than the email app with of
+- excellent email app been using it for over a year now keeps getting better and better with each update
+- help this is how i email now
+- this app is very helpful
+- please help this is how i email now
+- my email help me
+- help me i know you i can help you with my account
+- very helpful
+- its helpful
+- help
+- helpful
+- helping
+- any help
+- help with this please
+- its a helpful app
+- account help
+- it is very helpful
+- best android email app
+- best email app for android
+- best mail app have used on android
+- great email app best have used on android
+- best android email client i have used
+- the best email app on android its just as good as the email app on is
+- the best email app on android
+- best email client on android
+- the best email client for android
+- best email app for android device
+- best email app for android out there
+- best mailing app have used on android
+- email is the best app out there for android emailing best of all it is free thank you edison
+- best email app on android
+- best email client on android of of of
+- best free email app for android
+- the best mail app in android
+- its the best email app i could find for android
+- still the best email app on android
+- best android email
+- the best email app for android
+- one of the best email apps in android
+- best email app android
+- best email client for android
+- great mail client
+- great email client
+- its a great email client app
+- great email client for the android
+- by far the best email client on android and its free
+- where have you been all my email days very fast and easy to set up
+- really fast and easy to set up
+- very effective fast and easy to use
+- simple and fast easy to use its great
+- fast easy to use and smart
+- quite fast and easy to use
+- its fast and easy to use i like it
+- fast easy and good
+- its really fast and easy
+- fast easy to figure out
+- really easy to use fast and simple
+- fast easy and free
+- so fast so helpful so easy
+- so far so good its fast and easy to use
+- no ads fast easy set up
+- easy fast to unsubscribe
+- good fast easy to use
+- very fast app easy to set up
+- best email app have tried really fast and easy to use
+- awesome email app fast and so easy to use thank you
+- fast and easy use good
+- quick fast and easy to use
+- easy and fast a loading
+- fast and easy to use but there is no way to change passwords
+- easy fast complete no a
+- love the app already fast and easy to use
+- easy to set up and it is fast
+- simple easy to set up and fast
+- not working well
+- works very well
+- works well
+- it works well
+- works very well then any other app
+- working well
+- works well for me
+- wow
+- wow where a been all my life
+- wow i am impressed
+- wow simple and amazing
+- wow this app is brilliant
+- tayiakarwonwefsddwe wow
+- wow this is the best
+- wow that is fast thanks for not having ads
+- just wow
+- wow wow wow finally an email app that just works to meet the needs of the user rather than a corporation or a group of advertisers please don't change
+- very easy wow
+- just one word wow
+- wow better than other
+- wow a very fast clean app for email
+- i i did what you recommended but my emails will not delete in either my gmail or hotmail account what else do you recommend
+- recommended
+- recommend
+- i recommend this app
+- recommendable
+- recommend do
+- recommended app
+- my recommendable
+- please delete my account sent via the samsung galaxy so active an tag let smartphone
+- sent via the samsung galaxy so an tag let smartphone
+- here is a copy of my receipt sent via the samsung galaxy so an tag let smartphone
+- my contacts are not merged although the app is telling me this is complete sent via the samsung galaxy so active an tag let smartphone
+- how do i get a card back once it has been swiped sent via the samsung galaxy note an tag let smartphone
+- sent via the samsung galaxy so active an tag let smartphone
+- a sent via the samsung galaxy so an tag let smartphone smartphone i poll a
+- bunny a sent via the samsung galaxy so an tag let smartphone
+- sent via the samsung galaxy so edge an tag let smartphone
+- i do not want the service how do i cancel it sent via the samsung galaxy so edge an tag let smartphone
+- i sent via the samsung galaxy so active an tag let smartphone
+- sent via the samsung galaxy note an tag let smartphone
+- whats up man sent via my samsung galaxy an tag let smartphone
+- sent via the samsung galaxy express a an tag let smartphone views
+- sent via the samsung galaxy express a an tag let smartphone
+- tma3600 gmail com sent via the samsung galaxy so an tag let smartphone
+- superb app much better than gmail
+- superb
+- superb app
+- it superb
+- superb app for email
+- this app is working great so far the i is awesome and easy you be so far please keep up the great work
+- great so far
+- works great so far
+- so far great
+- works great no issues so far
+- so far its great
+- so far this is a great app
+- so far its been a great app
+- great app so far
+- working great so far
+- this app is great so far
+- seems really great so far and easy to use great so far
+- working great for me so far of of of of
+- very good application
+- good application i like best regards
+- this is a good application i love it
+- good application
+- the application is very good
+- very good useful application
+- good application love it
+- very good application ever
+- good application but how we can delete the trash
+- i love the application but it appears that it is only refreshing when i open the application so i don't get any notifications that is really not good and i'm thinking about changing application because of that
+- i love the apps so clean and easy to use
+- easy to use love it
+- very easy to use love it
+- this app is very easy to use and has a very clean look
+- love it easy to use
+- easy to use i love it
+- clean and easy to use
+- clean easy and super useful
+- love it so easy to used
+- the best free email app love the clean and easy i
+- easy for me to clean my inbox
+- clean easy
+- nice clean and easy to use
+- so easy to use love it
+- love this app its so easy to use
+- easy clean and working a
+- just love easy to use
+- clean and easy to use just what i needed
+
+## intent:remove_a_assistant_folder_card
+- Can I remove a card from the Assistant folders?
+- Hello, Can I remove a card from the Assistant folders?
+
+## intent:remove_app
+- hi! how do i remove the app from my phone?
+- how do i delete app from my phone
+- how to remove the phone app?
+- How do I remove the Email app from my device?
+- Hello, How do I remove the Email app from my device?
+
+## intent:reply_to_email
+- How do I reply to an email?
+- Hello, How do I reply to an email?
+
+## intent:request_help
+- i need help
+- i have a problem
+- please help me
+- i have a question
+- question
+- please assist me
+- kindly assist
+- i need to ask you smething
+- i need more help
+- i have questions
+- i need some help
+- i have question
+- i need some information
+
+## intent:retrieve_archive_delete
+- What is the difference between archiving and deleting an email?
+- how do i retrieve from archive
+- i need to know how to retrieve archived messages
+- how to retrieve archived emails
+- you do i retrieve my archive message
+- how do i retrieve archived messages
+- how do you retrieve an archived email
+- how do i retrieve an archived email
+- when you archive where does the email go how do i retrieve it to read it again
+- i accidentally archived a message how do i retrieve it
+- how do i retrieve a deleted email
+- how can i retrieve an archived email
+- how do i retrieve archived mail
+- how to retrieve deleted archived messages
+- how do i retrieve a message from archive
+- archive retrieval i don't see a folder for archive in my phone device where do i locate it i accidentally archived something i would like to now retrieve
+- how can i retrieve messages that i have swiped to archive
+- where archive mails stored and how to retrieve
+- i want to retrieve archived messages
+- how can i retrieve a deleted email
+- how do i view or retrieve archived emails
+- how do i retrieve archived emails i don't have an all archived folder
+- how to find and retrieve archived emails
+- how do i retrieved the archived emails once i archive it in us est
+- Hello, What is the difference between archiving and deleting an email?
+
+## intent:save_message_draft
+- how do i save messages as draft
+- how to save into drafts
+- How do I save a message as a draft?
+- Hello, How do I save a message as a draft?
+
+## intent:search_in_box
+- why can't i search all of my mailboxes in all folders i can only search the inbox
+- please advise how to make the search function look at all of my emails when i do a search all search finds is emails from of of i want it to find all the emails that contain the search criteria not just the most recent dave
+- i when i do a search from the search box in inbox its only bringing up a couple of results when i do that search in archive i get a lot more results but its not searching beyond about the first of emails how do i force it to search through the whole of my email
+- search should search all messages across all accounts not just those in the inbox
+- hello i would like to know if there is any search method to search in the whole app for an email i have specific folder which are not searched
+- where is the search feature for my email account
+- do you have a search in email inbox feature
+- do you guys have search feature available i don't find way to search emails
+- can you add a function that have a search tool so i can search all my email accounts for specific word search in my emails thank you
+- where is search feature
+- why is there no search feature
+- your search option would be a lot more functional if there were a select all button for the search results for example search
+- how can i set search to search all my email not just folder ism in
+- the search option on an email is the worst what is the point of searching when i can't access the information i'm searching for
+- how do we search our email in edison
+- is there a way to search
+- is there no way to search for an email
+- how can i remove email addresses from appearing in my search from the search bar
+- how does one search up
+- is there a search some are that ism not seeing if not would be nice to have a search to find emails
+- how can i search for a message
+
+## intent:select_multiple_message
+- how do i select multiple messages?
+- how do i select more than one message?
+- how to select many messages?
+- how to select more than one message?
+- How do I select multiple messages at once?
+- Hello, How do I select multiple messages at once?
+
+## intent:sent_edison_mail
+- edison mail
+- who is edison
+- 我们的生活 sent with edison mail
+- has sent with edison mail
+- 妹妹想念你想没想哭 sent with edison mail
+- 图像变形好厉害 sent with edison mail
+- of sent with edison mail
+- a sent with edison mail
+- a a a a ʔ和自己恋爱 sent with edison mail
+- is sent with edison mail
+- i sent with edison mail
+- what is edison
+- in sent with edison mail
+- no sent with edison mail
+- why my to sent with edison mail
+- his sent with edison mail
+- sent with edison mail
+- had sent with edison mail
+- of a sent with edison mail
+- the sent with edison mail
+- hold
+- hold sent with edison mail
+- where are you going sent with edison mail
+
+## intent:set_up_aol_account
+- How do I set up my Aol account?
+- Hello, How do I set up my Aol account?
+
+## intent:set_up_gmail_account
+- How do I set up my Gmail account?
+- Hello, How do I set up my Gmail account?
+
+## intent:set_up_gmail_alias
+- How do I set up a Gmail alias in Email?
+- Hello, How do I set up a Gmail alias in Email?
+- how do i set up aliases in edison mail?
+- how do i set up gmail aliases?
+
+## intent:set_up_icloud_account
+- How do I set up my iCloud account?
+- Hello, How do I set up my iCloud account?
+
+## intent:set_up_other_account
+- How do I set up all other email accounts?
+- Hello, How do I set up all other email accounts?
+
+## intent:set_up_outlook_account
+- How do I set up my Outlook account?
+- Hello, How do I set up my Outlook account?
+
+## intent:set_up_yahoo_account
+- How do I set up my Yahoo account?
+- Hello, How do I set up my Yahoo account?
+
+## intent:sign_beta_testing
+- How do I sign up for BETA testing of new products?\n\n \n\n\n\n\n'
+- i would like to sign up for beta testing of products
+- How do I sign up for BETA testing of new products?
+- Hello, How do I sign up for BETA testing of new products?
+- How do I sign up for BETA testing of new products?\n\n \n\n\n\n\n'
+
+## intent:sign_in_problem
+- can't sign in
+- i can not sign to my email i need help
+- why is my email offline after i signed in
+- i keep getting signed out of all my email accounts
+- it keeps signing me out of my accounts
+- new version edison keep signing me out had to sign in a times already into a of my accounts
+- i keep getting signed out of my accounts
+- it does not let me sign a different emails in at the same time it keeps signing them both out
+- having problems signing in
+- i can not sign in
+- all having sign in issues
+- how i can delete account in app or sign out it
+
+## intent:sign_out_problem
+- how do you sign out
+- i did not sign up for this
+- how to sign out
+- how do i sign out on this app
+- i can't sign out from this app
+- i can't sign out from this app a
+- how do i sign out from my iphone
+- there is no option to sign out
+- how do you sign off
+- how do i sign out
+- i never signed up for this
+- how to sign out after reading mail
+- sign out
+- i how do i sign out of email
+- sign out button
+- it seems the app is making me log in each time is there any way i can just keep logged in
+- how do i log out
+- how do you log out of email
+- how do i log out of the app
+- how do i log off i this email app
+- cannot log into my email
+- where can i log off of email
+- i keep getting logged out of the app
+- app keeps logging me out
+- it keeps logging me off my accounts
+- why does the app keep logging me out
+- why do all my email accounts keep logging out
+- it keeps logging me out
+- keeps logging me out
+- why does this keep logging out of my email now
+- the app keeps logging me out of my email
+- how do i log out of my email
+- cannot log in
+
+## intent:snooze_problem
+- What are my Snooze options?
+- more present snooze options in the morning i snooze stuff to noon at pm i snooze stuff too but not always to the next day snooze to later today should be snooze to afternoon and then snooze to evening and then snooze to tomorrow or just make it relative snooze to later a hours but you guys are awesome keep up the good work lewis
+- hello how does the snooze option work when i set the snooze it goes in the snooze folder and the it disappears from the snooze folder at the right time but i do not see the message come back to me anywhere
+- is there a way to find previous up snooze messages that no longer show up in the snooze folder it appears that snooze messages expire and vanish from the snooze queue is that correct the problem is that if i forget to deal with them in time then i lose them entirely and can't remember what was snooze
+- can the snooze list be sorted in the order of when its snooze and a way to bulk cancel snooze mails love the app so thank you
+- snooze mail is not showing back up in my inbox when the snooze is over great app
+- would like to have more snooze options
+- in snooze folder emails need to appear i order by date they are snooze to
+- i seem to be having an issue with snoozing across devices if i snooze on one device and open the app on another it does not sync those to snooze and then it puts them back into inbox on the device i snooze it on how do i fix this
+- what are the times for on the snooze options
+- how do i disable snooze i don't want this app creating a snooze folder in my email account
+- i ism loving the way easilydo mail lets you see newsletters grouped by subscription and i am really loving the speed of this app but apart from the speed and the a engine it is bazaar behind other is email clients there are also lots of badly broken map bugs i put together a list of of points of whats holding it back ism thinking of publishing this list online but ill let you comment first bug snoozing map when you snooze an email on gmail it properly goes to the snooze folder but if you snooze an email on map it only appears to have moved to the snooze folder but it actually stays in the inbox on the server and is seen there by other email clients bad bug snoozing map snoozing an email twice on map makes it impossible to cancel snooze this bug does not happen on gmail it happens on map and works as follow select an email from the inbox and snooze it it all appear in the virtual snooze folder go to the snooze folder and open the email again and select snooze and set a different time now select the email again from the snooze folder and select snooze and select cancel snooze it wont work the email will stay in the snooze folder on map cancel snooze only works if you do it after the first snooze the second one seems to rewrite the messages metadata so that it thinks that it lives in came from the snooze folder which is probably why cancelling does not work bug map trash folder is not mapped properly and cannot delete emails on map because of that my map trash folder is called trash a very standard name but i see it as all mail
+- hello from germany really like email since the latest update there seems to be a problem with snooze i can snooze messages and will get a notification at snooze time but message will not return to inbox also they don't appear under snooze but when i look via web interface into the account the messages will be in a folder called snooze this is with gmail is this a known issue what to do christian this is how i email now
+- my snooze email will not snooze a few days ago i set an email to snooze until pm and it worked great however every morning since that i get a notification at a am reminding me about this snooze email that have already dealt with if i tap on it the mailbox says no snooze messages but i'm still getting notifications they are getting annoying any ideas
+- snooze emails keep snoozing even if they are completed but they are not in the snooze folder and can not be removed
+- i i am having some issues using the snooze functionality when the snooze time expires the email being snooze shows back up in my inbox but at its original place is there a way to make the snooze emails to show up at the top of my inbox otherwise its really hard to notice them in snoozing especially if the emails are old emails sam
+- it appears that if you snooze an email once you can no longer snooze it or flag it
+- having issues with snoozing emails gmail google apps accounts sometimes they bounce back to the inbox or right into archived or if they do stick in the snooze folder they say something about being snooze on another device which i only have a iphone and done show the snooze date time further conversations multiple emails snooze show no orange bar at the top at all designated snooze or the snooze date time now i have an email in the snooze folder label that the app creates viewing through gmail on the web but nothing shows on the app under the snooze category at all something is not working with snoozing syncing folders labels
+- just installed the app snooze messages disappear from the snooze folder when i go see all my snooze messages this is a big issue
+- where is the snooze feature
+- snoozing does not seem to work messages are snooze go out of the inbox and when i go to the snooze folder nothing is there
+- snooze function does not work for example right now is sat a of of of a of am snooze option for tomorrow is show saturday a am if i am to snooze the item and go to snooze folder as i open the folder snooze message disappears thus pretty much making the snooze option unusable please fix
+- i just snooze to emails i go into my snooze folder and there is only a message and it is neither of the xvi just snooze also i have noticed that i'll get a notification from a snooze email when it is time to come back but it does not show up in my inbox is it supposed to or just be in the snooze folder from then on
+- how does one snooze i snooze an article and its not in the snooze mailbox thank you
+- mails can only be snooze once i frequently snooze them several times also when snoozing the calendar view is better than a list of days
+- a very strange problem when i snooze messages it seems like that i can only snooze one message once i snooze a second one the first will be popped out of the snooze folder and reappears in the inbox
+- snooze does not work
+- request when snoozing a conversation do not require a snooze for each email
+- i team some additional feedback below bug it appears that snoozing is not working at all i snooze two emails both of them got moved into snooze on the my phone but remains in the inbox on the web interface i also don't see any other emails in my snooze mailbox anymore in the app this is what i currently see app inbox empty you took care of everything gmail web inbox the two emails i snooze in the app app snooze the two emails i snooze in the app gmail snooze mailbox of emails i previously snooze but not the two emails i recently snooze i have tried deleting account deleting and reinstalling the app and the problem persists this is happening to a gmail account device information text
+- snooze seems to be broken with the new update i can snooze stuff in easilydo email just fine however the snooze messages are not actually moved to the snooze folders anymore what this means is in apple mail is macros and icloud snooze messages remain in the inbox is this a known issue is there some workaround snooze is the main feature i use easilydo email for so i would love to figure this out asap thanks
+- snooze function is buggy moving snooze messages to the main snooze folder instead of the email specific snooze folder therefore in other email programs the email remains in the inbox a
+- when will snooze be added
+- is there a snooze option
+- hello my snooze is not syncing up with gmail when i snooze it takes it out of my email app inbox and puts into the snooze folder but it does not make the move in gmail account how do fix this thanks
+- is syncing between devices coming so that when i snooze an email on my iphone it will snooze on my ipad
+- i have a email that i snooze and it keeps coming back in my inbox before the snooze time
+- how do i turn off snooze
+- snooze option please
+- there should be more options for snoozing mails
+- can't snooze my emails
+- why snooze is not available
+- i cannot receive files from other apps please see attached what is the meaning of the time set in snooze how long will the email account snooze can i disable the snooze function
+- more options for snoozes please
+- the snooze feature is not working at all
+- snooze messages shouldn't be in the inbox
+- hey there why is snooze not working across devices i expect to snooze an email from my phone and it should be snooze on my ipad too
+- does snoozing not work across devices if i snooze an email on my ipad it does not show up on iphone as snooze web mail
+- update snooze options we should be able to choose snooze in relation to when we snooze in other words the a options should be defined by hours and or days for example i would select the following options a snooze for a hours a snooze for a days a snooze for a days as stated all snooze options should from when snooze is selected hope that helps peter
+- how can i snooze an email i accidentally snooze an email until tomorrow when i meant to snooze until later today
+- can't i snooze emails if so how
+- if i snooze an email on my ipad will it show up snooze on my iphone
+- snooze is device dependent i snooze email on my ipad but it does not snooze the same mail on my iphone
+- when does android get snooze
+- where is swipe to snooze
+- i would be all in with this app but there is no snooze feature
+- please add snooze
+- the snooze function fails to snooze emails in gmail
+- please integrate email app snooze with gmail snooze
+- snooze items from my iphone don't show up as snooze on my ipad
+- is it possible to snooze an email on the iphone and is will be also snooze on all other devices
+- Hello, What are my Snooze options?
+
+## intent:support_exchange_account
+- When will you support Exchange accounts?
+- Hello, When will you support Exchange accounts?
+
+## intent:support_exchange_features
+- Does Email support any additional Microsoft Exchange features?
+- please add support for exchange account
+- please add support for exchange office of a accounts
+- please add support for exchange and office of a
+- when will the app support exchange i have an outlook email but i used an exchange account on the iphone mail app to add it to my phone
+- please support exchange emails
+- how do you not support an exchange account
+- where is exchange support
+- when will you support exchange
+- any updates to when you all with support exchange email accounts
+- please add support to exchange account also
+- loving the exchange support now
+- when will you add exchange server support
+- exchange support please
+- does not support exchange
+- where is exchange support at
+- is the email app support exchange email
+- please add support for exchange accounts on as work mail
+- Hello, Does Email support any additional Microsoft Exchange features?
+- does the email support additional exchange features?
+- hello! how do i add the microsoft attachment?
+- hello! how do i add attachments from microsoft office apps to message
+- hello! i need held
+- what versions for ms exchange are supported?
+- does email support any additional microsoft exchange features?
+- i would like to change my notification slund
+- how do i save messages as draft?
+- hello! how do i save message draft?
+
+## intent:test
+- testing of a
+- test
+- testing
+- test test
+- test this is how i email now
+- test feedback from
+- i tested my email and it worked thanks
+- test mail
+- test sent with edison mail
+- it tests great
+- testing for now is perfect
+- best email app i have tested
+- test test test submitted
+- test in us get a
+
+## intent:unsubscribe_mail
+- unsubscribe
+- your unsubscribe button in your emails does not work i would like to unsubscribe from all easilydo emails please thank you
+- how do i delete and unsubscribe
+- please unsubscribe me
+- how to unsubscribe
+- how do i unsubscribe from an email
+- could not unsubscribe
+- unsubscribe me please
+- where is unsubscribe
+- how do you get it to unsubscribe my emails
+- where is the option to unsubscribe
+- does unsubscribing to a subscription completely unsubscribe me from those lists and will i not get their emails in for example my iphone home mail app or does it only unsubscribe me in this app thanks
+- how do you unsubscribe in app
+- if you have the unsubscribe option why do i keep getting emails from the things i unsubscribe from
+- how do i unsubscribe from spam emails
+- where is the unsubscribe
+- can i unsubscribe from email using this app
+- how long does it take once you unsubscribe i'm still getting all the emails i unsubscribed from
+- how do a unsubscribe
+- please unsubscribe me just want email
+- unsubscribe me
+- unsubscribe please
+- unsubscribe this email please
+- how do i unsubscribe to emails i don't want to receive if there is no unsubscribe option
+- i unsubscribe to emails and still get them
+- how do i unsubscribe to emails the features only came up once and i can't find how to unsubscribe any more
+- unsubscribed
+- this app does not unsubscribe my emails i am still getting emails from the ones that i have unsubscribed too
+- can't unsubscribe
+- how do i unsubscribe when i open an email and it does not say unsubscribe
+- when i unsubscribe from your app does it notify the sender that i unsubscribe their email
+- easy unsubscribe unsubscribe does not work i keep getting stinking emails from places i unsubscribe from
+- there were a lot of emails that had the unsubscribe option in the email but this app did not have the unsubscribe option i had to click on more email unsubscribe links compared to clicking on the unsubscribe button on this app
+- how do i unsubscribe from emails
+- i don't want it any more how i can unsubscribe
+- unsubscribe me now
+- and how come when a unsubscribe from a subscription a guys just send them an email saying please unsubscribe me just make it so when a click unsubscribe it just blocks them so you don't get any emails from them
+- please unsubscribe me from any mailings i have deleted this app
+- how do i unsubscribe
+- love the unsubscribe feature
+- i want to unsubscribe
+- unsubscribing does not work on your app i am still receiving emails which are in the unsubscribed list please look into this
+- i love the unsubscribe feature
+- love the unsubscribe setting
+- how do i use the unsubscribe feature
+- i like the unsubscribe feature is there any way to delete all emails from an unsubscribed account
+- unsubscribe option is great
+- how do i unsubscribe to emails
+- like unsubscribe feature
+- how do we unsubscribe emails
+- how do you unsubscribe the email
+- send no to unsubscribe
+- please unsubscribe
+- i love the unsubscribe featured
+- how do you unsubscribe to all emails at once
+- good app for unsubscribing
+- unsubscribe does not work
+- its great for just unsubscribing
+- great for unsubscribing
+- please advise how to unsubscribe
+- please do not send anymore emails please unsubscribe
+- i want to unsubscribe from email senders
+- i need to unsubscribe to my email
+- i want to ubsubscribe to spam emails
+- i dont know how to unsubscribe  with this account]
+- i need help in unsubscribing to multiple emails
+- how do i unsubscribe to emails?
+- i would like to unsubscribe to some mails
+- What is the "Subscriptions" folder?
+- Hello, What is the "Subscriptions" folder?
+- how can i ubsubscribe from easilydp
+
+## intent:versions_ews_support
+- which versions of ms exchange are supported?
+- which version of microsoft exchange can the email use?
+- Which versions of Microsoft Exchange does Email support?
+- Hello, Which versions of Microsoft Exchange does Email support?
+
+## intent:view_all_my_email_accounts
+- How do I view all my email accounts in one inbox?
+- Hello, How do I view all my email accounts in one inbox?
+
+## intent:view_just_one_account
+- How do I view just one of my email accounts in the inbox?
+- Hello, How do I view just one of my email accounts in the inbox?
+
+## intent:want_ipad_version
+- when will there be an ipad version
+- ipad version
+- do you plan on an ipad version
+- are you going to offer an ipad version
+- best email app ever will you be doing an ipad version
+- it a be great to have an ipad version of this app
+- can a add ipad support or ipad version
+- wondering when you will be coming out with an ipad version of your email app
+- wondering when you all have of a support and a version for the ipad
+- i great email app thank you is there an ipad version coming
+- please make an ipad version
+- is an ipad version in the works
+- do you have a ipad version
+- love the app how about an ipad version
+- need ipad version
+- are you guys working on an ipad version of this
+- love this app please make an ipad version thank you
+- i'm having trouble with my iphone version of email syncing with my ipad version when i snooze an email in the iphone version it does not snooze in the ipad version can you help
+- the ipad version is not working but my iphone version is good how does one fix their ipad version my
+
+## intent:what_are_assistant_folders
+- What are the Assistant folders?
+- Hello, What are the Assistant folders?
+
+## intent:what_are_terms_and_conditions
+- What are the Terms and Conditions?
+- Hello, What are the Terms and Conditions?
+- what are the terms and conditions
+- i want to see the terms and conditions
+
+## intent:what_is_bills_folder
+- What is the "Bills & Receipts" folder?
+- Hello, What is the "Bills & Receipts" folder?
+
+## intent:what_is_packages_folder
+- What is the "Packages" folder?
+- Hello, What is the "Packages" folder?
+
+## intent:what_is_snooze
+- What is Snooze?
+- Hello, What is Snooze?
+- what is the snooze
+
+## intent:what_is_the_entertainment_folder
+- What is the "Entertainment" folder?
+- Hello, What is the "Entertainment" folder?
+- what is the entertainment folder?
+- what is the entertainment folder for?
+
+## intent:what_is_travel_folder
+- What is the "Travel" folder?
+- Hello, What is the "Travel" folder?
+
+## intent:what_privacy_policy
+- What is the Privacy Policy
+- Hello, What is the Privacy Policy
+- What is Edison Privacy Policy for the Email app?
+- what is the edison privacy policy?
+
+## intent:whatis_ews_server
+- what is microsoft exchange server?
+- hi! how does ews work with email?
+- What is Microsoft Exchange Server, and how does it work with Email?
+- Hello, What is Microsoft Exchange Server, and how does it work with Email?
+
+## intent:where_email
+- this is how i email now
+- i this is how i email now
+- any email
+- now this is how i email now
+- where are my emails
+- where is this email
+- where is my emails
+- email email a
+- what did you do to the emails
+- email a a a of a
+- email
+- this is my email
+- not the same as the email
+- rouble with email having to
+- a email a a a of a
+- this this is how email should be
+- of into is email a a of of a
+- my emails
+- of of of of εφαρμογη email
+- delete all emails in inbox at once
+- will not delete inbox
+- when i delete an email from my inbox and then open my inbox at a later date the email reappears in my inbox thus when i delete an email from my inbox i want it to delete from the email server of my email address it does not do this
+- i delete an email and it comes back to my inbox every time i have now deleted the same email from my inbox a times
+- where is my inbox
+- why a email in inbox when there is no email
+- what is the green emblem beside my emails?
+
+## intent:why_email_free
+- Why is Email free?
+- Hello, Why is Email free?
+
+## intent:why_not_receiving_notifications
+- Why am I not receiving notifications or sound alerts?
+- Hello, Why am I not receiving notifications or sound alerts?
+
+## intent:withdraw_consent
+- i hereby withdraw my consent for you to collect process or store any personal data related to lauren gang gmail com i request that you delete any and all data related to and belonging to lauren gang gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to monica shaka gmail com i request that you delete any and all data related to and belonging to monica shaka gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to alan adrian gmail com i request that you delete any and all data related to and belonging to alan adrian gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to yvette felix gmail com i request that you delete any and all data related to and belonging to yvette felix gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to ned harvey gmail com i request that you delete any and all data related to and belonging to ned harvey gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to zmw5045 gmail com i request that you delete any and all data related to and belonging to zmw5045 gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to issac all gmail com i request that you delete any and all data related to and belonging to issac all gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to stain zzz gmail com i request that you delete any and all data related to and belonging to stain zzz gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to devil land gmail com i request that you delete any and all data related to and belonging to devil land gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to craig keen gmail com i request that you delete any and all data related to and belonging to craig keen gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to mosque outlook com i request that you delete any and all data related to and belonging to mosque outlook com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to waltz david gmail com i request that you delete any and all data related to and belonging to waltz david gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to jasper airmail gmail com i request that you delete any and all data related to and belonging to jasper airmail gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to bert cypress com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request thank you
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to brian angola gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me visit desert me business to automate the handling of removal requests
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to dil21211 gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me visit desert me business to automate the handling of removal requests
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to jspoons1293 gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me visit desert me business to automate the handling of removal requests
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to as connected gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me visit desert me business to automate the handling of removal requests
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to raymond by gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me visit desert me business to automate the handling of removal requests
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to nayotake222 gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me visit desert me business to automate the handling of removal requests
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to noting of gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me visit desert me business to automate the handling of removal requests
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to curtis perry gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to lee smith a gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to chilly gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to rubik gad gil gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to daniel brewer gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to jon rollins gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to defrost nikki gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to from in path gmail com i request that you delete any and all data related to and belonging to from in path gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to paul williams gmail com i request that you delete any and all data related to and belonging to paul williams gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to chi live com i request that you delete any and all data related to and belonging to chi live com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to jonathan a chapman gmail com i request that you delete any and all data related to and belonging to jonathan a chapman gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to mem you gmail com i request that you delete any and all data related to and belonging to mem you gmail com that your company stores pursuant to my rights under article of apr
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to he rate outlook com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to chef gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to anaconda to gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to san of gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to ghamdimm2000 gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to basic will gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to izod of gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to lilialeksandra92 hotmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to didacporrasgelis gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to preheat of gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+- i hereby withdraw my consent for you to collect process or store any personal data related to and belonging to person of gmail com pursuant to my rights under article of apr i request that you delete any and all related data please note that i am not looking for instructions on how to delete my account i want you to delete all my data due to this request sent via desert me
+
+## intent:zero_inbox
+- what is the zero inbox function?
+- what is inbox zero about?
+- What is Inbox Zero?
+- Hello, What is Inbox Zero?
