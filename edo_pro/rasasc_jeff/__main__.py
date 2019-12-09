@@ -24,8 +24,11 @@ def run():
 
 
 if __name__ == "__main__":
-    os.chdir(os.path.dirname(__file__))
-    print("Current working space:" + os.getcwd())
+    if os.path.dirname(__file__):
+        os.chdir(os.path.dirname(__file__))
+        # append current dir into the path in order to find the policy
+        sys.path.append("")
+    print("Current workspace:" + os.getcwd())
     opts, args = getopt.getopt(sys.argv[1:], "hrt")
     for op, value in opts:
         if op in ("-h",):

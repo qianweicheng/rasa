@@ -1,3 +1,2 @@
-Edison project  
-过程是训练->运行
-具体查看 ../deploy/README.MD
+# Edison project
+[安装部署文档](../deploy/README.MD)
