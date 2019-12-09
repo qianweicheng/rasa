@@ -36,6 +36,8 @@ python -m spacy download en_core_web_lg
 ## APIS
 Backend: http://cp.stag.easilydo.cc/api/rasa/
 Frontend: https://admin.stag.easilydo.cc:8091
+## Deploy 
+We should change the Dockerfile ENTRYPOINT if we want to run another model.
 ## Test
 - Case1
 ```

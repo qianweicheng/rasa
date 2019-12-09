@@ -50,4 +50,4 @@ EXPOSE 5005
 #CMD ["--help"]
 
 ENTRYPOINT ["python"]
-CMD ["-m", "edo_pro.rasasc", "-r"]
+CMD ["-m", "edo_pro.rasasc_jeff", "-r"]
