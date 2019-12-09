@@ -64,6 +64,11 @@
 - What type of accounts does Email support?
 - which accounts are compatible with edison email?
 - what email apps work with edison mail?
+- Hello, What type of accounts does Email support?
+
+## intent:add_attachments_to_emails
+- How do I add attachments to emails?
+- Hello, How do I add attachments to emails?
 
 ## intent:add_firefox_browser
 - add firefox as option for browser
@@ -90,9 +95,16 @@
 - hello, i want to add firefox browser
 - hi, i would like to add this to firefox browser
 
+## intent:add_images_to_emails
+- How do I add images from my phone to emails?
+- Hello, How do I add images from my phone to emails?
+
 ## intent:add_microsoft_attachment
 - hello, i would like to add attachments from microsoft apps to my messages
 - how do i add attachments from microsoft to my email ?
+- Adding attachments from Microsoft Office apps to your message
+- Hello, Adding attachments from Microsoft Office apps to your message
+- how do i ad attachents from ms office to my message?
 
 ## intent:affirm
 - yes
@@ -159,6 +171,8 @@
 - hello! when will the apple watch app be released?
 - hello, when will the apple watch app be released?
 - hello! is there an apple watch app for email
+- Is there an Apple Watch app for Email?
+- Hello, Is there an Apple Watch app for Email?
 
 ## intent:bot_challenge
 - are you a human?
@@ -166,6 +180,10 @@
 - am I talking to a human?
 - what are you?
 - aw thanks!
+
+## intent:cancel_easilydo_account
+- I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
+- Hello, I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
 
 ## intent:cancel_order
 - and like to cancel my order
@@ -180,12 +198,10 @@
 - i will like to cancel my order
 - hello,  i would like to cancel my order
 
-## intent:cancel_subscription
+## intent:cancel_subscription_account
 - how do i unsubscrube to mail services
 - i need help to unsubscribe my account
 - how do i cancel my account subscription?
-
-## intent:cancel_subscription_account
 - please cancel my subscription
 - i want to cancel my subscription thank you
 - cancel subscription
@@ -305,6 +321,7 @@
 - i need help to  unsubscribe to my account
 - i need help to cancel my subscription account
 - hello ! how do i cancel my easilydo account
+- how do i cancel my easilydo subscription?
 
 ## intent:cannot_track_packages
 - package tracking is not working
@@ -328,6 +345,22 @@
 - love the package tracking and subscription
 - how can i stop tracking packages i have another app for this
 - hi, i have difficulty tracking my packages
+
+## intent:change_account_pwd
+- I've changed my email account password, how can I update this information in the app?
+- Hello, I've changed my email account password, how can I update this information in the app?
+
+## intent:change_default_address
+- How do I change my Default Address?
+- Hello, How do I change my Default Address?
+
+## intent:change_folder_list
+- How do I change the folders (mailboxes) listed in my menu?
+- Hello, How do I change the folders (mailboxes) listed in my menu?
+
+## intent:change_lines_number_in_preview
+- How do I change the number of lines I can preview in a message?
+- Hello, How do I change the number of lines I can preview in a message?
 
 ## intent:change_notification_sound
 - i changed all my notification sounds but when i get notified the default notification sound still plays
@@ -500,10 +533,16 @@
 - i want to remove my email account
 - how do i delete my account?
 - i want to delete my account
+- how do i delete emails?
+- how do i delete my emails?
+- how to delete my emails?
+- how do i delete my acount?
+- how do i delete my emails
 
 ## intent:delete_self_messages_permantently
 - How can I permanently delete my messages?
 - how to delete my messages forever
+- Hello, How can I permanently delete my messages?
 
 ## intent:deny
 - no
@@ -529,11 +568,26 @@
 ## intent:diff_easilydo_and_email
 - what is the difference between easily do apps and easilydo email?
 - hello! how does easilydo app differ from easilydo email?
+- What's the difference between the apps EasilyDo, and Email - EasilyDo Mail?
+- Hello, What's the difference between the apps EasilyDo, and Email - EasilyDo Mail?
+- is there any difference between easilydo apps and the email?
 
 ## intent:diff_easilydo_and_macmail
 - What's the difference between Email - EasilyDo Mail and the\n  Apple Mail app that comes on your iPhone?
 - what is the difference between easilydo email compared to the apple mail app?
+- What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
+- Hello, What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
+- what is the green icon that appears beside my email
 - What's the difference between Email - EasilyDo Mail and the\n  Apple Mail app that comes on your iPhone?
+- what is the green icon that apears beside my email?
+
+## intent:draft_and_send_mail
+- How do I draft and send a new email?
+- Hello, How do I draft and send a new email?
+
+## intent:elete_account
+- How do I remove an email account from the app?
+- Hello, How do I remove an email account from the app?
 
 ## intent:email_block
 - please add block for emails
@@ -554,6 +608,10 @@
 - how do i block emails
 - how can i block emails the
 - how do i block a email
+
+## intent:email_missed_by_assistant_add
+- An email was missed by the Assistant. How can I add it?
+- Hello, An email was missed by the Assistant. How can I add it?
 
 ## intent:email_not_loading
 - how to load more than of a emails
@@ -581,6 +639,8 @@
 ## intent:enable_imessage_app
 - how to link imessage app for email?
 - hi! how do i link imessage app for email?
+- How do I enable the iMessage app for Email?
+- Hello, How do I enable the iMessage app for Email?
 
 ## intent:environment_staging_release
 - test environment staging release of of iphone
@@ -594,6 +654,13 @@
 ## intent:for3d_touch_action
 - How do 3D Touch Quick Actions work?\n\n \n\n\n\n\n'
 - how to use 3d touch actions
+- How do 3D Touch Quick Actions work?
+- Hello, How do 3D Touch Quick Actions work?
+- How do 3D Touch Quick Actions work?\n\n \n\n\n\n\n'
+
+## intent:forword_email
+- How do I forward an email?
+- Hello, How do I forward an email?
 
 ## intent:frequency_crash
 - your app keeps crashing
@@ -674,6 +741,17 @@
 - yes it did! thanks alot
 - yes it did thankyou!
 
+## intent:green_shield_with_checkmark
+- What is the green shield emblem with a checkmark that appears next to some emails when you open them?
+- Hello, What is the green shield emblem with a checkmark that appears next to some emails when you open them?
+- what is the green shield that appears beside my emails
+- what is the green emblem that appears beside my emails
+- what is the green icon that appears next to emails?
+- what is the green icon that appears beside my email?
+- what is the green image that shows beside the email when i open them
+- what is the green shield that pops out beside my email?
+- what is the green icon with checkmark that is shown beside my emails
+
 ## intent:greet
 - hey
 - hello
@@ -688,9 +766,84 @@
 - hello rasA!
 - hi!
 
+## intent:how_add_description_to_account
+- How do I add a description/nickname to my accounts?
+- Hello, How do I add a description/nickname to my accounts?
+
+## intent:how_always_bcc_myself
+- How do I always Bcc myself?
+- Hello, How do I always Bcc myself?
+
+## intent:how_archive_email
+- How do I archive an email?
+- Hello, How do I archive an email?
+- how do i archive my emails
+
+## intent:how_change_classified_important
+- How do I change what emails are classified as 'Important'?
+- Hello, How do I change what emails are classified as 'Important'?
+- what is the green icon that appears beside my  emails
+
+## intent:how_change_default_browser
+- How do I change the Default Browser?
+- Hello, How do I change the Default Browser?
+- how do i change the default browser for the app?
+
+## intent:how_change_folders_list
+- How do I change the folders (mailboxes) listed in my menu?
+- Hello, How do I change the folders (mailboxes) listed in my menu?
+
+## intent:how_change_notification_action
+- How do I change my notification actions?
+- Hello, How do I change my notification actions?
+- how do i enable notifications?
+
+## intent:how_change_swipe_options
+- How do I change my swipe options?
+- Hello, How do I change my swipe options?
+
+## intent:how_change_undo_time_window
+- How do I change the "undo" time window?
+- Hello, How do I change the "undo" time window?
+
+## intent:how_create_signature
+- How do I create a signature?
+- Hello, How do I create a signature?
+
+## intent:how_customize_assistant_view
+- How do I customize the Assistant view?
+- Hello, How do I customize the Assistant view?
+
+## intent:how_delete_email
+- How do I delete an email?
+- Hello, How do I delete an email?
+- how do i delete an email?
+- how can i delete my emails?
+
+## intent:how_disable_or_enable_backgroud_app_refresh
+- How do I disable or enable background app refresh?
+- Hello, How do I disable or enable background app refresh?
+
+## intent:how_turn_off_badge_count
+- How do I turn off or turn on the badge count?
+- Hello, How do I turn off or turn on the badge count?
+
+## intent:ios_support_version
+- What version of iOS does Email support?
+- Hello, What version of iOS does Email support?
+
+## intent:is_email_secure
+- Is my email secure?
+- Hello, Is my email secure?
+
 ## intent:is_free
 - Do I have to pay to use the app?
 - hello! is this app for free?
+- Hello, Do I have to pay to use the app?
+
+## intent:mail_providers_support
+- What mail providers does this app support?
+- Hello, What mail providers does this app support?
 
 ## intent:mark_all_read
 - is there a way to mark all email as read
@@ -990,6 +1143,7 @@
 - plus add snooze option and black theme
 - when will dark mode be out?
 - how do i enable darkmode
+- how can i enable dark mode?
 
 ## intent:never_received_package
 - never received
@@ -1118,6 +1272,8 @@
 - of i receive a email why does the notification says of a email
 - how do i set my email up to receive notification when emails are read
 - i did not receive any email notifications
+- can i run microsoft apps on this email?
+- i m not receiving any notifications
 
 ## intent:not_getting_mail
 - not getting mail why
@@ -1203,6 +1359,10 @@
 - of of of just works
 - works like it should
 - works of for me
+
+## intent:personal_folders
+- Where are my personal folders associated with each email account (Yahoo or Gmail folders)?
+- Hello, Where are my personal folders associated with each email account (Yahoo or Gmail folders)?
 
 ## intent:praise
 - good
@@ -2248,10 +2408,20 @@
 - just love easy to use
 - clean and easy to use just what i needed
 
+## intent:remove_a_assistant_folder_card
+- Can I remove a card from the Assistant folders?
+- Hello, Can I remove a card from the Assistant folders?
+
 ## intent:remove_app
 - hi! how do i remove the app from my phone?
 - how do i delete app from my phone
 - how to remove the phone app?
+- How do I remove the Email app from my device?
+- Hello, How do I remove the Email app from my device?
+
+## intent:reply_to_email
+- How do I reply to an email?
+- Hello, How do I reply to an email?
 
 ## intent:request_help
 - i need help
@@ -2293,10 +2463,13 @@
 - how do i retrieve archived emails i don't have an all archived folder
 - how to find and retrieve archived emails
 - how do i retrieved the archived emails once i archive it in us est
+- Hello, What is the difference between archiving and deleting an email?
 
 ## intent:save_message_draft
 - how do i save messages as draft
 - how to save into drafts
+- How do I save a message as a draft?
+- Hello, How do I save a message as a draft?
 
 ## intent:search_in_box
 - why can't i search all of my mailboxes in all folders i can only search the inbox
@@ -2327,6 +2500,7 @@
 - how to select many messages?
 - how to select more than one message?
 - How do I select multiple messages at once?
+- Hello, How do I select multiple messages at once?
 
 ## intent:sent_edison_mail
 - edison mail
@@ -2353,9 +2527,42 @@
 - hold sent with edison mail
 - where are you going sent with edison mail
 
+## intent:set_up_aol_account
+- How do I set up my Aol account?
+- Hello, How do I set up my Aol account?
+
+## intent:set_up_gmail_account
+- How do I set up my Gmail account?
+- Hello, How do I set up my Gmail account?
+
+## intent:set_up_gmail_alias
+- How do I set up a Gmail alias in Email?
+- Hello, How do I set up a Gmail alias in Email?
+- how do i set up aliases in edison mail?
+- how do i set up gmail aliases?
+
+## intent:set_up_icloud_account
+- How do I set up my iCloud account?
+- Hello, How do I set up my iCloud account?
+
+## intent:set_up_other_account
+- How do I set up all other email accounts?
+- Hello, How do I set up all other email accounts?
+
+## intent:set_up_outlook_account
+- How do I set up my Outlook account?
+- Hello, How do I set up my Outlook account?
+
+## intent:set_up_yahoo_account
+- How do I set up my Yahoo account?
+- Hello, How do I set up my Yahoo account?
+
 ## intent:sign_beta_testing
 - How do I sign up for BETA testing of new products?\n\n \n\n\n\n\n'
 - i would like to sign up for beta testing of products
+- How do I sign up for BETA testing of new products?
+- Hello, How do I sign up for BETA testing of new products?
+- How do I sign up for BETA testing of new products?\n\n \n\n\n\n\n'
 
 ## intent:sign_in_problem
 - can't sign in
@@ -2467,6 +2674,11 @@
 - please integrate email app snooze with gmail snooze
 - snooze items from my iphone don't show up as snooze on my ipad
 - is it possible to snooze an email on the iphone and is will be also snooze on all other devices
+- Hello, What are my Snooze options?
+
+## intent:support_exchange_account
+- When will you support Exchange accounts?
+- Hello, When will you support Exchange accounts?
 
 ## intent:support_exchange_features
 - Does Email support any additional Microsoft Exchange features?
@@ -2487,6 +2699,16 @@
 - where is exchange support at
 - is the email app support exchange email
 - please add support for exchange accounts on as work mail
+- Hello, Does Email support any additional Microsoft Exchange features?
+- does the email support additional exchange features?
+- hello! how do i add the microsoft attachment?
+- hello! how do i add attachments from microsoft office apps to message
+- hello! i need held
+- what versions for ms exchange are supported?
+- does email support any additional microsoft exchange features?
+- i would like to change my notification slund
+- how do i save messages as draft?
+- hello! how do i save message draft?
 
 ## intent:test
 - testing of a
@@ -2573,10 +2795,23 @@
 - i need help in unsubscribing to multiple emails
 - how do i unsubscribe to emails?
 - i would like to unsubscribe to some mails
+- What is the "Subscriptions" folder?
+- Hello, What is the "Subscriptions" folder?
+- how can i ubsubscribe from easilydp
 
 ## intent:versions_ews_support
 - which versions of ms exchange are supported?
 - which version of microsoft exchange can the email use?
+- Which versions of Microsoft Exchange does Email support?
+- Hello, Which versions of Microsoft Exchange does Email support?
+
+## intent:view_all_my_email_accounts
+- How do I view all my email accounts in one inbox?
+- Hello, How do I view all my email accounts in one inbox?
+
+## intent:view_just_one_account
+- How do I view just one of my email accounts in the inbox?
+- Hello, How do I view just one of my email accounts in the inbox?
 
 ## intent:want_ipad_version
 - when will there be an ipad version
@@ -2599,9 +2834,50 @@
 - i'm having trouble with my iphone version of email syncing with my ipad version when i snooze an email in the iphone version it does not snooze in the ipad version can you help
 - the ipad version is not working but my iphone version is good how does one fix their ipad version my
 
+## intent:what_are_assistant_folders
+- What are the Assistant folders?
+- Hello, What are the Assistant folders?
+
+## intent:what_are_terms_and_conditions
+- What are the Terms and Conditions?
+- Hello, What are the Terms and Conditions?
+- what are the terms and conditions
+- i want to see the terms and conditions
+
+## intent:what_is_bills_folder
+- What is the "Bills & Receipts" folder?
+- Hello, What is the "Bills & Receipts" folder?
+
+## intent:what_is_packages_folder
+- What is the "Packages" folder?
+- Hello, What is the "Packages" folder?
+
+## intent:what_is_snooze
+- What is Snooze?
+- Hello, What is Snooze?
+- what is the snooze
+
+## intent:what_is_the_entertainment_folder
+- What is the "Entertainment" folder?
+- Hello, What is the "Entertainment" folder?
+- what is the entertainment folder?
+- what is the entertainment folder for?
+
+## intent:what_is_travel_folder
+- What is the "Travel" folder?
+- Hello, What is the "Travel" folder?
+
+## intent:what_privacy_policy
+- What is the Privacy Policy
+- Hello, What is the Privacy Policy
+- What is Edison Privacy Policy for the Email app?
+- what is the edison privacy policy?
+
 ## intent:whatis_ews_server
 - what is microsoft exchange server?
 - hi! how does ews work with email?
+- What is Microsoft Exchange Server, and how does it work with Email?
+- Hello, What is Microsoft Exchange Server, and how does it work with Email?
 
 ## intent:where_email
 - this is how i email now
@@ -2629,6 +2905,15 @@
 - i delete an email and it comes back to my inbox every time i have now deleted the same email from my inbox a times
 - where is my inbox
 - why a email in inbox when there is no email
+- what is the green emblem beside my emails?
+
+## intent:why_email_free
+- Why is Email free?
+- Hello, Why is Email free?
+
+## intent:why_not_receiving_notifications
+- Why am I not receiving notifications or sound alerts?
+- Hello, Why am I not receiving notifications or sound alerts?
 
 ## intent:withdraw_consent
 - i hereby withdraw my consent for you to collect process or store any personal data related to lauren gang gmail com i request that you delete any and all data related to and belonging to lauren gang gmail com that your company stores pursuant to my rights under article of apr
@@ -2679,292 +2964,5 @@
 ## intent:zero_inbox
 - what is the zero inbox function?
 - what is inbox zero about?
-
-## intent: add_microsoft_attachment
-- Adding attachments from Microsoft Office apps to your message
-- Hello, Adding attachments from Microsoft Office apps to your message
-
-## intent: apple_watch_app
-- Is there an Apple Watch app for Email?
-- Hello, Is there an Apple Watch app for Email?
-
-## intent: enable_imessage_app
-- How do I enable the iMessage app for Email?
-- Hello, How do I enable the iMessage app for Email?
-
-## intent: support_exchange_features
-- Does Email support any additional Microsoft Exchange features?
-- Hello, Does Email support any additional Microsoft Exchange features?
-
-## intent: versions_ews_support
-- Which versions of Microsoft Exchange does Email support?
-- Hello, Which versions of Microsoft Exchange does Email support?
-
-## intent: whatis_ews_server
-- What is Microsoft Exchange Server, and how does it work with Email?
-- Hello, What is Microsoft Exchange Server, and how does it work with Email?
-
-## intent: change_account_pwd
-- I've changed my email account password, how can I update this information in the app?
-- Hello, I've changed my email account password, how can I update this information in the app?
-
-## intent: save_message_draft
-- How do I save a message as a draft?
-- Hello, How do I save a message as a draft?
-
-## intent: remove_app
-- How do I remove the Email app from my device?
-- Hello, How do I remove the Email app from my device?
-
-## intent: cancel_easilydo_account
-- I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
-- Hello, I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
-
-## intent: zero_inbox
 - What is Inbox Zero?
 - Hello, What is Inbox Zero?
-
-## intent: diff_easilydo_and_email
-- What's the difference between the apps EasilyDo, and Email - EasilyDo Mail?
-- Hello, What's the difference between the apps EasilyDo, and Email - EasilyDo Mail?
-
-## intent: diff_easilydo_and_macmail
-- What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
-- Hello, What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
-
-## intent: account_types
-- What type of accounts does Email support?
-- Hello, What type of accounts does Email support?
-
-## intent: is_free
-- Do I have to pay to use the app?
-- Hello, Do I have to pay to use the app?
-
-## intent: sign_beta_testing
-- How do I sign up for BETA testing of new products?
-- Hello, How do I sign up for BETA testing of new products?
-
-## intent: for3d_touch_action
-- How do 3D Touch Quick Actions work?
-- Hello, How do 3D Touch Quick Actions work?
-
-## intent: select_multiple_message
-- How do I select multiple messages at once?
-- Hello, How do I select multiple messages at once?
-
-## intent: delete_self_messages_permantently
-- How can I permanently delete my messages?
-- Hello, How can I permanently delete my messages?
-
-## intent: personal_folders
-- Where are my personal folders associated with each email account (Yahoo or Gmail folders)?
-- Hello, Where are my personal folders associated with each email account (Yahoo or Gmail folders)?
-
-## intent: when_support_exchange
-- When will you support Exchange accounts?
-- Hello, When will you support Exchange accounts?
-
-## intent: elete_account
-- How do I remove an email account from the app?
-- Hello, How do I remove an email account from the app?
-
-## intent: why_email_free
-- Why is Email free?
-- Hello, Why is Email free?
-
-## intent: ios_support_version
-- What version of iOS does Email support?
-- Hello, What version of iOS does Email support?
-
-## intent: mail_providers_support
-- What mail providers does this app support?
-- Hello, What mail providers does this app support?
-
-## intent: set_up_gmail_account
-- How do I set up my Gmail account?
-- Hello, How do I set up my Gmail account?
-
-## intent: set_up_gmail_alias
-- How do I set up a Gmail alias in Email?
-- Hello, How do I set up a Gmail alias in Email?
-
-## intent: set_up_icloud_account
-- How do I set up my iCloud account?
-- Hello, How do I set up my iCloud account?
-
-## intent: set_up_yahoo_account
-- How do I set up my Yahoo account?
-- Hello, How do I set up my Yahoo account?
-
-## intent: set_up_outlook_account
-- How do I set up my Outlook account?
-- Hello, How do I set up my Outlook account?
-
-## intent: set_up_aol_account
-- How do I set up my Aol account?
-- Hello, How do I set up my Aol account?
-
-## intent: set_up_other_account
-- How do I set up all other email accounts?
-- Hello, How do I set up all other email accounts?
-
-## intent: view_all_my_email_accounts
-- How do I view all my email accounts in one inbox?
-- Hello, How do I view all my email accounts in one inbox?
-
-## intent: view_just_one_account
-- How do I view just one of my email accounts in the inbox?
-- Hello, How do I view just one of my email accounts in the inbox?
-
-## intent: draft_and_send_mail
-- How do I draft and send a new email?
-- Hello, How do I draft and send a new email?
-
-## intent: add_attachments_to_emails
-- How do I add attachments to emails?
-- Hello, How do I add attachments to emails?
-
-## intent: add_images_to_emails
-- How do I add images from my phone to emails?
-- Hello, How do I add images from my phone to emails?
-
-## intent: reply_to_email
-- How do I reply to an email?
-- Hello, How do I reply to an email?
-
-## intent: forword_email
-- How do I forward an email?
-- Hello, How do I forward an email?
-
-## intent: retrieve_archive_delete
-- What is the difference between archiving and deleting an email?
-- Hello, What is the difference between archiving and deleting an email?
-
-## intent: how_archive_email
-- How do I archive an email?
-- Hello, How do I archive an email?
-
-## intent: how_delete_email
-- How do I delete an email?
-- Hello, How do I delete an email?
-
-## intent: green_shield_with_checkmark
-- What is the green shield emblem with a checkmark that appears next to some emails when you open them?
-- Hello, What is the green shield emblem with a checkmark that appears next to some emails when you open them?
-
-## intent: how_change_folders_list
-- How do I change the folders (mailboxes) listed in my menu?
-- Hello, How do I change the folders (mailboxes) listed in my menu?
-
-## intent: what_is_snooze
-- What is Snooze?
-- Hello, What is Snooze?
-
-## intent: snooze_problem
-- What are my Snooze options?
-- Hello, What are my Snooze options?
-
-## intent: how_add_description_to_account
-- How do I add a description/nickname to my accounts?
-- Hello, How do I add a description/nickname to my accounts?
-
-## intent: how_always_bcc_myself
-- How do I always Bcc myself?
-- Hello, How do I always Bcc myself?
-
-## intent: how_change_notification_action
-- How do I change my notification actions?
-- Hello, How do I change my notification actions?
-
-## intent: how_create_signature
-- How do I create a signature?
-- Hello, How do I create a signature?
-
-## intent: how_change_swipe_options
-- How do I change my swipe options?
-- Hello, How do I change my swipe options?
-
-## intent: how_change_default_browser
-- How do I change the Default Browser?
-- Hello, How do I change the Default Browser?
-
-## intent: how_change_undo_time_window
-- How do I change the "undo" time window?
-- Hello, How do I change the "undo" time window?
-
-## intent: change_lines_number_in_preview
-- How do I change the number of lines I can preview in a message?
-- Hello, How do I change the number of lines I can preview in a message?
-
-## intent: change_default_address
-- How do I change my Default Address?
-- Hello, How do I change my Default Address?
-
-## intent: change_folder_list
-- How do I change the folders (mailboxes) listed in my menu?
-- Hello, How do I change the folders (mailboxes) listed in my menu?
-
-## intent: how_change_classified_important
-- How do I change what emails are classified as 'Important'?
-- Hello, How do I change what emails are classified as 'Important'?
-
-## intent: how_turn_off_badge_count
-- How do I turn off or turn on the badge count?
-- Hello, How do I turn off or turn on the badge count?
-
-## intent: how_disable_or_enable_backgroud_app_refresh
-- How do I disable or enable background app refresh?
-- Hello, How do I disable or enable background app refresh?
-
-## intent: why_not_receiving_notifications
-- Why am I not receiving notifications or sound alerts?
-- Hello, Why am I not receiving notifications or sound alerts?
-
-## intent: how_customize_assistant_view
-- How do I customize the Assistant view?
-- Hello, How do I customize the Assistant view?
-
-## intent: email_missed_by_assistant_add
-- An email was missed by the Assistant. How can I add it?
-- Hello, An email was missed by the Assistant. How can I add it?
-
-## intent: remove_a_assistant_folder_card
-- Can I remove a card from the Assistant folders?
-- Hello, Can I remove a card from the Assistant folders?
-
-## intent: what_are_assistant_folders
-- What are the Assistant folders?
-- Hello, What are the Assistant folders?
-
-## intent: unsubscribe_mail
-- What is the "Subscriptions" folder?
-- Hello, What is the "Subscriptions" folder?
-
-## intent: what_is_travel_folder
-- What is the "Travel" folder?
-- Hello, What is the "Travel" folder?
-
-## intent: what_is_packages_folder
-- What is the "Packages" folder?
-- Hello, What is the "Packages" folder?
-
-## intent: what_is_bills_folder
-- What is the "Bills & Receipts" folder?
-- Hello, What is the "Bills & Receipts" folder?
-
-## intent: what_is_the_entertainment_folder
-- What is the "Entertainment" folder?
-- Hello, What is the "Entertainment" folder?
-
-## intent: what_is_privacy_policy
-- What is the Privacy Policy
-- Hello, What is the Privacy Policy
-
-## intent: what_are_terms_and_conditions
-- What are the Terms and Conditions?
-- Hello, What are the Terms and Conditions?
-
-## intent: is_email_secure
-- Is my email secure?
-- Hello, Is my email secure?
-

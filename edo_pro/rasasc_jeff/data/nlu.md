@@ -181,10 +181,6 @@
 - what are you?
 - aw thanks!
 
-## intent:cancel_easilydo_account
-- I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
-- Hello, I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
-
 ## intent:cancel_order
 - and like to cancel my order
 - and like to cancel my order i am removing the app from my phone now
@@ -322,6 +318,8 @@
 - i need help to cancel my subscription account
 - hello ! how do i cancel my easilydo account
 - how do i cancel my easilydo subscription?
+- I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
+- Hello, I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
 
 ## intent:cannot_track_packages
 - package tracking is not working
@@ -346,9 +344,14 @@
 - how can i stop tracking packages i have another app for this
 - hi, i have difficulty tracking my packages
 
-## intent:change_account_pwd
+## intent:update_app_password
 - I've changed my email account password, how can I update this information in the app?
 - Hello, I've changed my email account password, how can I update this information in the app?
+- how to update my email password in edison mail app?
+- after changing my email passwords, the mail apps are not updated
+- passwords in mail app is not updated
+- my gmail password is not updated in edison mail
+- my yahoo password is not updated in edison mail
 
 ## intent:change_default_address
 - How do I change my Default Address?
@@ -577,9 +580,7 @@
 - what is the difference between easilydo email compared to the apple mail app?
 - What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
 - Hello, What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
-- what is the green icon that appears beside my email
 - What's the difference between Email - EasilyDo Mail and the\n  Apple Mail app that comes on your iPhone?
-- what is the green icon that apears beside my email?
 
 ## intent:draft_and_send_mail
 - How do I draft and send a new email?
@@ -751,6 +752,10 @@
 - what is the green image that shows beside the email when i open them
 - what is the green shield that pops out beside my email?
 - what is the green icon with checkmark that is shown beside my emails
+- what is the green emblem beside my mail?
+- what is the green emblem that is beside my mail?
+- what is the green emblem beside my emails?
+- what is the green icon that appears beside my email
 
 ## intent:greet
 - hey
@@ -782,7 +787,6 @@
 ## intent:how_change_classified_important
 - How do I change what emails are classified as 'Important'?
 - Hello, How do I change what emails are classified as 'Important'?
-- what is the green icon that appears beside my  emails
 
 ## intent:how_change_default_browser
 - How do I change the Default Browser?
@@ -820,7 +824,7 @@
 - how do i delete an email?
 - how can i delete my emails?
 
-## intent:how_disable_or_enable_backgroud_app_refresh
+## intent:background_app_refresh
 - How do I disable or enable background app refresh?
 - Hello, How do I disable or enable background app refresh?
 
@@ -844,6 +848,7 @@
 ## intent:mail_providers_support
 - What mail providers does this app support?
 - Hello, What mail providers does this app support?
+- what emails can work with this app? 
 
 ## intent:mark_all_read
 - is there a way to mark all email as read
@@ -1252,7 +1257,9 @@
 - i have had several emails that had no content i checked the emails on apple email and the content was available how can i get the content to load bob
 - how can i load a message that has no content when it actually has content
 
-## intent:no_notification
+## intent:no_notifications
+- Why am I not receiving notifications or sound alerts?
+- Hello, Why am I not receiving notifications or sound alerts?
 - not receiving notifications
 - not received
 - have not received
@@ -2905,15 +2912,10 @@
 - i delete an email and it comes back to my inbox every time i have now deleted the same email from my inbox a times
 - where is my inbox
 - why a email in inbox when there is no email
-- what is the green emblem beside my emails?
 
 ## intent:why_email_free
 - Why is Email free?
 - Hello, Why is Email free?
-
-## intent:why_not_receiving_notifications
-- Why am I not receiving notifications or sound alerts?
-- Hello, Why am I not receiving notifications or sound alerts?
 
 ## intent:withdraw_consent
 - i hereby withdraw my consent for you to collect process or store any personal data related to lauren gang gmail com i request that you delete any and all data related to and belonging to lauren gang gmail com that your company stores pursuant to my rights under article of apr
@@ -2966,3 +2968,8 @@
 - what is inbox zero about?
 - What is Inbox Zero?
 - Hello, What is Inbox Zero?
+
+## intent: need_desktop
+- are there plans for a mac app?
+- hi i would like to have a desktop application
+- when will a desktop version be released?

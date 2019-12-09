@@ -6,7 +6,7 @@ intents:
 - cancel_subscription_account
 - greet
 - change_password
-- no_notification
+- no_notifications
 - never_received_package
 - search_in_box
 - mood_great
@@ -48,7 +48,7 @@ intents:
 - is_free
 - how_create_signature
 - how_change_classified_important
-- change_account_pwd
+- update_app_password
 - green_shield_with_checkmark
 - support_exchange_account
 - how_change_swipe_options
@@ -63,9 +63,8 @@ intents:
 - how_always_bcc_myself
 - how_change_folders_list
 - set_up_outlook_account
-- why_not_receiving_notifications
 - draft_and_send_mail
-- backgroud_app_refresh
+- background_app_refresh
 - how_archive_email
 - mail_providers_support
 - how_change_undo_time_window
@@ -101,14 +100,12 @@ intents:
 - view_just_one_account
 - view_all_my_email_accounts
 - is_email_secure
-- cancel_easilydo_account
 - set_up_gmail_alias
 - not_receiving_notifications
 - what_is_travel_folder
 - what_are_terms_and_conditions
 - remove_a_assistant_folder_card
 - what_are_assistant_folders
-- how_disable_or_enable_backgroud_app_refresh
 - what_is_snooze
 - change_folder_list
 - mood_angry
@@ -124,8 +121,9 @@ intents:
 - want_ipad_version
 - what_is_privacy_policy
 - when_support_exchange
+- no_notification
 templates:
-  utter__apple_watch_app:
+  utter_apple_watch_app:
   - text: "While we don't currently have a dedicated Email app for Apple Watch, it's\
       \ one of the many great ideas we're considering for future releases. ⌚️\n\n\
       In the meantime, please feel free to utilize Apple Watch notifications by mirroring\
@@ -160,22 +158,18 @@ templates:
       to a folder labeled "All Trash" and are permanently deleted after a set time
       that varies based on the email provider has passed. Deleted emails disappear
       forever, whereas archived emails do not.
-  utter_backgroud_app_refresh:
+  utter_background_app_refresh:
   - text: "The Email app relies on background refresh to function as intended. However,\
       \ should you wish to disable it (i.e. for potential battery improvements) please\
       \ follow these steps:\n1. Tap the iOS Settings icon\n2. Tap General\n3. Tap\
       \ Background App Refresh\n4. Scroll down to Email and either disable or enable\
       \ (it should be on by default)"
-  utter_cancel_easilydo_account:
-  - text: Some folks are getting confused between our two apps, Email and EasilyDo.
-      If you've accidentally signed up for an EasilyDo account and wish to have it
-      cancelled, please contact our support and we'd be happy to assist you with this!
   utter_cancel_subscription_account:
   - text: Some folks are getting confused between our two apps, Email and Assistant.
       If you've accidentally signed up for an Assistant subscription and wish to have
       it cancelled, please contact us support@edison.tech and we'd be happy to assist
       you with this!
-  utter_change_account_pwd:
+  utter_update_app_password:
   - text: "If you wish to change your account password at this time, you'll need to\
       \ remove your account from Email and then re-add it:\n1. Tap the menu icon in\
       \ the top-left corner\n2. Tap Settings\n3. Select the email address you wish\
@@ -449,12 +443,6 @@ templates:
       \ of the icons at the bottom of your screen\nIf you have any issues, questions,\
       \ or suggestions, please do not hesitate to contact our customer support at\
       \ support@easilydo.com."
-  utter_how_disable_or_enable_backgroud_app_refresh:
-  - text: "In order to disable or enable background app refresh, please follow these\
-      \ steps:\n\nOpen the Settings app\nTap on \"General\"\nTap on \"Background App\
-      \ Refresh\"\nScroll down to Email and enable or disable it\nIf you have any\
-      \ issues, questions, or suggestions, please do not hesitate to contact our customer\
-      \ support at support@easilydo.com."
   utter_how_remove_email_account:
   - text: "In order to remove an email account from the app, follow the steps below:\n\
       \nTap on the menu icon\nTap on the \"Settings\" button\nTap on the email account\
@@ -496,7 +484,8 @@ templates:
       \ POP accounts, our apologies!\n\nIf you have a custom account or type which\
       \ isn't working (but should according to the information above) please"
   utter_need_dark_theme:
-  - text: We will support Dark mode when iOS 13 is publicly released.
+  - text: Edison Dark Mode has been publicly released with iOS 13, download the app
+      right now!
   utter_need_desktop:
   - text: 'We are working on a desktop version now. Join the beta group to try it
       now: https://docs.google.com/forms/d/e/1FAIpQLSePJimgA9Mi9yGbOosydoagD8GwrWSzj0g0nca6a_n9JXicvA/viewform'
@@ -769,7 +758,7 @@ templates:
       \ more about the Sift tool, visit us at https://developer.easilydo.com.\n\n\
       If you have any issues, questions, or suggestions, please do not hesitate to\
       \ contact our customer support at support@easilydo.com."
-  utter_why_not_receiving_notifications:
+  utter_no_notifications:
   - text: "If you aren't receiving notifications, please follow these steps to resolve\
       \ your issue:\n\nOpen the Settings app\nTap \"Notifications\"\nScroll down and\
       \ tap on \"Email\" \nEnsure that you have \"Allow Notifications\" enabled\n\
@@ -788,17 +777,16 @@ templates:
       \ your emails.\n\nIf you have any issues, questions, or suggestions, please\
       \ do not hesitate to contact our customer support at support@easilydo.com."
 actions:
-- utter__apple_watch_app
+- utter_apple_watch_app
 - utter_account_types
 - utter_add_attachments_to_emails
 - utter_add_images_to_emails
 - utter_add_microsoft_attachment
 - utter_apologise
 - utter_archive_delete_difference
-- utter_backgroud_app_refresh
-- utter_cancel_easilydo_account
+- utter_background_app_refresh
 - utter_cancel_subscription_account
-- utter_change_account_pwd
+- utter_update_app_password
 - utter_change_default_address
 - utter_change_folder_list
 - utter_change_lines_number_in_preview
@@ -837,7 +825,6 @@ actions:
 - utter_how_create_signature
 - utter_how_customize_assistant_view
 - utter_how_delete_email
-- utter_how_disable_or_enable_backgroud_app_refresh
 - utter_how_remove_email_account
 - utter_how_turn_off_badge_count
 - utter_iamabot
@@ -895,6 +882,6 @@ actions:
 - utter_whatis_ews_server
 - utter_when_support_exchange
 - utter_why_email_free
-- utter_why_not_receiving_notifications
+- utter_no_notifications
 - utter_zero_inbox
 - uutter_general_response

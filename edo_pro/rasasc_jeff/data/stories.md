@@ -230,7 +230,7 @@
 
 ## story_apple_watch_app
 * apple_watch_app
-  - utter__apple_watch_app
+  - utter_apple_watch_app
 
 ## story_enable_imessage_app
 * enable_imessage_app
@@ -248,9 +248,9 @@
 * whatis_ews_server
   - utter_whatis_ews_server
 
-## story_change_account_pwd
-* change_account_pwd
-  - utter_change_account_pwd
+## story_update_app_password
+* update_app_password
+  - utter_update_app_password
 
 ## story_save_message_draft
 * save_message_draft
@@ -259,10 +259,6 @@
 ## story_remove_app
 * remove_app
   - utter_remove_app
-
-## story_cancel_easilydo_account
-* cancel_easilydo_account
-  - utter_cancel_easilydo_account
 
 ## story_zero_inbox
 * zero_inbox
@@ -456,13 +452,9 @@
 * how_turn_off_badge_count
   - utter_how_turn_off_badge_count
 
-## story_how_disable_or_enable_backgroud_app_refresh
-* how_disable_or_enable_backgroud_app_refresh
-  - utter_how_disable_or_enable_backgroud_app_refresh
-
-## story_why_not_receiving_notifications
-* why_not_receiving_notifications
-  - utter_why_not_receiving_notifications
+## story_no_notifications
+* no_notifications
+  - utter_no_notifications
 
 ## story_how_customize_assistant_view
 * how_customize_assistant_view
@@ -524,17 +516,13 @@
 * need_desktop
   - utter_need_desktop
 
-## story_backgroud_app_refresh
-* backgroud_app_refresh
-  - utter_backgroud_app_refresh
-
 ## story_delete_account
 * delete_account
   - utter_delete_account
 
-## story_change_account_pwd
-* change_account_pwd
-  - utter_change_account_pwd
+## story_update_app_password
+* update_app_password
+  - utter_update_app_password
 
 ## story_remove_app
 * remove_app
@@ -601,7 +589,7 @@
 * greet
     - utter_greet
 * no_notification
-    - utter_why_not_receiving_notifications
+    - utter_no_notifications
     - utter_did_that_help
 
 ## New Story
@@ -620,7 +608,7 @@
 ## New Story
 
 * apple_watch_app
-    - utter__apple_watch_app
+    - utter_apple_watch_app
 
 ## New Story
 
@@ -677,7 +665,7 @@
 * gratitude
     - utter_welcome
 * apple_watch_app
-    - utter__apple_watch_app
+    - utter_apple_watch_app
     - utter_did_that_help
 * gratitude
     - utter_welcome
@@ -735,7 +723,7 @@
 ## New Story
 
 * apple_watch_app
-    - utter__apple_watch_app
+    - utter_apple_watch_app
 
 ## New Story
 
@@ -1000,17 +988,17 @@
 * need_desktop
   - utter_need_desktop
 
-## story_backgroud_app_refresh
-* backgroud_app_refresh
-  - utter_backgroud_app_refresh
+## story_background_app_refresh
+* background_app_refresh
+  - utter_background_app_refresh
 
 ## story_delete_account
 * delete_account
   - utter_delete_account
 
-## story_change_account_pwd
-* change_account_pwd
-  - utter_change_account_pwd
+## story_update_app_password
+* update_app_password
+  - utter_update_app_password
 
 ## story_remove_app
 * remove_app
@@ -1084,8 +1072,8 @@
     - utter_greet
 * no_notification
 * no_notification
-    - utter_why_not_receiving_notifications
-    - utter_why_not_receiving_notifications
+    - utter_no_notifications
+    - utter_no_notifications
     - utter_did_that_help
     - utter_did_that_help
 
@@ -1194,3 +1182,22 @@
 
 * green_shield_with_checkmark
     - utter_green_shield_with_checkmark
+
+## New Story
+
+* request_help
+    - utter_prompt
+* how_change_notification_action
+    - utter_how_change_notification_action
+
+## New Story
+
+* request_help
+    - utter_prompt
+* how_change_notification_action
+    - utter_how_change_notification_action
+
+## New Story
+
+* how_change_notification_action
+    - utter_how_change_notification_action

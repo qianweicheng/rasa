@@ -34,7 +34,7 @@
 * request_help
 - utter_prompt
 * need_dark_theme
-- utter_dark_theme
+- utter_need_dark_theme
 - utter_did_that_help
 * unsubscribe_mail
 - utter_unsubscribe_mail
@@ -100,7 +100,7 @@
 * request_help
     - utter_prompt
 * need_dark_theme
-    - utter_dark_theme
+    - utter_need_dark_theme
     - utter_did_that_help
 * gratitude
     - utter_welcome
@@ -195,7 +195,7 @@
 * gratitude
     - utter_welcome
 * need_dark_theme
-    - utter_dark_theme
+    - utter_need_dark_theme
     - utter_did_that_help
 * affirm
     - utter_happy
@@ -304,9 +304,9 @@
 * personal_folders
   - utter_personal_folders
 
-## story_when_support_exchange
-* when_support_exchange
-  - utter_when_support_exchange
+## story_support_exchange_account
+* support_exchange_account
+  - utter_support_exchange_account
 
 ## story_how_remove_email_account
 * elete_account
@@ -672,7 +672,7 @@
 * request_help
     - utter_prompt
 * need_dark_theme
-    - utter_dark_theme
+    - utter_need_dark_theme
     - utter_did_that_help
 * gratitude
     - utter_welcome
@@ -705,14 +705,14 @@
     - utter_what_is_packages_folder
     - utter_did_that_help
 * praise
-    - utter_goodbye
+    - utter_gratitude
 
 ## New Story
 
 * greet
     - utter_greet
 * need_dark_theme
-    - utter_dark_theme
+    - utter_need_dark_theme
     - utter_did_that_help
 * gratitude
     - utter_welcome
@@ -910,7 +910,7 @@
 
 ## story_never_received_package
 * never_received_package
-  - utter_never_received_package
+  - utter_what_is_packages_folder
 
 ## story_not_working
 * not_working
@@ -942,7 +942,7 @@
 
 ## story_praise
 * praise
-  - utter_general_response
+  - utter_gratitude
 
 ## story_criticise
 * criticise
@@ -1088,3 +1088,109 @@
     - utter_why_not_receiving_notifications
     - utter_did_that_help
     - utter_did_that_help
+
+## interactive_story_1
+* greet
+    - utter_greet
+* change_password
+    - utter_change_password
+    - utter_did_that_help
+* no_notification
+
+## interactive_story_1
+* support_exchange_features
+    - utter_support_exchange_features
+* add_microsoft_attachment
+    - utter_add_microsoft_attachment
+* cancel_subscription_account
+    - utter_cancel_subscription_account
+* diff_easilydo_and_email
+    - utter_diff_easilydo_and_email
+
+## New Story
+
+* greet
+    - utter_greet
+* set_up_gmail_alias
+    - utter_set_up_gmail_alias
+* set_up_gmail_alias
+    - utter_set_up_gmail_alias
+
+## New Story
+
+* what_is_the_entertainment_folder
+    - utter_what_is_the_entertainment_folder
+
+## New Story
+
+* what_are_terms_and_conditions
+    - utter_what_are_terms_and_conditions
+
+## New Story
+
+* how_change_default_browser
+    - utter_how_change_default_browser
+
+## interactive_story_1
+* how_delete_email
+    - utter_how_delete_email
+
+## interactive_story_1
+* how_delete_email
+    - utter_how_delete_email
+
+## New Story
+
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+
+## New Story
+
+* what_is_snooze
+    - utter_what_is_snooze
+
+## New Story
+
+* delete_account
+    - utter_delete_account
+
+## New Story
+
+* how_change_notification_action
+    - utter_how_change_notification_action
+
+## New Story
+
+* greet
+    - utter_greet
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+
+## New Story
+
+* greet
+    - utter_greet
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+
+## New Story
+
+* greet
+    - utter_greet
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+
+## New Story
+
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+
+## New Story
+
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+
+## New Story
+
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
