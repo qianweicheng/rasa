@@ -492,10 +492,6 @@
 * what_is_the_entertainment_folder
   - utter_what_is_the_entertainment_folder
 
-## story_what_is_privacy_policy
-* what_is_privacy_policy
-  - utter_what_is_privacy_policy
-
 ## story_what_are_terms_and_conditions
 * what_are_terms_and_conditions
   - utter_what_are_terms_and_conditions
@@ -1201,3 +1197,64 @@
 
 * how_change_notification_action
     - utter_how_change_notification_action
+
+## New Story
+
+* greet
+    - utter_greet
+* change_password
+    - utter_change_password
+    - utter_did_that_help
+
+## New Story
+
+* greet
+    - utter_greet
+* change_password
+    - utter_change_password
+    - utter_did_that_help
+
+## New Story
+
+* change_password
+    - utter_change_password
+
+## New Story
+
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+
+## New Story
+
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+
+## New Story
+
+* what_privacy_policy
+    - utter_what_privacy_policy
+
+## New Story
+
+* greet
+    - utter_greet
+* update_app_password
+    - utter_update_app_password
+
+## New Story
+
+* mail_providers_support
+    - utter_mail_providers_support
+
+## New Story
+
+* cancel_subscription_account
+    - utter_cancel_subscription_account

@@ -174,6 +174,10 @@
 - Is there an Apple Watch app for Email?
 - Hello, Is there an Apple Watch app for Email?
 
+## intent:background_app_refresh
+- How do I disable or enable background app refresh?
+- Hello, How do I disable or enable background app refresh?
+
 ## intent:bot_challenge
 - are you a human?
 - am I talking to a bot?
@@ -343,15 +347,6 @@
 - love the package tracking and subscription
 - how can i stop tracking packages i have another app for this
 - hi, i have difficulty tracking my packages
-
-## intent:update_app_password
-- I've changed my email account password, how can I update this information in the app?
-- Hello, I've changed my email account password, how can I update this information in the app?
-- how to update my email password in edison mail app?
-- after changing my email passwords, the mail apps are not updated
-- passwords in mail app is not updated
-- my gmail password is not updated in edison mail
-- my yahoo password is not updated in edison mail
 
 ## intent:change_default_address
 - How do I change my Default Address?
@@ -580,7 +575,6 @@
 - what is the difference between easilydo email compared to the apple mail app?
 - What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
 - Hello, What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
-- What's the difference between Email - EasilyDo Mail and the\n  Apple Mail app that comes on your iPhone?
 
 ## intent:draft_and_send_mail
 - How do I draft and send a new email?
@@ -657,7 +651,6 @@
 - how to use 3d touch actions
 - How do 3D Touch Quick Actions work?
 - Hello, How do 3D Touch Quick Actions work?
-- How do 3D Touch Quick Actions work?\n\n \n\n\n\n\n'
 
 ## intent:forword_email
 - How do I forward an email?
@@ -824,10 +817,6 @@
 - how do i delete an email?
 - how can i delete my emails?
 
-## intent:background_app_refresh
-- How do I disable or enable background app refresh?
-- Hello, How do I disable or enable background app refresh?
-
 ## intent:how_turn_off_badge_count
 - How do I turn off or turn on the badge count?
 - Hello, How do I turn off or turn on the badge count?
@@ -848,7 +837,7 @@
 ## intent:mail_providers_support
 - What mail providers does this app support?
 - Hello, What mail providers does this app support?
-- what emails can work with this app? 
+- what emails can work with this app?
 
 ## intent:mark_all_read
 - is there a way to mark all email as read
@@ -1149,6 +1138,11 @@
 - when will dark mode be out?
 - how do i enable darkmode
 - how can i enable dark mode?
+
+## intent:need_desktop
+- are there plans for a mac app?
+- hi i would like to have a desktop application
+- when will a desktop version be released?
 
 ## intent:never_received_package
 - never received
@@ -2569,7 +2563,6 @@
 - i would like to sign up for beta testing of products
 - How do I sign up for BETA testing of new products?
 - Hello, How do I sign up for BETA testing of new products?
-- How do I sign up for BETA testing of new products?\n\n \n\n\n\n\n'
 
 ## intent:sign_in_problem
 - can't sign in
@@ -2806,6 +2799,16 @@
 - Hello, What is the "Subscriptions" folder?
 - how can i ubsubscribe from easilydp
 
+## intent:update_app_password
+- I've changed my email account password, how can I update this information in the app?
+- Hello, I've changed my email account password, how can I update this information in the app?
+- how to update my email password in edison mail app?
+- after changing my email passwords, the mail apps are not updated
+- passwords in mail app is not updated
+- my gmail password is not updated in edison mail
+- my yahoo password is not updated in edison mail
+- how do i update my account information?
+
 ## intent:versions_ews_support
 - which versions of ms exchange are supported?
 - which version of microsoft exchange can the email use?
@@ -2968,8 +2971,3 @@
 - what is inbox zero about?
 - What is Inbox Zero?
 - Hello, What is Inbox Zero?
-
-## intent: need_desktop
-- are there plans for a mac app?
-- hi i would like to have a desktop application
-- when will a desktop version be released?

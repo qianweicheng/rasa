@@ -119,8 +119,7 @@ intents:
 - sign_out_problem
 - sign_in_problem
 - want_ipad_version
-- what_is_privacy_policy
-- when_support_exchange
+- general_response
 - no_notification
 templates:
   utter_apple_watch_app:
@@ -524,9 +523,6 @@ templates:
   - text: Tap the menu (hamburger icon) on the top left of the app and scroll down
       to Accounts. Then tap the account name, and you will see a list of all the folders
       in that account.
-  utter_privacy_policy:
-  - text: Your privacy is of the utmost importance to us, and we encourage you to
-      read our privacy policy here. https://www.edison.tech/privacy.html
   utter_prompt:
   - text: How may i help you?
   utter_remove_a_assistant_folder_card:
@@ -776,6 +772,8 @@ templates:
       \ you have completely cleared your inbox of all emails by archiving and trashing\
       \ your emails.\n\nIf you have any issues, questions, or suggestions, please\
       \ do not hesitate to contact our customer support at support@easilydo.com."
+  utter_general_response:
+  - text: Your query has been received and our team will look into this matter
 actions:
 - utter_apple_watch_app
 - utter_account_types
@@ -807,7 +805,6 @@ actions:
 - utter_for3d_touch_action
 - utter_forword_email
 - utter_frequency_crash
-- utter_general_response
 - utter_goodbye
 - utter_gratitude
 - utter_green_shield_with_checkmark
@@ -840,7 +837,6 @@ actions:
 - utter_not_receiving_notifications
 - utter_off_badge_count
 - utter_personal_folders
-- utter_privacy_policy
 - utter_prompt
 - utter_remove_a_assistant_folder_card
 - utter_remove_account
@@ -873,15 +869,13 @@ actions:
 - utter_what_are_terms_and_conditions
 - utter_what_is_bills_folder
 - utter_what_is_packages_folder
-- utter_what_is_privacy_policy
 - utter_what_is_snooze
 - utter_what_is_subscrption_folder
 - utter_what_is_the_entertainment_folder
 - utter_what_is_travel_folder
 - utter_what_privacy_policy
 - utter_whatis_ews_server
-- utter_when_support_exchange
 - utter_why_email_free
 - utter_no_notifications
 - utter_zero_inbox
-- uutter_general_response
+- utter_general_response
