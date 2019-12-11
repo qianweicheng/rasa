@@ -6,25 +6,20 @@ pipeline {
    stages {
       stage('Prepare Env') {
          steps {
-           sh """
-                echo `pwd`
-                python --version
-                which python
-                which pip
-                ls
+           sh '''
                 python -m edo_pro.rasasc_jeff -h
-           """
+           '''
          }
       }
       stage('Training') {
         steps {
             sh """
-                echo `pwd`
+                ls -al
+                pwd
                 python --version
                 which python
                 which pip
-                ls
-                python -m edo_pro.rasasc_jeff -t
+                # python -m edo_pro.rasasc_jeff -t
             """
         }
       }  
