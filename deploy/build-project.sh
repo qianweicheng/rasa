@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
-
-echo this project does not need to build. 
-echo but this file should be here.
+set -ex
+ROOT_DIR=$(cd "$(dirname "$0")/..";pwd)
+cd $ROOT_DIR
+if [[ ! -d "venv" ]];then
+    virtualenv -p python3 venv
+    pip install -r requirements.txt
+    pip install -e .
+fi
+. venv/bin/activate
+python -m edo_pro.rasasc -h
+deactivate
