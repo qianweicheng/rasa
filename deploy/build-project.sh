@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -ex
+set -e
 ROOT_DIR=$(cd "$(dirname "$0")/..";pwd)
 cd $ROOT_DIR
 if [[ ! -d "venv" ]];then
