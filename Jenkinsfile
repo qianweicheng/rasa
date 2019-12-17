@@ -1,6 +1,9 @@
 pipeline {
-   agent none
-   stages {
+    agent none
+    options {
+        timeout(time: 1, unit: 'HOURS') 
+    }
+    stages {
         stage('Prepare Env') {
             agent {
                 docker 'hub.edisonpark.net/edisonchat/rasa:tools' 
@@ -20,7 +23,9 @@ pipeline {
             }
             steps {
                 sh """
-                    python -m edo_pro.rasasc_jeff -h
+                    python -m edo_pro.rasasc_jeff -t
+
+
                 """
             }
         }
