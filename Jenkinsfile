@@ -20,7 +20,7 @@ pipeline {
             }
             steps {
                 sh """
-                    python -m edo_pro.rasasc_jeff -t
+                    python -m edo_pro.rasasc_jeff -h
                 """
             }
         }
@@ -31,12 +31,17 @@ pipeline {
                     args '-v /var/run/docker.sock:/var/run/docker.sock'
                 }
             }
+            environment {
+                EDISON_DOCKER_HUB = credentials('hub.edisonpark.net')
+            }
             steps {
-                sh '''
-                    docker ps
-                    docker build -t hub.edisonpark.net/edisonchat/rasa:latest ./deploy/Dockerfile
-                    docker push hub.edisonpark.net/edisonchat/rasa:latest
-                '''
+                withDockerRegistry(credentialsId: 'hub.edisonpark.net', url: 'https://hub.edisonpark.net/') {
+                    sh '''
+                        docker ps
+                        docker build -t hub.edisonpark.net/edisonchat/rasa -f ./deploy/Dockerfile .
+                        docker push hub.edisonpark.net/edisonchat/rasa
+                    '''
+                }
             }
         }
         stage('Deploy to K8S') {
@@ -44,20 +49,19 @@ pipeline {
                 docker 'hub.edisonpark.net/edisonchat/deploy-helper:latest' 
             }
             steps {
-                sh 'kubectl --kubeconfig ./kube_config_stag get pod'
+                sh '''
+                    # workingspack is rasa1
+                    kubectl --kubeconfig /root/kube_config_stag get pod
+                '''
             }
         } 
    }
    post { 
         always {
-            agent any
             echo 'I will always say Hello again!'
         }
         success {
-            steps {
-                agent any
-                echo 'Weicheng!'
-            }
+            echo 'Weicheng!'
         }
     }
 }
