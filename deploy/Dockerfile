@@ -1,6 +1,6 @@
 # use this prebuild base image to accelerate the deploy speed.
 # the cost is the image size is >1G
-FROM hub.edisonpark.net/edisonchat/rasa:latest
+FROM hub.edisonpark.net/edisonchat/rasa:tools
 
 EXPOSE 5005
 
