@@ -5,16 +5,17 @@ pipeline {
     }
     stages {
         stage('Prepare Env') {
-            agent {
-                docker 'hub.edisonpark.net/edisonchat/rasa:tools' 
+            agent { 
+                docker {
+                    image 'hub.edisonpark.net/edisonchat/deploy-helper:latest'
+                }
             }
             steps {
-                git credentialsId: 'rsa_github', url: 'git@github.com:qianweicheng/rasa.git'
+                // git credentialsId: 'rsa_github', url: 'git@github.com:qianweicheng/rasa.git'
                 sh '''
                     pwd
                     python --version
-                    which python
-                    which pip
+                    ls -al
                 '''
             }
         }
@@ -24,14 +25,14 @@ pipeline {
             }
             steps {
                 sh """
-                    python -m edo_pro.rasasc_jeff -t
+                    python -m edo_pro.rasasc_jeff -t 2>&1
                 """
             }
         }
         stage('Build The Image') {
             agent { 
                 docker {
-                    image 'docker' 
+                    image 'docker'
                     args '-v /var/run/docker.sock:/var/run/docker.sock'
                 }
             }
@@ -53,28 +54,34 @@ pipeline {
             agent { 
                 docker {
                     image 'hub.edisonpark.net/edisonchat/deploy-helper:latest'
-                    args '-v /var/jenkins_home/workspace/rack:/rack'
                 }
             }
             steps {
                 sh '''
-                    # workingspack is rasa1
+                    # workingspack is rasa
                     # make stag as default
                     # kubectl --kubeconfig /root/kube_config_stag get pod
                     mkdir /root/.kube
                     cp /root/kube_config_stag /root/.kube/config
-                    cd ../rack/deploy2
-                    ./deploy-tool.py -f -h
+                '''
+                sh '''
+                    # TODO: need to replace the version in deployment.yaml
+                    application=$(kubectl get deploy rasa | wc -l)
+                    if [ $application -eq 2 ];then
+                        kubectl set env deploy/rasa version="${BUILD_TAG}"
+                    else
+                        kubectl apply -f ./deploy/deployment.yaml
+                        kubectl apply -f ./deploy/service.yaml
+                    fi
                 '''
             }
         } 
    }
    post { 
         always {
-            echo 'I will always say Hello again!'
-        }
-        success {
-            echo 'Weicheng!'
+            emailext body: '''$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
+
+Check console output at $BUILD_URL to view the details.''', subject: 'New Service[$PROJECT_NAME] Deployed!', to: 'chat.alarm@edison.tech,weicheng@edison.tech,lida@edison.tech,songzhou@edison.tech'
         }
     }
 }

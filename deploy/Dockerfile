@@ -10,3 +10,12 @@ EXPOSE 5005
 COPY ./edo_pro ./edo_pro
 ENTRYPOINT ["python"]
 CMD ["-m", "edo_pro.rasasc_jeff", "-r"]
+
+# run via docker 
+# docker run -d \
+# --name rasa \
+# -v `pwd`/edo_pro:/app/edo_pro \
+# -p 5006:5005 \
+# --entrypoint python \
+# hub.edisonpark.net/edisonchat/rasa:tools \
+# -m edo_pro.rasasc_jeff -r
