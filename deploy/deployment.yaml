@@ -1,0 +1,31 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rasa
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rasa
+  template:
+    metadata:
+      name: rasa
+      labels:
+        app: rasa
+    spec:
+      imagePullSecrets:
+      - name: docker-registry-edisonchat
+      containers:
+      - name: rasa
+        imagePullPolicy: Always
+        image: edisonchat/chat-platform
+        # command: ['rasa', 'run', '--enable-api', '--endpoint', 'endpoints.yml', '--credentials', 'credentials.yml']
+        # command: ['python', '-m', 'edo_pro.rasasc', '-r']
+        ports:
+        - containerPort: 5005
+          name: http
+          protocol: TCP
+        env:
+        - name: AppEnv
+          value: k8s-stag

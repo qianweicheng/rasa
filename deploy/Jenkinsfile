@@ -9,7 +9,7 @@ pipeline {
                 docker 'hub.edisonpark.net/edisonchat/rasa:tools' 
             }
             steps {
-                // git credentialsId: 'rsa_github', url: 'git@github.com:qianweicheng/rasa.git'
+                git credentialsId: 'rsa_github', url: 'git@github.com:qianweicheng/rasa.git'
                 sh '''
                     pwd
                     python --version
@@ -24,7 +24,7 @@ pipeline {
             }
             steps {
                 sh """
-                    python -m edo_pro.rasasc_jeff -h
+                    python -m edo_pro.rasasc_jeff -t
                 """
             }
         }
@@ -43,6 +43,8 @@ pipeline {
                     sh '''
                         docker build -t hub.edisonpark.net/edisonchat/rasa -f ./deploy/Dockerfile .
                         docker push hub.edisonpark.net/edisonchat/rasa
+                        docker tag hub.edisonpark.net/edisonchat/rasa hub.edisonpark.net/edisonchat/rasa:${BUILD_NUMBER}
+                        docker push hub.edisonpark.net/edisonchat/rasa:${BUILD_NUMBER}
                     '''
                 }
             }
