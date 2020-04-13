@@ -1,13 +1,13 @@
 pipeline {
     agent none
     options {
-        timeout(time: 1, unit: 'HOURS') 
+        timeout(time: 10, unit: 'HOURS') 
     }
     stages {
         stage('Prepare Env') {
             agent { 
                 docker {
-                    image 'hub.edisonpark.net/edisonchat/deploy-helper:latest'
+                    image 'hub.edisonpark.net/edisonchat/deploy-helper:2'
                 }
             }
             steps {
@@ -53,7 +53,7 @@ pipeline {
         stage('Deploy to K8S') {
             agent { 
                 docker {
-                    image 'hub.edisonpark.net/edisonchat/deploy-helper:latest'
+                    image 'hub.edisonpark.net/edisonchat/deploy-helper:2'
                 }
             }
             steps {
