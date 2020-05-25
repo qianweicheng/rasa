@@ -2,7 +2,8 @@
 Setup Intructions
 
 ###
-1) Create your own environment using conda or venv
+1) Create your own environment using conda or venv and install requirements
+pip install -r requirements.txt
 
 ###
 2) Ensure all rasa dependencies are up to date
