@@ -2,6 +2,7 @@ language: "fr"  # your two-letter language code
 policies:
 - name: MemoizationPolicy
   max_history: 1
+- name: KerasPolicy
 - name: MappingPolicy
 pipeline:
   - name: WhitespaceTokenizer
