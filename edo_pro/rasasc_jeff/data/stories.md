@@ -53,7 +53,7 @@
 
 ## Customer Request
 * delete_account
-- utter_remove_account
+- utter_delete_account
 - utter_did_that_help
 * affirm
 - utter_happy
@@ -171,7 +171,7 @@
 * request_help
     - utter_prompt
 * delete_account
-    - utter_remove_account
+    - utter_delete_account
     - utter_did_that_help
 * affirm
     - utter_happy
@@ -205,7 +205,7 @@
 * gratitude
     - utter_welcome
 * delete_account
-    - utter_remove_account
+    - utter_delete_account
     - utter_did_that_help
 * gratitude
     - utter_welcome
@@ -1258,3 +1258,70 @@
 
 * cancel_subscription_account
     - utter_cancel_subscription_account
+
+## New Story
+
+* what_privacy_policy
+    - utter_what_privacy_policy
+
+## New Story
+
+* what_privacy_policy
+    - utter_what_privacy_policy
+
+## New Story
+
+* greet
+    - utter_greet
+* what_privacy_policy
+    - utter_what_privacy_policy
+
+## New Story
+
+* what_privacy_policy
+    - utter_what_privacy_policy
+
+## New Story
+
+* greet
+    - utter_greet
+* what_privacy_policy
+    - utter_what_privacy_policy
+
+## interactive_story_2
+* greet
+    - utter_greet
+
+## interactive_story_3
+* greet
+    - utter_greet
+* remove_app
+
+## interactive_story_4
+* greet
+    - utter_greet
+* how_change_notification_action
+    - utter_how_change_notification_action
+* mood_great
+
+## New Story
+
+* greet
+    - utter_greet
+* need_dark_theme
+    - utter_need_dark_theme
+    - utter_did_that_help
+* praise
+    - utter_gratitude
+
+## interactive_story_2
+* green_shield_with_checkmark
+    - utter_green_shield_with_checkmark
+
+## interactive_story_1
+* delete_account
+    - utter_delete_account
+
+## interactive_story_2
+* delete_account
+    - utter_delete_account

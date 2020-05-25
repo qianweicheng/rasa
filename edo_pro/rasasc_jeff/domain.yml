@@ -64,7 +64,6 @@ actions:
 - utter_personal_folders
 - utter_prompt
 - utter_remove_a_assistant_folder_card
-- utter_remove_account
 - utter_remove_app
 - utter_reply_to_email
 - utter_save_message_draft
@@ -103,16 +102,14 @@ actions:
 - utter_whatis_ews_server
 - utter_why_email_free
 - utter_zero_inbox
-entities:
-- PRODUCT
 intents:
+- delete_account
 - stop
 - exit
 - '1'
 - goodbye
 - greet
 - green_shield_with_checkmark
-- delete_account
 - remove_app
 - mood_great
 - how_change_notification_action
@@ -649,11 +646,6 @@ responses:
       \ Assistant, and will NOT delete the email itself.\n\nIf you have any issues,\
       \ questions, or suggestions, please do not hesitate to contact our customer\
       \ support at support@easilydo.com."
-  utter_remove_account:
-  - text: In order to remove an email account from the app, follow the steps below:Tap
-      on the menu icon Tap on the ""Settings"" button. Tap on the email account you
-      would like to remove Scroll down to the bottom of the page and tap the red button
-      that reads ""Delete Account"
   utter_remove_app:
   - text: "If you've decided that you wish to remove the Email app, please \nfollow\
       \ these instructions to delete the Email app from your device…\n\niOS Devices:\n\

@@ -324,6 +324,8 @@
 - how do i cancel my easilydo subscription?
 - I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
 - Hello, I've accidentally downloaded and signed up for EasilyDo instead of Email. How do I cancel my EasilyDo account?
+- i want to refund my subscription account
+- p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'}\n\n\n\nWhat is Edison Privacy Policy for the Email app?
 
 ## intent:cannot_track_packages
 - package tracking is not working
@@ -440,6 +442,8 @@
 - how do i change password in us est
 - i want to change my password
 - i would want to change my email account password
+- how do i change my account password
+- how do i change my password ?
 
 ## intent:criticise
 - app sucks
@@ -536,6 +540,9 @@
 - how to delete my emails?
 - how do i delete my acount?
 - how do i delete my emails
+- how do i delete my [email](PRODUCT) account?
+- i need to delete my easilydo account
+- how do i delete my easilydo account?
 
 ## intent:delete_self_messages_permantently
 - How can I permanently delete my messages?
@@ -575,6 +582,7 @@
 - what is the difference between easilydo email compared to the apple mail app?
 - What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
 - Hello, What's the difference between Email - EasilyDo Mail and the Apple Mail app that comes on your iPhone?
+- what is the green icon that apears beside my email?
 
 ## intent:draft_and_send_mail
 - How do I draft and send a new email?
@@ -709,6 +717,7 @@
 - see you later
 - bye bye!
 - good bye
+- exit
 
 ## intent:gratitude
 - thank you
@@ -749,6 +758,13 @@
 - what is the green emblem that is beside my mail?
 - what is the green emblem beside my emails?
 - what is the green icon that appears beside my email
+- what is the green image beside my email
+- what is the green icon beside my email
+- what is the green image beside my mail
+- what is the green icon beside my mail
+- what is this green icon showing beside my emails?
+- what does this green icon represent?
+- what does the green icon mean?
 
 ## intent:greet
 - hey
@@ -763,6 +779,10 @@
 - hello!
 - hello rasA!
 - hi!
+- helllo!
+- hello rasa!
+- hi rasa1
+- y
 
 ## intent:how_add_description_to_account
 - How do I add a description/nickname to my accounts?
@@ -780,6 +800,7 @@
 ## intent:how_change_classified_important
 - How do I change what emails are classified as 'Important'?
 - Hello, How do I change what emails are classified as 'Important'?
+- what is the green icon that appears beside my  emails
 
 ## intent:how_change_default_browser
 - How do I change the Default Browser?
@@ -794,6 +815,10 @@
 - How do I change my notification actions?
 - Hello, How do I change my notification actions?
 - how do i enable notifications?
+- how do i change my notification actions?
+- how do i change my notification settings?
+- how do i enable notifications for my email?
+- how do i enable notifications on my email
 
 ## intent:how_change_swipe_options
 - How do I change my swipe options?
@@ -955,6 +980,7 @@
 - I am great
 - I'm good
 - close
+- --e2e
 
 ## intent:mood_unhappy
 - sad
@@ -2408,6 +2434,7 @@
 - easy clean and working a
 - just love easy to use
 - clean and easy to use just what i needed
+- what email can i use on this app?
 
 ## intent:remove_a_assistant_folder_card
 - Can I remove a card from the Assistant folders?
@@ -2419,6 +2446,7 @@
 - how to remove the phone app?
 - How do I remove the Email app from my device?
 - Hello, How do I remove the Email app from my device?
+- where is the nearest chinese cuisine restaurant in paris?
 
 ## intent:reply_to_email
 - How do I reply to an email?
@@ -2438,6 +2466,8 @@
 - i need some help
 - i have question
 - i need some information
+- hello , i need help
+- hello! i need help
 
 ## intent:retrieve_archive_delete
 - What is the difference between archiving and deleting an email?
@@ -2808,6 +2838,8 @@
 - my gmail password is not updated in edison mail
 - my yahoo password is not updated in edison mail
 - how do i update my account information?
+- how do i update my application information
+- how do i update my application information?
 
 ## intent:versions_ews_support
 - which versions of ms exchange are supported?
@@ -2882,6 +2914,12 @@
 - Hello, What is the Privacy Policy
 - What is Edison Privacy Policy for the Email app?
 - what is the edison privacy policy?
+- what data policies do you have?
+- what is edison's privacy policy for the email app?
+- what is the edison privacy policy app
+- whats your privacy policy?
+- tell me about your privacy policy
+- i want to see your privacy policy
 
 ## intent:whatis_ews_server
 - what is microsoft exchange server?
