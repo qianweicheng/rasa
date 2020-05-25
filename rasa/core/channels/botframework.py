@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import datetime
 import json
 import logging
@@ -38,15 +36,19 @@ class BotFramework(OutputChannel):
         service_url: Text,
     ) -> None:
 
+        service_url = (
+            f"{service_url}/" if not service_url.endswith("/") else service_url
+        )
+
         self.app_id = app_id
         self.app_password = app_password
         self.conversation = conversation
-        self.global_uri = "{}v3/".format(service_url)
+        self.global_uri = f"{service_url}v3/"
         self.bot = bot
 
-    async def _get_headers(self):
+    async def _get_headers(self) -> Optional[Dict[Text, Any]]:
         if BotFramework.token_expiration_date < datetime.datetime.now():
-            uri = "{}/{}".format(MICROSOFT_OAUTH2_URL, MICROSOFT_OAUTH2_PATH)
+            uri = f"{MICROSOFT_OAUTH2_URL}/{MICROSOFT_OAUTH2_PATH}"
             grant_type = "client_credentials"
             scope = "https://api.botframework.com/.default"
             payload = {
@@ -107,7 +109,7 @@ class BotFramework(OutputChannel):
     async def send_text_message(
         self, recipient_id: Text, text: Text, **kwargs: Any
     ) -> None:
-        for message_part in text.split("\n\n"):
+        for message_part in text.strip().split("\n\n"):
             text_message = {"text": message_part}
             message = self.prepare_message(recipient_id, text_message)
             await self.send(message)
@@ -246,7 +248,7 @@ class BotFrameworkInput(InputChannel):
                 else:
                     logger.info("Not received message type")
             except Exception as e:
-                logger.error("Exception when trying to handle message.{0}".format(e))
+                logger.error(f"Exception when trying to handle message.{e}")
                 logger.debug(e, exc_info=True)
                 pass
 

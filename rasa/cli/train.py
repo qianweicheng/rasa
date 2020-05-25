@@ -73,7 +73,8 @@ def train(args: argparse.Namespace) -> Optional[Text]:
         force_training=args.force,
         fixed_model_name=args.fixed_model_name,
         persist_nlu_training_data=args.persist_nlu_data,
-        kwargs=extract_additional_arguments(args),
+        core_additional_arguments=extract_core_additional_arguments(args),
+        nlu_additional_arguments=extract_nlu_additional_arguments(args),
     )
 
 
@@ -92,7 +93,7 @@ def train_core(
     story_file = get_validated_path(
         args.stories, "stories", DEFAULT_DATA_PATH, none_is_valid=True
     )
-    kwargs = extract_additional_arguments(args)
+    additional_arguments = extract_core_additional_arguments(args)
 
     # Policies might be a list for the compare training. Do normal training
     # if only list item was passed.
@@ -109,12 +110,14 @@ def train_core(
             output=output,
             train_path=train_path,
             fixed_model_name=args.fixed_model_name,
-            kwargs=kwargs,
+            additional_arguments=additional_arguments,
         )
     else:
         from rasa.core.train import do_compare_training
 
-        loop.run_until_complete(do_compare_training(args, story_file, kwargs))
+        loop.run_until_complete(
+            do_compare_training(args, story_file, additional_arguments)
+        )
 
 
 def train_nlu(
@@ -136,18 +139,26 @@ def train_nlu(
         train_path=train_path,
         fixed_model_name=args.fixed_model_name,
         persist_nlu_training_data=args.persist_nlu_data,
+        additional_arguments=extract_nlu_additional_arguments(args),
     )
 
 
-def extract_additional_arguments(args: argparse.Namespace) -> Dict:
+def extract_core_additional_arguments(args: argparse.Namespace) -> Dict:
     arguments = {}
 
     if "augmentation" in args:
         arguments["augmentation_factor"] = args.augmentation
-    if "dump_stories" in args:
-        arguments["dump_stories"] = args.dump_stories
     if "debug_plots" in args:
         arguments["debug_plots"] = args.debug_plots
+
+    return arguments
+
+
+def extract_nlu_additional_arguments(args: argparse.Namespace) -> Dict:
+    arguments = {}
+
+    if "num_threads" in args:
+        arguments["num_threads"] = args.num_threads
 
     return arguments
 

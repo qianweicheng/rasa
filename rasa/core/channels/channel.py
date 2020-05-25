@@ -13,6 +13,7 @@ from rasa.cli import utils as cli_utils
 from rasa.constants import DOCS_BASE_URL
 from rasa.core import utils
 from sanic.response import HTTPResponse
+from typing import NoReturn
 
 try:
     from urlparse import urljoin  # pytype: disable=import-error
@@ -114,7 +115,7 @@ class InputChannel:
         raise NotImplementedError("Component listener needs to provide blueprint.")
 
     @classmethod
-    def raise_missing_credentials_exception(cls) -> None:
+    def raise_missing_credentials_exception(cls) -> NoReturn:
         raise Exception(
             "To use the {} input channel, you need to "
             "pass a credentials file using '--credentials'. "
@@ -213,14 +214,14 @@ class OutputChannel:
     ) -> None:
         """Sends an image. Default will just post the url as a string."""
 
-        await self.send_text_message(recipient_id, "Image: {}".format(image))
+        await self.send_text_message(recipient_id, f"Image: {image}")
 
     async def send_attachment(
         self, recipient_id: Text, attachment: Text, **kwargs: Any
     ) -> None:
         """Sends an attachment. Default will just post as a string."""
 
-        await self.send_text_message(recipient_id, "Attachment: {}".format(attachment))
+        await self.send_text_message(recipient_id, f"Attachment: {attachment}")
 
     async def send_text_with_buttons(
         self,
@@ -323,7 +324,7 @@ class CollectingOutputChannel(OutputChannel):
     async def send_text_message(
         self, recipient_id: Text, text: Text, **kwargs: Any
     ) -> None:
-        for message_part in text.split("\n\n"):
+        for message_part in text.strip().split("\n\n"):
             await self._persist_message(self._message(recipient_id, text=message_part))
 
     async def send_image_url(
@@ -368,10 +369,10 @@ class QueueOutputChannel(CollectingOutputChannel):
 
     # noinspection PyMissingConstructor
     def __init__(self, message_queue: Optional[Queue] = None) -> None:
-        super(QueueOutputChannel, self).__init__()
+        super().__init__()
         self.messages = Queue() if not message_queue else message_queue
 
-    def latest_output(self):
+    def latest_output(self) -> NoReturn:
         raise NotImplementedError("A queue doesn't allow to peek at messages.")
 
     async def _persist_message(self, message) -> None:

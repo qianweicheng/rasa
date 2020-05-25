@@ -9,7 +9,6 @@ from typing import Optional, Any, Dict, List, Text
 
 import rasa.utils.io
 
-from rasa.core import utils
 from rasa.core.domain import Domain
 from rasa.core.events import ActionExecuted
 from rasa.core.featurizers import TrackerFeaturizer, MaxHistoryTrackerFeaturizer
@@ -49,7 +48,9 @@ class MemoizationPolicy(Policy):
     USE_NLU_CONFIDENCE_AS_SCORE = False
 
     @staticmethod
-    def _standard_featurizer(max_history=None):
+    def _standard_featurizer(
+        max_history: Optional[int] = None,
+    ) -> MaxHistoryTrackerFeaturizer:
         # Memoization policy always uses MaxHistoryTrackerFeaturizer
         # without state_featurizer
         return MaxHistoryTrackerFeaturizer(
@@ -69,7 +70,7 @@ class MemoizationPolicy(Policy):
         if not featurizer:
             featurizer = self._standard_featurizer(max_history)
 
-        super(MemoizationPolicy, self).__init__(featurizer, priority)
+        super().__init__(featurizer, priority)
 
         self.max_history = self.featurizer.max_history
         self.lookup = lookup if lookup is not None else {}
@@ -80,7 +81,7 @@ class MemoizationPolicy(Policy):
 
     def _add_states_to_lookup(
         self, trackers_as_states, trackers_as_actions, domain, online=False
-    ):
+    ) -> None:
         """Add states to lookup dict"""
         if not trackers_as_states:
             return
@@ -162,20 +163,6 @@ class MemoizationPolicy(Policy):
         self._add_states_to_lookup(trackers_as_states, trackers_as_actions, domain)
         logger.debug("Memorized {} unique examples.".format(len(self.lookup)))
 
-    def continue_training(
-        self,
-        training_trackers: List[DialogueStateTracker],
-        domain: Domain,
-        **kwargs: Any,
-    ) -> None:
-
-        # add only the last tracker, because it is the only new one
-        (
-            trackers_as_states,
-            trackers_as_actions,
-        ) = self.featurizer.training_states_and_actions(training_trackers[-1:], domain)
-        self._add_states_to_lookup(trackers_as_states, trackers_as_actions, domain)
-
     def _recall_states(self, states: List[Dict[Text, float]]) -> Optional[int]:
 
         return self.lookup.get(self._create_feature_key(states))
@@ -192,23 +179,25 @@ class MemoizationPolicy(Policy):
     def predict_action_probabilities(
         self, tracker: DialogueStateTracker, domain: Domain
     ) -> List[float]:
-        """Predicts the next action the bot should take
-            after seeing the tracker.
+        """Predicts the next action the bot should take after seeing the tracker.
 
-            Returns the list of probabilities for the next actions.
-            If memorized action was found returns 1.1 for its index,
-            else returns 0.0 for all actions."""
-        result = [0.0] * domain.num_actions
+        Returns the list of probabilities for the next actions.
+        If memorized action was found returns 1 for its index,
+        else returns 0 for all actions.
+        """
+        result = self._default_predictions(domain)
 
         if not self.is_enabled:
             return result
 
         tracker_as_states = self.featurizer.prediction_states([tracker], domain)
         states = tracker_as_states[0]
-        logger.debug("Current tracker state {}".format(states))
+        logger.debug(f"Current tracker state {states}")
         recalled = self.recall(states, tracker, domain)
         if recalled is not None:
-            logger.debug("There is a memorised next action '{}'".format(recalled))
+            logger.debug(
+                f"There is a memorised next action '{domain.action_names[recalled]}'"
+            )
 
             if self.USE_NLU_CONFIDENCE_AS_SCORE:
                 # the memoization will use the confidence of NLU on the latest
@@ -273,7 +262,7 @@ class AugmentedMemoizationPolicy(MemoizationPolicy):
     """
 
     @staticmethod
-    def _back_to_the_future_again(tracker):
+    def _back_to_the_future_again(tracker) -> Optional[DialogueStateTracker]:
         """Send Marty to the past to get
             the new featurization for the future"""
 
@@ -303,7 +292,7 @@ class AugmentedMemoizationPolicy(MemoizationPolicy):
 
         return mcfly_tracker
 
-    def _recall_using_delorean(self, old_states, tracker, domain):
+    def _recall_using_delorean(self, old_states, tracker, domain) -> Optional[int]:
         """Recursively go to the past to correctly forget slots,
             and then back to the future to recall."""
 
@@ -319,7 +308,7 @@ class AugmentedMemoizationPolicy(MemoizationPolicy):
                 # check if we like new futures
                 memorised = self._recall_states(states)
                 if memorised is not None:
-                    logger.debug("Current tracker state {}".format(states))
+                    logger.debug(f"Current tracker state {states}")
                     return memorised
                 old_states = states
 
@@ -327,7 +316,7 @@ class AugmentedMemoizationPolicy(MemoizationPolicy):
             mcfly_tracker = self._back_to_the_future_again(mcfly_tracker)
 
         # No match found
-        logger.debug("Current tracker state {}".format(old_states))
+        logger.debug(f"Current tracker state {old_states}")
         return None
 
     def recall(
