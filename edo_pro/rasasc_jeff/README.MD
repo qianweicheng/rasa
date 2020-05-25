@@ -1,24 +1,17 @@
+#Setup Intructions
 
-sudo pip install -r requirements.txt --user  
-sudo pip install -e . --user  
+###1) Create your own environment using conda or venv
 
-pip install --upgrade pip  
+###2) Ensure all rasa dependencies are up to date
+pip install rasa --upgrade
 
-git clone https://github.com/RasaHQ/rasa.git  
-cd rasa  
-pip install -r requirements.txt  
-pip install -e .  
+###3) Train model
+python -m edo_pro.rasasc_jeff -t
 
-pip install rasa[spacy]  
-python -m spacy download en_core_web_md  
-python -m spacy link en_core_web_md en  
+###4) Run model
+python -m edo_pro.rasasc_jeff -r
 
-python -m spacy download en_core_web_lg
+###5) Get Http Response : 
+curl http://localhost:5005/model/answer -d '{"text":" YOUR QUESTION "}'
+curl http://localhost:5005/model/answer -d '{"text":"Please delete my account"}'
 
-
-PYTHONPATH="`pwd`:../..";rasa train
-PYTHONPATH="`pwd`:../..";rasa shell
-
-create file 
-execute
-copy file
