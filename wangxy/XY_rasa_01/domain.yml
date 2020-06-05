@@ -103,6 +103,7 @@ actions:
 - utter_why_email_free
 - utter_zero_inbox
 intents:
+- account_offline
 - delete_account
 - stop
 - exit
@@ -220,7 +221,6 @@ intents:
 - not_getting_mail
 - test
 - where_email
-- account_offline
 - sent_edison_mail
 - praise
 - sign_out_problem

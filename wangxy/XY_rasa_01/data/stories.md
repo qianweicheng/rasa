@@ -1325,3 +1325,7 @@
 ## interactive_story_2
 * delete_account
     - utter_delete_account
+
+## interactive_story_1
+* account_offline
+    - utter_general_response
