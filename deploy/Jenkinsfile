@@ -19,16 +19,16 @@ pipeline {
                 '''
             }
         }
-        stage('Training') {
-            agent {
-                docker 'hub.edisonpark.net/edisonchat/rasa:tools' 
-            }
-            steps {
-                sh """
-                    python -m edo_pro.rasasc_jeff -t 2>&1
-                """
-            }
-        }
+        // stage('Training') {
+        //     agent {
+        //         docker 'hub.edisonpark.net/edisonchat/rasa:tools' 
+        //     }
+        //     steps {
+        //         sh """
+        //             python -m edo_pro.rasasc_jeff -t 2>&1
+        //         """
+        //     }
+        // }
         stage('Build The Image') {
             agent { 
                 docker {
