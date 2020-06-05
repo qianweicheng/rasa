@@ -1,0 +1,39 @@
+pipeline {
+    agent none
+    options {
+        timeout(time: 10, unit: 'HOURS') 
+    }
+    stages {
+        stage('Deploy to K8S') {
+            agent { 
+                docker {
+                    image 'hub.edisonpark.net/edisonchat/deploy-helper:2'
+                }
+            }
+            steps {
+                sh '''
+                    cp ~/kube_config_prod ~/.kube/config
+                    k8s_env=$(kubectl config current-context)
+                    if [ "$k8s_env" != "prod.edisonpark.net" ];then
+                        echo "wrong k8s env, current:$k8s_env"
+                        exit 1
+                    fi
+                    application=$(kubectl get deploy rasa | wc -l)
+                    if [ $application -eq 2 ];then
+                        kubectl set env deploy/rasa version="${BUILD_TAG}"
+                        kubectl apply -f ./deploy-prod/deployment.yaml
+                    else
+                        kubectl apply -f ./deploy-prod/deployment.yaml
+                    fi
+                '''
+            }
+        } 
+   }
+   post { 
+        always {
+            emailext body: '''$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
+
+Check console output at $BUILD_URL to view the details.''', subject: 'New Service[$PROJECT_NAME] Deployed!', to: 'chat.alarm@edison.tech,weicheng@edison.tech,lida@edison.tech,songzhou@edison.tech'
+        }
+    }
+}

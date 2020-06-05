@@ -28,7 +28,7 @@ spec:
           protocol: TCP
         env:
         - name: AppEnv
-          value: k8s-stag
+          value: k8s-prod
 ---
 apiVersion: v1
 kind: Service

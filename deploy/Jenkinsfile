@@ -11,7 +11,7 @@ pipeline {
                 }
             }
             steps {
-                // git credentialsId: 'rsa_github', url: 'git@github.com:qianweicheng/rasa.git'
+                git credentialsId: 'rsa_github', url: 'git@github.com:qianweicheng/rasa.git'
                 sh '''
                     pwd
                     python --version
@@ -58,20 +58,17 @@ pipeline {
             }
             steps {
                 sh '''
-                    # workingspack is rasa
-                    # make stag as default
-                    # kubectl --kubeconfig /root/kube_config_stag get pod
-                    mkdir /root/.kube
-                    cp /root/kube_config_stag /root/.kube/config
-                '''
-                sh '''
-                    # TODO: need to replace the version in deployment.yaml
+                    k8s_env=$(kubectl config current-context)
+                    if [ "$k8s_env" != "stag.easilydo.cc" ];then
+                        echo "wrong k8s env, current:$k8s_env"
+                        exit 1
+                    fi    
                     application=$(kubectl get deploy rasa | wc -l)
                     if [ $application -eq 2 ];then
                         kubectl set env deploy/rasa version="${BUILD_TAG}"
+                        kubectl apply -f ./deploy/deployment.yaml
                     else
                         kubectl apply -f ./deploy/deployment.yaml
-                        kubectl apply -f ./deploy/service.yaml
                     fi
                 '''
             }
