@@ -14,13 +14,14 @@ pip install -U -e.
 ```
 
 ###
-3) Train model
-SKIP this step unless you would like to retrain a model
+3) Train model（SKIP this step unless you would like to retrain a model）
+- Ensure you are in the ROOT rasa directory
 ````
 python -m edo_pro.rasasc_jeff -t
 ````
 ###
 4) Run model
+- Ensure you are in the ROOT rasa directory
 ```
 python -m edo_pro.rasasc_jeff -r
 ```
