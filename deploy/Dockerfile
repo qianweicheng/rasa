@@ -4,10 +4,9 @@ FROM hub.edisonpark.net/edisonchat/rasa:tools
 
 EXPOSE 5005
 
-#ENTRYPOINT ["rasa"]
-#CMD ["--help"]
-
 COPY ./edo_pro ./edo_pro
+ADD https://edison-static.s3-us-west-2.amazonaws.com/rasa-model/20200526-181834.tar.gz ./edo_pro/rasasc_jeff/models/
+
 ENTRYPOINT ["python"]
 CMD ["-m", "edo_pro.rasasc_jeff", "-r"]
 
