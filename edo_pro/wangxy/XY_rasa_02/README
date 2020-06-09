@@ -1,8 +1,0 @@
-Testing my assistant with initial model.
-1.End-to-end Testing :
-    -rasa test
-2.Training NLU-only models
-    -rasa train nlu
-2.Evaluating an NLU Model :
-    -rasa data split nlu --out OUT
-    -rasa test nlu -u train_test_split/test_data.md --model models/nlu-20200528-215744.tar.gz
