@@ -8,5 +8,5 @@ if [[ ! -d "venv" ]];then
     pip install -e .
 fi
 . venv/bin/activate
-python -m edo_pro.rasasc_jeff -t
+python -m edo_pro.wangxy.XY_rasa_04 -r
 deactivate

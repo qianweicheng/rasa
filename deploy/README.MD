@@ -34,7 +34,7 @@ python -m spacy download en_core_web_lg
 ## BUG 
 在`which rasa`对应的lib/python3.7/site-packages中有个example包, 删除之
 ## APIS
-Backend: http://cp.stag.easilydo.cc/api/rasa/
+Backend: https://cp.stag.easilydo.cc/api/rasa/
 Frontend: https://admin.stag.easilydo.cc:8091
 ## Deploy 
 We should change the Dockerfile ENTRYPOINT if we want to run another model.
