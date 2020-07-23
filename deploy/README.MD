@@ -52,5 +52,7 @@ We should change the Dockerfile ENTRYPOINT if we want to run another model.
 /model/answer {"text":"Please delete my account."} 
 /model/answer {"text":"What is Edison Privacy Policy for the Email app?"}
 ```
-## Tag
-version 9
+## Deploy
+1. Upload the model to S3
+2. Update Dockerfile
+3. Run Jenkins
