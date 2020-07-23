@@ -1329,3 +1329,7 @@
 ## interactive_story_1
 * cancel_order
     - utter_general_response
+
+## interactive_story_1
+* add_microsoft_attachment
+    - utter_add_microsoft_attachment

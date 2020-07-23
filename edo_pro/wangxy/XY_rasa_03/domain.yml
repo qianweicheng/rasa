@@ -103,6 +103,7 @@ actions:
 - utter_why_email_free
 - utter_zero_inbox
 intents:
+- add_microsoft_attachment
 - account_offline
 - delete_account
 - stop
@@ -115,7 +116,6 @@ intents:
 - mood_great
 - how_change_notification_action
 - how_delete_email
-- add_microsoft_attachment
 - diff_easilydo_and_email
 - support_exchange_features
 - cancel_subscription_account

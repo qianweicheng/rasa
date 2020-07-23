@@ -105,6 +105,9 @@
 - Adding attachments from Microsoft Office apps to your message
 - Hello, Adding attachments from Microsoft Office apps to your message
 - how do i ad attachents from ms office to my message?
+- I want to add microsoft office attachments to my message.
+- hello! how do i add the microsoft attachment?
+- hello! how do i add attachments from microsoft office apps to message
 
 ## intent:affirm
 - yes
@@ -2731,8 +2734,6 @@
 - please add support for exchange accounts on as work mail
 - Hello, Does Email support any additional Microsoft Exchange features?
 - does the email support additional exchange features?
-- hello! how do i add the microsoft attachment?
-- hello! how do i add attachments from microsoft office apps to message
 - hello! i need held
 - what versions for ms exchange are supported?
 - does email support any additional microsoft exchange features?

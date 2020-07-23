@@ -11,7 +11,7 @@ import asyncio
 
 if __name__ == "__main__":
     os.chdir(os.getcwd())
-    # os.chdir('/Users/wangxy/Desktop/rasa-master/rasa/edo_pro/wangxy/XY_rasa_02')
+    # os.chdir('/Users/wangxy/Desktop/rasa-master/rasa/edo_pro/wangxy/XY_rasa_03')
     rasa.train(domain='domain.yml', config='config.yml', training_files='./data')
     # rasa.run(model="models", endpoints="endpoints.yml")
     # loop = asyncio.get_event_loop()

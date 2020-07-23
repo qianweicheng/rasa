@@ -1,0 +1,1476 @@
+actions:
+- utter_praise
+- utter_how_create_signature
+- utter_app_crash_or_suck
+- utter_what_is_subscrption_folder
+- utter_app_not_refresh_or_update
+- utter_what_are_my_snooze_options
+- utter_change_password
+- utter_how_delete_email
+- utter_how_remove_email_account
+- utter_how_change_notification_action
+- utter_apple_watch_app
+- utter_search_mail
+- utter_support_exchange_account
+- utter_mark_as_spam
+- utter_email_suck_in_outbox
+- utter_remove_app
+- utter_no_notifications
+- utter_set_up_gmail_alias
+- utter_how_change_default_browser
+- utter_account_types
+- utter_add_attachments_to_emails
+- utter_add_microsoft_attachment
+- utter_add_images_to_emails
+- utter_bot_challenge
+- utter_change_default_address
+- utter_change_folder_list
+- utter_change_lines_number_in_preview
+- utter_delete_self_messages_permantently
+- utter_diff_easilydo_and_email
+- utter_diff_easilydo_and_macmail
+- utter_draft_and_send_mail
+- utter_email_missed_by_assistant_add
+- utter_enable_imessage_app
+- utter_for3d_touch_action
+- utter_forword_email
+- utter_green_shield_with_checkmark
+- utter_greet
+- utter_how_add_description_to_account
+- utter_how_always_bcc_myself
+- utter_how_archive_email
+- utter_how_change_classified_important
+- utter_how_change_folders_list
+- utter_how_change_swipe_options
+- utter_how_change_undo_time_window
+- utter_how_customize_assistant_view
+- utter_how_turn_off_or_turn_on_badge_count
+- utter_ios_support_version
+- utter_is_email_secure
+- utter_is_free
+- utter_mail_providers_support
+- utter_need_desktop
+- utter_personal_folders
+- utter_remove_a_assistant_folder_card
+- utter_reply_to_email
+- utter_save_message_draft
+- utter_select_multiple_message
+- utter_set_up_aol_account
+- utter_set_up_gmail_account
+- utter_set_up_icloud_account
+- utter_set_up_other_account
+- utter_set_up_outlook_account
+- utter_set_up_yahoo_account
+- utter_sign_beta_testing
+- utter_why_email_free
+- utter_versions_microsoft_exchange_support
+- utter_view_all_my_email_accounts
+- utter_view_just_one_account
+- utter_what_are_assistant_folders
+- utter_what_are_terms_and_conditions
+- utter_what_is_bills_folder
+- utter_what_is_packages_folder
+- utter_what_is_snooze
+- utter_what_is_the_entertainment_folder
+- utter_what_is_travel_folder
+- utter_what_privacy_policy
+- utter_whatis_Microsoft_Exchange_server
+- utter_zero_inbox
+- utter_Microsoft_Exchange_features
+- utter_update_password_information
+- utter_diff_between_archive_and_delete
+- utter_subscriptions_folder
+- utter_easilydo_premium_support_Email Assistant
+- utter_email_assistant_support_account_type
+- utter_download_email_assistant
+- utter_limit_on_number_of_accounts
+- utter_all_emails_in_email_assistant
+- utter_see_emails_not_in_inbox
+- utter_email_assistant_support_emails_types
+- utter_add_account_email_assistant
+- utter_set_up_important_mail_Alert
+- utter_see_emails_in_particular_feature_category
+- utter_view_attachments
+- utter_share_attachments
+- utter_wrtie_mail
+- utter_after_add_email_accounts_to_email_assistant
+- utter_diff_email_assistant_and_easilydo
+- utter_same_username_from_easilydo
+- utter_diff_preferences_email_assistant_and_easilydo
+- utter_general_response
+
+intents:
+- praise
+- criticism
+- no_content
+- support_language
+- email_not_loading
+- not_getting_mail
+- how_create_signature
+- find_sent_mail
+- need_dark_theme
+- app_crash_or_suck
+- unsubscribe_mail
+- undo_an_unsubscribe
+- restore_deleted_emails
+- app_not_refresh_or_update
+- snooze_problem
+- change_password
+- how_delete_email
+- delete_account
+- how_change_notification_action
+- sign_in_problem
+- keep_logging_out
+- sign_out_problem
+- apple_watch_app
+- mark_all_read
+- search_mail
+- account_offline
+- yahoo_account_not_work
+- want_verification_code
+- add_firefox_browser
+- did_not_order
+- reorder_the email_accounts
+- forgot_password
+- retrieve_archived_messages
+- change_notification_sound
+- access_contacts
+- can_not_send_emails
+- can_not_receive_emails
+- deleted_mails_reappear
+- falgged_mail_not_work
+- add_or_delete_category
+- calendar_sync
+- email_block
+- create_new_folder
+- support_exchange_account
+- spam_folder
+- clear_trash
+- mark_as_spam
+- move_mail_from_spam_to_inbox
+- change_fonts_sittings
+- want_android_version
+- want_ipad_version
+- want_macos_version
+- cannot_open_email
+- cannot_open_app
+- mail_not_be_delivered
+- cannot_send_video
+- save_image
+- email_suck_in_outbox
+- change_profile_picture
+- zoom_function_problem
+- not_appear_in_travel_assistant
+- cancel_order
+- flagged_mail_not_work
+- not_organized_by_thread
+- support_pop_account
+- turn_off_conversation_view
+- print_email
+- add_colours_for_different_accounts
+- add_read_receipts
+- delete_bills_and_receipts
+- support_labels
+- delete_email_attachments
+- attachment_support
+- how_turn_off_thread
+- remove_app
+- access_all_emails_in_one_place
+- cannot_download_attachments
+- icloud_account_not_work
+- cannot_open_pdf_attachment
+- support_spell_check
+- recover_archived_email
+- calendar_invite_acceptance_not_work
+- account_locked
+- alerts_not_work
+- unsubscribe_junk
+- cannot_open_device_information_text
+- support_auto_rotate_screen
+- get_attachments_from_google_drive
+- dictation_problem
+- change_number
+- links_not_clickable
+- smart_reply
+- subfolders_not_show_up
+- badge_count_issue
+- not_syncing
+- support_pass_code_lock
+- group_emails_by_conversation
+- refund_money
+- draft_mail_no_message
+- chat_and_disable_chat
+- no_notifications
+- add_flag_to_swipe_options
+- set_up_gmail_alias
+- how_change_default_browser
+- images_not_open
+- account_hacked
+- sort_email
+- support_delay_send
+- support_shake_to_undo
+- view_order
+- duplicate_email_notifications
+- send_group_email
+- account_types
+- add_attachments_to_emails
+- add_microsoft_attachment
+- add_images_to_emails
+- affirm
+- bot_challenge
+- cannot_track_packages
+- change_default_address
+- change_folder_list
+- change_lines_number_in_preview
+- delete_self_messages_permantently
+- deny
+- diff_easilydo_and_email
+- diff_easilydo_and_macmail
+- draft_and_send_mail
+- email_missed_by_assistant_add
+- enable_imessage_app
+- environment_staging_release
+- for3d_touch_action
+- forword_email
+- green_shield_with_checkmark
+- greet
+- how_add_description_to_account
+- how_always_bcc_myself
+- how_archive_email
+- how_change_classified_important
+- how_change_folders_list
+- how_change_swipe_options
+- how_change_undo_time_window
+- how_customize_assistant_view
+- how_turn_off_or_turn_on_badge_count
+- ios_support_version
+- is_email_secure
+- is_free
+- mail_providers_support
+- mood_angry
+- mood_great
+- mood_unhappy
+- need_desktop
+- never_received_package
+- personal_folders
+- remove_a_assistant_folder_card
+- reply_to_email
+- request_help
+- save_message_draft
+- not_save_message_draft
+- select_multiple_message
+- set_up_aol_account
+- set_up_gmail_account
+- set_up_icloud_account
+- set_up_other_account
+- set_up_outlook_account
+- set_up_yahoo_account
+- sign_beta_testing
+- why_email_free
+- update_account_information
+- versions_microsoft_exchange_support
+- view_all_my_email_accounts
+- view_just_one_account
+- what_are_assistant_folders
+- what_are_terms_and_conditions
+- what_is_bills_folder
+- what_is_packages_folder
+- what_is_snooze
+- what_is_the_entertainment_folder
+- what_is_travel_folder
+- what_privacy_policy
+- whatis_Microsoft_Exchange_server
+- zero_inbox
+- Microsoft_Exchange_features
+- update_password_information
+- diff_between_archive_and_delete
+- subscriptions_folder
+- easilydo_premium_support_Email Assistant
+- email_assistant_support_account_type
+- download_email_assistant
+- limit_on_number_of_accounts
+- all_emails_in_email_assistant
+- see_emails_not_in_inbox
+- email_assistant_support_emails_types
+- add_account_email_assistant
+- set_up_important_mail_Alert
+- see_emails_in_particular_feature_category
+- view_attachments
+- share_attachments
+- wrtie_mail
+- after_add_email_accounts_to_email_assistant
+- diff_email_assistant_and_easilydo
+- same_username_from_easilydo
+- diff_preferences_email_assistant_and_easilydo
+
+responses:
+  utter_Microsoft_Exchange_features:
+  - text: 'At this time, Email supports the following Microsoft Exchange features:
+
+      Conversation threading
+
+      Overtime we plan on adding to this list, and we appreciate your patience as
+      we work on improving Email. 🙂'
+  utter_account_types:
+  - text: 'The app works with Gmail, iCloud, Yahoo, Outlook, and IMAP accounts on iOS.
+      POP accounts are NOT supported. Built on the world’s best AI technology for
+      mail and tested on over 8 billion messages.'
+  utter_add_account_email_assistant:
+  - text: 'Click the icon on the top left to get to the menu page. Under “Mail Accounts”
+      you will see the option to “Add Another Account.” Click + button, and begin
+      adding your email details.
+
+
+      Facebook Twitter LinkedIn'
+  utter_add_attachments_to_emails:
+  - text: 'In order to add attachments to emails, please follow these steps:
+
+
+      1.Begin drafting your email
+
+      2.Tap the white area underneath "Subject"
+
+      3.Tap the paperclip icon
+
+      4.Select the place your attachment is located
+
+      5.Select the attachment you would like to attach
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_add_images_to_emails:
+  - text: 'In order to add images to emails, please follow these steps:
+
+
+      1.Begin drafting your email
+
+      2.Tap the white area underneath "Subject"
+
+      3.Tap the icon that looks like a landscape
+
+      4.Select the image you would like to attach. The blue and white icon in the
+      bottom left will pull up all the photos in Moments
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_add_microsoft_attachment:
+  - text: 'If you wish to add files from your Microsoft apps to a message you''re
+      composing, you can do so by using the OneDrive app from Microsoft.
+
+
+      We''re always evaluating and considering new integrations for future releases.
+      If you have any requests or suggestions, please drop us a line on Twitter!'
+  utter_after_add_email_accounts_to_email_assistant:
+  - text: "Once you've added your email accounts, Email Assistant will process your\
+      \ accounts to search for flights, receipts, emails you need to respond to, and\
+      \ more. You'll see items you haven't looked at (in Email Assistant, you may\
+      \ have already viewed them in your actual inbox) in bold. Check back periodically\
+      \ to see if there are any emails that require your follow up or to confirm upcoming\
+      \ travel plans.\n\nFor the best experience, also set up a few Important Mail\
+      \ alerts. Here's how to do this:\n\n1.Click the icon on the top left to get\
+      \ to the Account page\n2.Click “Features.” Click the “Important” icon\n3.Click\
+      \ “Okay.” \n4.Click “Okay” again. \n5.You can then set up the Important Mail\
+      \ Settings based on sender, subject, and other criteria.\n\nOnce an email comes\
+      \ in that matches your criteria, you'll receive a notification so you can act\
+      \ on that email immediately if necessary."
+  utter_all_emails_in_email_assistant:
+  - text: 'Email Assistant is not an email client. Email Assistant works alongside
+      your email applications, surfacing your most important emails and identifying
+      the most critical information in those emails.'
+  utter_app_crash_or_suck:
+  - text: "We're sorry your experience with our app has been less-than-stellar thus
+      far. We're working on addressing crashes with our next release, for now please
+      try deleting, restarting your device, and then reinstalling"
+  utter_app_not_refresh_or_update:
+  - text: 'In order to disable or enable background app refresh, please follow these
+      steps:
+
+
+      1.Open the Settings app
+
+      2.Tap on "General"
+
+      3.Tap on "Background App Refresh"
+
+      4.Scroll down to Email and enable or disable it
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_apple_watch_app:
+  - text: 'While we don''t currently have a dedicated Email app for Apple Watch, it''s
+      one of the many great ideas we''re considering for future releases. ⌚️
+
+
+      In the meantime, please feel free to utilize Apple Watch notifications by mirroring
+      the alerts from your iPhone. You can do so by following these steps:
+
+      1.Open the Watch app on your iPhone
+
+      2.Tap the "My Watch" tab at the bottom-right corner of the screen
+
+      3.Tap "Notifications"
+
+      4.Scroll down to the section which reads "Mirror iPhone Alerts From:" and ensure
+      the Email app is enabled'
+  utter_bot_challenge:
+  - text: 'I am Edison, a bot powered by Rasa here to answer your queries.'
+  utter_change_default_address:
+  - text: 'Your default address is the email address which Email automatically enters
+      as the sender when you draft an email. You can change your default address by
+      following these steps:
+
+
+      1.Tap the menu icon in the top left
+
+      2.Tap the "Settings" button in the bottom left
+
+      3.Tap "Default Address"
+
+      4.Select the address you would like to use as your default
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_change_folder_list:
+  - text: '1. Tap on the menu (hamburger icon) in the top left.
+
+      2. Once on the Menu, tap the ''Edit List'' button at the bottom of the screen.
+
+      3. The screen will switch to editing mode. You can now select the folders you
+      would like to appear. To add a folder from a specific account, select ''Add
+      Mailbox...'' and navigate to the desired folder. '
+  utter_change_lines_number_in_preview:
+  - text: 'In order to change the number of preview lines, please follow these steps:
+
+
+      1.Tap the menu icon in the top left
+
+      2.Tap the "Settings" button in the bottom left
+
+      3.Tap the "Preview Lines" button
+
+      4.Select the number of lines you would like to preview
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_change_password:
+  - text: "If you wish to change your email account password(s), this is something\
+      \ only your email provider can help you with (i.e. Gmail, iCloud, Yahoo, \n\
+      etc). Below, we've created a list of FAQ articles for how to change your password\
+      \ on popular email providers. If you've forgotten your password, or believe\
+      \ your account has been compromised, please contact your provider's customer\
+      \ support for assistance in recovering your account."
+  utter_delete_self_messages_permantently:
+  - text: 'When you delete a message from your Inbox, it is sent to a "Trash" folder
+      for that account. If you would like to permanently delete the messages in this
+      folder, take the following steps:
+
+
+
+      1. Tap on the menu (hamburger icon) on the top left and scroll down to Accounts.
+
+      2. Tap on the account you would like to permanently delete messages from. You
+      will see the list of folders for that account.
+
+      3. Scroll down and tap on the "Trash" folder.
+
+      4. Within this folder you can swipe left to permanently delete a message, or
+      tap and hold to select multiple messages at once.'
+  utter_diff_between_archive_and_delete:
+  - text: 'Archived emails and deleted emails both disappear from your inbox. Archived
+      emails go into a folder on our app labeled "All Archived". Deleted emails Go
+      to a folder labeled "All Trash" and are permanently deleted after a set time
+      that varies based on the email provider has passed. Deleted emails disappear
+      forever, whereas archived emails do not.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_diff_easilydo_and_email:
+  - text: 'Email - EasilyDo Mail is full of rich advanced features like the ability
+      to unsubscribe to junk mail with literally one tap – with a folder to view and
+      manage all your mail subscriptions. Snooze messages to remind you to read them
+      when you have more brain space. Automatically organize your trips with real-time
+      travel notifications (like TripIt Pro in your inbox for free). Notifications
+      for package deliveries, and real-time flight updates. Track bills and receipts
+      for organized finances. Take control of read receipts and undo sent emails.
+      Take advantage of great security and privacy. Interactive notifications, customizable
+      swipes & notifications, drafts, aliases, multiple signatures, unified inbox,
+      landscape layout and much more!
+
+
+      EasilyDo is a smart virtual assistant app available on iOS and Android. It connects
+      to your contacts, calendar, and email to help you complete important tasks.
+      You can do everything from merging duplicate contacts, check traffic so you
+      know when to leave for a meeting, identify email you may have forgotten to respond
+      to, discover meetings scheduled in email that aren’t on your calendar yet, add
+      flights to your calendar and be notified of flight delays or cancellations and
+      many more!'
+  utter_diff_easilydo_and_macmail:
+  - text: 'Email - EasilyDo Mail is one of the fastest mail apps available for iPhone.
+      Many of the features were built specifically for iPhone users, for the best
+      possible experience. Email - EasilyDo Mail has a built-in assistant with smart
+      folders that sift relevant information out of the body of the message and surface
+      it in an easily accessible card.
+
+
+
+      The search capabilities of Email differentiate it the most from the Apple Mail
+      app. The machine intelligence team at EasilyDo has a unique two-pronged approach
+      to mail search. First, the search functionality for Email has been built from
+      the ground up with a focus on speed and usability on mobile — allowing users
+      to search quickly by keyword, phrase or name. Second, based on extensive user
+      research they learned that people search for certain types of mail more frequently
+      than others (e.g. attachments, travel confirmations, bills, receipts, event
+      reservations, and package shipment details). What we learned, and the most advanced
+      AI technology for mail make it fast and easy to search for mail on-the-go!'
+  utter_diff_email_assistant_and_easilydo:
+  - text: "Email Assistant is available for download on iPhones and Apple Watch here.\
+      \ This app is for email only, unlike EasilyDo that also offers connects to Calendars,\
+      \ social networks and more. Email Assistant offers the following features for\
+      \ any email address: \n\n・Important Mail: When a new email reaches your inbox\
+      \ that matches your criteria, the app will send you a notification and let you\
+      \ send a response.\n・Follow-up: When an email is found that is in need of a\
+      \ response or needing your attention receive a reminder for that email.\n・Flights:\
+      \ When you book a flight, be notified when there is an update about your flight's\
+      \ status (such as delays, gate changes, and cancellations) and receive other\
+      \ information to aid in a smooth travel experience.\n\n・Hotels: When you receive\
+      \ a hotel confirmation, receive additional details regarding the reservation\
+      \ such as directions and weather information.\n\n・Package: When you receive\
+      \ a shipment confirmation email, automatically track the package and receive\
+      \ notification regarding its status. Check the status of the package at any\
+      \ time in the app. \n\n・Trains:  When you purchase tickets for a train, receive\
+      \ reservation details.\n\n・Rental Cars: When you receive a rental car reservation\
+      \ email, view the details (such as pick-up and drop-off information) in the\
+      \ app. \n\n・Bills & Receipts: When you receive digital receipts, view them as\
+      \ a group in the app. Optionally, share receipts via email.\n\n・Restaurants:\
+      \ When you receive a restaurant reservation confirmation email, get directions,\
+      \ call details, and more.\n\n・Add Contacts: Find new and updated contact information\
+      \ from your recent email conversations, and receive an offer to add the info\
+      \ to your Contacts. \n\n・Event Confirmations: When you receive a confirmation\
+      \ from Eventbrite, Fandango, or another event provider get directions, nearby\
+      \ parking, and more.\n\nEasilyDo is your smart assistant for more than just\
+      \ email and is available on iOS and Android. With EasilyDo, there are features\
+      \ based on the following connections in addition to email:\n\n・Location: for\
+      \ example texting when you leave work and bad weather updates\n・Calendar: updates\
+      \ for upcoming calendars with directions and parking information, and more.\n\
+      ・Contacts: merging duplicate contacts, removing invalid email address from your\
+      \ Address Book, and more.\n・Social networks: send birthday greetings via email\
+      \ and Facebook, view tagged photos from Instagram and Facebook, and more.\n\
+      ・Salesforce: for Business users, add new contacts and update opportunities in\
+      \ Salesforce, and more.\n・Email- similar to Email Assistant, get updates for\
+      \ important emails, film receipts, track packages and more."
+  utter_diff_preferences_email_assistant_and_easilydo:
+  - text: "Even if you use the same log in for both EasilyDo and Email Assistant,\
+      \ your preferences for both can be different. This is because there are not\
+      \ settings or preferences in Email Assistant to turn off or on. \n\nFor example,\
+      \ you may have Receipts turned off in EasilyDo, but you'll always see the receipts\
+      \ option in Email Assistant since there aren't any preferences."
+  utter_download_email_assistant:
+  - text: 'The Email Assistant App is available for the iPhone and Apple Watch.  Search
+      for Email Assistant in the App Store or download here: https://itunes.apple.com/us/app/email-easilydo-mail-assistant/id966954309'
+  utter_draft_and_send_mail:
+  - text: 'In order to draft and send a new email, please follow these steps:
+
+
+      1.From the main screen, tap the blue and white pencil icon in the bottom right
+      corner
+
+      2.In the "To" box enter your intended recipients. You can also "cc" and "bcc"
+      people by tapping on those boxes and entering your intended recipients. There
+      will be gray boxes with your suggested contacts that appear underneath.
+
+      3.If you have multiple accounts, you can tap on the "From" box to specify which
+      email account the email will be sent from
+
+      4.Tap the "Subject" box and enter the subject or title of your email
+
+      5.Tap the white space underneath "Subject" to type your email
+
+      6.You can also attach files by tapping the paperclip, or you can attach images
+      by tapping the landscape icon
+
+      7.Once you are done composing your email, you can send it by tapping on the
+      blue paper plane icon in the top right corner
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_easilydo_premium_support_Email Assistant:
+  - text: "Yes! Be sure to sign in with the same log in you use for EasilyDo and you'll
+      be able to use your Premium account in both apps."
+  utter_email_assistant_support_account_type:
+  - text: 'Email Assistant works with all major email providers including Gmail, iCloud,
+      Yahoo, Exchange, Outlook, and IMAP.'
+  utter_email_assistant_support_emails_types:
+  - text: 'Email Assistant surfaces emails that fall into the following domains:
+
+
+      Flights: When you book a flight, be notified when there is an update about your
+      flight''s status (such as delays, gate changes, and cancellations) and receive
+      other information to aid in a smooth travel experience.
+
+      Hotels: When you receive a hotel confirmation, receive additional details regarding
+      the reservation such as directions and weather information.
+
+      Package: When you receive a shipment confirmation email, automatically track
+      the package and receive notification regarding its status. Check the status
+      of the package at any time in the app.
+
+      Trains:  When you purchase tickets for a train, receive reservation details.
+
+      Rental Cars: When you receive a rental car reservation email, view the details
+      (such as pick-up and drop-off information) in the app.
+
+      Bills & Receipts: When you receive digital receipts, view them as a group in
+      the app. Optionally, share receipts via email.
+
+      Restaurants: When you receive a restaurant reservation confirmation email, get
+      directions, call details, and more.
+
+      Add Contacts: Find new and updated contact information from your recent email
+      conversations, and receive an offer to add the info to your Contacts.
+
+      Event Confirmations: When you receive a confirmation from Eventbrite, Fandango,
+      or another event provider get directions, nearby parking, and more.
+
+      Important Mail: When a new email reaches your inbox that matches your criteria,
+      the app will send you a notification and let you send a response.
+
+      Follow-up: When an email is found that is in need of a response or needing your
+      attention receive a reminder for that email.'
+  utter_email_missed_by_assistant_add:
+  - text: 'If you find an email that the Assistant missed, you can tag (and correct)
+      it by following these steps:
+
+
+      1.Open the email you would like to tag
+
+      2.Tap the three dots in the top right
+
+      3.Tap "Add to Assistant"
+
+      4.Tap the folder you would like to add it to
+
+
+      NOTE: The Assistant needs a little time to process this before you will see
+      it, so please be patient. When you suggest an email we might have missed, you’re
+      helping the Assistant improve for everyone, and we appreciate that! In the future,
+      you shouldn’t have to move this type of email again. 🤖'
+  utter_email_suck_in_outbox:
+  - text: "Occasionally our app may run into problems sending your message, and it\
+      \ will be stuck in the outbox as a result. Below, you can find a few common\
+      \ outbox errors, as well as suggestions for troubleshooting those issues:\n\"\
+      A stable connection to the server could not be established\"\n\n Ensure you\
+      \ have adequate reception and a strong data signal.\n Connect to a reliable\
+      \ WIFI network and try sending the message again. Full bars doesn't necessarily\
+      \ indicate a reliable connection, please ensure your bandwidth speeds are fast\
+      \ by running this test.\n If you're sending an attachment that's large in size,\
+      \ it may be causing your network to timeout. Please try resizing/compressing\
+      \ the attachment, and trying again."
+  utter_enable_imessage_app:
+  - text: 'Please ensure you''re running the latest version of iOS, the latest version
+      of Email, and then follow these steps to enable the Email iMessage app:
+
+      1.Open the iMessage composition window to start a new message, or open an existing
+      message
+
+      2.Tap the iMessage App icon
+
+      3.Tap the icon in the lower-left corner to open the app drawer
+
+      4.Tap the "Store" icon
+
+      5.Tap the "Manage" tab
+
+      6.Enable the Email app to add it to your app drawer
+
+      7.Once you''ve followed these steps, you can select Email from your app drawer
+      to easily share attachments and items from the Email assistant, including travel,
+      receipts, and bills. You can also search for emails and copy and paste information
+      from the email into iMessage.'
+  utter_for3d_touch_action:
+  - text: '3D Touch is a feature available on Apple’s iPhone 6s (and newer models)
+      that allows you to quickly access or preview content. Email - EasilyDo Mail
+      allows you to customize the 3D Touch actions you see from the app icon on your
+      homescreen. To select your 3D Touch options, take the following steps:<br>
+
+
+      1. Tap the menu (hamburger icon) on the top left.<br>
+
+      2. Scroll to the bottom and tap on ‘Settings’.<br>
+
+      3. Within Settings, click on the option for 3D Touch. Select the folders you
+      want to access quickly.
+
+
+      To access the Quick Action menu, navigate to the app icon on your homepage.
+      Press hard on the app icon and a menu will pop-up containing shortcuts to the
+      options you selected in your app Settings.'
+  utter_forword_email:
+  - text: 'In order to forward an email you are reading, please follow these steps:
+
+
+      1.Tap the arrow icon that points right
+
+      2.Type in your intended recipient(s)
+
+      3.Type in your new subject if you want to change it
+
+      4.Type in your message if you want to add one
+
+      5.Tap the paper airplane icon in the top right to send the email
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_general_response:
+  - text: 'Your query has been received and our team will look into this matter'
+  utter_green_shield_with_checkmark:
+  - text: "When you are checking your email, you may notice that sometimes a green\
+      \ shield emblem with a checkmark will appear next to the email when you open\
+      \ it. This indicates that mail tracking has been blocked. Many email senders\
+      \ request read receipts when you have seen their message. Another method they\
+      \ commonly use are tracking cookies. These tracking cookies allow the sender\
+      \ to see both when you open the email and what you do online afterwards. This\
+      \ allows them to gather information about your online activities. However, we\
+      \ care about your privacy, security, and peace of mind so we both block these\
+      \ trackers and notify you of their presence. \n\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com. "
+  utter_greet:
+    - text: "I am Edison, a bot powered by Rasa here to answer your queries."
+  utter_how_add_description_to_account:
+  - text: '1.Tap on the menu (hamburger icon) on the top left of the app and then
+      scroll down until you see ‘Settings''.
+
+      2. Within Settings tap on the account that you would like to create a nickname
+      for.
+
+      3. You will see ''Description'' and can add any name you''d like to call that
+      account.'
+  utter_how_always_bcc_myself:
+  - text: 'If you would like to always Bcc yourself, please follow these steps:
+
+
+      1.Tap the menu icon in the top left
+
+      2.Tap the "Settings" button in the bottom left
+
+      3.Tap the account you would always like to Bcc yourself for
+
+      4.Turn on "Always Bcc Myself"
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_how_archive_email:
+  - text: "There are multiple ways to archive an email in our app. \n\nMethod 1:\n\
+      1.Tap \"Edit\" in the top right\n2.Select all emails you would like to archive.\
+      \ (The empty circle to the left of the email will have a checkmark appear in\
+      \ it when selected)\n3.Tap the icon at the bottom of the screen that looks like\
+      \ a box with a downward arrow in it (it is second from the left)\n\nMethod 2:\n\
+      1.Long hold on the email you would like to archive\n2.Select all emails you\
+      \ would like to archive. (The empty circle to the left of the email will have\
+      \ a checkmark appear in it when selected)\n3.Tap the icon at the bottom of the\
+      \ screen that looks like a box with a downward arrow in it (it is second from\
+      \ the left)\n\nMethod 3: \nFor this method you can do a swipe option to archive\
+      \ your email. If you would like to learn more about how to set this up, please\
+      \ go to our FAQ titled \"How do I change my swipe options?\" or just click the\
+      \ link to it here(https://assistantsupport.edison.tech/hc/en-us/articles/212706263).\n\
+      \nMethod 4:\n This method is used when you are archiving an email you currently\
+      \ have opened up and are reading\n1.Tap the icon at the bottom of the screen\
+      \ that looks like a box with a downward arrow in it (it is second from the left)\n\
+      If you have any issues, questions, or suggestions, please do not hesitate to\
+      \ contact our customer support at support@easilydo.com."
+  utter_how_change_classified_important:
+  - text: "The Email app does not decide what messages are considered important. Importance\
+      \ is based on the settings within your Google account. In order to change these\
+      \ settings, you will need to log into your Google account online. \n\nIf you\
+      \ have any issues, questions, or suggestions, please do not hesitate to contact\
+      \ our customer support at support@easilydo.com. "
+  utter_how_change_default_browser:
+  - text: 'Our app offers two different browsers which you can use as your default
+      browser. These two browsers are Safari and the In-App browser. You can change
+      the default browser by following these steps:
+
+
+      1.Tap the menu icon in the top left
+
+      2.Tap the "Settings" button in the bottom left
+
+      3.Scroll down and tap "Default Browser"
+
+      4.Select the browser you would like to use as the default
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_how_change_folders_list:
+  - text: '1. Tap on the menu (hamburger icon) in the top left.
+
+      2. Once on the Menu, tap the ''Edit List'' button at the bottom of the screen.
+
+      3. The screen will switch to editing mode. You can now select the folders you
+      would like to appear. To add a folder from a specific account, select ''Add
+      Mailbox...'' and navigate to the desired folder. '
+  utter_how_change_notification_action:
+  - text: 'When you receive a notification, you can swipe left on it to see actions.
+      You can change or disable these actions by following these steps:
+
+
+      1.Tap the menu icon on the top left
+
+      2.Tap the "Settings" button on the bottom left
+
+      3.Tap the "Notifications" button
+
+      4.Scroll the whole way to the bottom of the page and tap the "Notification Actions"
+      button
+
+      5.Tap on the different actions to enable and disable them. Please note that
+      you can only enable two actions and the actions with check marks next to them
+      are enabled.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_how_change_swipe_options:
+  - text: 'Your swipe options can help simplify your inbox operations. In order to
+      change them, please follow these steps:
+
+
+      1.Tap the menu icon in the top left
+
+      2.Tap the "Settings" button in the bottom left
+
+      3.Tap the "Swipe Options" button
+
+      4.Select the swipe option you would like to change (There are four swipe options:
+      short-swipe left, long-swipe left, short-swipe right, and long-swipe right.)
+
+      5.Select the action you would like that swipe option to do
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_how_change_undo_time_window:
+  - text: 'Whenever you complete an action in your inbox, a blue undo button appears
+      at the bottom of the screen. You can customize the length of time for which
+      this button appears. In order to do this, please follow these steps:
+
+
+      1.Tap the menu icon in the top left
+
+      2.Tap the "Settings" button in the bottom left of the screen
+
+      3.Tap the "Undo Time Window" button
+
+      4.Select the period of time you would like the undo button to appear for
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_how_create_signature:
+  - text: 'Your signature appears at the bottom of your emails you send.
+
+
+      In order to create your own signature, follow these steps:
+
+
+      1.Tap the menu icon in the top left corner
+
+      2.Tap the "Settings" button in the bottom right corner
+
+      3.Tap the "Signature" button
+
+      4.Enter the text you would like to have appear in your signature in the white
+      box. You can choose to use the same signature for all email accounts or have
+      a different one for each email account. This is done by enabling or disabling
+      "Customize for each account" at the top of the page.
+
+
+      You can also disable or enable the Email Footer Link here.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_how_customize_assistant_view:
+  - text: 'You can customize which items are shown in your Assistant, including Subscriptions,
+      Travel, Packages, Bills & Receipts, and Entertainment.
+
+
+      Follow the steps below to customize your Assistant:
+
+
+      1.With Email open, tap the list view icon in the top-right corner
+
+      2.Tap "Edit List" and items will become options you can enable, disable, or
+      re-order.'
+  utter_how_delete_email:
+  - text: 'There are multiple ways to delete emails on our app.
+
+
+      Method 1:
+
+      1.Tap "Edit" in the top right
+
+      2.Select all emails you would like to delete. (The empty circle to the left
+      of the email will have a checkmark appear in it when selected)
+
+      3.Tap the blue trashcan icon in the middle of the icons at the bottom of the
+      screen
+
+
+      Method 2:
+
+      1.Long hold on the email you would like to delete
+
+      2.Select all emails you would like to delete. (The empty circle to the left
+      of the email will have a checkmark appear in it when selected)
+
+      3.Tap the blue trashcan icon in the middle of the icons at the bottom of the
+      screen
+
+
+      Method 3:
+
+      For this method you can do a swipe option to delete your email. If you would
+      like to learn more about how to set this up, please go to our FAQ titled "How
+      do I change my swipe options?" or just click the link to it here.
+
+
+      Method 4:
+
+      This method is used when you are deleting an email you currently have opened
+      up and are reading
+
+      1.Tap the blue trashcan icon in the middle of the icons at the bottom of your
+      screen
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_how_remove_email_account:
+  - text: 'In order to remove an email account from the app, follow the steps below:
+
+
+      1.Tap on the menu icon
+
+      2.Tap on the "Settings" button
+
+      3.Tap on the email account you would like to remove
+
+      4.Scroll down to the bottom of the page and tap the red button that reads "Delete
+      Account"'
+  utter_how_turn_off_or_turn_on_badge_count:
+  - text: 'In order to turn off or turn on the badge count, please follow these steps:
+
+
+      1.Open the Settings app
+
+      2.Tap on "Notifications"
+
+      3.Scroll down and tap on "Email"
+
+      4.Disable or enable "Badge App Icon" (If you can''t see anything, turn on "Allow
+      Notifications" to see it)
+
+      5.Close the Settings app and open the EasilyDo Email app
+
+      6.Tap on the menu icon in the top left
+
+      7.Tap on "Settings" in the bottom left
+
+      8.Tap on "Badge Count"
+
+      9.Enable and disable your badge count as you please. Please note that you can
+      also customize the badge count for every account you have on the app by tapping
+      on "Customize for each account"
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_ios_support_version:
+  - text: 'Our app works on devices running iOS 8.0 or later. It is currently available
+      only iPhone, but we are hoping to release the app for the iPad by the end of
+      August.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_is_email_secure:
+  - text: 'Yes! We follow the leading industry standards and then some. We know how
+      important it is for your data to remain secure and private. Email credentials
+      are encrypted on your device, and all communication with our Email server is
+      encrypted (IMAP over SSL). Additionally, emails are NOT stored on our cloud.'
+  utter_is_free:
+  - text: 'No. Email - EasilyDo Mail is a free app.'
+  utter_limit_on_number_of_accounts:
+  - text: 'There is no limit to the number of type of email account you can add to
+      Email Assistant. To add more accounts, tap the icon on the top left to get to
+      the Account page, then add another account on the top of the screen.'
+  utter_mail_providers_support:
+  - text: "Our app provides support for a large number of mail providers. We currently\
+      \ support Gmail, iCloud, Yahoo, Aol, Outlook, Office365, and several other email\
+      \ providers. As of right now, we do not support POP, Office 365, and Exchange;\
+      \ however, our product team is working hard to improve our app so that we can\
+      \ support them in the future. \n\nIf you have any issues, questions, or suggestions,\
+      \ please do not hesitate to contact our customer support at support@easilydo.com. "
+  utter_mark_as_spam:
+  - text: 'you can easily mark and move a message to the Spam folder by following
+      these steps:
+
+
+      1. From the message view, tap the three dots icon in the upper-right corner
+
+      2. Tap Mark as Spam and the message will be moved to your Spam folder
+
+
+      Please Note: While our app allows you to move messages to the Spam folder, we
+      do not have the ability to improve or teach your  email provider''s servers
+      how to handle future messages from these senders – you''ll need to consult your
+      provider''s documentation for instructions on how to more effectively improving
+      your spam filters on the server''s side…'
+  utter_need_desktop:
+  - text: 'We are working on a desktop version now. Join the beta group to try it
+      now: https://docs.google.com/forms/d/e/1FAIpQLSePJimgA9Mi9yGbOosydoagD8GwrWSzj0g0nca6a_n9JXicvA/viewform'
+  utter_no_notifications:
+  - text: "If you aren't receiving notifications, please follow these steps to resolve\
+      \ your issue:\n\n1.Open the Settings app\n2.Tap \"Notifications\"\n3.Scroll\
+      \ down and tap on \"Email\" \n4.Ensure that you have \"Allow Notifications\"\
+      \ enabled\n5.Go back to the home screen of your Settings app\n6.Tap on \"General\"\
+      \n7.Tap on \"Background App Refresh\"\n8.Ensure that it is enabled for \"Email\"\
+      \n9.Close the Settings app and open the EasilyDo Email app\n10.Tap the menu\
+      \ icon in the top left\n11.Tap the \"Settings button in the bottom left\n12.Tap\
+      \ \"Notifications\" \n13.Ensure that you have the notifications you would like\
+      \ to receive enabled.\n14.You can also change the notification sound by clicking\
+      \ on \"Notification Sound\"\n\nIf you have any issues, questions, or suggestions,\
+      \ please do not hesitate to contact our customer support at support@easilydo.com."
+  utter_personal_folders:
+  - text: 'Tap the menu (hamburger icon) on the top left of the app and scroll down
+      to Accounts. Then tap the account name, and you will see a list of all the folders
+      in that account.'
+  utter_praise:
+  - text: 'Thank you and let us know if you have any suggestions and feedback!'
+  utter_remove_a_assistant_folder_card:
+  - text: 'To remove a card from your Assistant view tap the card you want to remove,
+      and then tap the share icon in the top right of your screen. A menu will open
+      with the option to Delete the card. This will only delete the card from your
+      Assistant, and will NOT delete the email itself.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_remove_app:
+  - text: 'If you''ve decided that you wish to remove the Email app, please follow
+      these instructions to delete the Email app from your iPhone or iPad:
+
+
+      Press and hold the app icon until it jiggles.
+
+      Tap the X in the upper-left corner to delete.
+
+      You can read more about removing music, movies, apps, and other content from
+      your iOS devices by clicking https://support.apple.com/en-us/HT204343.'
+  utter_reply_to_email:
+  - text: 'In order to reply to an email, please follow these steps:
+
+
+      1.Tap the arrow icon that points left
+
+      2.Type your response
+
+      3.Tap the paper airplane icon in the top right to send your email
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_same_username_from_easilydo:
+  - text: 'If you use Google or a username to sign in to EasilyDo, then you can log
+      in to Email Assistant using the same log in method. Facebook sign in is not
+      an option for Email Assistant, so if that''s how you logged in to EasilyDo,
+      you''ll need to create a brand new account for Email Assistant.
+
+
+      If you''re not sure how you logged in to EasilyDo, send us a note with your
+      email address and we''ll look it up for you.
+
+
+      If you''re going to use EasilyDo and Email Assistant together, we recommend
+      you turn off the email preferences in EasilyDo and only manage them in Email
+      Assistant so you''re getting any duplicate information.'
+  utter_save_message_draft:
+  - text: 'If you''re interested in manually saving your message as a draft that you
+      can access later, follow these steps:
+
+
+      From the main screen, tap the blue and white pencil icon in the bottom right
+      corner
+
+      Make sure at least one of the "To", "Cc/Bcc", or "Subject" fields are filled
+      out
+
+      Once you''re ready to save the email as a draft for later, tap "Cancel" in the
+      top left-hand corner of the app.
+
+      You''ll be prompted to save or delete the draft – tap "Save Draft".
+
+      You can always access this draft and others by tapping the list view icon (top
+      left-hand corner) and tapping "All Drafts"
+
+      NOTE: Currently we don''t support the auto-saving of drafts. However, this feature
+      is on our product roadmap and we hope to have rolled out in the near future.'
+  utter_search_mail:
+  - text: 'Pull down in the email list, you will see a search box.'
+  utter_see_emails_in_particular_feature_category:
+  - text: 'Click on the light blue title bar for each feature category with “>” button
+      in blue.  For example, click on the Contacts title bar in your main feed to
+      see more contacts for you to add. That will take you to a separate feed where
+      you only see emails in that feature category.'
+  utter_see_emails_not_in_inbox:
+  - text: 'Older emails appear in your current feed to serve as a reference for relevant
+      important emails.   For example, if you would like to view a historical, yet
+      important, bill, we have made sure that such emails are included in your current
+      feed.'
+  utter_select_multiple_message:
+  - text: 'Press and hold on any email in your inbox to activate the bulk edit mode.'
+  utter_set_up_aol_account:
+  - text: 'In order to add your Aol account, please complete the following steps:
+
+
+      1.Tap the menu icon in the top left of the screen
+
+      2.Tap th “Settings” button in the bottom left of the screen
+
+      3.Tap the “Add Account” button
+
+      4.Tap the “Aol” icon
+
+      5.Enter your email address and password
+
+      6.Tap “Next”
+
+
+      Please make sure that you enter all information correctly or your email will
+      not function properly. If you have any issues, questions, or suggestions, please
+      do not hesitate to contact our customer support at support@easilydo.com. '
+  utter_set_up_gmail_account:
+  - text: 'In order to add your Gmail account, please complete the following steps:
+
+
+      1.Tap the menu icon in the top left of the screen
+
+      2.Tap the “Settings” button in the bottom left of the screen
+
+      3.Tap the “Add Account” button
+
+      4.Tap the “Gmail” icon
+
+      5.Enter your email address
+
+      6.Enter you account password
+
+      7.Tap “Allow” to give the app access to your email account
+
+
+      Please make sure that you enter all information correctly or your email will
+      not function properly. If you have any issues, questions, or suggestions, please
+      do not hesitate to contact our customer support at support@easilydo.com. '
+  utter_set_up_gmail_alias:
+  - text: "In order to set up a Gmail alias, please complete the following steps:\n\
+      \n1.Tap the menu icon in the top left corner\n2.Tap \"Settings\" in the bottom\
+      \ left corner\n3.Tap the Gmail account you would like to set up an alias for\n\
+      4.Tap \"Add Alias\" \n5.Enter the email address you would like to use as the\
+      \ alias\n6.Enter the sender name you would like to use\n7.You can choose to\
+      \ send email from this alias by default. However, please note that aliases must\
+      \ be added and verified in your primary Gmail settings first. Otherwise, your\
+      \ emails will not send.\n8.Tap \"Save\" in the top right corner\n\nIf you have\
+      \ any issues, questions, or suggestions, please do not hesitate to contact our\
+      \ customer support at support@easilydo.com. \n"
+  utter_set_up_icloud_account:
+  - text: 'In order to add your iCloud account, please complete the following steps:
+
+
+      1.Tap the menu icon in the top left of the screen
+
+      2.Tap the “Settings” button in the bottom left of the screen
+
+      3.Tap the “Add Account” button
+
+      4.Tap the “iCloud” icon
+
+      5.Enter your email address and password
+
+      6.Tap “Next”
+
+
+      Please make sure that you enter all information correctly or your email will
+      not function properly. If you have any issues, questions, or suggestions, please
+      do not hesitate to contact our customer support at support@easilydo.com. '
+  utter_set_up_important_mail_Alert:
+  - text: 'Click the icon on the top left to get to the menu page. Click “Features.”
+      Click the “Important” icon.  Click “Okay.” Click “Okay” again. You can then
+      set up the Important Mail Settings.'
+  utter_set_up_other_account:
+  - text: 'Please note that our current version of Email does not support POP, Office
+      365, and Exchange accounts. If you use two-step verification on your account,
+      make sure you enter your app-specific password or check with your mail provider
+      about your app-specific password.
+
+
+      In order to set up all other email accounts, please complete the following steps:
+
+
+      1.Tap the menu icon in the top left of the screen
+
+      2.Tap th “Settings” button in the bottom left of the screen
+
+      3.Tap the “Add Account” button
+
+      4.Tap the “Other” icon
+
+      5.Enter your email address and password
+
+      6.Tap “Next”
+
+
+      Please make sure that you enter all information correctly or your email will
+      not function properly. If you have any issues, questions, or suggestions, please
+      do not hesitate to contact our customer support at support@easilydo.com. '
+  utter_set_up_outlook_account:
+  - text: 'In order to set up your Outlook account, please complete the following
+      steps:
+
+
+      1.Tap the menu icon in the top left of the screen
+
+      2.Tap th “Settings” button in the bottom left of the screen
+
+      3.Tap the “Add Account” button
+
+      4.Tap the “Outlook” icon
+
+      5.Enter your email and password
+
+
+      Please make sure that you enter all information correctly or your email will
+      not function properly. If you have any issues, questions, or suggestions, please
+      do not hesitate to contact our customer support at support@easilydo.com. '
+  utter_set_up_yahoo_account:
+  - text: 'In order to add your Yahoo account, please complete the following steps:
+
+
+      1.Tap the menu icon in the top left of the screen
+
+      2.Tap th “Settings” button in the bottom left of the screen
+
+      3.Tap the “Add Account” button
+
+      4.Tap the “Yahoo” icon
+
+      5.Enter your email address
+
+      6.Enter your passworrd
+
+      7.Tap “Agree” to give the app access to your email account
+
+
+      Please make sure that you enter all information correctly or your email will
+      not function properly. If you have any issues, questions, or suggestions, please
+      do not hesitate to contact our customer support at support@easilydo.com. '
+  utter_share_attachments:
+  - text: 'To share an attachment, tap the attachment you wish to share, then tap the
+      share icon on the top right of the screen. From there, select the option for
+      how you’d like to share an attachment.'
+  utter_sign_beta_testing:
+  - text: 'If you would like to sign up for BETA testing our new products, please
+      sign up at this link here（https://docs.google.com/a/easilydo.com/forms/d/e/1FAIpQLScT6b827M3fZKbPdYm2iOSWU-vZuJY5MmFCck-8JC4gJM4KoQ/viewform?c=0&w=1）.
+      Please note that we aren''t constantly testing with a BETA group, but we will
+      be sure to send you a note before each round of testing.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_subscriptions_folder:
+  - text: "The \"Subscriptions\" folder has a list of all your subscriptions that\
+      \ are organized alphabetically. Additionally, you can unsubscribe from subscriptions\
+      \ you no longer want to receive directly from this folder. Unsubscribe by clicking\
+      \ the icon of a blue clipboard with a white x. \n\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com."
+  utter_support_exchange_account:
+  - text: 'Email will support Exchange accounts should be coming VERY soon. We are
+      400 cups of coffee into the integration and only 200 left.'
+  utter_update_password_information:
+  - text: 'If you wish to change your account password at this time, you''ll need
+      to remove your account from Email and then re-add it:
+
+
+      Tap the list view icon in the top-left corner
+
+      Tap "Settings"
+
+      Select the email address you wish to remove from the list at the top
+
+      Tap "Delete Account" and confirm
+
+      From the previous screen, tap "Add Account" and re-add your email address with
+      your updated password
+
+      While updating your account passwords isn''t easier at the moment, we hope to
+      simplify this process in the future.'
+  utter_versions_microsoft_exchange_support:
+  - text: 'While there have been a few versions of Microsoft Exchange released over
+      the years, Email supports Microsoft Exchange 2010 SP2 and later.'
+  utter_view_all_my_email_accounts:
+  - text: 'In order to view all your email accounts in one inbox, follow these steps:
+
+
+      1.Tap the menu icon in the top left
+
+      2.Tap "All Inboxes"
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_view_attachments:
+  - text: 'Click the top right paperclip icon.  That will take you to a feed with all
+      of your attachments.'
+  utter_view_just_one_account:
+  - text: 'In order to view just one email account in your inbox, follow these steps:
+
+
+      1.Tap the menu icon in the top left
+
+      2.Tap the inbox you would like to view
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_what_are_assistant_folders:
+  - text: 'There are five Assistant folders: Subscriptions, Travel, Packages, Bills
+      & Receipts, and Entertainment. They scan through incoming emails to find any
+      and all material that belong in their folders to help keep you organized.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_what_are_my_snooze_options:
+  - text: 'There are several ways to snooze mail. One method is to make snooze one
+      of your swipe options. Another method is useful when you are already looking
+      at an email. Tap the three dots in the top right and then snooze will appear
+      as one of your options.
+
+
+      In order to change your snooze options, follow these steps:
+
+
+      1.Tap the menu icon in the top left
+
+      2.Tap the "Settings" button in the bottom left
+
+      3.Tap "Snooze Options"
+
+      4.Select the snooze option you would like to change and select your new time
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com. '
+  utter_what_are_terms_and_conditions:
+  - text: 'Click here to view our Terms and Conditions. https://assistantsupport.edison.tech/hc/en-us/articles/212706083-What-are-the-Terms-and-Conditions-'
+  utter_what_is_bills_folder:
+  - text: 'The "Bills & Receipts" folder keeps track of all bills and receipts that
+      are sent to your email.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_what_is_packages_folder:
+  - text: 'The "Packages" folder keeps track of your orders and deliveries. You can
+      find tracking numbers for your orders here too.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_what_is_snooze:
+  - text: "When you snooze mail, you are reassigning it to the snooze folder. It will\
+      \ stay there until the later time you have specified. When it reaches this time,\
+      \ the mail will move from the snooze folder back into your inbox as long as\
+      \ your app is running in the background. You will also receive a mail notification\
+      \ when something is unsnoozed. \n\nIf you have any issues, questions, or suggestions,\
+      \ please do not hesitate to contact our customer support at support@easilydo.com. "
+  utter_what_is_subscrption_folder:
+  - text: "The \"Subscriptions\" folder has a list of all your subscriptions that\
+      \ are organized alphabetically. Additionally, you can unsubscribe from subscriptions\
+      \ you no longer want to receive directly from this folder. Unsubscribe by clicking\
+      \ the icon of a blue clipboard with a white x. \n\nIf you have any issues, questions,\
+      \ or suggestions, please do not hesitate to contact our customer support at\
+      \ support@easilydo.com."
+  utter_what_is_the_entertainment_folder:
+  - text: 'The "Entertainment" folder keeps track of your tickets for upcoming events
+      such as movies, concerts, and plays.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_what_is_travel_folder:
+  - text: 'The "Travel" folder keeps track of your upcoming trips. Hotel bookings,
+      train tickets, flight itineraries, car rentals, and upcoming cruises you have
+      are found here.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_what_privacy_policy:
+  - text: "Your privacy is of the utmost importance to us, and we encourage you to\
+      \ \nread our privacy policy here. https://www.edison.tech/privacy.html"
+  utter_whatis_Microsoft_Exchange_server:
+  - text: 'Microsoft Exchange, also known as Microsoft Exchange Server, is a type
+      of account you can add to the Email app. It''s current version is Exchange Server
+      2016. Email accesses Microsoft Exchange via the Exchange Web Services API (EWS).
+      It joins the other family of account types supported by Email, including Gmail,
+      iCloud, Yahoo, Outlook, Office365, and more…
+
+      If you have a Microsoft Exchange account, you can add it to Email by following
+      these instructions:
+
+
+      1.Open Email app
+
+      2.Tap the top-right corner to toggle the list view
+
+      3.Tap Settings
+
+      4.Tap Add Account
+
+      5.Tap Microsoft Exchange'
+  utter_why_email_free:
+  - text: 'Some people have asked us why our Email app is free. Our Email app is free
+      because we use it to showcase the use of our Sift tool to developers. It is
+      simply used as a showcase for our paid services. If you would like to learn
+      more about the Sift tool, visit us at https://developer.easilydo.com.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+  utter_wrtie_mail:
+  - text: "From your main feed, tap the red circular icon on the bottom right to start
+      writing an email. Be sure to check the 'from' address for the email since it
+      could be from any number of your email accounts."
+  utter_zero_inbox:
+  - text: 'While clearing out your inbox, you may encounter a screen which congratulates
+      you on reaching Ground Zero. This is quite the accomplishment. It means that
+      you have completely cleared your inbox of all emails by archiving and trashing
+      your emails.
+
+
+      If you have any issues, questions, or suggestions, please do not hesitate to
+      contact our customer support at support@easilydo.com.'
+
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 0
