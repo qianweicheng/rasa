@@ -13,7 +13,8 @@ COPY ./edo_pro ./edo_pro
 
 RUN mkdir -p ./edo_pro/wangxy/XY_rasa_04/models
 ADD https://edison-static.s3-us-west-2.amazonaws.com/rasa-model/20200723-133134.tar.gz ./edo_pro/wangxy/XY_rasa_04/models/
-RUN cd ./edo_pro/wangxy/XY_rasa_04; pip install -r requirements.txt
+# RUN cd ./edo_pro/rasasc_jeff; pip install -r requirements.txt
+RUN cd ./edo_pro/wangxy/XY_rasa_04
 
 ENTRYPOINT ["python"]
 CMD ["-m", "edo_pro.wangxy.XY_rasa_04", "-r"]
