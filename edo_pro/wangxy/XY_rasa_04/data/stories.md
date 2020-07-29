@@ -4,23 +4,23 @@
 
 ## story_criticism
 * criticism
-  - utter_general_response
+  - utter_criticism
 
 ## story_no_content
 * no_content
-  - utter_general_response
+  - utter_no_content
 
 ## story_support_language
 * support_language
-  - utter_general_response
+  - utter_support_language
 
 ## story_email_not_loading
 * email_not_loading
-  - utter_general_response
+  - utter_email_not_loading
 
 ## story_not_getting_mail
 * not_getting_mail
-  - utter_general_response
+  - utter_not_getting_mail
 
 ## story_how_create_signature
 * how_create_signature
@@ -28,11 +28,11 @@
 
 ## story_find_sent_mail
 * find_sent_mail
-  - utter_general_response
+  - utter_find_sent_mail
 
 ## story_need_dark_theme
 * need_dark_theme
-  - utter_general_response
+  - utter_need_dark_theme
 
 ## story_app_crash_or_suck
 * app_crash_or_suck
@@ -40,15 +40,15 @@
 
 ## story_what_is_subscrption_folder
 * unsubscribe_mail
-  - utter_what_is_subscrption_folder
+  - utter_unsubscribe_mail
 
 ## story_undo_an_unsubscribe
 * undo_an_unsubscribe
-  - utter_general_response
+  - utter_undo_an_unsubscribe
 
 ## story_restore_deleted_emails
 * restore_deleted_emails
-  - utter_general_response
+  - utter_restore_deleted_emails
 
 ## story_app_not_refresh_or_update
 * app_not_refresh_or_update
@@ -56,7 +56,7 @@
 
 ## story_what_are_my_snooze_options
 * snooze_problem
-  - utter_what_are_my_snooze_options
+  - utter_snooze_problem
 
 ## story_change_password
 * change_password
@@ -68,7 +68,7 @@
 
 ## story_how_remove_email_account
 * delete_account
-  - utter_how_remove_email_account
+  - utter_delete_account
 
 ## story_how_change_notification_action
 * how_change_notification_action
@@ -76,15 +76,15 @@
 
 ## story_sign_in_problem
 * sign_in_problem
-  - utter_general_response
+  - utter_sign_in_problem
 
 ## story_keep_logging_out
 * keep_logging_out
-  - utter_general_response
+  - utter_keep_logging_out
 
 ## story_sign_out_problem
 * sign_out_problem
-  - utter_general_response
+  - utter_sign_out_problem
 
 ## story_apple_watch_app
 * apple_watch_app
@@ -92,7 +92,7 @@
 
 ## story_mark_all_read
 * mark_all_read
-  - utter_general_response
+  - utter_mark_all_read
 
 ## story_search_mail
 * search_mail
@@ -100,75 +100,75 @@
 
 ## story_account_offline
 * account_offline
-  - utter_general_response
+  - utter_account_offline
 
 ## story_yahoo_account_not_work
 * yahoo_account_not_work
-  - utter_general_response
+  - utter_yahoo_account_not_work
 
 ## story_want_verification_code
 * want_verification_code
-  - utter_general_response
+  - utter_want_verification_code
 
 ## story_add_firefox_browser
 * add_firefox_browser
-  - utter_general_response
+  - utter_add_firefox_browser
 
 ## story_did_not_order
 * did_not_order
-  - utter_general_response
+  - utter_did_not_order
 
 ## story_reorder_the email_accounts
 * reorder_the email_accounts
-  - utter_general_response
+  - utter_reorder_the email_accounts
 
 ## story_forgot_password
 * forgot_password
-  - utter_general_response
+  - utter_forgot_password
 
 ## story_retrieve_archived_messages
 * retrieve_archived_messages
-  - utter_general_response
+  - utter_retrieve_archived_messages
 
 ## story_change_notification_sound
 * change_notification_sound
-  - utter_general_response
+  - utter_change_notification_sound
 
 ## story_access_contacts
 * access_contacts
-  - utter_general_response
+  - utter_access_contacts
 
 ## story_can_not_send_emails
 * can_not_send_emails
-  - utter_general_response
+  - utter_can_not_send_emails
 
 ## story_can_not_receive_emails
 * can_not_receive_emails
-  - utter_general_response
+  - utter_can_not_receive_emails
 
 ## story_deleted_mails_reappear
 * deleted_mails_reappear
-  - utter_general_response
+  - utter_deleted_mails_reappear
 
 ## story_falgged_mail_not_work
 * falgged_mail_not_work
-  - utter_general_response
+  - utter_falgged_mail_not_work
 
 ## story_add_or_delete_category
 * add_or_delete_category
-  - utter_general_response
+  - utter_add_or_delete_category
 
 ## story_calendar_sync
 * calendar_sync
-  - utter_general_response
+  - utter_calendar_sync
 
 ## story_email_block
 * email_block
-  - utter_general_response
+  - utter_email_block
 
 ## story_create_new_folder
 * create_new_folder
-  - utter_general_response
+  - utter_create_new_folder
 
 ## story_support_exchange_account
 * support_exchange_account
@@ -176,11 +176,11 @@
 
 ## story_spam_folder
 * spam_folder
-  - utter_general_response
+  - utter_spam_folder
 
 ## story_clear_trash
 * clear_trash
-  - utter_general_response
+  - utter_clear_trash
 
 ## story_mark_as_spam
 * mark_as_spam
@@ -188,43 +188,43 @@
 
 ## story_move_mail_from_spam_to_inbox
 * move_mail_from_spam_to_inbox
-  - utter_general_response
+  - utter_move_mail_from_spam_to_inbox
 
 ## story_change_fonts_sittings
 * change_fonts_sittings
-  - utter_general_response
+  - utter_change_fonts_sittings
 
 ## story_want_android_version
 * want_android_version
-  - utter_general_response
+  - utter_want_android_version
 
 ## story_want_ipad_version
 * want_ipad_version
-  - utter_general_response
+  - utter_want_ipad_version
 
 ## story_want_macos_version
 * want_macos_version
-  - utter_general_response
+  - utter_want_macos_version
 
 ## story_cannot_open_email
 * cannot_open_email
-  - utter_general_response
+  - utter_cannot_open_email
 
 ## story_cannot_open_app
 * cannot_open_app
-  - utter_general_response
+  - utter_cannot_open_app
 
 ## story_mail_not_be_delivered
 * mail_not_be_delivered
-  - utter_general_response
+  - utter_mail_not_be_delivered
 
 ## story_cannot_send_video
 * cannot_send_video
-  - utter_general_response
+  - utter_cannot_send_video
 
 ## story_save_image
 * save_image
-  - utter_general_response
+  - utter_save_image
 
 ## story_email_suck_in_outbox
 * email_suck_in_outbox
@@ -232,67 +232,67 @@
 
 ## story_change_profile_picture
 * change_profile_picture
-  - utter_general_response
+  - utter_change_profile_picture
 
 ## story_zoom_function_problem
 * zoom_function_problem
-  - utter_general_response
+  - utter_zoom_function_problem
 
 ## story_not_appear_in_travel_assistant
 * not_appear_in_travel_assistant
-  - utter_general_response
+  - utter_not_appear_in_travel_assistant
 
 ## story_cancel_order
 * cancel_order
-  - utter_general_response
+  - utter_cancel_order
 
 ## story_flagged_mail_not_work
 * flagged_mail_not_work
-  - utter_general_response
+  - utter_flagged_mail_not_work
 
 ## story_not_organized_by_thread
 * not_organized_by_thread
-  - utter_general_response
+  - utter_not_organized_by_thread
 
 ## story_support_pop_account
 * support_pop_account
-  - utter_general_response
+  - utter_support_pop_account
 
 ## story_turn_off_conversation_view
 * turn_off_conversation_view
-  - utter_general_response
+  - utter_turn_off_conversation_view
 
 ## story_print_email
 * print_email
-  - utter_general_response
+  - utter_print_email
 
 ## story_add_colours_for_different_accounts
 * add_colours_for_different_accounts
-  - utter_general_response
+  - utter_add_colours_for_different_accounts
 
 ## story_add_read_receipts
 * add_read_receipts
-  - utter_general_response
+  - utter_add_read_receipts
 
 ## story_delete_bills_and_receipts
 * delete_bills_and_receipts
-  - utter_general_response
+  - utter_delete_bills_and_receipts
 
 ## story_support_labels
 * support_labels
-  - utter_general_response
+  - utter_support_labels
 
 ## story_delete_email_attachments
 * delete_email_attachments
-  - utter_general_response
+  - utter_delete_email_attachments
 
 ## story_attachment_support
 * attachment_support
-  - utter_general_response
+  - utter_attachment_support
 
 ## story_how_turn_off_thread
 * how_turn_off_thread
-  - utter_general_response
+  - utter_how_turn_off_thread
 
 ## story_remove_app
 * remove_app
@@ -300,103 +300,103 @@
 
 ## story_access_all_emails_in_one_place
 * access_all_emails_in_one_place
-  - utter_general_response
+  - utter_access_all_emails_in_one_place
 
 ## story_cannot_download_attachments
 * cannot_download_attachments
-  - utter_general_response
+  - utter_cannot_download_attachments
 
 ## story_icloud_account_not_work
 * icloud_account_not_work
-  - utter_general_response
+  - utter_icloud_account_not_work
 
 ## story_cannot_open_pdf_attachment
 * cannot_open_pdf_attachment
-  - utter_general_response
+  - utter_cannot_open_pdf_attachment
 
 ## story_support_spell_check
 * support_spell_check
-  - utter_general_response
+  - utter_support_spell_check
 
 ## story_recover_archived_email
 * recover_archived_email
-  - utter_general_response
+  - utter_recover_archived_email
 
 ## story_calendar_invite_acceptance_not_work
 * calendar_invite_acceptance_not_work
-  - utter_general_response
+  - utter_calendar_invite_acceptance_not_work
 
 ## story_account_locked
 * account_locked
-  - utter_general_response
+  - utter_account_locked
 
 ## story_alerts_not_work
 * alerts_not_work
-  - utter_general_response
+  - utter_alerts_not_work
 
 ## story_unsubscribe_junk
 * unsubscribe_junk
-  - utter_general_response
+  - utter_unsubscribe_junk
 
 ## story_cannot_open_device_information_text
 * cannot_open_device_information_text
-  - utter_general_response
+  - utter_cannot_open_device_information_text
 
 ## story_support_auto_rotate_screen
 * support_auto_rotate_screen
-  - utter_general_response
+  - utter_support_auto_rotate_screen
 
 ## story_get_attachments_from_google_drive
 * get_attachments_from_google_drive
-  - utter_general_response
+  - utter_get_attachments_from_google_drive
 
 ## story_dictation_problem
 * dictation_problem
-  - utter_general_response
+  - utter_dictation_problem
 
 ## story_change_number
 * change_number
-  - utter_general_response
+  - utter_change_number
 
 ## story_links_not_clickable
 * links_not_clickable
-  - utter_general_response
+  - utter_links_not_clickable
 
 ## story_smart_reply
 * smart_reply
-  - utter_general_response
+  - utter_smart_reply
 
 ## story_subfolders_not_show_up
 * subfolders_not_show_up
-  - utter_general_response
+  - utter_subfolders_not_show_up
 
 ## story_badge_count_issue
 * badge_count_issue
-  - utter_general_response
+  - utter_badge_count_issue
 
 ## story_not_syncing
 * not_syncing
-  - utter_general_response
+  - utter_not_syncing
 
 ## story_support_pass_code_lock
 * support_pass_code_lock
-  - utter_general_response
+  - utter_support_pass_code_lock
 
 ## story_group_emails_by_conversation
 * group_emails_by_conversation
-  - utter_general_response
+  - utter_group_emails_by_conversation
 
 ## story_refund_money
 * refund_money
-  - utter_general_response
+  - utter_refund_money
 
 ## story_draft_mail_no_message
 * draft_mail_no_message
-  - utter_general_response
+  - utter_draft_mail_no_message
 
 ## story_chat_and_disable_chat
 * chat_and_disable_chat
-  - utter_general_response
+  - utter_chat_and_disable_chat
 
 ## story_no_notifications
 * no_notifications
@@ -404,7 +404,7 @@
 
 ## story_add_flag_to_swipe_options
 * add_flag_to_swipe_options
-  - utter_general_response
+  - utter_add_flag_to_swipe_options
 
 ## story_set_up_gmail_alias
 * set_up_gmail_alias
@@ -416,35 +416,35 @@
 
 ## story_images_not_open
 * images_not_open
-  - utter_general_response
+  - utter_images_not_open
 
 ## story_account_hacked
 * account_hacked
-  - utter_general_response
+  - utter_account_hacked
 
 ## story_sort_email
 * sort_email
-  - utter_general_response
+  - utter_sort_email
 
 ## story_support_delay_send
 * support_delay_send
-  - utter_general_response
+  - utter_support_delay_send
 
 ## story_support_shake_to_undo
 * support_shake_to_undo
-  - utter_general_response
+  - utter_support_shake_to_undo
 
 ## story_view_order
 * view_order
-  - utter_general_response
+  - utter_view_order
 
 ## story_duplicate_email_notifications
 * duplicate_email_notifications
-  - utter_general_response
+  - utter_duplicate_email_notifications
 
 ## story_send_group_email
 * send_group_email
-  - utter_general_response
+  - utter_send_group_email
 
 ## story_account_types
 * account_types
@@ -464,7 +464,7 @@
 
 ## story_affirm
 * affirm
-  - utter_general_response
+  - utter_affirm
 
 ## story_bot_challenge
 * bot_challenge
@@ -472,7 +472,7 @@
 
 ## story_cannot_track_packages
 * cannot_track_packages
-  - utter_general_response
+  - utter_cannot_track_packages
 
 ## story_change_default_address
 * change_default_address
@@ -492,7 +492,7 @@
 
 ## story_deny
 * deny
-  - utter_general_response
+  - utter_deny
 
 ## story_diff_easilydo_and_email
 * diff_easilydo_and_email
@@ -516,7 +516,7 @@
 
 ## story_environment_staging_release
 * environment_staging_release
-  - utter_general_response
+  - utter_environment_staging_release
 
 ## story_for3d_touch_action
 * for3d_touch_action
@@ -588,15 +588,15 @@
 
 ## story_mood_angry
 * mood_angry
-  - utter_general_response
+  - utter_mood_angry
 
 ## story_mood_great
 * mood_great
-  - utter_general_response
+  - utter_mood_great
 
 ## story_mood_unhappy
 * mood_unhappy
-  - utter_general_response
+  - utter_mood_unhappy
 
 ## story_need_desktop
 * need_desktop
@@ -604,7 +604,7 @@
 
 ## story_never_received_package
 * never_received_package
-  - utter_general_response
+  - utter_never_received_package
 
 ## story_personal_folders
 * personal_folders
@@ -620,7 +620,7 @@
 
 ## story_request_help
 * request_help
-  - utter_general_response
+  - utter_request_help
 
 ## story_save_message_draft
 * save_message_draft
@@ -628,7 +628,7 @@
 
 ## story_not_save_message_draft
 * not_save_message_draft
-  - utter_general_response
+  - utter_not_save_message_draft
 
 ## story_select_multiple_message
 * select_multiple_message
@@ -668,7 +668,7 @@
 
 ## story_update_account_information
 * update_account_information
-  - utter_general_response
+  - utter_update_account_information
 
 ## story_versions_microsoft_exchange_support
 * versions_microsoft_exchange_support
@@ -805,4 +805,3 @@
 ## story_diff_preferences_email_assistant_and_easilydo
 * diff_preferences_email_assistant_and_easilydo
   - utter_diff_preferences_email_assistant_and_easilydo
-

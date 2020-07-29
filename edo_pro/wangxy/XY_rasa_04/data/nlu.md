@@ -13,17 +13,14 @@
 - good features    
 - it good to have    
 - its so good    
-- good good    
-- no good    
+- good good      
 - get it its good    
 - its a good app for emailing    
 - it is good    
-- i good    
 - love it do good    
 - good apps    
 - its a very good app    
 - good for me    
-- not good    
 - good loved it    
 - good love it    
 - is all good    
@@ -34,15 +31,13 @@
 - it good    
 - this is a really good email app its good to have one inbox for all of or email    
 - good good good    
-- its all good    
-- good a    
+- its all good     
 - goods    
 - it all good    
 - so good    
 - this good    
 - very good email app    
 - works good    
-- good tbsp    
 - very pleased with this app very good    
 - good one    
 - it is very good    
@@ -124,16 +119,14 @@
 - test have a good mail time have a good    
 - good email    
 - good for rambler    
-- i use it and i was good    
+- i use it and it was good    
 - all good it does emails    
 - so far so good very good useful    
 - very good of a UI    
-- good use it for all my emails    
-- is good a love    
+- good use it for all my emails     
 - good for used    
 - works very good for now    
 - a very good email app    
-- no good app    
 - it is a very good app    
 - good working    
 - its good for me    
@@ -149,12 +142,11 @@
 - working good    
 - all good    
 - good helpful    
-- good it tbsp in in is    
+- good it 
 - works good for me    
 - its good app    
 - this is very good go for it    
 - this is not good app for email    
-- good a of of    
 - good hopes it lasts good    
 - i love it great app    
 - i love this app    
@@ -185,7 +177,7 @@
 - this is a great app    
 - it is a great email app    
 - its a great email app    
-- great i    
+- great    
 - it is great    
 - i love this email apps works great on me    
 - great apps love it    
@@ -199,7 +191,6 @@
 - great just great    
 - great apps    
 - this is a great app for email    
-- great a    
 - just a great email app    
 - love app    
 - this app is just great    
@@ -276,7 +267,7 @@
 - excellent mailing app    
 - good excellent very useful    
 - app excellent    
-- excellent app and i love this tbsp    
+- excellent app and i love this app    
 - excellent app no problems in getting my emails    
 - excellent app for my emails accounts    
 - excellent support thank you    
@@ -294,8 +285,6 @@
 - excellent great email app    
 - excellent a simple    
 - excellent app and easy to use    
-- a a excellent    
-- excellent a    
 - excellent working good for me    
 - excellent and very simple    
 - excellent my functional    
@@ -307,7 +296,6 @@
 - excellent app i love this app thanks    
 - excellent app i haven had any problems    
 - excellent program    
-- excellent sign as i    
 - excellent working    
 - excellent mail app love it    
 - excellent lovely    
@@ -332,14 +320,13 @@
 - nice apps    
 - great nice app    
 - very nice i get this app    
-- nice a like    
 - its very nice    
 - its nice    
 - nice one    
 - useful very nice app    
 - very nice app    
 - nice one app    
-- nice tbsp    
+- nice app    
 - this is so nice    
 - nice try    
 - good nice app than    
@@ -351,7 +338,6 @@
 - nice very nice    
 - a nice app    
 - very very nice apps    
-- i need nice tbsp    
 - love it nice app    
 - have all emails very nice    
 - nice i love it    
@@ -371,8 +357,6 @@
 - nice app love it    
 - its really nice    
 - good very nice    
-- of nice    
-- a nice    
 - very nice i love it    
 - nice mailing app    
 - nice work    
@@ -381,7 +365,6 @@
 - very nice apps    
 - it is a really nice app    
 - is very nice    
-- who is looking nice tbsp    
 - useful nice    
 - nice to use    
 - very nice a    
@@ -395,7 +378,6 @@
 - nice mail app    
 - nice app for emails    
 - nicely    
-- nice no add    
 - nice app that does work    
 - what a nice    
 - nice thank you    
@@ -436,13 +418,11 @@
 - love by    
 - love it love it    
 - love it my    
-- love you to tbsp    
-- i love this tbsp    
-- loving it so tbsp    
+- i love this app    
+- loving it so for   
 - i loved it    
 - love this email    
 - love it the    
-- i love your tbsp    
 - i love this    
 - love it this is how an email app should work    
 - love this    
@@ -511,7 +491,7 @@
 - i just a say it was awesome    
 - its an awesome app    
 - awesome love it    
-- what an awesome app tbsp    
+- what an awesome app thanks    
 - awesome app love it    
 - awesome app and very fast    
 - just awesome thank you    
@@ -577,7 +557,7 @@
 - using it best of all apps    
 - best email app there is    
 - great email app best there is    
-- best email app tbsp    
+- best email app 
 - the best mail app    
 - best mail app out there    
 - this is the best email app i love it    
@@ -635,7 +615,6 @@
 - bueno    
 - my bueno    
 - bueno app    
-- bueno in tbsp    
 - is my bueno    
 - my bueno app    
 - my bueno very good    
@@ -754,7 +733,7 @@
 - works good so far    
 - good so far the    
 - very good so far easy    
-- tbsp a week so far so good    
+- use a week so far so good    
 - all good so far    
 - so far all good    
 - so far so good see if it works better than the mail service currently using looks good so far    
@@ -781,7 +760,7 @@
 - seems good so far    
 - very fast so far so good    
 - love it so far so good    
-- so far so good in us edit    
+- so far so good     
 - very good app so far i have had no problems with it i love it    
 - so far this email app works good i have had no issues    
 - been using this email app and so far so good    
@@ -807,7 +786,6 @@
 - great email    
 - great app doing the work    
 - for emails its great    
-- great tbsp    
 - great for work    
 - great for email    
 - working great    
@@ -817,16 +795,15 @@
 - great use    
 - it works great    
 - great one    
-- its great email tbsp    
+- its great email app    
 - email is so great    
 - great app very useful    
 - more options for assistant would be great great app    
 - this app works great for me    
-- its great tbsp    
 - it is working great    
 - great would be    
 - its great at mail    
-- great no tbsp    
+- great no problems    
 - great app for all my emails very useful    
 - great app useful    
 - great mail app great user interface great features    
@@ -839,7 +816,7 @@
 - great app easy to set up and great to use    
 - great app for mails    
 - great email app like it    
-- this is great tbsp    
+- this is great app    
 - email works great    
 - great mail    
 - the mail app is great    
@@ -887,7 +864,7 @@
 - the best i have ever used    
 - best ever    
 - its the best email app ever    
-- this is the best email app ever keep doing a great tbsp    
+- this is the best email app ever, keep doing a great job    
 - this is absolutely the best email app ever    
 - this is the best email app i have ever tried    
 - best email have ever had    
@@ -935,8 +912,6 @@
 - love it super easy to use    
 - super fast love it    
 - super fast i love it    
-- super been    
-- of super    
 - super all the best    
 - super great and love it    
 - cool    
@@ -990,7 +965,7 @@
 - easy to use and very accessible    
 - easy to access and use    
 - very good easy to use    
-- very easy to tbsp    
+- very easy to use    
 - very fast and easy to use    
 - is good and very easy to use    
 - easy to use and very fast    
@@ -1003,7 +978,7 @@
 - good and easy    
 - love this app its easy to use thanks    
 - very fast and easy to use it    
-- easy to tbsp    
+- easy to use    
 - so good a very easy to use    
 - very good and easy to use    
 - very easy to use and it was easy for me to sync my old email accounts with this app    
@@ -1059,7 +1034,7 @@
 - easy to setup for all types of email accounts    
 - easy to use and setup interface is great    
 - easy install and setup    
-- best email client at all very easy to setup easy to use with a very enjoyable i    
+- best email client at all very easy to setup easy to use with a very enjoyable   
 - quick to setup and easy to use    
 - this is the best by far easy to use and setup accounts    
 - easy setup and got all i need    
@@ -1068,7 +1043,7 @@
 - easy to setup    
 - excellent app so easy to setup use it for accessing my work email account far easier to setup than others have used    
 - i love this app easy setup and fast    
-- so far so tbsp easy to setup and add accounts to it    
+- so far so good easy to setup and add accounts to it    
 - quick and easy to setup    
 - easy to setup and use does all my email accounts no need for separate email apps    
 - easy to setup and use an improvement from outlook    
@@ -1224,7 +1199,7 @@
 - amazing email client i love it    
 - amazing app so helpful    
 - amazing and i love it    
-- this app was so amazing i really love tbsp    
+- this app was so amazing i really love it    
 - amazing app loving it    
 - its just amazing i loved it    
 - amazing mail app    
@@ -1250,7 +1225,7 @@
 - assistant is amazing like really amazing    
 - this is amazing    
 - amazing i love everything in this app    
-- i just love edison is simply amazing from all points of view thanks for your amazing work on this app i love tbsp in us get a    
+- i just love edison is simply amazing from all points of view thanks for your amazing work on this app i love it   
 - its incredible app but just plus fix the bbbuuuuuuuugggggs    
 - just incredible i loved this app    
 - incredibly    
@@ -1275,12 +1250,11 @@
 - so far its great    
 - so far this is a great app    
 - so far its been a great app    
-- so far so tbsp    
+- so far so great    
 - great app so far    
 - working great so far    
 - great the best so far    
 - just installed so far so great    
-- so far so    
 - so far great app very fast    
 - i just wanted my email so far great app    
 - this app is great so far    
@@ -1291,7 +1265,6 @@
 - great app best so far i have used    
 - works great for me best so far    
 - so far so great    
-- a so far    
 - so far its a great email client    
 - so far it is great    
 - so far so good great app    
@@ -1299,7 +1272,6 @@
 - just started using it so far its great    
 - great email app have used so far    
 - so far great it    
-- lavinia so far    
 - so far great email fast    
 - so far loving this app works great    
 - is a fantastic app    
@@ -1322,7 +1294,7 @@
 - fantastic app    
 - it is fantastic    
 - fantastic design    
-- this app is fantastic in us edit    
+- this app is fantastic     
 - fantastic easy app    
 - nice user friendly    
 - very user friendly    
@@ -1362,7 +1334,6 @@
 - nice clean friendly i    
 - its user friendly    
 - useful app    
-- its not uses    
 - useful    
 - very useful app    
 - very useful    
@@ -1383,10 +1354,8 @@
 - works very well then any other app    
 - working well    
 - works well for me    
-- so far works well a days in    
 - well pleased so far    
 - it is working well    
-- working well so tbsp    
 - just works well as it should to    
 - working very well now    
 - by far the best email app i have tried them all    
@@ -1509,7 +1478,7 @@
 - fast clean and brilliant    
 - brilliant love it    
 - it is brilliant submitted    
-- where have you been all my email days very fast and easy to set up    
+- all my email days very fast and easy to set up    
 - really fast and easy to set up    
 - simple and fast easy to use its great    
 - easy and fast i just love it    
@@ -1542,7 +1511,6 @@
 - very easy to setup very fast    
 - fast and easy set up    
 - easy set up really fast    
-- easy simple fasting    
 - fast and easy to get information on    
 - really fast and easy    
 - fast and easy to set up    
@@ -1667,8 +1635,7 @@
 - wow just wow where have you been hiding all my life    
 - wow i couldn't believe i had that much email this app quickly delete and organized my in box thank you so much wow wow awesome job    
 - a wow    
-- wow so far    
-- wow very tbsp in us met    
+- wow so far 
 - wow i was able to delete all the mail way back when    
 - not bad    
 - not too bad    
@@ -1731,9 +1698,6 @@
 - best email client for android    
 - best mail app for android    
 - best email app for android thank you    
-- i'm fine    
-- its fine    
-- fine    
 - fine working i connect a email works    
 - all is going on fine    
 - so far working fine i like it    
@@ -1813,8 +1777,7 @@
 - the very best love it    
 - its the best one    
 - best one    
-- good tbsp the best tbsp the best tbsp    
-- best mail tbsp    
+- best mail app    
 - best best best use it for a week and to will agree with me    
 - to us best    
 - tried them all this is best of all    
@@ -1887,7 +1850,7 @@
 - quick and easy love it    
 - nice and quick    
 - its so quick and easy i love it    
-- quick tbsp    
+- quick app    
 - i have the quick reply turned on in settings and there are no quick reply options    
 - easy to use and quick    
 - quick is what the people want and quick this is love the unsubscribe button    
@@ -1910,7 +1873,7 @@
 - its pretty good    
 - its pretty pretty pretty good    
 - pretty good app good unsubscribe and spam features not in other apps    
-- its pretty tbsp    
+- its pretty good    
 - so far good email app pretty easy to use    
 - pretty good so far    
 - it pretty good    
@@ -1926,7 +1889,6 @@
 - perfect i tried all of them this one its finally perfect    
 - love it perfect email app    
 - perfect just loving it    
-- good but not perfect    
 - perfect mail app    
 - perfect app    
 - its perfect for my use    
@@ -1982,13 +1944,11 @@
 - works perfectly after only a minute to setup an account    
 - simple setup and works perfectly    
 - much better    
-- why i did i not know about app so too much better than is mail    
 - iphone version is so much better    
 - so much better then the mail app you get with your phone    
 - i like this app much better than a inbox it sorts mail much better for reading searching    
 - much better than yahoos app    
 - much much better than default gmail client    
-- much better this is it good tbsp    
 - its so much better than the other apps i tried i love it    
 - so much better then other    
 - much better than default mail app for android    
@@ -2198,7 +2158,7 @@
 - the single best ever email client    
 - best email client for me    
 - very good email client i have ever used    
-- simply the best email client i have ever used on my tbsp    
+- simply the best email client i have ever used on my iphone    
 - best email client out there    
 - best client    
 - the best email client app    
@@ -2224,7 +2184,6 @@
 - very fast and reliable    
 - fast and reliable    
 - its fast and reliable    
-- fast and reliable you i    
 - fast reliable    
 - fast all of my email accounts on one app excellent    
 - excellent app nice useful and fast    
@@ -2240,8 +2199,6 @@
 - thank    
 - thank you it works    
 - its working thank you    
-- thank a    
-- yours thankfully tbsp    
 - a thanks    
 - very useful thank you    
 - this app is very useful thanks    
@@ -2384,8 +2341,6 @@
 - excellent does exactly what i need it to do    
 - works exactly as expected and needed    
 - best free email app    
-- hello this app is free but nothing is free what is the each tbsp    
-- free no and    
 - best free email client for android    
 - best free email app for android    
 - great free email app    
@@ -2431,6 +2386,11 @@
 - does a great job satisfied    
 
 ## intent:criticism
+- I don't like your app
+- bad app
+- bad application
+- very bad
+- your application is very horrible
 - horrible update    
 - horrible    
 - this is horrible why can't i use my other two email    
@@ -2475,19 +2435,41 @@
 - very slow to open    
 - nice but slow    
 - very slow    
-- emails are very slow to show would not tbsp    
+- emails are very slow to show. would not recommend    
 - slow to update mail    
 - its work really slow to get emails in a get a    
 - slow    
 - good but too slow    
 - very slow     
 - too slow    
-- very slow and does not update the emails on tbsp    
+- very slow and does not update the emails on unless i open app    
+- no good  
+- not good    
+- no good app    
+- its not uses    
+- good but not perfect  
+- app sucks
+- this app sucks
+- this sucks how do i reply there is no such function
+- it sucks
+- this update sucks
+- i think its not what i'm looking for and it sucks
+- your new app sucks i mean really sucks
+- this sucks
+- this double screen sucks sucks sucks stop fucking stuff up leave my email alone
+- system sucks
+- its sucks
+- the app sucks presently because you cannot send it any emails
+- app stopped working it sucks
+- this app really sucks
+- sucks
+- will not open at all sucks
+- this system sucks
+- mail box sucks
 
 ## intent:no_content
 - list shows some blank emails    
 - blank emails again    
-- still is blank in the tbsp    
 - some emails are showing up as blank    
 - example email that shows up blank    
 - when opening a new email from a notification the app shows up blank    
@@ -2512,7 +2494,7 @@
 - why no german version of the software    
 - how can i use the app in german    
 - when will it be available in german language i really like your email app    
-- why not in german tbsp    
+- why not in german language   
 - when will there be a german version of this app    
 - please Japanese language    
 - dutch language please     
@@ -2536,8 +2518,8 @@
 - is it possible to have the Italian language    
 - top app only add Italian language    
 - will it be possible to have the app in the Italian language    
-- i ask for Italian language tbsp thanks for working    
-- i is it possible to change the language from english to Italian tbsp    
+- i ask for Italian language    
+- is it possible to change the language from english to Italian    
 - missing the signature Italian language    
 - please support chinese and its really a good app    
 - very good i love it can you support chinese    
@@ -2547,7 +2529,6 @@
 - please support too more language like chinese and japanese this mail app is very good i use this app on is and android if it will support chinese i would prefer it thank you    
 - please add chinese other languages support    
 - very good but does not support chinese hope to support chinese in the future    
-- i tbsp have chinese    
 - i like this app if it have chinese supported and it will be better    
 - chinese where    
 - How to set the software interface to display in Chinese    
@@ -2566,9 +2547,9 @@
 - when italian language    
 - can you add italian language please    
 - how can i change language    
-- i there is there a change to change the language from the app and if yes what languages are available regards michael    
-- i why is there no other language    
-- tbsp is it possible to change the language    
+- there is there a change to change the language from the app and if yes what languages are available regards michael    
+- why is there no other language    
+- is it possible to change the language    
 - i want to change the language    
 - i am wondering in an update is it possible you add the option to app for languages change language    
 - i want change language of mail in for best    
@@ -2616,16 +2597,16 @@
 - some emails are not loading for me    
 - email is not loading    
 - edison only lets me load of a conversations from my account how do i get it to load more    
-- mail loading time is tbsp    
-- all inboxes does not load tbsp    
-- not loading up email tbsp    
+- mail loading time is too long
+- all inboxes does not load   
+- not loading up email content    
 - not loading my emails    
 - the signature is not loading a picture but it will load on my other accounts those are the images it won't load it when they all work on desktop gmail    
 - my email is not loading it keeps saying its checking but does not load for all my mailboxes    
 - emails not loading    
 - not loading mail    
 - loading loading    
-- help email tbsp will not load    
+- help email will not load    
 - still will not load my emails    
 - not loading the inbox    
 - does not load my emails at all    
@@ -2642,7 +2623,6 @@
 ## intent:not_getting_mail
 - where is the email that should be in my inbox it has disappeared where did it go    
 - love the app itself but some emails seem to have disappeared    
-- why does not the email disappear once its been deleted from the tbsp    
 - hello all my emails disappeared    
 - why do all my inbox mail disappear    
 - my emails in inbox disappeared how do i get them back    
@@ -2651,7 +2631,7 @@
 - i am not getting my emails keep disappearing    
 - my email has disappeared    
 - disappearing emails    
-- where are my emails tbsp they disappeared    
+- where are my emails ? they disappeared    
 - why do some of my emails disappear    
 - why are my messages keeps disappearing    
 - emails disappearing    
@@ -2659,10 +2639,6 @@
 - i can't see my mail    
 - why can't i see my mail in my inbox    
 - why i can't see my previous days mails can see only new mails in my inbox else i can't see what to do     
-- i can't see my sent mails    
-- i can't see sent mail please help me    
-- i i can't see the tbsp in the tbsp    
-- can't see a spam tbsp    
 - still can't see my mail    
 - i can't see any of my sent mail submitted    
 - not getting emails come through    
@@ -2673,17 +2649,14 @@
 - the email is not coming in my email submitted    
 - my emails all accounts are not coming to my phone    
 - no emails coming through on my phone submitted    
-- question in the swipe menu why is not none an option it defaults to none until you select a category then none is gone how do i get none back as an option scott    
 - none of my folders downloaded how do i do that    
 - none having problem    
 - none of my emails are syncing    
-- the app has downloaded but none of my emails have tbsp    
-- none submitted    
+- the app has downloaded but none of my emails can be found    
 - my email none of it nor the app is opening up    
 - failed to update mails    
 - failed to refresh    
-- the app is not working says fail to up at    
-- the application is failing to tbsp    
+- the application is failing to update    
 - in getting failed to update all the times now why    
 - failing to update inbox    
 - failed up update since yesterday i keep trying to refresh and it keeps saying failed to update reinstalled and still said failed to update epic fail    
@@ -2721,12 +2694,12 @@
 - i not received email    
 - can not send or receive emails    
 - i am not receiving all of my emails    
-- i am not receiving any tbsp    
+- i am not receiving any mail    
 - i am not receiving my emails    
 - i did not receive this mail    
 - not receive emails    
-- i have not received it there is an tbsp    
-- i have not received this tbsp    
+- i have not received it. there is an issue.    
+- i have not received this mail    
 - not receiving any mails    
 - i cannot receive emails only send them    
 - cannot receive emails    
@@ -2740,7 +2713,6 @@
 - email receiving    
 - not receiving any mail    
 - i am not receiving all my emails    
-- can receive tbsp    
 - when receiving email from my yahoo account i receive a of the same emails    
 - i can not send or receive any emails    
 - i cannot receive emails    
@@ -2764,9 +2736,7 @@
 - can't update my email    
 - i can't open my emails  
 - why can't i receive my emails    
-- why is there no option for all emails i can't use this app if you don't have one    
 - i can't receive any email from any one    
-- i can receive emails but can't send any i need this feature to work    
 - not getting mail why
 - i am not getting any mail
 - not getting mail
@@ -2781,7 +2751,7 @@
 - what do i have to do to get my emails
 - cannot get any emails
 - get mail
-- i who are you and why are you a get
+- who are you and why are you a get
 - not getting all my mail
 - i did not get any email
 - i am not getting any emails
@@ -2791,12 +2761,6 @@
 - not receiving all emails
 - i cannot send or receive emails
 - help with receiving email
-- i am not receiving emails help
-- i not received email
-- can not send or receive emails
-- i am not receiving all of my emails
-- i am not receiving any email
-- i am not receiving my emails
 - send receive emails
 - not receiving any emails
 - i cannot receive emails only send them
@@ -2815,7 +2779,6 @@
 - i am not receiving emails gmail
 - i am not receiving all my emails
 - i cannot send or receive emails from the app
-- can receive email
 - when receiving email from my yahoo account i receive a of the same emails
 - i'm not receiving any of my emails
     
@@ -2860,25 +2823,25 @@
 - cannot add my signature    
 - how do i add a signature    
 - i i am trying to add my home signature to my email but can't find how to    
-- how do add signature tbsp    
+- how to add signature   
 - i would like to add a home signature is it possible    
 - how do i add and email signature    
 - app was working great but need to add home signature feature    
-- signature please add our signature below tbsp    
+- signature please add our signature below 
 - how can i add an home signature to my email on macros    
 - please add home mail signature submitted    
-- the app could be improved if there were a way to customize the signature as there is in apple mail i love the email app and would use it exclusively if this deficiency was corrected bet many of your other users would concur sent from my ipad alan a ruben my tbsp cell of fax of a  forest hills or  of middle gulf or a wheeling     
+- the app could be improved if there were a way to customize the signature as there is in apple mail. i love the email app and would use it exclusively if this deficiency was corrected. bet many of your other users would concur.      
 - i set up a signature and it is not being added to my outgoing emails details i want an outgoing signature on only one of my emails i chose the option to have individual account signatures i created the signature for the one account the signature assistant did not find my desired signature i then tried to send an email with the from being that account the signature was not appended    
 - my default gmail signature is not being included in my emails how do i add a signature    
 - some time ago i removed all signatures from each account i then turned off the feature to customize the signature per account so none of my accounts have signatures and there are no custom signatures per account i then deleted the signature from the signature setting page at this point there are no signatures defined anywhere within the app i can confirm this works when i create a new mail message no signature however when i attempt to use the share sheet to for example email a safari link to myself a signature appears in the message draft i do not want this its why i removed all signatures why is it happening    
 - is there a signature feature on this    
-- there was no signature tbsp    
+- there was no signature option    
 - signature issues have edison email on new ipad pro with ios 12.1. i have the signature setting for customize per account turned on and a signature populated for each account needing a signature however when i compose a new email with the applicable account no signature is inserted    
 - hello i recently started having trouble with my email signature the signature assistant is not discovering the new signature i am using even though i changed it a few weeks ago and have sent multiple emails since when i copy paste the signature it looks right in the signature composition box but appears incorrectly when i send emails there is a linked photo in my signature which makes formatting more complicated my job requires that i use this exact signature so please advise how i might fix this    
 - where are the signatures now    
 - i'm trying to add my signature but there is no tab for signature    
 - my signature is not working    
-- i like this tbsp i need help adding a customized signature how do i add my signature to an email    
+- i like this app i need help adding a customized signature how do i add my signature to an email    
 - i cannot figure out how to add a signature i am using android and found your add signature article but it did not match up there is no signature button under settings i have home that i would like to copy and paste into a field for my signature but i cannot find anything about signature on the app at all    
 - see there is no signature and i just showed there is a text signature in us put    
 - i have three emails setup one with a signature if is under all inboxes and compose an email it starts with my main email with no signature that is fine when i switch to the email with the signature on it by clicking on the from field the signature does not show up submitted    
@@ -2887,9 +2850,9 @@
 ## intent:find_sent_mail
 - i can't see emails i have sent    
 - how do i set to see emails sent    
-- tbsp where do i see sent messages    
+- where do i see sent messages    
 - i why can't i see sent emails    
-- how do i see sent messages tbsp when i go to sent nothing shows being sent    
+- how do i see sent messages when i go to sent nothing shows being sent    
 - can't see my sent emails    
 - not able to see sent mails from the app    
 - i am unable to see what emails i have sent out i have sent a test email to myself and that email does not show up in my sent box    
@@ -2901,7 +2864,7 @@
 - where can i find email i sent    
 - how can i find sent mail    
 - i can't find my sent emails how do i find them    
-- where do i find sent tbsp    
+- where do i find sent emails    
 - how do i find sent emails    
 - how do i find my sent mail    
 - where do i find sent emails    
@@ -2915,7 +2878,7 @@
 - there is no sent folder    
 - where is my sent folder    
 - where are my sent messages    
-- my sent messages are not showing up in my sent tbsp    
+- my sent messages are not showing up in my sent folder    
 - a sent email does not appear in the sent folder where can i check the settings    
 - is there any way to see messages i have sent like a sent folder    
 - this does not have a sent folder    
@@ -2948,10 +2911,9 @@
 - i do not see the message i have sent where are they    
 - i do not see my sent messages where are they    
 - do not see my folders on your app    
-- the emails in my sent folder are not all tbsp mail    
+- the emails in my sent folder are not all there    
 - why i can't see sent mails folders    
-- how do i see my sent tbsp    
-- i ism only seeing of a conversations in my sent folders why is that i was hoping to have all my emails under sent folders loaded    
+- how do i see my sent mail    
 - i no longer have a tab or folder of sent mail i need to see my sent mail folder how do i do this    
 
 ## intent:need_dark_theme
@@ -3123,9 +3085,9 @@
 - how do i enable darkmode
 - how can i enable dark mode?
 - any chance of a dark mode soon    
-- great email app is there any chance of having a dark mode option tbsp    
+- great email app is there any chance of having a dark mode option please    
 - do you have a dark mode if not any chance one is coming    
-- i enjoying the tbsp any chance there is a dark mode in the works    
+- i enjoying the app any chance there is a dark mode in the works    
 - dark mode any chance of that coming out soon in us put    
 - any chance of a dark mode coming soon     
 - any chance that you guys are planning a dark mode soon    
@@ -3150,26 +3112,26 @@
 - night mode or a dark setting    
 - can we get a dark theme like night mode    
 - please i would love theme customizations or at the very least a dark night mode    
-- i are there any plans for a dark night mode it would be awesome to be the first email app with a dark tbsp it    
+- i are there any plans for a dark night mode it would be awesome to be the first email app with a dark mode   
 - hello great app i love it would you ever consider a night mode dark mode thanks and keep up the good work    
 - can we get a dark theme night mode    
 - a dark night mode would be awesome    
 - would be great to have a night mode feature in the app    
 - better if with night dark mode    
 - great client and works as it should just need dark or night mode    
-- i like your tbsp night mode would be great    
-- a dark night mode would be so tbsp    
+- i like your app night mode would be great    
+- a dark night mode would be so good    
 - will dark mode be in the app settings or will it be integrated with the night mode option    
 - very good email app one of the best my only request is to enable dark mode in this app    
-- how can i enable dark mode is this function available in this app tbsp email    
-- tbsp enable dark mode    
-- tbsp can i enable dark tbsp    
+- how can i enable dark mode is this function available in this app    
+- pleasa enable dark mode    
+- can i enable dark mode 
 - please enable dark theme mode many thanks a    
 - got any option to enable dark mode    
-- please enable a dark tbsp    
-- please enable a dark mode with themes thank you for your tbsp    
-- i any chance of enabling dark mode on this tbsp    
-- are you all enabling a dark mode feature seems like all the other mail apps have enabled it expect you tbsp     
+- please enable a dark mode    
+- please enable a dark mode with themes thank you for your app    
+- i any chance of enabling dark mode on this app    
+- are you all enabling a dark mode feature seems like all the other mail apps have enabled it expect you      
 - hello i don't understand how to enable dark mode in your app in re get a    
 - can you please enable dark mode macros a a a    
 - there is no option to enable dark mode i am using is of a a submitted    
@@ -3193,21 +3155,21 @@
 - no dark theme    
 - please make dark theme or night mode    
 - please add a dark theme    
-- dark theme please tbsp    
+- dark theme please     
 - i want a dark theme please    
-- please make a dark tbsp    
+- please make a dark mode    
 - you need a dark mode or dark theme    
-- please add dark mode theme tbsp    
+- please add dark mode theme     
 - how about a dark theme    
 - this should have a dark mode    
-- please add a dark theme tbsp    
+- please add a dark theme mode    
 - please add dark theme    
-- dark mode tbsp    
+- dark mode     
 - excellent make dark theme mode please    
 - dark mode    
 - please add dark mode theme    
-- could you make dark theme tbsp    
-- can we have dark mode tbsp    
+- could you make dark theme mode    
+- can we have dark mode theme    
 - dark mode dark theme its much needed    
 - a dark mode or theme would be helpful    
 - will there be a dark mode    
@@ -3219,25 +3181,23 @@
 - add dark theme to this app please    
 - need dark mode or dark theme thank you in us cost    
 - please dark theme    
-- could you please add a dark mode for this tbsp    
-- tbsp could we please get a night dark mode theme for the app other than that the app is tbsp    
+- could you please add a dark mode for this app    
+- could we please get a night dark mode theme for the app other than that the app is perfect    
 - don't you have a dark theme    
-- dark mode on its tbsp    
 - what about a dark mode    
-- dark theme tbsp    
+- dark theme mode    
 - dark mode when    
 - i am getting so used to dark mode on all my devices id love to see a dark theme for my    
-- please make dark tbsp    
-- will there be a dark mode tbsp    
-- when is dark mode tbsp    
-- dark mode in my my    
+- please make dark mode    
+- will there be a dark mode     
+- when is dark mode option    
 - can you please add a dark theme    
 - where dark theme    
-- where is the dark mode tbsp    
+- where is the dark mode option    
 - can we get a dark theme    
-- can i have a dark theme tbsp    
+- can i have a dark theme    
 - please add support for dark mode for is of i love using edison mail just really wish i could use with a dark theme thank you    
-- i when will dark mode be tbsp    
+- when will dark mode be realized    
 - night mode please dark theme    
 - when will you have dark mode    
 - can we please get a dark mode    
@@ -3252,9 +3212,9 @@
 - love it but it needs a dark mode    
 - needs a dark mode    
 - needs a dark mode then it would be perfect    
-- a dark mode would be tbsp    
-- hello do you have a dark mode tbsp    
-- can we have a dark mode in the settings tbsp    
+- a dark mode would be better    
+- hello do you have a dark mode setting    
+- can we have a dark mode in the settings     
 - needs dark mode    
 - missing dark mode    
 - needs dark mode otherwise great    
@@ -3277,27 +3237,27 @@
 - great but no dark mode    
 - suggesting a dark mode    
 - do you have a dark mode option    
-- dark mode bring us dark mode tbsp    
+- dark mode bring us dark mode     
 - i want dark mode like other apps    
 - i would love a dark mode    
 - dark mode night mode a    
-- needs a dark tbsp    
+- needs a dark mode    
 - we need dark mode    
 - a dark mode option or dark mode support for is of    
 - does edison mail have a dark mode    
 - needs dark mode in us put    
-- need dark mode in us edit    
+- need dark mode     
 - can you add an option for dark mode    
-- dark mode needed thanks in us edit    
-- dark mode needed with is a in us cd    
+- dark mode needed thanks     
+- dark mode needed     
 - nice but dark mode is needed    
 - can you add a dark mode option to the app    
-- i would like to request a dark mode be added to work with is of is dark mode in us edit    
+- i would like to request a dark mode be added to work with is of is dark mode     
 - great app does everything i need would love a dark mode    
 - seems really good but needs a dark mode    
-- hello can we have dark mode tbsp    
-- need dark mode in us cd    
-- i would like a dark mode to be tbsp in in is    
+- hello can we have dark mode     
+- need dark mode     
+- i would like a dark mode to be great    
 - please add a dark mode this is my go to email app and a dark mode is the only thing missing    
 - are there any dark mode available    
 - a dark mode would be great    
@@ -3307,9 +3267,8 @@
 - dark mode is possible    
 - where is the dark mode option    
 - can we please have a dark mode thank you    
-- tbsp all that is needed now is support for dark mode when can we expect the update for dark mode tbsp    
-- are we getting dark mode for tbsp    
-- dark mode for android i have the is tbsp    
+- all that is needed now is support for dark mode when can we expect the update for dark mode   
+- are we getting dark mode for app   
 - dark mode for android    
 - love the dark modes    
 - great app love dark mode    
@@ -3319,7 +3278,7 @@
 - is there any dark mode or night mode support for this app    
 - can you please provide a dark mode    
 - nice app is there going to be a dark mode    
-- would you be open to add a dark mode tbsp    
+- would you be open to add a dark mode option    
 - hello can you please create a dark mode for this app thank you    
 - love it but i miss dark mode    
 - please implement dark mode    
@@ -3328,46 +3287,45 @@
 - great email app but could use a dark mode    
 - id love dark mode    
 - do you plan on having a dark mode    
-- please developed a dark mode i love this email app can't live without it a dark mode would be the best thing tbsp    
-- any plans for a dark mode tbsp    
+- please developed a dark mode i love this email app can't live without it a dark mode would be the best thing     
+- any plans for a dark mode for the app    
 - please add dark mode in the future    
 - enable dark mode    
 - a dark mode would be amazing please    
 - dark mode in the future    
 - please  introduce dark mode    
 - dark mode would be nice    
-- is there a dark mode if not would love to see tbsp    
+- is there a dark mode if not would love to see in the near future    
 - dark mode pleased in us put    
 - please enable a dark mode    
 - please add a dark mode option in a best    
 - how to enable dark mode    
 - can you support dark mode for email everything work great so far just waiting for the dark mode    
 - i please made the app with dark mode thanks    
-- please dark mode in us edit    
+- please dark mode     
 - please include a dark mode for the app    
 - dark mode please in us put    
 - i would love to have dark mode on the app thank you    
 - please add dark mode support on is when it best    
 - dark mode for is please in us put    
-- dark mode please in pm best    
-- dark mode in us edit    
-- dark mode please in us edit    
+- dark mode please in pc best    
+- dark mode please     
 - any plans for dark mode    
 - please add a dark mode option thank you    
 - dark mode please eng get a    
 - dark mode please can we test dark mode in the beta please device information text    
 - i will you all be adding a dark mode for your app with the new is of    
-- when are we getting dark mode in us edit    
-- dark mode option please in us edit    
+- when are we getting dark mode     
+- dark mode option please     
 - i love the app please keep up the good work also consider adding dark mode i would love to have dark mode thank you in a best    
-- can you please add a dark mode for the app in us cd    
+- can you please add a dark mode for the app     
 - how do i turn on the new dark mode    
 - i got a notification that dark mode was added there is no option in settings to use dark mode where did you put it ism on a of a    
 - please add dark mode for the android app    
 - loving it so far dark mode please though    
 - hello when comes dark mode    
 - please implement dark mode for this app    
-- dark mode is not showing up as an option in my tbsp    
+- dark mode is not showing up as an option in my app    
 - please for dark mode add system default option android of supports native dark mode in apps    
 - please have dark mode within the app submitted    
 - please improve dark mode some emails do not read properly when dark mode is enabled submitted    
@@ -3378,7 +3336,6 @@
 - support of dark theme needed    
 - you need a dark theme that would be perfect    
 - if you add a dark theme this will be my new email app    
-- would please add a dark theme and a night theme worth paying for your app as it is and more so if the dark and night themes were to be tbsp    
 - still waiting for dark theme    
 - add dark theme support    
 - dark theme plus    
@@ -3390,15 +3347,14 @@
 - a dark theme would be appreciated    
 - need ability to use dark theme    
 - i love the app please provide the dark theme for it    
-- update a of of missing dark theme of of of when are these apps going to offer you a dark theme this is a major miss    
 - i we need the dark theme is very nice its possible    
 - its the best app that i have used it would be great to have a dark theme    
-- any chance of having a dark theme in the tbsp    
+- any chance of having a dark theme in the app    
 - any plans for a dark theme    
 - i would like a dark theme if this is possible to be    
 - wish it had dark theme    
 - will there be a dark theme soon    
-- hello dark theme would be really tbsp    
+- hello dark theme would be really appreciate    
 - please create a dark theme thanks    
 - perfect but how can i set up dark theme    
 - just dark theme is missed feature    
@@ -3407,47 +3363,46 @@
 - i please add dark theme for client in re get a    
 - good email app just i not founding or there not dark theme    
 - is there anyway to get a dark theme    
-- so when should we expect a dark theme in tbsp    
+- when can we expect a dark theme for this program    
 - is there a dark theme available    
 - great but a dark theme would be appreciated    
 - still no dark theme a dark theme would be lovely good customer service problem solved love it no ads to    
 - best one no ads dark theme please    
 - is there a dark theme available for the app    
 - great app any plans for a dark theme    
-- it really needs a dark theme tbsp    
-- i love the dark theme in is of and am looking for an email app that utilizes it well it would be great if edison would add a dark theme in us edit    
-- tbsp if possible would you please add dark theme    
+- it really needs a dark theme mode    
+- i love the dark theme in is of and am looking for an email app that utilizes it well it would be great if edison would add a dark theme     
+- if possible would you please add dark theme    
 - id love to see a dark theme for this app    
 - are you planning on adding dark theme    
 - almost perfect all that is missing is a dark theme update love the dark theme    
 - i i downloaded your email app and i did not get the dark theme in by get    
 - a dark mode would be nice other than that great app    
 - best email app but want dark mode option    
-- dark mode would be a great feature in tbsp    
+- dark mode would be a great feature in app    
 - i i just wanted to know if there was a dark mode for the app thanks    
 - do you guys have any plans to release a dark mode or dark theme    
 - dark mode and this app would be perfect    
 - i any plans for the dark mode in us get a of    
-- is there a dark mode for this app     
-- dark mode tbsp in us cd    
-- dark mode in us cd    
-- is there a dark mode in the works in us cd    
-- make a dark mode in us edit    
+- is there a dark mode for this app    
+- dark mode
+- is there a dark mode in the works    
+- make a dark mode     
 - implement a dark mode    
 - is there a dark mode available or coming    
 - the app is great so far is there a dark mode in the works    
 - i really want a dark mode for edison    
-- is dark mode in the works in us edit    
+- is dark mode in the works     
 - outlook is reportedly looking into dark mode is mail app will have dark mode with is of when will edison offer this too new in he hot    
 - add a dark mode eng but    
-- a dark mode would be tbsp in us edit    
+- a dark mode would be awesome
 - a star down for not having option of dark mode    
-- can we have dark mode tbsp in us put    
+- can we have dark mode support
 - when will be dark mode avaiable    
 - great app a stars with dark mode    
 - do you support dark mode yet    
 - how about a dark mode for ios 13    
-- is there a dark mode in the works in us edit    
+- is there a dark mode in the works     
 - many email services are adding dark mode but i'm not switching to them as your app is the best its perfect just add dark mode in it    
 - hello when a add dark mode thank you in re get a    
 - where can i find the new dark mode feature in the is app    
@@ -3458,21 +3413,21 @@
 - is dark mode coming soon    
 - i wish there is a dark mode for this thanks    
 - the dark mode feature is missing in the is app    
-- great app dark mode would be much tbsp    
+- great app dark mode would be much easier on the eyes    
 - love the app so far any chance of dark mode in the future    
 - needs dark theme    
 - please add a dark email theme thanks    
 - add dark theme    
 - please create a dark theme please thanks    
-- need dark theme tbsp    
+- need dark theme     
 - please add dark theme this app is the best but i don't think i'll use it because of no dark theme    
 - it needs dark theme    
 - a possible dark theme for the app    
 - is there not an option for a dark theme    
 - you need a dark theme    
-- i love the tbsp is there a plan to make a dark theme for tbsp    
+- i love the app is there a plan to make a dark theme for this    
 - please include a dark theme    
-- fantastic app the only thing that would make it better is a dark theme please please please give us the option for a dark theme    
+- fantastic app the only thing that would make it better is a dark theme give us the option for a dark theme    
 - best email app please support dark theme    
 - need a dark theme    
 - i missing dark theme    
@@ -3480,11 +3435,11 @@
 - i want the dark theme    
 - is there a way to make the background theme dark    
 - please add a dark theme option thank you    
-- dark theme please in us edit    
+- dark theme please     
 - please include dark theme    
 - is it possible to have a dark theme    
 - when will a dark theme be coming to the app    
-- why no dark theme tbsp tbsp    
+- why no dark theme option     
 - i why not a dark theme for the application    
 - i like this just needs dark theme    
 - please add dark theme as optional theme under settings    
@@ -3494,22 +3449,21 @@
 - it would be great if it had a dark or black theme    
 - love the app please add a dark black theme    
 - love it just black theme please    
-- hello great app only what i am missing is a black theme please and a black theme with regards rob    
+- hello great app only what i am missing is a black theme
 - where can i find the black theme    
 - please add black theme and sync settings    
 - you need to add themes id like a black background    
-- would you please add a dark theme a complete black tbsp    
+- would you please add a dark theme
 - black or dark theme needed    
-- hello tbsp could you please add a dark or black theme tbsp love the tbsp    
+- could you please add a dark or black theme, please?
 - a stars if you add a black theme    
-- hello please if possible provide a black theme i'm using on plus with in build black theme and when i open the email is bright white should be nice to add themes    
 - black theme please    
 - please add black dark theme    
 - good application please add black theme and support to schedule email    
 - black theme    
-- try to add tbsp black theme please  
+- try to add black theme please  
 - i would like to see a black theme    
-- can i change theme of this tbsp black theme is more tbsp    
+- can i change theme of this app? black theme is more desirable    
 - plus add black theme    
 - please add dark or even better black theme    
 - please make a dark black theme    
@@ -3518,10 +3472,8 @@
 - please add a dark mode    
 - please add dark mode    
 - please add a dark mode thanks    
-- please add dark mode tbsp    
 - hello please add dark mode    
 - please add a dark mode support    
-- please add a dark mode tbsp    
 - add dark mode    
 - when will you add dark mode    
 - add dark mode please    
@@ -3561,9 +3513,7 @@
 - app keeps crashing and not opening on iphone
 - my app keeps crashing
 - today my email app on is keeps crashing every time i go into it it crashes and i have reset my phone and still my email app keeps crashing over and over this has not happened before is this a bug that will be fixed
-- keeps crashing
 - why does it keep crashing love your app but i will have to delete please fix
-- keeps crashing
 - crash app crashes all the time fix this
 - it keeps crashing on my phone
 - keeps crashing when opening
@@ -3605,7 +3555,7 @@
 - loved it for a while but it is now constantly crashing    
 - constantly crashing    
 - crashes while opening from notification this is how i email now    
-- crashing every a tbsp    
+- crashing every time    
 - the app is crashing on my iphone    
 - the email crashes all the time    
 - app has been crashing all day    
@@ -3675,36 +3625,33 @@
 - keeps crashing when opening    
 - would have liked it but it keeps crashing    
 - keeps on crashing    
-- i the app keeps crashing when i try searching for an tbsp    
+- i the app keeps crashing when i try searching for an email    
 - i i have installed the app and it keeps crashing    
 - email keeps crashing    
 - needs to be fixed so does not keep crashing    
 - keep crashing    
-- has crashed a tbsp    
 - app keeps crashing    
-- keeps crashing when tbsp    
-- i app keep crashing    
+- app keep crashing    
 - this app keeps crashing    
 - app crashes    
 - app keeps keeps crashing and freezing    
-- this app crashes all the tbsp    
-- my app keeps crashing when i open an email to read please tbsp    
+- this app crashes all the time    
+- my app keeps crashing when i open an email to read   
 - app keeps crashing as soon as i open it cant access any emails before it crashes    
 - the new update keeps crashing    
 - keep crashing over and over again    
 - my app keeps crashing on all my phones    
-- keeps crashing in the tbsp    
+- keeps crashing in the background     
 - keeps crashing when an email is opened from notification    
 - keeps crashing after deleting email from notification    
 - have iphone a app keeps crashing on opening    
-- app crashed on tbsp    
-- app crashed on me again tbsp    
+- app crashed on me    
+- app crashed on me again     
 - searches keep crashing the app    
-- new update keep crashing    
-- keeps crashing     
+- new update keep crashing         
 - latest app keep crashing on is    
 - the app keeps crashing    
-- this app keeps crashing in us cd    
+- this app keeps crashing     
 - keeps crashing after of a a is update    
 - app keeps crashing as i use the swipe     
 - app crashes on is of a    
@@ -3728,7 +3675,6 @@
 - will not open at all sucks    
 - this system sucks    
 - mail box sucks    
-- sucks tbsp    
 - groups suck    
 - the app is good but the icon sucks    
 - app is not working after update    
@@ -3739,10 +3685,10 @@
 - i just updated the app and now it crashes every time i try and open it    
 - app crashes every time i try to open it is of a a email a a a    
 - i every time i try to open the app it crashes help please    
-- crashes every time i try to open a daily email dilbert from my tbsp    
+- crashes every time i try to open a daily email  
 - ever since the update the app keep crashing on me every time i try to open it    
 - i just recently updated the app and every time i open it it crashes    
-- crashes when trying to open tbsp    
+- crashes when trying to open email    
 - since update of hours ago mail crashes every time tries to open    
 - the app keeps crashing every time i try to open an email    
 - email will not open crashes every time    
@@ -3755,31 +3701,12 @@
 - app crash every time after last update    
 - i just updated to version a of a and now the app crashes every time i try to open it    
 - since updating the app crashes every time    
-- app sucks
-- this app sucks
-- this sucks how do i reply there is no such function
-- it sucks
-- this update sucks
-- i think its not what i'm looking for and it sucks
-- your new app sucks i mean really sucks
-- this sucks
-- this double screen sucks sucks sucks stop fucking stuff up leave my email alone
-- system sucks
-- its sucks
-- the app sucks presently because you cannot send it any emails
-- a suck
-- app stopped working it sucks
-- this app really sucks
-- sucks
-- will not open at all sucks
-- this system sucks
-- mail box sucks
+
 
 ## intent:unsubscribe_mail
 - how to unsubscribe    
 - how do i unsubscribe from an email    
 - could not unsubscribe    
-- unsubscribe me please    
 - unsubscribe    
 - where is unsubscribe    
 - a lot of the companies i try and unsubscribe emails from failed at unsubscribing    
@@ -3796,15 +3723,7 @@
 - how long does it take once you unsubscribe i'm still getting all the emails i unsubscribed from    
 - please unsubscribe me    
 - how do a unsubscribe    
-- please unsubscribe me just want email    
-- unsubscribe me    
-- unsubscribe please    
-- please unsubscribe me from this list    
-- unsubscribe this email please    
-- how do i unsubscribe to emails i don't want to receive if there is no unsubscribe option    
-- i unsubscribe to emails and still get them    
-- how do i unsubscribe to emails the features only came up once and i can't find how to unsubscribe any more    
-- unsubscribed    
+- please unsubscribe me just want email     
 - remove me unsubscribe    
 - this app does not unsubscribe my emails i am still getting emails from the ones that i have unsubscribed too    
 - can't unsubscribe    
@@ -3823,7 +3742,7 @@
 - i want to unsubscribe    
 - unsubscribing does not work on your app i am still receiving emails which are in the unsubscribed list please look into this    
 - i love the unsubscribe feature    
-- love the unsubscribe tbsp    
+- love the unsubscribe feature    
 - how do i use the unsubscribe feature    
 - i like the unsubscribe feature is there any way to delete all emails from an unsubscribed account    
 - unsubscribe option is great    
@@ -3832,7 +3751,7 @@
 - how do we unsubscribe emails    
 - how do you unsubscribe the email    
 - send no to unsubscribe    
-- i don't think the unsubscribe option works through the app everything have unsubscribed to i continue to receive whereas when have unsubscribed on the email itself have stopped receiving emails from that company or whatever it is ism unsubscribing from tbsp    
+- i don’t think the ‘unsubscribe’ option works through the app. everything i’ve unsubscribed to i continue to receive whereas when i’ve unsubscribed on the email itself, i’ve stopped receiving emails from that company or whatever it is i’m unsubscribing from!    
 - please unsubscribe    
 - i love the unsubscribe featured    
 - how do you unsubscribe to all emails at once    
@@ -3856,7 +3775,6 @@
 - how to unsubscribe
 - how do i unsubscribe from an email
 - could not unsubscribe
-- unsubscribe me please
 - where is unsubscribe
 - how do you get it to unsubscribe my emails
 - where is the option to unsubscribe
@@ -3876,13 +3794,6 @@
 - i unsubscribe to emails and still get them
 - how do i unsubscribe to emails the features only came up once and i can't find how to unsubscribe any more
 - unsubscribed
-- this app does not unsubscribe my emails i am still getting emails from the ones that i have unsubscribed too
-- can't unsubscribe
-- how do i unsubscribe when i open an email and it does not say unsubscribe
-- when i unsubscribe from your app does it notify the sender that i unsubscribe their email
-- easy unsubscribe unsubscribe does not work i keep getting stinking emails from places i unsubscribe from
-- there were a lot of emails that had the unsubscribe option in the email but this app did not have the unsubscribe option i had to click on more email unsubscribe links compared to clicking on the unsubscribe button on this app
-- how do i unsubscribe from emails
 - i don't want it any more how i can unsubscribe
 - unsubscribe me now
 - and how come when a unsubscribe from a subscription a guys just send them an email saying please unsubscribe me just make it so when a click unsubscribe it just blocks them so you don't get any emails from them
@@ -3912,12 +3823,12 @@
 - please do not send anymore emails please unsubscribe
 - i want to unsubscribe from email senders
 - i need to unsubscribe to my email
-- i want to ubsubscribe to spam emails
+- i want to unsubscribe to spam emails
 - i dont know how to unsubscribe  with this account]
 - i need help in unsubscribing to multiple emails
 - how do i unsubscribe to emails?
 - i would like to unsubscribe to some mails
-- how can i ubsubscribe from easilydo 
+- how can i unsubscribe from easilydo 
 
 ## intent:undo_an_unsubscribe
 - how do i undo an unsubscribe    
@@ -3929,6 +3840,15 @@
 - i there how do you undo an unsubscribe    
 - how can you undo a subscription i unsubscribed to and missed the undo window    
 - i unsubscribed to by mistake how do i undo unsubscribed    
+- how do i resubscribe to an email that your app erroneously unsubscribed    
+- how do i resubscribe when i accidentally unsubscribed to emails    
+- by mistake i unsubscribed to the wrong thing how do i resubscribe - i unsubscribed from privacy check and want to resubscribe    
+- i accidentally unsubscribed my user receipts how do i resubscribe to them    
+- how do you resubscribe certain emails so you get them again    
+- what if i want to resubscribe an email sender it seems there is no way to add them back from unsubscribe list    
+- i need to resubscribe to an unsubscribe list     
+- how do i resubscribe to emails that i unsubscribed to i have emails that are automatically going to my trash that i want to receive again how do i do that    
+
 
 ## intent:restore_deleted_emails
 - how i can restore deleted emails    
@@ -3942,16 +3862,7 @@
 - how do i find deleted emails    
 - how do i find recently deleted    
 - find deleted email last one deleted    
-- how do i find and delete contacts    
 - can not find my delete email submitted    
-- how do i resubscribe to an email that your app erroneously unsubscribed    
-- how do i resubscribe when i accidentally unsubscribed to emails    
-- by mistake i unsubscribed to the wrong thing how do i resubscribe - i unsubscribed from privacy check and want to resubscribe    
-- i accidentally unsubscribed my user receipts how do i resubscribe to them    
-- how do you resubscribe certain emails so you get them again    
-- what if i want to resubscribe an email sender it seems there is no way to add them back from unsubscribe list    
-- i need to resubscribe to an unsubscribe list     
-- how do i resubscribe to emails that i unsubscribed to i have emails that are automatically going to my trash that i want to receive again how do i do that    
 - how can i recapture a deleted email    
 - what do i go into to find the trash setting, when i delete a message it gets moved to trash, but i cannot find this    
 - how do i get to deleted emails i deleted one in error    
@@ -3967,13 +3878,6 @@
 
 ## intent:app_not_refresh_or_update
 - emails are not updating in app    
-- i do not get any more email    
-- not getting all my emails    
-- my email are not coming through    
-- my emails are not coming tbsp    
-- no emails are coming    
-- no emails coming tbsp    
-- my email not coming tbsp    
 - my app seems to not refresh most of the times    
 - question about refreshing email i turned on the notification and background refresh for email it seems its only refreshed when i open the app is there any way can let the email automatically refresh and show on the lock screen    
 - how do i change the email refresh interval    
@@ -4001,8 +3905,7 @@
 - can we get a snooze feature that would be awesome    
 - request please add the snooze feature    
 - when is the snooze feature coming to android    
-- snooze i really loved that feature of tbsp    
-- please add a snooze feature for tbsp i love this app but really used the snooze feature in other apps i would also like to be able to see and search deleted email    
+- snooze i really loved that feature of inbox    
 - still no snoozing feature on android    
 - more present snooze options in the morning i snooze stuff to noon at pm i snooze stuff too but not always to the next day snooze to later today should be snooze to afternoon and then snooze to evening and then snooze to tomorrow or just make it relative snooze to later a hours but you guys are awesome keep up the good work lewis    
 - hello how does the snooze option work when i set the snooze it goes in the snooze folder and the it disappears from the snooze folder at the right time but i do not see the message come back to me anywhere    
@@ -4045,7 +3948,7 @@
 - is there a snooze option    
 - hello my snooze is not syncing up with gmail when i snooze it takes it out of my email app inbox and puts into the snooze folder but it does not make the move in gmail account how do fix this thanks    
 - is syncing between devices coming so that when i snooze an email on my iphone it will snooze on my ipad    
-- i have a email that i snooze and it keeps coming back in my inbox before the snooze tbsp    
+- i have a email that i snooze and it keeps coming back in my inbox before the snoozed time.    
 - snooze option please    
 - there should be more options for snoozing mails    
 - can't snooze my emails    
@@ -4053,31 +3956,29 @@
 - i cannot receive files from other apps please see attached what is the meaning of the time set in snooze how long will the email account snooze can i disable the snooze function    
 - more options for snoozes please    
 - the snooze feature is not working at all    
-- snooze messages shouldn't be in the tbsp    
-- hey tbsp why is snooze not working across devices i expect to snooze an email from my phone and it should be snooze on my ipad tbsp    
-- does snoozing not work across devices tbsp if i snooze an email on my ipad it does not show up on iphone as snooze web mail    
-- update snooze options we should be able to choose snooze in relation to when we snooze in other words the a options should be defined by hours and or tbsp for example i would select the following options a snooze for a hours a snooze for a days a snooze for a days as stated all snooze options should from when snooze is tbsp hope that tbsp peter    
+- why is snooze not working across devices i expect to snooze an email from my phone and it should be snooze on my ipad too    
+- does snoozing not work across devices ? if i snooze an email on my ipad it does not show up on iphone as snooze web mail    
+- update snooze options we should be able to choose snooze in relation to when we snooze in other words the a options should be defined by hours and or days for example i would select the following options a snooze for a hours a snooze for a days a snooze for a days as stated all snooze options should from when snooze is selected 
 - how can i snooze an email i accidentally snooze an email until tomorrow when i meant to snooze until later today    
 - can't i snooze emails if so how    
 - if i snooze an email on my ipad will it show up snooze on my iphone    
 - snooze is device dependent i snooze email on my ipad but it does not snooze the same mail on my iphone    
-- would love a snooze tbsp    
+- would love a snooze function!    
 - when does android get snooze    
 - where is swipe to snooze    
-- i would be all in with this app but there is no snooze tbsp    
+- i would be all in with this app but there's no snooze feature    
 - please add snooze    
-- the snooze function fails to snooze emails in gmail tbsp    
+- the snooze function fails to snooze emails in gmail     
 - snooze items from my iphone don't show up as snooze on my ipad    
 - is it possible to snooze an email on the iphone and is will be also snooze on all other devices    
 - is there only snooze option on is and not android    
-- hello did you ever fix the snooze feature tbsp if i snooze a message on my iphone will it be snooze on my ipad tbsp    
-- is it possible for the edison mail snooze to work with the gmail snooze tbsp that is when i snooze in the app the email is not snooze when i look at in gmail tbsp in us put    
+- hello did you ever fix the snooze feature ? if i snooze a message on my iphone will it be snooze on my ipad?    
+- is it possible for the edison mail snooze to work with the gmail snooze that is when i snooze in the app the email is not snooze when i look at in gmail   
 - need a snooze option    
 - what happened to snooze    
 - is there a plan to sync snooze emails across is devices so that an email snooze on my iphone will also be snooze on my ipad really would like to see this    
-- snooze function    
-- hello edison team first i love your email app with one exception in fact its the only thing keeping me from using your app and i know that there are countless others like tbsp it pertains to snooze when i snooze an email it only snoozes it on my device so if i snooze it on my iphone and open it on my ipad its not snooze tbsp are there any plans to fix this every other app have tried not only snoozes across devices but syncs with gmail so if i open up my email anywhere else desktop its also snooze tbsp anyway i remember asking about this probably a years ago and i got an email that said you were working on it wondering if there are any plans to change this or if its not a priority in us cd    
-- the snooze feature does not sync with gmail either way what i snooze on gmail desktop or ipad does not appear as snooze on edison and what i snooze on edison does not appear snooze in tbsp this has never worked for me are there plans to address this thank tbsp in us est    
+- snooze function
+- the snooze feature does not sync with gmail either way what i snooze on gmail desktop or ipad does not appear as snooze on edison and what i snooze on edison does not appear snooze in gmail this has never worked for me are there plans to address this 
 - is there a snooze function    
 - all of my snooze emails randomly disappeared is there a way i can get them back all of the emails that were snooze are missing from both the top of my inbox as well as the snooze folder    
 - how do i snooze emails in a mac not in an app    
@@ -4157,11 +4058,11 @@
 - trying to reset my password since the new upgrade my original password does not work and it will not let me reset it please send me a temp password    
 - i keep requesting a password reset and don't receive it    
 - my password does not work not does the password reset prompt    
-- reset tbsp    
+- reset password    
 - i i'm having a lot of trouble resetting my password i reset it it says its reset i put the password in and then it says its the wrong password i don't get the notification when you email me i only get the notification when you text me on my phone    
 - i am unable to login to the app with my existing icloud email address and there is no option to reset the password can you please reset my password so that i can use the app thanks    
 - i need to reset my password    
-- need to reset my password tbsp how do i do this    
+- need to reset my password
 - question how can i reset my password    
 - how do you reset your password in this app    
 - how do i reset my password in us post    
@@ -4185,13 +4086,13 @@
 - good app but how do i change my account password    
 - how do i change the password on my account it is an exchange account and have already changed the password on the server but cannot change in the app    
 - how do i change password for an account    
-- how can you change a password for an tbsp    
+- how can you change a password for an account    
 - is there option for changing account password    
 - cannot change mails password    
 - i need to change my password    
-- how do you change your password for an email tbsp    
+- how do you change your password for an email account    
 - how do i change my password for this account    
-- i have changed my account password and i can't change that on this app this is so tbsp    
+- i have changed my account password and i can't change that on this app  
 - can i change my password    
 - how do i change my password on this email account    
 - how do i change my password on here    
@@ -4200,7 +4101,7 @@
 - how can i change my password    
 - how to change password in this app thanks    
 - how to change the password    
-- tbsp can you please help me to change my password with edison    
+- can you please help me to change my password with edison    
 - i how i can change my password    
 - i would like to change my password    
 - how to change mail password    
@@ -4224,10 +4125,10 @@
 - my work email required a password change every of days i changed my password on outlook and now need to change it on my phone but cannot find where to do so    
 - did not request the change in password thank you    
 - how do i change my password for edison assistant    
-- tbsp i loved the app and its very useful but i see one missing feature that is changing the password there is noway to change the password of any account in case i change my password i would have to delete the account and add the account again with the new tbsp can you please look into tbsp regards tbsp    
+- i loved the app and its very useful but i see one missing feature that is changing the password there is noway to change the password of any account in case i change my password i would have to delete the account and add the account again with the new password
 - very good app but should have password change option    
 - i changed my password on my desktop for this email address how do i update the password in the app because now i can't receive any new emails until the password is changed     
-- why i can not change my account password why i should remove and add tbsp i am using exchange email which is required to change the password tbsp    
+- why i can not change my account password why i should remove and add new i am using exchange email which is required to change the password     
 - unable to change password    
 - school email that was working but after a password change it does not work tried just changing the password and it does not work    
 - i want to change my password submitted    
@@ -4286,18 +4187,8 @@
 - can you please help me to change my password with edison
 - how i can change my password
 - i would like to change my password
-- how do we change password in us most of
-- nice app in us est
-- test in us est
-- where is the option to add a message to the assistant in us est
-- need a search in us est
-- not receiving emails in us est
-- not working in us est
-- does not work with yahoo mail in us est
-- where is my sent file in us est of
-- new mail is not loading in us est
-- i can not see my sent emails in us est
-- how do i change password in us est
+- how do we change password
+- how do i change password
 - i want to change my password
 - i would want to change my email account password
 - how do i change my account password
@@ -4310,7 +4201,7 @@
 - how can i delete my emails?
 - there should be a delete all button in trash    
 - how do i delete all my emails from my trash    
-- why don't you have a trash button that will empty all the trash at tbsp    
+- why don't you have a trash button that will empty all the trash at once    
 - please add a trash all button    
 - need to trash and delete my emails how do i then delete the trash    
 - how do i delete all emails in the trash    
@@ -4326,7 +4217,7 @@
 - i cannot delete emails how can i delete    
 - why is it that once i go into a mailbox and delete emails they delete and then re appear and then i have to delete again    
 - how do i delete my trash can i do i delete all emails    
-- how do a delete an email    
+- how do I delete an email    
 - app don't delete emails    
 - delete all    
 - delete all emails    
@@ -4350,7 +4241,26 @@
 - if i delete this app will my emails on other apps be deleted also      
 - its not deleting my emails    
 - i have emails on this account i need to delete all of    
-  
+- cannot delete email
+- i cannot delete emails how can i delete
+- how do a delete an email
+- how do you delete of emails all at once
+- how do i delete all my emails
+- where is the delete all
+- delete all
+- delete all emails
+- how do i delete all these emails
+- cannot delete emails
+- i cannot delete my emails
+- how can i delete all my email all at once
+- how do i delete all my email
+- emails are not deleting
+- how do i delete all the emails i have
+- how do you delete all emails
+- all my email had been deleted
+- i have 30000 emails how can i delete all at once
+- how do i delete all email
+- how do i delete emails 
 
 ## intent:delete_account
 - how do i delete an email account  
@@ -4385,31 +4295,8 @@
 - it does not allow me to delete my account please tell me how i can delete my account
 - please delete this email account
 - please delete my account i deleted the app but am now not able to delete my account please delete all data associated with my email address
-- cannot delete email
-- i cannot delete emails how can i delete
-- how do i delete this app
-- how do a delete an email
-- how do you delete of emails all at once
-- how do i delete all my emails
-- where is the delete all
-- delete all
-- delete all emails
-- how do i delete all these emails
-- cannot delete emails
-- i cannot delete my emails
-- how can i delete all my email all at once
-- how do i delete all my email
-- emails are not deleting
-- i have of of a emails on this account i need to delete all of
-- of just deleted
 - please delete my account i am unable to delete it using the delete account button within the app
 - i need to delete an account in my account
-- how do i delete all the emails i have
-- how do you delete all emails
-- all my email had been deleted
-- i have 30000 emails how can i delete all at once
-- how do i delete all email
-- how do i delete emails
 - i need to delete my account
 - i want to delete this account
 - i want to delete all google accounts
@@ -4430,7 +4317,6 @@
 - How do I remove an email account from the app?
 - Hello, How do I remove an email account from the app?
 - i did not want to have the account so can you please erase my account for ancestry    
-- cancel this please i can't get into my account to do it    
 - i cannot get into cancel my easilydo account because i no longer have access to an iphone can you please cancel for me    
 - how to i cancel my account with you guys    
 - i want to cancel this account please reply how to do this on my phone    
@@ -4467,7 +4353,7 @@
 - app will not delete account    
 - have tried to delete my account a times and it still will not please delete    
 - it does not allow me to delete my account please tell me how i can delete my account    
-- please delete this tbsp    
+- please delete this email/account    
 - please delete my account i deleted the app but am now not able to delete my account please delete all data associated with my email address    
 - please delete my account thanks    
 - please delete my premium account    
@@ -4495,7 +4381,6 @@
 - why am i not receiving notifications on my device    
 - no notification received for new mails    
 - is not receiving any notification when i receive email and the email app notification is on    
-- of i receive a email why does the notification says of a email    
 - my notification settings are on but i'm not receiving any notifications when i get emails    
 - not receiving message but receiving only notifications    
 - i don't get notification from this app when i received messages    
@@ -4527,10 +4412,10 @@
 - cannot log in
 - google sign in    
 - can't sign in    
-- i cant sign in    
+- i can't sign in    
 - i keep having to sign in to each account and its frustrating
 - having problems signing in        
-- cant sign in    
+- can't sign in    
 - i can not sign in    
 - all having sign in issues     
 - i can't send messages says i'm not signed in i sign in still says i'm not signed in i can receive messages    
@@ -4557,7 +4442,7 @@
 - new version edison keep signing me out had to sign in a times already into a of my accounts    
 - i keep getting signed out of my accounts    
 - it does not let me sign a different emails in at the same time it keeps signing them both out       
-- is having problems staying signed in with my email keeps signing me out and sometimes does not let me sign in at tbsp in us edit a send message    
+- is having problems staying signed in with my email     
 - logged out of my icloud account and will not let me log back in says that the email password is not correct i know that it is because i am able to log in with a different app    
 - why did you log me out off of my i phone email account can't log in     
 - this app logged me out of my account after the update    
@@ -4576,18 +4461,17 @@
 - why can't i log out this account    
 - how to log out my gmail account from this app    
 - hello i cannot log into my account    
-- cant log on with my office of email was working fine until the app logged me off i have not been able to log on through the app tbsp in us put    
 - how to log out    
 - how do i log into my easilydo app account    
 - how to log out my account submitted    
 - log out of an account submitted     
 - gmail keeps logging out    
-- i keep getting logged out of the tbsp    
-- it keeps logging me off my tbsp    
+- i keep getting logged out of the app    
+- it keeps logging me off my accounts    
 - keeps logging out of my gmail    
 - it keeps logging me out    
-- keeps logging me tbsp    
-- the app keeps logging me out of my tbsp    
+- keeps logging me out    
+- the app keeps logging me out of my email    
 - can't log in    
 - i'm logged in can read emails but when i try to send an email comes up error not logged in when i log in again receive emails again but can't send any    
 - there was no mail in the logged in home screen but there was mail in the logged in account in us get a    
@@ -4601,8 +4485,8 @@
 - hello my gmail accounts keep logging out and i have to keep logging in is there a fix or something that needs to be checked    
 - hello after the new update gmail keeps logging off the account    
 - my gmail keeps logging out please fix    
-- gmail accounts keep logging tbsp    
-- app keeps logging out of my configured gmail accounts tbsp    
+- gmail accounts keep logging out    
+- app keeps logging out of my configured gmail accounts frequently    
 - the system keeps logging my gmail accounts out    
 - why do my gmail accounts keep requiring me to log in again    
 - love this app but gmail keeps logging me out    
@@ -4643,7 +4527,6 @@
 - how do i log out of the app
 - how do i log off i this email app
 - where can i log off of email
-- how do i log out of my email
 
 ## intent:apple_watch_app
 - what about watch
@@ -4698,7 +4581,7 @@
 - Is there an Apple Watch app for Email?
 - Hello, Is there an Apple Watch app for Email?
 - good app when are you looking to incorporate with apple watch lack of integration with apple watch is stopping me from moving all my accounts over to this email app    
-- i love your app but i would love it more if you had an apple watch app i like to interact with my email from the watch when my phone is out of tbsp tbsp    
+- i love your app but i would love it more if you had an apple watch app i like to interact with my email from the watch when my phone is out of reach     
 - is there ever going to be an apple watch version    
 - hello is there an apple watch app coming out soon i love your product but i was disappointed when i found out that there was no watch app    
 - add an apple watch app it does not even have to be any different from apples watch app id just like to check emails from my watch sometimes and reading the notification does not show the whole email and does not properly format it if its more than just text like if there is images or if its an home email    
@@ -4726,11 +4609,12 @@
 - i is there a i watch app    
 - please add an apple watch app    
 - why can i not get this to work i have the app on the so watch and my phone and the watch keeps telling me to install the app on the phone when i press the button on the watch to do so it takes me to the play store but then says not found    
-- i please make a watches app tbsp love your app and would love it more if it had a watches app    
+- please make a watches app 
+- love your app and would love it more if it had a watch app    
 - will there be an apple watch connection    
 - is there an apple watch app    
-- do you have an apple watch app in the tbsp    
-- i watch support please tbsp    
+- do you have an apple watch app in the works    
+- i watch support please     
 - will you have an i watch app love the app on my iphone only wish it works on my watch    
 - new iphone a with i watch a unable to mirror your iphone app on the watch the watch only seems to use the native apple email program any ideas how to do this i was able to mirror your app on my iphone is to the same watch but with the new iphone a i can not do so and your app icon does not show up anywhere in the i watch docking settings any ideas    
 - does this app work on i watch    
@@ -4769,7 +4653,7 @@
 - apple watch app i love your app however i have now moved away form using you app for one simple reason you don't offer an apple watch app i have an apple watch series a cellular model and the ability to not have my phone with me all the time means i require an email app that is on the apple watch can you please let me know if this is in your plans    
 - please please could we get apple watch support    
 - is there going to be a apple watch app implemented    
-- is there an apple watch app for edison mail in us cd    
+- is there an apple watch app for edison mail     
 - bring to app to apple watch thanks    
 - please make an apple watch app version    
 - apple watch notifications please submitted    
@@ -4790,7 +4674,6 @@
 - how do mark all read using email app
 - is there a way to select all of my emails and mark them as read
 - how do i mark all my emails as read unread i have of emails i want to mark them as read
-- how do i mark all as read of a of a of of
 - how do i my email mark all as read
 - is there a way to mark all as read
 - is there a way to mark all as read in the app have searched and cannot find it
@@ -4808,7 +4691,7 @@
 - is there a way to mark several messages as read thanks
 - how do i mark all unread email as read
 - the app does not actually marks emails as read if marked as read from notification centres
-- how do i mark all as read the app imported all of my a of a plus emails as unread and i'm only able to mark as read about of a to of a at a time
+- how do i mark all as read the app imported all of my a of a plus emails as unread
 - why won't your app mark emails mark as archived also as read
 - how to mark multiple messages read
 - need to be able to mark all read
@@ -4823,7 +4706,7 @@
 - is it possible to mark all as read thanks
 - i how do i mark all as read in the app for the unread folder
 - is there an option to mark all unread email as read
-- hey i have a question i have lots of unread emails is there a way to mark them all as read instead of of at a time i know i can select all of my emails but i cannot mark them as read i was able to mark them all as read on gmail com but for some reason they stay marked as unread in the app please help tom
+- hey i have a question i have lots of unread emails is there a way to mark them all as read instead of of at a time i know i can select all of my emails but i cannot mark them as read i was able to mark them all as read on gmail com but for some reason they stay marked as unread in the app
 - need an option for mark all as read
 - i why are all messages always marked read even new mails are marked read automatically
 - its of you just can't mark all emails as read at the same time
@@ -4853,28 +4736,6 @@
 - is there a way to mark all emails as read in the app
 - how do i mark all my emails as being read
 - need to mark all emails as read
-- is there a way to be able to mark as read in the notification window right now there is delete and archive but i just want to mark as read
-- i how do i mark all as read
-- is there a way to mark all mail as read
-- is there a way to mark all emails as read
-- is there a way to mark several messages as read thanks
-- how do i mark all unread email as read
-- the app does not actually marks emails as read if marked as read from notification centres
-- how do i mark all as read the app imported all of my a of a plus emails as unread and i'm only able to mark as read about 
-- why won't your app mark emails mark as archived also as read
-- how to mark multiple messages read
-- need to be able to mark all read
-- please add mark as read in the notification
-- what i like the most about this app is that you can mark as read from the notification very good
-- how do you mark all as read after using select all
-- how to select all and then mark all as read
-- how do i mark all my unread as read at the same time
-- i am trying to select all of my unread emails and mark them as read every time i try it only reads of a messages i have of of i am trying to mark as read
-- how do i select mark emails as read so i can keep them without reading
-- how do i mark all emails as read iphone thanks
-- is it possible to mark all as read thanks
-- i how do i mark all as read in the app for the unread folder
-- is there an option to mark all unread email as read
 - hey i have a question i have lots of unread emails is there a way to mark them all as read instead of of at a time i know i can select all of my emails but i cannot mark them as read i was able to mark them all as read on gmail com but for some reason they stay marked as unread in the app please help tom
 - need an option for mark all as read
 - i why are all messages always marked read even new mails are marked read automatically
@@ -4896,7 +4757,7 @@
 - how do i mark all my emails as read unread i have of emails i want to mark them as read    
 - how do i mark all as read of a of a of of    
 - how do i my email mark all as read    
-- is there a way to mark all as tbsp    
+- is there a way to mark all as read    
 - is there a way to mark all as read in the app have searched and cannot find it    
 - have been having problems with emails being marked read before i have read them    
 - how do i mark emails as read    
@@ -4904,29 +4765,6 @@
 - is there a way to mark all emails as read in the app    
 - how do i mark all my emails as being read    
 - need to mark all emails as read    
-- is there a way to be able to mark as read in the notification window right now there is delete and archive but i just want to mark as read    
-- i how do i mark all as read    
-- is there a way to mark all mail as read    
-- is there a way to mark all emails as read    
-- is there a way to mark several messages as read thanks    
-- how do i mark all unread email as read    
-- need an easy way to mark all as read in us most    
-- is there not a way to mark all unread messages as read    
-- is there a way to mark all messages as read    
-- how can i mark all as read for a inbox    
-- how do i mark all inbox as read    
-- how do i select all email and mark all as read    
-- it would be nice to get a option to not automatically mark a mail as read on reading also after reading the mail it should still be marked as unread and only after marking it manually as read it should be also shown as read    
-- the app does not actually marks emails as read if marked as read from notification centres    
-- how do i mark all as read the app imported all of my a of a plus emails as unread and i'm only able to mark as read about of a to of a at a time    
-- why won't your app mark emails mark as archived also as read    
-- how to mark multiple messages read    
-- need to be able to mark all read    
-- please add mark as read in the notification    
-- what i like the most about this app is that you can mark as read from the notification very good    
-- how do you mark all as read after using select all    
-- how to select all and then mark all as read    
-- how do i mark all my unread as read at the same time    
 - how do i select mark emails as read so i can keep them without reading    
 - how do i mark all emails as read iphone thanks    
 - is it possible to mark all as read thanks    
@@ -4936,7 +4774,7 @@
 - need an option for mark all as read    
 - i why are all messages always marked read even new mails are marked read automatically    
 - its of you just can't mark all emails as read at the same time    
-- ism using this email app on my iphone because i like it better than the native mail app but all messages coming in are being marked as read before i can even read them sometimes when i open the app they are marked as unread but within a second or two get automated marked as read other times they are already marked as read when i open the tbsp whats up tony splat    
+- i'm using this email app on my iphone because i like it better than the native mail app but all messages coming in are being marked as read before i can even read them sometimes when i open the app they are marked as unread but within a second or two get automated marked as read other times they are already marked as read when i open the app
 - its great because it has a mark as read option from notification    
 - how do i mark all read i can select all but not change to read    
 - not up to mark    
@@ -4953,7 +4791,7 @@
 - how do i search me emails    
 - where is the search    
 - how do i do a search through all emails    
-- i how do i search for emails on your tbsp    
+- how do i search for emails on your app    
 - how do you search for an email    
 - how do i search my inbox    
 - how can i search for an email is there a search option    
@@ -4962,18 +4800,17 @@
 - why can't i search all of my mailboxes in all folders i can only search the inbox    
 - please advise how to make the search function look at all of my emails when i do a search all search finds is emails from of of i want it to find all the emails that contain the search criteria not just the most recent dave    
 - good morning how do i search my email with no search box at the top    
-- my email app crashes as soon as i search for mails using search tbsp    
 - i when i do a search from the search box in inbox its only bringing up a couple of results when i do that search in archive i get a lot more results but its not searching beyond about the first 50 emails how do i force it to search through the whole of my email    
 - the search function doesn't search through all my mailboxes only seems to search three doesn't find emails I've put in folders recently    
 - search should search all messages across all accounts not just those in the inbox    
 - hello i would like to know if there is any search method to search in the whole app for an email i have specific folder which are not searched    
 - where is the search feature for my email account    
-- app crashes every time i search for old emails using the search tbsp    
+- app crashes every time i search for old emails using the search bar    
 - do you have a search in email inbox feature    
 - can you add a function that have a search tool so i can search all my email accounts for specific word search in my emails thank you    
 - where is search feature    
 - why is there no search feature    
-- your search option would be a lot more functional if there were a select all button for the search tbsp for example search    
+- your search option would be a lot more functional if there were a select all button for the search results   
 - how can i set search to search all my email not just folder ism in    
 - the search option on an email is the worst what is the point of searching when i can't access the information i'm searching for    
 - how do we search our email in edison    
@@ -4981,16 +4818,13 @@
 - is there no way to search for an email    
 - how can i remove email addresses from appearing in my search from the search bar    
 - how does one search up    
-- is there a search some are that ism not seeing if not would be nice to have a search to find tbsp    
-- need a search tbsp    
+- is there a search some are that is not seeing if not would be nice to have a search to find emails    
+- need a search facility    
 - how can i search for a message    
-- search option not tbsp    
+- search option not edit    
 - how do i search for emails in the edison app    
 - how do i search for a message    
-- ism trying to search for emails but i cant search all emails i can only search the folder ism in how do i fix that i don't always know where something may be so to search each folder individually will just take too long thanks    
-- not getting all messages in search using spark on is i get the email in search on edison mail for mac beta i get the email in search but on edison mail is it does not show up in search i find this to happen a lot the search on is is not good at tbsp in us post    
-- search does not seem to be working i searched for a keyword and nothing came up i had to use the apple mail app to find the email eventually i found the email in edison mail but i had to go to the folder the email was in and then the search worked is there a way to search all folders search is not useful if i have to go to the apple mail app to find email    
-- tbsp so much to like about this app but missing some fairly simple features for tbsp saved searches see gmail search bar in android it remembers last searches which speeds searching tbsp also if you search then select an email then print possible same behaviour after other actions on emails after printing and returning to search results search is blank meaning have to go back and search tbsp issue compounded by fact there is no saved or remembered searches by when selecting the search tbsp only started using just now but bit of feedback from what have noticed to help you plan future tbsp tbsp tbsp    
+- ism trying to search for emails but i cant search all emails i can only search the folder ism in how do i fix that i don't always know where something may be so to search each folder individually will just take too long thanks    - search does not seem to be working i searched for a keyword and nothing came up i had to use the apple mail app to find the email eventually i found the email in edison mail but i had to go to the folder the email was in and then the search worked is there a way to search all folders search is not useful if i have to go to the apple mail app to find email    
 - how do i search my emails submitted    
 - how can i search for emails submitted    
 - when searching it only searches the last month how to search all of the gmail inbox    
@@ -5034,13 +4868,13 @@
 - my gmail account keeps getting kicked out and says account offline its happened at least 5 times now    
 - keeps kicking my account offline never had this problem before    
 - the app keeps kicking all of my accounts offline and i don't know why its very frustrating because i love this app    
-- my account on the app on my iphone keeps getting kicked offline how can that be tbsp    
+- my account on the app on my iphone keeps getting kicked offline   
 - why can i not sign on to my account and why do i keep getting kicked off    
 - keep kicking me out my work email    
 - my email is offline and i don't know why    
-- getting at top of screen account is offline tbsp but it is not offline still getting tbsp    
-- is there a fix to the offline issue just updated the app and still seeing that red offline tbsp    
-- still getting the offline tbsp    
+- getting at top of screen account is offline  but it is not offline still getting emails         
+- is there a fix to the offline issue just updated the app and still seeing that red offline message    
+- still getting the offline error    
 - still having offline issues    
 - why is my mail account going offline    
 - offline error    
@@ -5048,37 +4882,37 @@
 - offline submitted    
 - my account is offline what to do submitted    
 - my accounts keep going offline why    
-- i my email accounts keep going offline is there something that will fix this tbsp    
+- i my email accounts keep going offline is there something that will fix this     
 - my email keeps on going offline and i keep having to sign back in    
 - my accounts keep going offline    
-- app keeps going offline tbsp    
+- app keeps going offline     
 - all gmail accounts keep going offline    
 - my gmail accounts keep going offline what gives    
-- why do i keep going offline this is not tbsp    
+- why do i keep going offline  
 - my email account keep going offline    
-- my account keeps going offline tbsp help    
+- my account keeps going offline please help    
 - keep getting account offline how do i stop this    
 - my account keeps going offline and i keep having to re sign in to gmail its very annoying and has happened a times today alone don't understand why it keeps going offline    
-- i keep having issues where both my gmail accounts keep going offline multiple times tbsp a day    
+- i keep having issues where both my gmail accounts keep going offline multiple times a day    
 - hello i have about a email accounts in the app and all of the gmail ones keep going offline i reconnect them and later they go offline again    
-- my account keeps going offline tbsp please fix    
-- why do my accounts keep going offline about every time i open the app my accounts are offline and i have to login to each tbsp tbsp    
+- my account keeps going offline  
+- why do my accounts keep going offline about every time i open the app my accounts are offline and i have to login to each account
 - my google account keeps going offline what can i do to fix this    
 - why my accounts keep going offline    
 - why do my accounts keep going offline    
-- after the update one of my account keeps going offline tbsp is there a fix for this    
+- after the update one of my account keeps going offline 
 - accounts keep going offline    
 - my accounts keep going offline even after i reconnect them    
 - my account keeps going offline every time i login i have to do my password    
 - why does my account keep going offline    
 - my email accounts keep going offline    
-- my email accounts keep going offline several times a tbsp    
+- my email accounts keep going offline several times a day    
 - why are my google accounts now going offline    
-- my google specific accounts keep going offline for some tbsp    
+- my google specific accounts keep going offline for some reason    
 - why do all my accounts keep going offline all the time    
-- whats going on why do i keep going offline with my mail accounts please tbsp    
-- my email keeps going offline and i keep having to reconnect tbsp    
-- account keeps going offline every few tbsp    
+- whats going on why do i keep going offline with my mail accounts 
+- my email keeps going offline and i keep having to reconnect it    
+- account keeps going offline every few minutes    
 - account still going offline    
 - gmail account still going offline    
 - why do my google accounts keep going offline    
@@ -5099,7 +4933,7 @@
 - app keeps saying my gmail accounts is offline    
 - account offline account offline ism logging in of a day and still account offline please fix    
 - accounts are getting offline again again    
-- app keeps saying account offline even after the tbsp    
+- app keeps saying account offline even after the update    
 - why is it saying account offline i did not change anything    
 - why does it keep saying my account is offline    
 - my account always says i am offline    
@@ -5107,7 +4941,7 @@
 - getting error messages saying my gmail accounts are offline    
 - my account is offline    
 - my email accounts keep saying you are offline please help    
-- my email saying offline but still receiving tbsp    
+- my email saying offline but still receiving mails    
 - my email account is offline    
 - my email app keeps saying it is offline how do i fix this    
 - says ism offline    
@@ -5118,13 +4952,13 @@
 - account say offline    
 - i my account keep getting offline disconnect do you know how to fix it    
 - gmail account keeps disconnecting and re-requesting access rights    
-- i my gmail accounts keep getting disconnected i keep having the re add them every time i open the app    
-- i my gmail accounts keep getting disconnected since the update could you tbsp mail    
+- my gmail accounts keep getting disconnected i keep having the re add them every time i open the app    
+- my gmail accounts keep getting disconnected since the update   
 - gmail keeps disconnecting even after update    
 - my accounts keep disconnecting can you please advise thanks    
 - my accounts keep disconnecting and i have not been getting emails for the last week because i did not know about this    
 - my gmail account keeps getting disconnected in this up is there anything i can do to help just from not happening    
-- your app keeps disconnecting from my google account now it never did this tbsp    
+- your app keeps disconnecting from my google account  
 - i keep getting disconnected from this email account please advise    
 - my is mail app keep getting disconnected constantly    
 - app keep telling me that my account is disconnect and does not update emails unless i open app i keep connecting my account but it keeps disconnecting    
@@ -5136,21 +4970,21 @@
 - my gmail is disconnecting repeatedly    
 - my account keeps disconnecting and i have to reauthenticate    
 - all of my emails are getting disconnected and when i reconnect them they just get disconnected again image attached    
-- since the last update my google accounts keep being disconnected on their own tbsp i have a and usually a disconnect at a tbsp    
+- since the last update my google accounts keep being disconnected on their own    
 - my email keeps disconnecting what is the problem?    
 - i its still disconnecting accounts    
 - account keeping disconnecting from my gmail account this is new know why    
-- my gmail account keeps getting disconnected from the email ios app tbsp    
-- i still have one of my gmail account that disconnect all the tbsp an update than    
+- my gmail account keeps getting disconnected from the email ios app     
+- i still have one of my gmail account that disconnect all the time   
 - why does it keep disconnecting    
 - my app continually disconnects from my gmail account but does not do that with any of my other accounts    
 - emails keep disconnecting    
-- why is my account disconnecting non tbsp    
+- why is my account disconnecting non stop    
 - my account keeps disconnecting from gmail    
 - keeps disconnecting my gmail account    
 - keep getting disconnected from gmail    
 - gmail accounts constantly disconnects i connect then it disconnects again during the day again numerous times    
-- how do i disconnect that tbsp    
+- how do i disconnect that email    
 - my account keeps on disconnecting please help    
 - why does my all mail keep disconnecting    
 - my accounts keep going offline why
@@ -5190,29 +5024,9 @@
 - says my account is offline but it is not
 - my account says offline why and how do i fix it
 - says my account is offline what do i need to do
-- offline why
-- why is my email offline
-- my account says account offline
-- a is my account offline
-- my account keeps saying offline
-- my gmail account keeps saying i am offline how do i fix this i am still getting email but its showing offline
 - gmail account keeps signing out and saying account is offline
-- keeps saying mail offline
-- inbox keeps saying offline
-- app keeps saying my gmail accounts is offline
 - accounts are getting offline again again
-- app keeps saying account offline even after the update
 - i have updated and am still having issues with it saying my account is offline
-- why is it saying account offline i did not change anything
-- why does it keep saying my account is offline
-- my account always says i am offline
-- my account keeps saying that it is offline but it is not and i receive new emails while it says it is offline
-- my account is offline
-- my email accounts keep saying you are offline please help
-- my email account is offline
-- my email app keeps saying it is offline how do i fix this
-- says ism offline
-- hi my account keeps going offline
 
 
 
@@ -5220,9 +5034,8 @@
 - i cannot send any emails from my yahoo account    
 - where is my yahoo account    
 - having trouble sending emails from my yahoo account    
-- hello i have a yahoo email address and under that email address i have several email aliases using the native yahoo app i can select which yahoo email address to send from is this possible using my yahoo email account with edison mail tbsp i have successfully added my yahoo email account in edison mail but when sending an email i cannot select to send from one of the alias email tbsp steve    
+- hello i have a yahoo email address and under that email address i have several email aliases using the native yahoo app i can select which yahoo email address to send from is this possible using my yahoo email account with edison mail  i have successfully added my yahoo email account in edison mail but when sending an email i cannot select to send from one of the alias email addresses 
 - how do i add a yahoo account    
-- yahoo not tbsp    
 - i have not received any email from my yahoo account       
 - i want to send an email using yahoo email when i select the yahoo app how do i go about to send an email to anyone submitted    
 - my yahoo email is not working connecting and the app will not allow me to re add my yahoo email     
@@ -5257,12 +5070,12 @@
 - i have followed the a step verification but there is no way to enter the verification code    
 - a step verification code is my problem    
 - requesting verification code    
-- verification tbsp    
+- verification code    
 - verification code requested    
 - need verification code please    
 - request for verification code    
 - please send me a verification code    
-- can i please get my verification code tbsp    
+- can i please get my verification code    
 - need a verification code    
 - need my verification code    
 - request verification code    
@@ -5271,7 +5084,6 @@
 - please send verification code    
 - requesting my verification code    
 - request for a verification code    
-- tbsp verification code for tbsp by    
 - verification code request    
 - i am requesting a verification code    
 - every time i put in the verification code it does not work    
@@ -5283,23 +5095,22 @@
 - hey is trying to get my verification code    
 - hello i need a verification code for the email i am currently using thank you    
 - hello could you send me the verification code to get my account set up    
-- tbsp i would love a verification code to forward my mail    
+- i would love a verification code to forward my mail    
 - can i get a verification code for manual setup    
 - please send me the verification code with kind regards    
 - may i please have my forwarding verification code    
 - please send me my verification code for gmail forwarding    
 - need verification code to finish the setup    
 - requesting verification code to finish the setup for price alert    
-- i'm writing to request my verification code to finish the setup of the price alerts tbsp    
+- i'm writing to request my verification code to finish the setup of the price alerts 
 - requesting verification code to finish manual set up    
 - i i need a verification code to finish the set up please    
-- please send me the verification code you received from google so that i may finish the setup of the price tbsp    
-- requesting verification code to finish setting up price tbsp    
+- please send me the verification code you received from google so that i may finish the setup of the price alerts    
+- requesting verification code to finish setting up price alerts    
 - ism requesting my verification code to finish the setup with price alert    
-- i tbsp requesting verification code to finish the setup pamela tbsp    
 - i i'm setting up the price alert in my edison mail app now and need a verification code to finish the setup    
 - i this is to request my verification code to finish my account setup javier    
-- hello i need a verification code to finish setting up my tbsp thank tbsp    
+- hello i need a verification code to finish setting up my price alerts thank     
 - request your verification code to finish the setup    
 - may i have a verification code to finish setting up my account    
 - request for verification code to finish the setup    
@@ -5308,24 +5119,22 @@
 - requesting verification code to finish setup    
 - requesting verification code to finish the setup    
 - requesting verification code to finish setup for price alert    
-- i am requesting a verification code to finish the setup of price tbsp thank you    
+- i am requesting a verification code to finish the setup of price alert   
 - please send me verification code to finish my setup    
 - may i have the verification code to finish my setup    
 - hello i'm requesting a verification code to finish the price alert setup    
 - would it be possible to get a verification code    
-- hello requesting verification code for this tbsp    
-- i'm requesting the verification code to set up price tbsp thanks    
+- hello requesting verification code for this     
+- i'm requesting the verification code to set up price alert thanks    
 - is requesting a verification code    
-- tbsp can you please provide me with the verification code    
+- can you please provide me with the verification code    
 - requesting verification code for email address yahoo com    
 - hello could i please have my verification code    
-- i need verification code for forwarding tbsp bedel    
 - please provide my verification code    
 - requesting price alert verification code    
 - i id like to request my verification code please    
 - verification code michael    
-- request for verification code for price alert    
-- verification code request tbsp sent from mail for windows of tbsp    
+- request for verification code for price alert       
 - please send me my verification code thank you
 
 ## intent:add_firefox_browser
@@ -5350,14 +5159,14 @@
 - add option to make firefox the default browser if not for the lack of this option this app would be perfect    
 - why cant i select firefox as default browser    
 - hello how can i make firefox my default browser from is    
-- please add support for using firefox as the default browser thank tbsp in us edit    
-- please add firefox as a browser launch option in us edit    
+- please add support for using firefox as the default browser
+- please add firefox as a browser launch option     
 - brave and firefox these are browsers id like to add as options for default browsers    
 - can you add firefox as a default browser in us put    
 - would it be possible to add firefox as a default browser in a est    
 - i there just wondering if its possible to add firefox to the browser options for opening links thanks    
 - make firefox my default browser for links    
-- please add firefox as a browser option on tbsp in us cost    
+- please add firefox as a browser option on ios    
 - i use firefox as my browser when i select default browser in the mail app it only shows the option of safari or in app browser why can to configure it to firefox which is far better than safari    
 - please add firefox as a default browser submitted    
 - please add firefox as a default browser option submitted    
@@ -5414,7 +5223,7 @@
 - we did not order this    
 - did not order this    
 - when can i get my order please    
-- i tbsp did not order tbsp    
+- i did not order these    
 - this is the third charge from a place i never ordered from and have no idea what it is. please put my money back wherever you took it from or i will contact the authorities and let them deal with it    
 - i did not order these    
 - did not receive this order    
@@ -5434,6 +5243,8 @@
 - is there a way to reorder the listing of email accounts    
 - how can i reorder my accounts    
 - how do i reorder the email accounts    
+- can i reorder my accounts
+- what need I do to reorder my accounts
 
 ## intent:forgot_password
 - forgot apple password    
@@ -5442,11 +5253,11 @@
 - i forgot my password because of the app specific password change    
 - forgot password have sent three messages now regarding my password i either forgot my password or its been changed please reset my password    
 - help forgot password    
-- forgot tbsp    
+- forgot password    
 - i have forgot my password    
 - i forgot my password   
 - i forgot my password in my email add    
-- forgot my email tbsp    
+- forgot my email password    
 - i forgot my password how do i change it    
 - forgot my username and password    
 - forgot my password    
@@ -5515,12 +5326,11 @@
 - how do i find emails that are archived    
 - how do i get to my archived emails    
 - where is my archived mails    
-- where is the archive tbsp    
+- where is the archive mails    
 - where can i find all archived mail    
 - how do i find archived emails    
-- some archive emails have tbsp    
+- some archive emails have disappeared    
 - where do my archive messages go how do i find them    
-- what does archive do with the tbsp    
 - once i move an email to archive i can't find archive    
 - how do i retrieve from archive    
 - i need to know how to retrieve archived messages    
@@ -5558,13 +5368,12 @@
 - how do i access archived emails    
 - i create a new archive folder for each year on my exchange account how do i set up the app to archive messages to a specific archive folder    
 - archiving threads when i try to archive a conversation i have to archive each email it a be more useful to archive the whole conversation in one swipe    
-- archived emails vanish and do not show up in archive tbsp    
-- you have no folder on you app called all archived or archived tbsp so how do i access my archived mail please reply tbsp    
+- archived emails vanish and do not show up in archive folder    
 - i do not want my email archived deleted    
 - i accidentally archived some emails i have multiple email accounts setup i don't see an archive folder where are the archives i want to delete them    
-- not sure why but all archive is suddenly missing my work account archive tbsp i can can go into the account and see them in the individual archive tbsp i tried turning it off and back on for the selected archive folders in us est    
+- not sure why but all archive is suddenly missing my work account archive  i can can go into the account and see them in the individual archive i tried turning it off and back on for the selected archive folders in us est    
 - how do i open archived messages    
-- archive quick action from notification is not archiving tbsp    
+- archive quick action from notification is not archiving email 
 - how do i access my archived emails    
 - how can i archive sent mail    
 - in us est a archive message archive message    
@@ -5572,8 +5381,7 @@
 - how do i retrieve my archived messages the folder all archived is not in the list    
 - how do i get a message that has been archive    
 - in for get a archive message    
-- it says slow connection to email tbsp in us edit a archive message archive message archive message archive message archive message archive message archive message archive message archive message set message set message send message trash message archive message archive message    
-- my spam folder is not tbsp in us edit a archive message set message set message trash message archive message archive message archive message archive message archive message archive message archive message archive message archive message archive message    
+- it says slow connection to email server 
 - i want my mail in my mailbox edit a archive message    
 - get a archive message    
 - i cannot find my saved mail    
@@ -5587,9 +5395,9 @@
 - notification sounds request    
 - cannot turn notification sound off when sound is setup for all accounts it will not turn off if i set notification sounds up for each account individually my office of a account won't allow sound notification to be turned off must be something with that account type    
 - i can't turn off the notification sound for any emails when i click on the sound options and click none it reverts back to the default sound i'm not sure what to do but i don't want a notification sound for every single email    
-- tbsp can you please add the option to choose tbsp my inbox notification sound from the sounds from my iphone and the manually installed sounds i have thank you    
+- can you please add the option to choose  my inbox notification sound from the sounds from my iphone and the manually installed sounds i have thank you    
 - my notification sounds are not working and what is assistant    
-- how do i change the incoming notification sound on this app when i go to settings in the app and hit sound it takes me to the app tbsp    
+- how do i change the incoming notification sound on this app when i go to settings in the app and hit sound it takes me to the app info    
 - how do you set a notification sound for incoming mail    
 - i want to be able to customize the sounds for my email accounts with one of the sounds i have stored on my phone i seem to be limited to just the sounds for the app how can i be able to add my own sounds to each of my emails    
 - i seems to have developed a notifications bug i don't have sound as an email notification as it would always be going off but the last update i started getting the sound notification on checking the settings when selecting sound to check what sound it was set to instead it took me to the android application settings but weird but i checked again restarted the phone and selecting sound does not take me to the sound selection panel but to the android application settings for this app reluctant to reset the app as it takes a while to set all the accounts again thoughts    
@@ -5597,15 +5405,14 @@
 - the only issue i have is the current version won't allow you to set the sound for email notifications to no sound if select no sound in the picker as soon as you save the setting it goes back to the previous sound    
 - can i have notification sound for one of my email addresses and not for the other or even set different sounds for each jason    
 - there is no option for no sound on notification    
-- cannot turn off notification sounds in the app i select none from the list of sounds but the email app sound setting does not accept this change and retains the default notification tbsp mike tbsp    
-- why is the application continuing switching the notifications from no sound to sound i do not want sound in notifications and i cannot put no sound in app when i change the options in the system it goes back to tbsp is there a way to solve this i like the app but i cannot use it with this tbsp    
+- cannot turn off notification sounds in the app i select none from the list of sounds but the email app sound setting does not accept this change and retains the default notification sound
+- why is the application continuing switching the notifications from no sound to sound i do not want sound in notifications and i cannot put no sound in app when i change the options in the system it goes back to sound is there a way to solve this i like the app but i cannot use it with this issue    
 - individual notification sounds reset all the time to the default sound    
 - customize notification for each account not working when i set a custom sound within a day application lost sound settings and replace it with standard system notification sound    
 - is there a way to change the notification sounds of a custom sound of one that is in my ringtone files i hate all the sounds that are given as options in the app or is sounds sam    
-- i get my emails with badges on the widget but sound notifications is not working sound is set in notifications but its not working please tbsp tbsp    
-- sound notifications keep turning on i don't want a sounds tbsp    
-- really annoying that email keeps chirping a sound for new notifications despite my setting the notification sound to none and when that did not work customising for each account and setting each accounts notification sound to tbsp i want to see notifications but not hear tbsp what can i tbsp    
-- no sound notification even though all settings are tbsp
+- i get my emails with badges on the widget but sound notifications is not working sound is set in notifications but its not working 
+- sound notifications keep turning on i don't want a sounds notification    
+- no sound notification even though all settings are enabled
 - when i receive notification i always get the default sound but i set the mail sound for all accounts
 - better notification sounds please
 - notification sounds request
@@ -5656,13 +5463,12 @@
 - how do i send an email to all my contacts at once    
 - i don't see a setting to add contacts how do i add contacts    
 - how do i change contact email address on yahoo mail contact    
-- nice guy put the app does not have a contact tbsp it should have ability to use existing phone contacts gmail contacts or outlook contacts    
-- i edison team i'm having a problem with your mail app when i add a new contact in my contacts list then proceed to email this contact it does not show up on my screen as a contact so i'm having to go and copy and paste the contacts email address every time this shouldn't be happening please advise thank you tbsp eugene tbsp    
+- i edison team i'm having a problem with your mail app when i add a new contact in my contacts list then proceed to email this contact it does not show up on my screen as a contact so i'm having to go and copy and paste the contacts email address every time this shouldn't be happening
 - how do i add a contact    
 - how do i edit my contacts in the is app    
 - how do i delete contacts    
 - how do i add multiple contacts to an email from my iphone contacts list    
-- my contact not tbsp    
+- my contact not work    
 - i there how do i add a contact for edison mail or why is not a contact from my google contacts coming up    
 - contacts submitted    
 
@@ -5671,7 +5477,7 @@
 - i am not able to send out mail now    
 - why am i not able to send emails    
 - i am not able to send a mail through this app    
-- not able to send tbsp    
+- not able to send emails    
 - am not able to send mail with this app    
 - i am not able send mails from this app    
 - a can't send attachments    
@@ -5681,10 +5487,10 @@
 - this email app is not working i can't send emails    
 - i can't send myself a email    
 - i can't send emails    
-- i can't send emails from this app why tbsp    
+- i can't send emails from this app 
 - can't send emails    
 - can't send emails help    
-- why can't i send tbsp    
+- why can't i send emails    
 - i can't send an email from gdrive    
 - can't send any messages    
 - can't send messages    
@@ -5698,8 +5504,7 @@
 - how do i in send an email    
 - its not sending my email    
 - where is the send email    
-- cannot send email only tbsp    
-- emails will not send they just tbsp    
+- emails will not send they just disappear    
 - can i send an email to myself    
 - emails are not sending for me    
 - how can i send emails    
@@ -5787,8 +5592,8 @@
 - recently some deleted emails reappear a short time after deletion despite attempts to archive or delete they reappear in the inbox    
 - any updates for the bug where deleted emails will reappear in the inbox    
 - there is a problem with when you delete emails i will delete emails and then they will just reappear when i reopen the app    
-- have been deleting emails and they reappear i have to delete a a times for them to go tbsp     
-- why do my emails reappear after they tbsp have been deleted by me     
+- have been deleting emails and they reappear i have to delete 2-3 times for them to go away     
+- why do my emails reappear after they have been deleted by me     
 - why does some of my mail that i delete reappears within minutes or reappears the next time i open the app in us put    
 - deleted emails reappear in inbox     
 - deleted emails are reappearing hours later     
@@ -5804,33 +5609,33 @@
 - why do deleted emails keep coming back to my inbox    
 - when i delete my emails they keep coming back    
 - i am deleting this email app nothing but problems all the time i am trying to delete emails and they keep coming back    
-- email is not letting me delete anything keeps coming back tbsp    
-- i i keep deleting messages and they come back why does that happen tbsp    
-- i i am deleting emails but they keep coming back to my inbox as unread emails please fix tbsp    
+- email is not letting me delete anything keeps coming back     
+- i keep deleting messages and they come back why does that happen     
+- i i am deleting emails but they keep coming back to my inbox as unread emails
 - i cannot delete any of my emails they just keep coming back    
-- most of the time when i delete emails they just come back and i have to delete them tbsp    
-- emails come back after i just deleted tbsp    
+- most of the time when i delete emails they just come back and i have to delete them     
+- emails come back after i just deleted     
 - i delete all of mail from gmail and it all comes back i mean everything i delete does not get deleted because it comes back please fix until then i'm deleting app its like i delete of a email and all of a email i deleted comes back    
-- i can't delete email it keeps coming back tbsp    
-- emails have deleted keep coming back to my inbox tbsp    
+- i can't delete email it keeps coming back     
+- emails have deleted keep coming back to my inbox     
 - messages come back after i delete them    
-- deleted messages keep coming back to inbox in us edit    
-- my emails don't delete i have to go back and delete a times they keep coming back in us edit    
-- i delete emails from my inbox and they keep coming back i have to delete them a or a times before they tbsp    
+- deleted messages keep coming back to inbox     
+- my emails don't delete i have to go back and delete a times they keep coming back     
+- i delete emails from my inbox and they keep coming back i have to delete them 3 or 4 times before they delete    
 - why does my deleted emails keep coming back into my inbox    
 - the emails keep coming back even if i delete them    
 - i delete a message and it reappears in my inbox    
 - i feel like i delete emails and then they reappear in my inbox again    
 - my deleted messages keep reappearing in my inbox and giving me new notifications    
 - my emails are not deleting they keep reappearing after i delete them through the app    
-- i delete messages and they reappear like i never deleted tbsp    
-- i delete my emails but then they reappear in my inbox folder why are they not tbsp    
+- i delete messages and they reappear like i never deleted them    
+- i delete my emails but then they reappear in my inbox folder why are they not deleting    
 - why do my deleted emails keep reappearing    
-- my emails reappear when i delete them how can i fix this tbsp    
-- why do messages keep reappearing in inbox after i delete them this is a recent tbsp    
+- my emails reappear when i delete them how can i fix this problem  
+- why do messages keep reappearing in inbox after i delete them
 - when i delete emails they end up reappearing in the inbox    
-- not deleting messages when i delete them they keep reappearing in us cd    
-- i noticing that emails reappear in my inbox after deleting them tbsp they sometime reappear a few tbsp tbsp in us met a set message move message trash message    
+- not deleting messages when i delete them they keep reappearing     
+- i noticing that emails reappear in my inbox after deleting them  they sometime reappear a few times
 - i can't delete any emails they just reappear    
 - i am having trouble with messages reappearing after i have deleted them    
 - i have an email that will not delete when i do it just reappears in my account how can i delete it submitted    
@@ -5842,23 +5647,23 @@
 - flaming mails in an exchange account does not work for me it resets to no flag after few seconds also some flagged mails in my pc does not show flagged in my iphone flagging mails in a gmail account works of    
 - i flagged two separate emails in the inbox but the app keeps removing the flags from those emails on its own whats happening every time i flag those emails the app keeps removing them    
 - i just noticed that when i have an email open which was in a smart folder i cannot flag that email while its open i have to back out of the email then select edit select the email then choose flag even after doing that the email is still not flagged please fix this    
-- i have a question about flagging tbsp is there any way to flag an email when it is open it seems that swiping is the only way to flag tbsp also my flags don't seem to hold they disappear when i go away from the flagged email and then go back to tbsp ism new to edison but it seems great so tbsp bob jaffa    
-- hello my flags tasks on the email app don't match the flags on my outlook app on my pc also the flagged items on this app show flagged from years ago so there is hundreds in the list but these were dealt with and in flagged on my pc outlook but for some reason this app picks them tbsp    
-- i how do i just check for emails that have flagged does not seem like there an option to just look at everything have flagged from previous tbsp    
+- i have a question about flagging emails is there any way to flag an email when it is open it seems that swiping is the only way to flag it also my flags don't seem to hold they disappear when i go away from the flagged email and then go back to it i'm new to edison but it seems great so far bob jaffa    
+- hello my flags tasks on the email app don't match the flags on my outlook app on my pc also the flagged items on this app show flagged from years ago so there is hundreds in the list but these were dealt with and in flagged on my pc outlook but for some reason this app picks them up    
+- i how do i just check for emails that have flagged does not seem like there an option to just look at everything have flagged from previous     
 - is there a possibility of having flags of different colours so that we can group our flagged emails   
-- tbsp feature request add the ability to flag and a flag multiple selected tbsp    
+- feature request add the ability to flag and a flag multiple selected     
 - hello i have an error with flagged emails first i tried to a flag few email in flagged screen after that try to pull to refresh list and unplugged emails are returned now i a flag this emails in my laptop browser try to refresh this list in your app and still see old flagged emails best regards panel    
 - i in the search how can i search only for flagged emails i mean flagged emails from all folders and not only in the inbox    
 - love your email client but when i go to my inbox all my flagged emails are there too making it difficult to select all for deleting i don't want flagged emails deleted is there a way in settings not to have my flagged email included in my inbox thank you pop    
-- flags on emails are not being transitioned back to exchange tbsp flagged emails on pc are not being flagged on tbsp i run a exchange tbsp when i look at flagged emails folder it says no flagged tbsp can you fix tbsp roy mould    
+- flags on emails are not being transitioned back to exchange account flagged emails on pc are not being flagged on app 
 - how to do mass a flag i a after selecting many mails then a flag them    
-- wow love the app a suggested list would be flagged and then all emails i like to see flagged messages at the top and then all other emails below even better would be unread flagged then all tbsp    
-- i while reading an email there is no quick way to flag the email could you add that here every time i have to open the menu from right and flag a flag while the mail is tbsp regards a run of a 554224282 box of    
+- wow love the app a suggested list would be flagged and then all emails i like to see flagged messages at the top and then all other emails below even better would be unread flagged then all emails    
+- i while reading an email there is no quick way to flag the email could you add that here every time i have to open the menu from right and flag/unflag while the mail is box
 - please add larger flag marks to identify a flagged email or an option to increase the flag size like in gmail i couldn't identify the flagged email and mistakenly deleted it    
-- flagged badge in app in tbsp    
+- flagged badge in app in incorrect    
 - i flagged a couple of emails and somehow edison mail flagged every email from of of onward i selected all of them and de flagged them and started the process over again and the same thing happened pretty much every email in my inbox flagged how do you fix it    
 - can you please add a way to flag a gmail message as important or flag it easier thanks    
-- tbsp is there a way to separate flagged emails from other emails when selecting all to delete so that flagged emails don't get tbsp in us edit    
+- is there a way to separate flagged emails from other emails when selecting all to delete so that flagged emails don't get deleted     
 - flag option is missing    
 - flags do not seem to sync with mac mail i flagged a message in my yahoo account in the app and it did not flag that message in mac mail    
 - how do i flag an email    
@@ -5893,7 +5698,7 @@
 - am i able to sync my calendar on this app    
 - this app does not sync exchange calendar    
 - id given a if it has calendar sync this app does not have calendar sync    
-- we need calendars that sync with our tbsp    
+- we need calendars that sync with our accounts    
 - calendar sync missing    
 - where is sync to calendar    
 - does this app have calendar sync    
@@ -5915,17 +5720,17 @@
 - when i received calender invites how do i save them to my calender on ipad pro    
 - how to view calender    
 - app is good but missing calender functionality at least provide way to sync email calender to any installed calender app    
-- need calender then it would be tbsp    
+- need calender
 - calender     
 - outlook calender option is not there    
 - no calender sync    
 - how do i get and use the calender option    
-- having a calender feature would be tbsp    
+- having a calender feature would be great    
 - how do i sync my calendar i don't see any calendar details    
 - i need to check my calendar for work and your app does not pull or give you any option for a calendar that is a big thing in the email world is a calendar    
-- please add calendar tbsp    
+- please add calendar function    
 - calendar is not available    
-- its not clear how calendar invitations can be added to my calendar from edison i can view calendar is files but the event never gets added to a calendar and there does not appear to be any way of sending them to a tbsp    
+- its not clear how calendar invitations can be added to my calendar from edison i can view calendar is files but the event never gets added to a calendar and there does not appear to be any way of sending them to a calendar    
 - be great to see a calendar too that can be separate from phone calendar    
 - best client ever but there are in planning to connect a standard calendar google calendar or default calendar in device once mail    
 - where can i find my calendar i have your app on is email    
@@ -5934,7 +5739,7 @@
 - calendar submitted    
 - the app is not recognizing my calendar how do i add a calendar i use google calendar with the tiny calendar app    
 - how to get my exchange calendar tasks to appear in my mobile phone calendar a a so calendar    
-- when you going to have calendar in the tbsp    
+- when you going to have calendar in the app    
 - how can i sync link my email calendar and this app i can't even find a place to look at my email calendar id really like the email calendar to show up on my phone calendar    
 - how do i see the calendar is there a built in calendar or i have to use the stock calendar    
 - is there to get my calendar on this app email    
@@ -5957,7 +5762,7 @@
 - would be nice to have calendar integrated    
 - please integrate calendar into your of a    
 - is there a plan for calendar integration    
-- tbsp is there no way to integrate calendar to this email client    
+- is there no way to integrate calendar to this email client    
 - new to this app and really like it would like a integrated calendar    
 - integrated calendar is not implemented    
 - calendar integration similar to google calendar    
@@ -5966,8 +5771,8 @@
 - how to use calendar    
 - why am unable to add calendar invites to my calendar iphone plus is of easilydo mail a a a of a    
 - were is the calendar    
-- ism still very confused about calendar invites in email when i receive an invitation there seems to be no way of adding it to my calendar i can even see the calendar is attachment but cannot do anything with it i assume this is a bug since you should be able to add events to the calendar or third party calendar but i cannot see how to do tbsp    
-- is there a calendar tbsp    
+- i'm still very confused about calendar invites in email when i receive an invitation there seems to be no way of adding it to my calendar i can even see the calendar is attachment but cannot do anything with it i assume this is a bug since you should be able to add events to the calendar or third party calendar but i cannot see 
+- is there a calendar     
 - support calendar invitation and write the event in a calendar available on the android google calendar or other    
 - no calendar with the app    
 - i cannot see calendar invites is files on my email when someone sends me a calendar invitation how do i enable that feature    
@@ -5978,8 +5783,8 @@
 - where is my calendar    
 - where is the calendar    
 - there is no calendar    
-- it seems that calendar invites accepted through edison mail are not added to my calendar is there something i need to do for them to show up in my calendar in us edit    
-- why is there no calendar on this email tbsp    
+- it seems that calendar invites accepted through edison mail are not added to my calendar is there something i need to do for them to show up in my calendar     
+- why is there no calendar on this email app    
 - i there is no calendar    
 
 ## intent:email_block
@@ -5991,7 +5796,7 @@
 - how do i block someone from emailing me    
 - i have blocked someone but their email still shows in notifications    
 - how do i block a sender and all email from a domain thank you    
-- there should be a feature to block email sender domain name so that it automatically sends that email sender to the trash tbsp    
+- there should be a feature to block email sender domain name so that it automatically sends that email sender to the trash folder    
 - how do i block a domain    
 - i keep having to block different email addresses from the same domain is there a way to block the whole domain name thanks    
 - can i block a domain    
@@ -6002,15 +5807,15 @@
 - how do i block a sender    
 - i there i am easilydo user but my account is blocked by you why please remove block on my account    
 - how do you block an address    
-- how to block an email blocked mails go directly to tbsp    
+- how to block an email blocked mails go directly to inbox    
 - does this app have an email blocking feature    
-- the program is of but why no spam blocked or filters so we can block tbsp    
+- the program is of but why no spam blocked or filters so we can block it    
 - nice app but how do i block emails    
 - block is not blocking nuisance mail    
 - i how do i block an email address in us most    
-- hello i updated the app a a a the problem is i cannot see the block sender tbsp how to block a tbsp tbsp    
+- the problem is i cannot see the block sender function how to block a sender
 - well it figures does not block spam like it says you can block but what you block keeps coming back deleting app bye    
-- i regarding blocked emails i have blocked many and i keep getting emails from them this is the main reason i downloaded your app why do i keep on getting emails from those i blocked tbsp    
+- i regarding blocked emails i have blocked many and i keep getting emails from them this is the main reason i downloaded your app why do i keep on getting emails from those i blocked     
 - blocked users are not being blocked messages still in inbox in us cost    
 - my account has been hacked compromised they have access to my emails and have blocked some is there any way to block the block feature    
 - this app blocked nothing    
@@ -6063,13 +5868,13 @@
 - how do i create folders    
 - how does the user create a new folder    
 - how do i create a new folder    
-- how do tbsp create a folder    
+- how do I create a folder    
 - how do you create folders    
 - how do you create a new folder to store emails in when i set this email app up my folders came over with no issue and that was great now i have a need to create a new one    
 - his do you create new folders to put my email in    
 - how do you create folders in this app    
-- how do i create a new folders in us cd    
-- tbsp i cannot create new folders eng but    
+- how do i create a new folders     
+- i cannot create new folders eng but    
 - how do i create a new folder for grouping emails    
 - how do i create more folders    
 - why is not there a way to create new folders    
@@ -6158,10 +5963,10 @@
 - why is it that spammed emails do not get automatically sent to the spam box    
 - no auto spam and nothing to stop spam    
 - how do i check for spam email done see a spam box    
-- where is the option of adding mail to spam if its not there please add working spam tbsp    
+- where is the option of adding mail to spam if its not there please add working spam restrictions    
 - needs spam folder    
 - i how can i have all spam on my listing    
-- when spam is deleted the of spam still remains but not tbsp    
+- when spam is deleted the spam still remains but not messages    
 - please secure my email address from spam    
 - more issues with spam. there is no block or mark as spam button in emails. also in spam folders there are no report not spam or not junk buttons to unmark emails as spam.so those are needed along with the all spam folder. basically the only thing wrong with this app is spam filtering and sorting.    
 - had some emails go into spam that were not spam could not find how to mark them as not spam then moved them to inbox but subsequent replies continued to go to spam box    
@@ -6183,11 +5988,11 @@
 - where is one click solution for clearing all trash folder or spam folder    
 - how do you clear the trash email folder of deleted emails    
 - how do i clear trash spam and other mailboxes    
-- how can i clear all trash at tbsp    
-- i love the app but i miss a fill things a button on spam to clear all the spam a button on the trash to clear all the trash a dark tbsp    
+- how can i clear all trash at once    
+- i love the app but i miss a fill things a button on spam to clear all the spam a button on the trash to clear all the trash a dark theme    
 - clearing spam is not working    
 - how do i clear out my trash folder or any other folder    
-- tbsp how do you clear trash in spam    
+- how do you clear trash in spam    
 - will there ever be an option in settings to empty trash after a certain number of days or an option to empty entire trash bin it can get a little frustrating to have to basically delete an email twice once to send it to trash and again to empty the trash bin    
 - how can i empty trash    
 - how do i empty my trash    
@@ -6217,7 +6022,7 @@
 - how about a setting to delete all trash    
 - i would like an all select trash option to delete all trash    
 - hello we need a trash can for the trash file that will allow for deleting all emails in trash folder at once thanks carol    
-- tbsp there is a bug when i trash some emails and than when i reopen the app they all tbsp tbsp in us post a trash message trash message trash message trash message    
+- there is a bug when i trash some emails and when i reopen the app they all reappear 
 - how do i delete my trash i need to get rid of my trash now    
 - need to have delete all on all trash    
 - how about adding an option to empty trash and spam    
@@ -6225,17 +6030,17 @@
 - we need a way to a set trash to empty and a empty all the trash at once doing edit select all takes forever i now have close to of in my trash    
 - how do i empty all spam or all trash in one move of a of a of of    
 - like it but empty trash and empty spam buttons would be nice then it would be complete    
-- after emptying all trash it stills shows tbsp    
-- how do you empty tbsp    
+- after emptying all trash it stills shows trash    
+- how do you empty trash    
 - great app needs to be able to empty trash    
 - need empty trash feature        
 - need ability to empty all junk email and empty all trash    
 - how do i empty the trash there does not seem to be an option for this    
 - i would like to know how to empty trash without having to continuously select groups of emails to delete also it says no mail after i delete but there still is mail i have of of emails to empty from trash    
 - i used to be able to empty my trash now there is no option    
-- why is there no way to empty the tbsp you have a great app but emptying trash is a common feature that you seem to be tbsp    
+- why is there no way to empty the trash you have a great app but emptying trash is a common feature that you seem to be lacking    
 - how do we empty trash one by one no please    
-- how do i empty my trash in us edit    
+- how do i empty my trash     
 - how do you empty trash file    
 - how do i empty trash all at once is of messages at a time using select all feature    
 - how can i manually empty the trash folder when does it get emptied automatically can that be changed thanks    
@@ -6321,22 +6126,22 @@
 - unsubscribe for spam or a way to block the spam    
 - i don't see very good options for helping with spam all spam messages have no way to unsubscribe block or mark as spam this would be a great app if there was a better way to deal with spam    
 - spam folders should be included    
-- its saying spam a but there is no spam messages in the folder at all its getting annoying having the folder say that please help tbsp    
+- its saying spam a but there is no spam messages in the folder at all its getting annoying having the folder say that
 - how to move emails from inbox to spam folder spam folder does not show up in the options    
 - how about an all spam folder like the is version has    
 - how to access the spam folder spam folder not listed on options menu    
 - i show spam in my spam folder but i can't open the folder to make sure that it has not taken some regular mail in the spam folder how do i access the spam folder    
 - where can i find my spam folder    
 - the spam folder needs a delete all or empty spam button    
-- sir how i tbsp unnecessary mail in spam folder i can not get any spam folder otherwise it is very nice apps i love it please mail me how i send mail in spam folder    
+- how i send unnecessary mail in spam folder i can not get any spam folder otherwise it is very nice apps i love it please mail me how i send mail in spam folder    
 - how i find the spam folder    
-- need a sent tbsp and spam folder    
+- need a sent folder and spam folder    
 - how do i move an email address that is always going into spam out of my spam folder permanently so that future emails do not go into the spam folder    
 - nice app but where is the spam folder    
 - how do i find my spam and deleted folders    
 - the spam folder is very often showing mail that was never in the spam folder have to go into another folder and then go back into the spam folder to show the correct view of what is actually in the spam folder    
 - all spam folder no longer works it lists no email when there are emails in the spam folder thanks in us est    
-- hello i keep getting stuff sent to the sam folder that is not spam its an email chain that have about of emails and before it was not going to the spam folder now the last a reply i have found in the spam folder i even move the emails out of the spam folder and into the inbox but each reply i get goes to spam is there a fix for this tbsp in us est    
+- hello i keep getting stuff sent to the sam folder that is not spam its an email chain that have about of emails and before it was not going to the spam folder now the last a reply i have found in the spam folder i even move the emails out of the spam folder and into the inbox but each reply i get goes to spam   
 - can not install spam folder    
 - how can i stop messages going to my spam folder as a lot of my important emails keep going to spam i would like to stop the spam folder completely as i can decide if an email is spam or not submitted    
 - hello i have an android and i would like to know how to turn off email notifications for spam i keep sending my emails to spam folder but i still get a notification for spam emails    
@@ -6352,8 +6157,8 @@
 - how can i mark an email as spam    
 - how do i mark an email as not spam    
 - i i have notice that there is no option to mark an email not spam    
-- please add an option to mark stuff that is in spam folder not tbsp    
-- tbsp is there an option to mark an email as not spam    
+- please add an option to mark stuff that is in spam folder not spam    
+- is there an option to mark an email as not spam    
 - i i don't have the add to assistant and mark as spam options    
 - i would like it if there was an option to mark spam in the inbox    
 - hello a lot my messages marked as spam when they are not i do not see the gmail not spam option how do i mark the sender as not spam    
@@ -6380,7 +6185,7 @@
 - is there a way to have the email app mark certain emails as not spam so the emails no longer go to the spam folder but the inbox instead    
 - i how do you mark emails as not spam in the spam folder    
 - how can i unmask emails as spam or move emails to inbox from spam folder and finally how can i prevent them from going into spam folder the next time thank you    
-- for spam email messages there is not a not spam option to mark the sender as not spam nor is there a erase all spam option to purge the spam tbsp     
+- for spam email messages there is not a not spam option to mark the sender as not spam nor is there a erase all spam option to purge the spam messages     
 - how do i change what emails go into spam folder i am missing out on some very important emails because the app puts them in spam    
 - how can i unmask a spam android version    
 - how do i unmask a sender from spam i'm missing important emails and i'm not able to get them to stop going to my spam folder    
@@ -6406,7 +6211,7 @@
 - can i change the size of the font    
 - can i change the font size    
 - how can i change the font style is there a way    
-- tbsp it would be nice to have a feature where you can change style and size of tbsp    
+- it would be nice to have a feature where you can change style and size of font    
 - how can i match message font size and style with the signature font size and style    
 - would like to see option to change font size and style    
 - how do i change my font style in edison    
@@ -6422,15 +6227,15 @@
 - how do i increase the size of the type on my emails    
 - how do i increase the font size of the messages i receive    
 - is there any way to increase font size or selection of font when us get a    
-- hey there is there a way to increase the font size or viewing size when opening an tbsp    
+- hey there is there a way to increase the font size or viewing size when opening an email?    
 - can we have an option to change the font    
 - how do i change font in an email this is very important for me to be able to do    
 - how do i change the font of the mail content    
 - i'm just trying to figure out how to change the font for messages so i can match the fonts in my signature is this not possible do i have to use a default font or where is the setting    
-- can we get the option to change the font tbsp    
+- can we get the option to change the font size    
 - no option to change font of signature    
 - can i change the font when i send a message    
-- is it possible to change the font to tbsp    
+- is it possible to change the font to bold    
 - how do i change the font of my email signature    
 - how to change the default font for edison mail    
 - can i change the fonts in edison mail    
@@ -6441,8 +6246,8 @@
 - would love to see something where i can change the default font size of the messages    
 - please add the feature to change font size    
 - i how do i change the email font    
-- i is there a way to change font size in the tbsp    
-- can i change font size on email list screen appreciate tbsp    
+- is there a way to change font size in the email    
+- can i change font size on email list screen
 - how do i change font    
 - how do i change fonts and font sizes please specifically when working with my signature    
 - how are the fonts changed    
@@ -6450,10 +6255,10 @@
 - why does not the signature font size match the body of the email font size is there a way to edit the fonts in general    
 - can i change the font sizes when replying an email and how can i fix to a font type that i like the default font is seem large    
 - how can i change font size while writing email also if want to add colour font how its possible    
-- please allow to increase font size over and above the system font tbsp give custom font size in your mail tbsp    
-- i would like to change certain font size and other tbsp    
+- please allow to increase font size over and above the system font size give custom font size in your mail app    
+- i would like to change certain font size and other     
 - how can i change the font text size of emails in us est    
-- i really like your mail app but why is it the the preview font size a good readable size and when you open a mail message the font size is so much smaller tbsp can't the mail font size be tbsp in us put    
+- i really like your mail app but why is it the the preview font size a good readable size and when you open a mail message the font size is so much smaller ? can't the mail font size be larger in us put    
 - is there a way to change font size    
 - can we change fonts    
 - is there a way to change the default font and size of font thanks    
@@ -6494,7 +6299,7 @@
 - does easilydo email support mac and sync to mac of    
 - any plans of having a mac app    
 - are there any plans for a mac app    
-- when will there be edison for mac this app is tbsp    
+- when will there be edison for mac
 - does edison mail have an app for the mac or mac book i use it on my iphone and love it just got a new mac but do not see it in the app store    
 - when will i have access to the mac app    
 - do you have a mac app    
@@ -6502,13 +6307,13 @@
 - are you planning a version for mac of a    
 - will there be a mac app    
 - is there a desktop version for mac    
-- do you have a version of your email app for the mac tbsp    
+- do you have a version of your email app for the mac
 - do you have a mac of version beta    
-- do you have a mac of version to use on tbsp    
+- do you have a mac of version to use on mac    
 - ism a apple mac user do you have a mac version    
 - i do you plan mac version    
 - do you have an apple mac version of the email app    
-- i tbsp do you make a version for mac    
+- do you make a version for mac    
 - do you have an app for my mac or a web based version i don't know what to use for email on my mac    
 - a for a mac app    
 - desktop mac of version please    
@@ -6537,7 +6342,7 @@
 - why can't i see all my email folders    
 - i can't see all my email accounts in all emails fix that please    
 - can't see the message    
-- tbsp i can't see my send emails tbsp    
+- i can't see my send emails
 - why can't i see messages i sent    
 - can't see out going emails    
 - why i can not see my emails what is going on    
@@ -6575,11 +6380,10 @@
 - does it support push mail    
 - push notifications stopped working for all accounts mail    
 - push notification not working in is of    
-- push notifications not working not showing tbsp    
+- push notifications not working not showing badges    
 - push mail no longer working have to manually refresh background refresh and notifications are on push mail used to work i have a accounts all don't push    
 - no push    
 - no push mail    
-- mail is tbsp pushed after update in up just    
 - push mail still not working thanks    
 
 ## intent:cannot_send_video
@@ -6587,8 +6391,8 @@
 - i would like to send videos is that possible on the email app    
 - just curious as to why i cannot send video clips through your email app i love your app but cannot keep it if there is no video feature    
 - why can i send videos through the is app jonahblainefilm at gmail    
-- sending videos hello was wondering if you guys are going to allow sending videos via your email app tbsp in order for me to currently do it i have to use apple tbsp    
-- how can i send a video on my phone using the email app tbsp it does not appear to be an tbsp    
+- was wondering if you guys are going to allow sending videos via your email app  in order for me to currently do it i have to use apple mail    
+- how can i send a video on my phone using the email app  it does not appear to be an option    
 - how can i send a video on my iphone    
 - i was wondering if there is an option to send videos or if you will be adding an option to send videos whenever i need to send a video which is not too often i have to re download gmail to send one just wondering thanks for the great app and the hard work    
 - can you not attach videos with the new email app    
@@ -6617,9 +6421,8 @@
 - how do i save an image sent to me    
 - cannot save images that are in the body of an email    
 - how do you save images via android i can open the pictures but there is no options to save    
-- on ipad pro running of of a a when selecting an image that is an attachment to an email select save image and the application aborts and the image is not saved tbsp the original image was attached to a gmail email    
-- when trying to save photo from email to images app tbsp    
-- i am having an issue whenever i try to save an image when i select save image the application crashes i am forced to use the native mail application to save tbsp    
+- on ipad pro running of of a a when selecting an image that is an attachment to an email select save image and the application aborts and the image is not saved the original image was attached to a gmail email    
+- i am having an issue whenever i try to save an image when i select save image the application crashes i am forced to use the native mail application to save images    
 - i try to save an image    
 - i received an email with an embedded image when i long press the image on my ipad a box comes up that says save image where does the image get saved    
 - dear edison have just been trying to save an embedded image in an email from my ipad when i open the email to full screen i cannot save the images in the email but only copy or select all however when i view the email with the email list to the side the save image pop up appears when i select the image within my email have i missed something or is not currently possible to save the image from the full screen view of the email been    
@@ -6645,12 +6448,12 @@
 - why are my forwarded emailed stuck in my outbox    
 - my email are stuck in outbox can you tell why    
 - an email is stuck in my outbox how do i get rid of it    
-- i emails are getting stuck in my outbox for email address tbsp please can you help to tbsp    
+- emails are getting stuck in my outbox for email address 
 - my messages are not sending have to try several times and are stuck in the outbox    
 - emails stuck in the outbox without notification to user    
 - used this for a while on my so and like it however have just found a emails stuck in my outbox    
 - for some reason mail is getting stuck in my outbox    
-- not able to sent tbsp it gets stuck in my outbox    
+- not able to sent mail it gets stuck in my outbox    
 - outgoing mail is not working they re stuck in outbox    
 - i have messages stuck in my outbox that were sent a while back please help    
 - my mail is stuck in outbox how do i send    
@@ -6677,16 +6480,16 @@
 - how can i change my profile picture key    
 
 ## intent:zoom_function_problem
-- just thought i would let you know when an email with home is received it does not allow to zoom please see the email below and try and zoom it will zoom but as soon as you tbsp release the pinch it goes else tbsp    
+- just thought i would let you know when an email with home is received it does not allow to zoom please see the email below and try and zoom it will zoom but as soon as you release the pinch it goes else where    
 - almost perfect app but the zoom feature in is of is buggy and does not allow me to zoom into email properly    
 - the zoom function while reading mail is faulty    
-- tbsp there is an issue with your android app i have a samsung galaxy so whenever i zoom in on an email i can no longer move around i have to zoom out and zoom in again on the new area on all my previous email clients whenever i zoomed in i could simply swipe right or left up or down to navigate on the zoomed in tbsp has anyone ever reported that issue do you think you all be able to look into it tbsp lenny    
+- there is an issue with your android app i have a samsung galaxy so whenever i zoom in on an email i can no longer move around i have to zoom out and zoom in again on the new area on all my previous email clients whenever i zoomed in i could simply swipe right or left up or down to navigate on the zoomed in email has anyone ever reported that issue do you think you all be able to look into it
 - the app has issues with pinch to zoom in emails especially those with images in them either it does not zoom to the level i want or it zooms completely out and reloads the email entirely    
-- i really like the app however when i try to zoom in on emails it does not quite work especially when i try to zoom in on longer emails it just jumps to a different part of the message and i have to zoom back tbsp armagh    
-- every time i scroll down in an email and then i zoom in an email and then zoom out it takes you right to the top of the email tbsp not sure tbsp    
+- i really like the app however when i try to zoom in on emails it does not quite work especially when i try to zoom in on longer emails it just jumps to a different part of the message and i have to zoom back out armagh    
+- every time i scroll down in an email and then i zoom in an email and then zoom out it takes you right to the top of the email   
 - the zoom in and out feature does not work properly in portrait mode in the iphone when zooming in it zooms in to what seems to be a preset view after it has zoomed in part of the email is not visible even if trying to scroll also trying to zoom back out is nearly impossible have not tested landscape mode as i don't read my emails in that mode    
 - is of there are problems trying to zoom in for vision impaired users like me i can zoom in on an area but it will not zoom back out and only that area is acceptable the scroll functions no longer work in zoom mode    
-- zooming on emails does not seem to work properly you can only zoom but not tbsp is this a planned fix thanks     
+- zooming on emails does not seem to work properly you can only zoom but not pan  
 - can you fix the problem when it comes to zooming in the whole email goes to the top of the page when you zoom in and when zooming out it scrolls to the bottom of the page thank you submitted        
 - the mail contents can only be zoomed in but not zoom out    
 - my emails are zoomed in i can't zoom out to see it    
@@ -6712,7 +6515,7 @@
 - email that i put in travels does not show i travels    
 - my travel assistant always has past travel how do i make it show current travel plans    
 - my travel emails are not showing up in the travel section    
-- instead of a travel assistant tbsp    
+- instead of a travel assistant entry    
 - should move tickets be forwarded to assistant    
 - this should be moved into the travel assistant but but won’t    
 - this did not appear in travel assistant    
@@ -6769,7 +6572,7 @@
 - have been trying to cancel    
 - cancel this please have been trying to cancel this for while    
 - i am trying to cancel my account i go to itunes to end my subscription and that option is not available i just want to cancel my subscription    
-- how can i delete the cancelled subscriptions tbsp need a way to do it    
+- how can i delete the cancelled subscriptions
 - i would like to cancel my subscription of edison assistant    
 - i have been trying to cancel this subscription for a years please cancel 
 - and like to cancel my order
@@ -6801,25 +6604,25 @@
 - flagging an email does not send it in my flagged box how do we fix this issue    
 - flagged emails not appearing in flagged category    
 - assistant needs another section flagged so your flagged emails are easy to find    
-- i don't know if this is intentional but if i were to flag an email that is archived there is no flag indication on the mail and i can't view it from the flag section it seems i can only view flagged mail that are in my inbox which is useless to me and viewing the flagged section shows that its connecting to my mailbox and then says the connection is tbsp    
-- flagging in not synchronized if i flag a message on the phone it is not flagged on other email client not in the tbsp    
-- wont let me flag emails within the app or show flagged emails from accounts when i flag them in app they appear in flagged box briefly before disappearing out of tbsp    
-- hello your app is great and helps streamline my day it is valuable however i am not able to a flag previously flagged conversations directly from the flagged inbox if i want to a flag a conversation i have to find it in the all messages inbox and a flag from there conversations unplugged from the flagged inbox are immediately re flagged and then reappear in the flagged tbsp the capability to a flag directly from the flagged inbox would be great instead of having to cull through the general tbsp sailor    
-- the flagged section does not display any pinned flagged emails from my icloud tbsp    
-- flagged emails i can only see some of my flagged emails this is a huge flaw for me i have of flagged emails and only two show tbsp    
-- when flagging an email and moving to archive the flagged section does not show the email in us cd    
+- i don't know if this is intentional but if i were to flag an email that is archived there is no flag indication on the mail and i can't view it from the flag section it seems i can only view flagged mail that are in my inbox which is useless to me and viewing the flagged section shows that its connecting to my mailbox and then says the connection is slow    
+- flagging in not synchronized if i flag a message on the phone it is not flagged on other email client not in the server    
+- wont let me flag emails within the app or show flagged emails from accounts when i flag them in app they appear in flagged box briefly before disappearing out of box    
+- hello your app is great and helps streamline my day it is valuable however i am not able to a flag previously flagged conversations directly from the flagged inbox if i want to a flag a conversation i have to find it in the all messages inbox and a flag from there conversations unplugged from the flagged inbox are immediately re flagged and then reappear in the flagged inbox the capability to a flag directly from the flagged inbox would be great instead of having to cull through the general inbox sailor    
+- the flagged section does not display any pinned flagged emails from my icloud account    
+- flagged emails i can only see some of my flagged emails this is a huge flaw for me i have of flagged emails and only two show up    
+- when flagging an email and moving to archive the flagged section does not show the email     
 - where is the flagged option so that i can flag my important emails submitted    
 
 ## intent:not_organized_by_thread
 - why are the sent items not organized by thread    
 - the functionality organizing by thread is not working i will uninstall this app    
 - i don't think organize by thread is working    
-- my email is not organizing by threads tbsp i have the setting switched tbsp    
+- my email is not organizing by threads  i have the setting switched on    
 - can i organize my mail by threads with office of a    
 - hello organize thread is not organizing grouping emails together at least not the way the apple mail apps does am i doing something wrong i prefer most other aspects of edison but really want to use the organize thread feature    
 - i have selected the option to organize my emails by threads but it is not actually doing so    
 - organize by thread feature not working even though the option is selected in settings email in inbox not organized by thread is    
-- i does not work feature organize mail by thread all mail shows tbsp    
+- does not work feature "organize mail by thread" all mail shows separately    
 - my emails are not being organize by thread when selected in the settings    
 - your organize by thread does not seem to work in us put    
 - i is new to the app and love it but i seem to be having an issue with the organize by thread setting have tried turning off and back on a couple of times yet my messages do not organize by thread please help    
@@ -6833,7 +6636,7 @@
 - do you support pop accounts    
 - no support of pop email i can't use this app    
 - does not support pop mail    
-- i does your email app support pop accounts tbsp tbsp    
+- i does your email app support pop accounts
 - when will you support pop mail accounts    
 - pop mail not supported    
 - pop is not supported cannot use this    
@@ -6856,9 +6659,9 @@
 - please add conversation view    
 - the conversation view is not working for any of my accounts    
 - hello the conversation view does not work    
-- tbsp just wondering how i get conversation view to work with microsoft outlook tbsp i have conversation view turned on but does not work    
-- why conversation view is working please tbsp    
-- even though the setting is on for conversation view my emails are not in conversation view i have tried turning the setting on and off to no tbsp    
+- just wondering how i get conversation view to work with microsoft outlook account i have conversation view turned on but does not work    
+- why conversation view is working  
+- even though the setting is on for conversation view my emails are not in conversation view i have tried turning the setting on and off to no avail    
 - hello the conversation view is not working    
 - can you turn off conversation view    
 - is there a way to turn off threaded conversations    
@@ -6912,24 +6715,24 @@
 - colour code for different email addresses    
 - add colours for different account    
 - can i have different colour for my accounts    
-- could you implement a colour code option for different accounts i have multiple accounts and its nice to have different colours associated with each tbsp    
+- could you implement a colour code option for different accounts i have multiple accounts and its nice to have different colours associated with each one    
 - can you colour code the different email accounts    
 - need a colour coding system for different email accounts other than that its very good    
 - is there a way to colour code emails from different accounts in my inbox    
 - colour coding different mail accounts would be very helpful    
-- please add customisation options such as night mode and colour coding so different accounts can be of different colour tbsp    
+- please add customisation options such as night mode and colour coding so different accounts can be of different colour themes    
 
 ## intent:add_read_receipts
 - i will you be adding read receipts    
 - how to request a read receipt    
 - can you add read receipt    
-- suggest adding read receipts for a future tbsp    
+- suggest adding read receipts for a future update    
 - how do i set up read receipt please    
 - can i sent read receipts with my email how does edison respond on a read receipts    
 - how can i request a read receipt    
 - can we have read receipt in this app    
 - any chance for a read receipt option being added    
-- hello do you have read receipts for email i tbsp    
+- hello do you have read receipts for email i send    
 - need a read receipt    
 - do i have read receipts feature    
 - how do i get a read receipt    
@@ -6952,7 +6755,7 @@
 - is it possible to use gmail labels instead of moving an email to a folder i often label an email with multiple labels using emails label function rather than folders    
 - i are the folders labels fetched or pushed from gmail because if i get an email that have assigned to a specific folder label then there is no indication of that new email next to the folder label name i have open that folder label to refresh it and for the new email to show up    
 - i'm migrating from gmail in which have labelled messages is there a way to see the labels in edison alternatively does edison offer tags or labels thank you    
-- what are the chances of the app supporting labels for gmail i love the assistant functions that pick up travel emails bills and receipts etc but on top of that in gmail i have labels for emails from certain senders it would be great if your app supported adding a label to an email or the ability to use labels independently in email itself tbsp    
+- what are the chances of the app supporting labels for gmail i love the assistant functions that pick up travel emails bills and receipts etc but on top of that in gmail i have labels for emails from certain senders it would be great if your app supported adding a label to an email or the ability to use labels independently in email itself     
 - please add option for label 
 - allow to show labels on home screen allow to filter through labels show labels on the side menu submitted    
 
@@ -6969,7 +6772,7 @@
 - why is this app not showing attachments    
 - no attachment support    
 - why attachments are not working    
-- my inbox list shows no attachments on messages that definitely should have attachments in the messages themselves the attachments that should be there are missing other email clients show these attachments tbsp tbsp    
+- my inbox list shows no attachments on messages that definitely should have attachments in the messages themselves the attachments that should be there are missing other email clients show these attachments normally
 - why do i not get all attachments    
 - why can i not download attachments    
 
@@ -7033,7 +6836,7 @@
 - how do i change the folder where my attachments are saved    
 - how do i download attachment where does it saved to    
 - how do you save or download attachments    
-- i can't see how to save an attachment i can view attachments and it says downloading attachment but i don't see how to save tbsp i would like to save attachments to so card    
+- i can't see how to save an attachment i can view attachments and it says downloading attachment but i don't see how to save it i would like to save attachments to so card    
 - how do i save an attachment from an email i received i cannot download it    
 - how do i save a file attached to an email    
 - how to save an attachment to my phone    
@@ -7088,7 +6891,7 @@
 - why can't i download a pdf attachment    
 - its absolutely useless if i can't open any attachments or pdf    
 - i can't seem to open pdf files on here    
-- can't open pdf files in all tbsp in a best    
+- can't open pdf files in all emails in a best    
 - i can't open any pdf attachment can you please fix the issues in a best    
 - how do i add a pdf attachment    
 - pdf attachments not showing in the mail    
@@ -7106,14 +6909,14 @@
 - she wants spell check how can she turn on spell check it is already on in the keyboard settings    
 - do you have spell check on emails it does not show incorrect spellings 
 - is there a spell check feature for edison mail    
-- i have an ipad pro and the spell check function is consistently going on and off is there a fix for this i would like to continue to use this app but i will be unable to if there is not a spell check tbsp    
-- may i ask why the email does not do spell check tbsp    
+- i have an ipad pro and the spell check function is consistently going on and off is there a fix for this i would like to continue to use this app but i will be unable to if there is not a spell check option    
+- may i ask why the email does not do spell check     
 - it would be very nice to have a spell check option    
 - i a using chrome book pixel and edison mail is not spell checking spell check works in browser but not in mail app    
 - is there anyway to set this app up so that it can spell check your work    
 - why is there no spell check when i write emails on my ipad    
-- i can't seem to find the spell check tbsp is there tbsp i love this program but not having spell check is a deal breaker for me    
-- the email does not have a spell check feature tbsp in us put    
+- i can't seem to find the spell check feature is there one i love this program but not having spell check is a deal breaker for me    
+- the email does not have a spell check feature
 - how do you activate spell check nowhere do i see a spellcheck feature and language choice feature i just wasted a hour of my time to find no info about it other than of it spell checks automatically folks guess what the spell check feature is far does not check jack shit it does not automatically detect the language in my case french maybe somebody can explain spell check as your edison mail would be a waste of time if spell check is no real    
 
 ## intent:recover_archived_email
@@ -7126,7 +6929,7 @@
 - calendar invite acceptance does not work consistently    
 - accepted google calendar invites don't get added to my calendar    
 - hello hope you can help how do i add a email calendar invite to my is calendar when accepting it thank you    
-- i'm using gmail google calendar and i am receiving invites from gmail when in use the quick buttons the invite shows as accepted but does not appear on my calendar to get the meeting to appear on my calendar i have to re accept the invite in tbsp i have reported this issue before and it continues to be an issue i can't accept invites via email because they do not appear on my calendar causing me to miss tbsp    
+- i'm using gmail google calendar and i am receiving invites from gmail when in use the quick buttons the invite shows as accepted but does not appear on my calendar to get the meeting to appear on my calendar i have to reaccept the invite in gmail i have reported this issue before and it continues to be an issue i can't accept invites via email because they do not appear on my calendar causing me to miss meetings    
 - why no calendar support i have to have two email apps just to accept calendar invites because you don't    
 - it does not support accepting of calendar invites    
 - how to accept calendar invite i have outlook exchange    
@@ -7149,14 +6952,13 @@
 - alerts do not work    
 - email alerts is not the alert i chose on my settings    
 - why does it keep alerting me these are the same email    
-- how would we get tbsp alert for specific email address instead of all alerts    
-- i changed the alert setting but it is still using the default alert tbsp    
-- need a alerts like tbsp    
+- how would we get  alert for specific email address instead of all alerts    
+- i changed the alert setting but it is still using the default alert sound    
 - I am not getting any alerts from any emails and all notifications are set to alert me i am using is when us put    
 - getting notifications from senders have muted    
-- great work on the app keep up all the great things one suggestion i have is towards muting senders i like the option to mute by sender but there should be the ability to add a sender to that list from an email if you select the three dots basically add it as an option below labelled mute sender or something of the tbsp    
+- one suggestion i have is towards muting senders i like the option to mute by sender but there should be the ability to add a sender to that list from an email if you select the three dots basically add it as an option below labelled mute sender or something of the sort    
 - how do i in mute notifications from a sender    
-- i used to be able to find a setting where all my muted contacts are how do i access that tbsp these are the contacts that i clicked mute notifications from this sender from the notification tbsp    
+- i used to be able to find a setting where all my muted contacts are how do i access that now these are the contacts that i clicked mute notifications from this sender from the notification screen    
 - how do i in mute notifications    
 - how do i mute notifications for specific senders    
 - there must be a shortcut to mute senders it take very long time to mute senders one by one    
@@ -7257,7 +7059,7 @@
 - links in the emails are not clickable for some reason app updates are way too slow    
 - can a link be made clickable    
 - when i try to share a link via edison the link text is copied but it is not clickable    
-- when i paste a link in an email it is not a blue link clickable to instantly tbsp instead it must be copied and re pasted to open why how can this be adjusted so that its clickable    
+- when i paste a link in an email it is not a blue link clickable to instantly open instead it must be copied and re pasted to open why how can this be adjusted so that its clickable    
 - hello why links in the body of emails are not clickable    
 - why are links i paste into emails no longer clickable by the recipients    
 - i can't figure how to make my signatures clickable also noticed links in incoming mail are not clickable either    
@@ -7340,11 +7142,10 @@
 - did not order refund my money    
 
 ## intent:draft_mail_no_message
-
 - draft mail not have message    
 - of a drafts nothing is in my draft mail    
 - the draft folder now contains other mails in addition to drafts please advice    
-- please add the ability to swipe down on a draft like in the default mail app its very useful to be able to look at other emails while drafting tbsp    
+- please add the ability to swipe down on a draft like in the default mail app its very useful to be able to look at other emails while drafting one    
 - where is draft messages    
 - please help me access my drafts folder from my gmail account using edison it says no drafts where in fact i have of drafts email and i can access them all in my mail app for is    
 - my edison mail app is not saving draft emails several times have started an email and hit save draft but it never shows up in my draft folder    
@@ -7369,10 +7170,10 @@
 - how do you receive notifications that you have an email
 - need notifications when receiving an a mail
 - no notification received for new mails
-- ism not receiving any notification when i receive email and the email app notification is on
-- ism not receiving email notifications
+- i'm not receiving any notification when i receive email and the email app notification is on
+- i'm not receiving email notifications
 - can't received notifications
-- of i receive a email why does the notification says of a email
+- i receive a email why does the notification says of a email
 - how do i set my email up to receive notification when emails are read
 - i did not receive any email notifications
 - can i run microsoft apps on this email?
@@ -7386,9 +7187,9 @@
 - push notifications not working even though push notifications has been enabled on my iphone i am not receiving any notifications for new mails in edison    
 - push notifications no longer work in it get    
 - hello do the app have push notifications    
-- push notifications are not working for any of my tbsp     
-- push notifications not working with is tbsp in us put    
-- push notifications not working after is tbsp     
+- push notifications are not working for any of my accounts     
+- push notifications not working with ios 13  
+- push notifications not working after ios update  
 - it did not work still i can not receive gmail push notifications    
 - i don't get push notifications for my gmail account    
 - push notifications    
@@ -7463,7 +7264,7 @@
 - can i sort email by sender or is sort by received date the only available sort    
 - it would be nice to have a sort function as in sort by from to date or subject thanks    
 - how do you change the sorting of emails    
-- how do i sort by date in my inbox it seems its sorting in some random order tbsp    
+- how do i sort by date in my inbox it seems its sorting in some random order now    
 - how do i sort my emails    
 - is there a way to sort by sender    
 - how can i sort my inbox     
@@ -7522,6 +7323,8 @@
 ## intent:add_attachments_to_emails
 - How do I add attachments to emails?
 - Hello, How do I add attachments to emails?
+- I want to add attachments to emails
+- add attachments to emails
 
 ## intent:add_microsoft_attachment
 - hello, i would like to add attachments from microsoft apps to my messages
@@ -7533,6 +7336,10 @@
 ## intent:add_images_to_emails
 - How do I add images from my phone to emails?
 - Hello, How do I add images from my phone to emails?
+- I want to add images from my phone to emails
+- add images from my phone to emails
+- How do I add images to emails?
+- add images to emails
 
 ## intent:affirm
 - yes
@@ -7630,6 +7437,7 @@
 ## intent:draft_and_send_mail
 - How do I draft and send a new email?
 - Hello, How do I draft and send a new email?
+- I want to draft and send a new email
 
 ## intent:email_missed_by_assistant_add
 - An email was missed by the Assistant. How can I add it?
@@ -7660,6 +7468,8 @@
 - How do I forward an email?
 - Hello, How do I forward an email?
 — forward an email
+- I want to forward an E-mail
+- How to forward E-mail
 
 ## intent:goodbye
 - bye
@@ -7744,6 +7554,10 @@
 ## intent:how_always_bcc_myself
 - How do I always Bcc myself?
 - Hello, How do I always Bcc myself?
+- Why do I always BCC myself？
+- How do I always use documents cc myself？
+- I don't want to Bcc myself.
+- I want to cancel Bcc myself.
 
 
 ## intent:how_archive_email
@@ -7783,12 +7597,14 @@
 ## intent:is_email_secure
 - Is my email secure?
 - Hello, Is my email secure?
+- Are my emails safe
+- E-mail security
 
 ## intent:is_free
 - Do I have to pay to use the app?
 - hello! is this app for free?
 - Hello, Do I have to pay to use the app?
-
+- this app is free but nothing is free what is the cach    
 
 ## intent:mail_providers_support
 - What mail providers does this app support?
@@ -7833,6 +7649,9 @@
 ## intent:need_desktop
 - hi i would like to have a desktop application
 - when will a desktop version be released?
+- Do you plan to develop the desktop version of the software？
+- Is the desktop version on the agenda
+- Supports desktop usage
 
 ## intent:never_received_package
 - never received
@@ -7939,11 +7758,13 @@
 ## intent:remove_a_assistant_folder_card
 - Can I remove a card from the Assistant folders?
 - Hello, Can I remove a card from the Assistant folders?
+- Can I delete a card from the assistant folder?
 
 ## intent:reply_to_email
 - How do I reply to an email?
 - Hello, How do I reply to an email?
 - reply to an email
+- I want to reply to an email
 
 ## intent:request_help
 - i need help
@@ -7987,26 +7808,32 @@
 ## intent:set_up_aol_account
 - How do I set up my Aol account?
 - Hello, How do I set up my Aol account?
+- I want to set up my Aol account
 
 ## intent:set_up_gmail_account
 - How do I set up my Gmail account?
 - Hello, How do I set up my Gmail account?
+- I want to set up my Gmail account
 
 ## intent:set_up_icloud_account
 - How do I set up my iCloud account?
 - Hello, How do I set up my iCloud account?
+- I want to set up my iCloud account
 
 ## intent:set_up_other_account
 - How do I set up all other email accounts?
 - Hello, How do I set up all other email accounts?
+- - I want to set up all other email accounts
 
 ## intent:set_up_outlook_account
 - How do I set up my Outlook account?
 - Hello, How do I set up my Outlook account?
+- I want to set up my Outlook account
 
 ## intent:set_up_yahoo_account
 - How do I set up my Yahoo account?
 - Hello, How do I set up my Yahoo account?
+- I want to set up my Yahoo account
 
 ## intent:sign_beta_testing
 - How do I sign up for BETA testing of new products?
@@ -8041,11 +7868,16 @@
 ## intent:view_just_one_account
 - How do I view just one of my email accounts in the inbox?
 - Hello, How do I view just one of my email accounts in the inbox?
-
+- How do I check only one of my email accounts in my inbox?
+- How do I only in the inbox view an email account?
 
 ## intent:what_are_assistant_folders
 - What are the Assistant folders?
 - Hello, What are the Assistant folders?
+- What is Assistant folders?
+- What does the Assistant folders do?
+- Assistant folders do?
+- What functions does the Assistant folders have?
 
 ## intent:what_are_terms_and_conditions
 - What are the Terms and Conditions?
@@ -8056,15 +7888,26 @@
 ## intent:what_is_bills_folder
 - What is the "Bills & Receipts" folder?
 - Hello, What is the "Bills & Receipts" folder?
+- What is "Bills & Receipts" folder?
+- What does the "Bills & Receipts" folder do?
+- "Bills & Receipts" folder do?
+- What functions does the "Bills & Receipts" folder have?
 
 ## intent:what_is_packages_folder
 - What is the "Packages" folder?
 - Hello, What is the "Packages" folder?
+- What is "Packages" folder?
+- What does the "Packages" folder do?
+- "Packages" folder do?
+- What functions does the "Packages" folder have?
 
 ## intent:what_is_snooze
 - What is Snooze?
 - Hello, What is Snooze?
 - what is the snooze
+- What does the snooze do?
+- snooze do?
+- What functions does the snooze have?
 
 ## intent:what_is_the_entertainment_folder
 - What is the "Entertainment" folder?
@@ -8075,6 +7918,11 @@
 ## intent:what_is_travel_folder
 - What is the "Travel" folder?
 - Hello, What is the "Travel" folder?
+- What is "travel" folder?
+- What does the "Travel" folder do?
+- "Travel" folder do?
+- What functions does the "Travel" folder have?
+
 
 ## intent:what_privacy_policy
 - What is the Privacy Policy
@@ -8119,18 +7967,26 @@
 ## intent:diff_between_archive_and_delete
 - What is the difference between archiving and deleting an email?
 - archiving or deleting an email
+- What's the difference between archiving and deleting messages?
+- What is the difference between archiving and deleting messages?
 
 ## intent:subscriptions_folder
 - What is the "Subscriptions" folder?
 - Hello, What is the "Subscriptions" folder?
+- What does the subscribe folder mean？
+- What does the Subscribe folder do
+- "Subscribe" folder has what function
 
 ## intent:easilydo_premium_support_Email Assistant
 - Can I use my EasilyDo Premium account with Email Assistant?
 - does EasilyDo Premium account support Email Assistant?
+- EasilyDo Premium accounts assistant support email?
 
 ## intent:email_assistant_support_account_type
 - What kind of email accounts work with Email Assistant?
 - What types of email accounts does Email Assistant support?
+- Email assistant support what type of email account?
+- What types of email accounts are supported that appear in the email assistant?
 
 ## intent:download_email_assistant
 - How do I download Email Assistant?
@@ -8141,6 +7997,8 @@
 ## intent:limit_on_number_of_accounts
 - How many email accounts can I add?
 - Is there is a limit on the number of accounts？
+- I can add how many email accounts
+- Is there a limit account number?
 
 ## intent:all_emails_in_email_assistant
 - Why don’t I see all of my emails in email assistant?
@@ -8151,28 +8009,39 @@
 ## intent:see_emails_not_in_inbox
 - Why do I see emails that aren't in my inbox?
 - Why do I see some old emails that aren't in my inbox?
+- I see emails that aren't in my inbox
 
 ## intent:email_assistant_support_emails_types
 - What types of emails can I see in Email Assistant?
 - What types of emails does Email Assistant support?
+- I can see what kind of assistant in email email
 
 ## intent:add_account_email_assistant
 - How do I add another email account in email assistant?
 - add another email account in email assistant
+- How to add in email assistant another email account?
 
 ## intent:set_up_important_mail_Alert
 - How do you set up “Important Mail” Alerts?
 - set up Important Mail Alerts
+- Set reminders for important emails
+- Important email Settings
+- How do I set up an important email reminder?
+- How to set up the "important messages" remind?
 
 ## intent:see_emails_in_particular_feature_category
 - How can I see all of my emails in a particular feature category?
 - How can I view all emails in a specific functional category?
+- How can I see all my emails in a specific function category?
+- How can I see all of my email in a specific functional category?
+- Can I see all my messages in a specific function category?
+- I can see all of my email in a specific functional category?
 
 ## intent:view_attachments
 - How do I view attachments?
 - I want to veiw my attachments
 - can I see my attachments?
-
+- How to view attachments
 
 ## intent:share_attachments
 - How do I share attachments?
@@ -8184,26 +8053,36 @@
 - How do I write a new email?
 - how can I write a new mail?
 - how can I write a new email?
+- I want to write a new email.
 
 ## intent:after_add_email_accounts_to_email_assistant
 - what should I do after I added my email accounts to email assistant?
 - after I added my email accounts to email assistant what can I do?
 - after I added my email accounts to email assistant what should I do?
-
+- What do I need to do after I add my email account to my email assistant?
+- After I add email account to email assistant, need to do?
 
 ## intent:diff_email_assistant_and_easilydo
 - What's the difference between Email Assistant and EasilyDo?
 - EasilyDo and Email Assistant What is the difference
 - the difference between Email Assistant and EasilyDo
-
+- I want to know the difference between Email Assistant and EasilyDo?
+- can you tell me the difference between Email Assistant and EasilyDo?
 
 ## intent:same_username_from_easilydo
 - Can I log in email assistant with my same username from EasilyDo?
 - Can I log in to the email assistant with the username of EasyDo?
 - Is the account of EasilyDo and Email Assistant the same?
 - Are EasilyDo and Email Assistant accounts common?
+- Can I log in to the email assistant from Easilydo with the same username
+- log in to the email assistant from Easilydo with the same username
+- log in to the email assistant with the username of EasyDo
 
 ## intent:diff_preferences_email_assistant_and_easilydo
 - Why are my preferences in Email Assistant and EasilyDo different?
 - What is the difference between Email Assistant and EasilyDo options？
 - my preferences in Email Assistant and EasilyDo different
+- Why do I have different preferences for Email Assistant and EasilyDo
+- Why am I in Email Assistant and EasilyDo different preferences
+- different preferences for Email Assistant and EasilyDo
+- the difference between Email Assistant and EasilyDo options
