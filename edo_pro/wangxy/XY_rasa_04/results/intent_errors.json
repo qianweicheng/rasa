@@ -1,0 +1,58 @@
+[
+  {
+    "text": "i can receive emails but can't send them",
+    "intent": "not_getting_mail",
+    "intent_prediction": {
+      "name": "can_not_send_emails",
+      "confidence": 0.5353250503540039
+    }
+  },
+  {
+    "text": "how do i unsubscribe from spam emails",
+    "intent": "unsubscribe_mail",
+    "intent_prediction": {
+      "name": "spam_folder",
+      "confidence": 0.6035829186439514
+    }
+  },
+  {
+    "text": "i accepted a calendar invite and it did not put it on my calendar i use google calendar",
+    "intent": "calendar_sync",
+    "intent_prediction": {
+      "name": "calendar_invite_acceptance_not_work",
+      "confidence": 0.6723752021789551
+    }
+  },
+  {
+    "text": "where can i find my spam folder",
+    "intent": "mark_as_spam",
+    "intent_prediction": {
+      "name": "spam_folder",
+      "confidence": 0.5244235992431641
+    }
+  },
+  {
+    "text": "please delete my account and cancel my subscription",
+    "intent": "cancel_order",
+    "intent_prediction": {
+      "name": "delete_account",
+      "confidence": 0.9465473890304565
+    }
+  },
+  {
+    "text": "i had already cancel the trial on google play store but i can not cancel or delete the subscription please cancel the subscription",
+    "intent": "cancel_order",
+    "intent_prediction": {
+      "name": "delete_account",
+      "confidence": 0.7189931869506836
+    }
+  },
+  {
+    "text": "not downloading some attachments while same attachment opens on other apps with no issues",
+    "intent": "attachment_support",
+    "intent_prediction": {
+      "name": "cannot_download_attachments",
+      "confidence": 0.7589078545570374
+    }
+  }
+]

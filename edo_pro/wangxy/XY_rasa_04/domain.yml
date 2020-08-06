@@ -137,7 +137,6 @@ actions:
 - utter_how_always_bcc_myself
 - utter_how_archive_email
 - utter_how_change_classified_important
-- utter_how_change_folders_list
 - utter_how_change_swipe_options
 - utter_how_change_undo_time_window
 - utter_how_customize_assistant_view
@@ -146,9 +145,6 @@ actions:
 - utter_is_email_secure
 - utter_is_free
 - utter_mail_providers_support
-- utter_mood_angry
-- utter_mood_great
-- utter_mood_unhappy
 - utter_need_desktop
 - utter_never_received_package
 - utter_personal_folders
@@ -341,7 +337,6 @@ intents:
 - how_always_bcc_myself
 - how_archive_email
 - how_change_classified_important
-- how_change_folders_list
 - how_change_swipe_options
 - how_change_undo_time_window
 - how_customize_assistant_view
@@ -350,9 +345,6 @@ intents:
 - is_email_secure
 - is_free
 - mail_providers_support
-- mood_angry
-- mood_great
-- mood_unhappy
 - need_desktop
 - never_received_package
 - personal_folders
@@ -589,8 +581,6 @@ responses:
   - text: '''how_change_classified_important'''
   utter_how_change_default_browser:
   - text: '''how_change_default_browser'''
-  utter_how_change_folders_list:
-  - text: '''how_change_folders_list'''
   utter_how_change_notification_action:
   - text: '''how_change_notification_action'''
   utter_how_change_swipe_options:
@@ -631,12 +621,6 @@ responses:
   - text: '''mark_all_read'''
   utter_mark_as_spam:
   - text: '''mark_as_spam'''
-  utter_mood_angry:
-  - text: '''mood_angry'''
-  utter_mood_great:
-  - text: '''mood_great'''
-  utter_mood_unhappy:
-  - text: '''mood_unhappy'''
   utter_move_mail_from_spam_to_inbox:
   - text: '''move_mail_from_spam_to_inbox'''
   utter_need_dark_theme:

@@ -550,10 +550,6 @@
 * how_change_classified_important
   - utter_how_change_classified_important
 
-## story_how_change_folders_list
-* how_change_folders_list
-  - utter_how_change_folders_list
-
 ## story_how_change_swipe_options
 * how_change_swipe_options
   - utter_how_change_swipe_options
@@ -585,18 +581,6 @@
 ## story_mail_providers_support
 * mail_providers_support
   - utter_mail_providers_support
-
-## story_mood_angry
-* mood_angry
-  - utter_mood_angry
-
-## story_mood_great
-* mood_great
-  - utter_mood_great
-
-## story_mood_unhappy
-* mood_unhappy
-  - utter_mood_unhappy
 
 ## story_need_desktop
 * need_desktop

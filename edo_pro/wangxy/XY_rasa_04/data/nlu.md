@@ -247,7 +247,7 @@
 - excellent and easy to use    
 - excellent app this is what am looking for    
 - excellent mail apps    
-- excellent email thanks    
+- excellent email     
 - excellent email app    
 - excellent app thank you    
 - very excellent app    
@@ -293,7 +293,7 @@
 - excellent one    
 - excellent app so far    
 - excellent for my needs    
-- excellent app i love this app thanks    
+- excellent app i love this app     
 - excellent app i haven had any problems    
 - excellent program    
 - excellent working    
@@ -466,7 +466,7 @@
 - this email is awesome    
 - awesome i love this email app    
 - easy and awesome    
-- awesome thanks    
+- awesome     
 - its awesome    
 - awesome so easy to use    
 - awesome fast    
@@ -479,7 +479,6 @@
 - its just awesome    
 - awesome this is what have been looking for    
 - so far this app awesome    
-- awesome thanks for the    
 - really awesome    
 - awesome this is what google inbox should have been    
 - good awesome just the best    
@@ -487,11 +486,11 @@
 - awesome best app of all    
 - simple but awesome    
 - its an awesome email service    
-- great awesome app thanks    
+- great awesome app     
 - i just a say it was awesome    
 - its an awesome app    
 - awesome love it    
-- what an awesome app thanks    
+- what an awesome app     
 - awesome app love it    
 - awesome app and very fast    
 - just awesome thank you    
@@ -776,7 +775,7 @@
 - so far no good    
 - good app so far    
 - so far so good again    
-- so great thanks    
+- so great     
 - great a should try it    
 - works great    
 - i like it its great    
@@ -809,7 +808,7 @@
 - great mail app great user interface great features    
 - one of the greats out there    
 - works great for emails    
-- great thanks    
+- great     
 - great app works great    
 - great work    
 - great app in us most    
@@ -825,7 +824,7 @@
 - great thank you    
 - work great    
 - the app is very good great work    
-- great email app keep up the good work thanks    
+- great email app keep up the good work     
 - just great good work    
 - best email app ever    
 - best app ever    
@@ -916,7 +915,7 @@
 - super great and love it    
 - cool    
 - very cool thank you    
-- very cool app thanks    
+- very cool app     
 - cool app    
 - cool mail app for all your email accounts    
 - cool easy    
@@ -976,7 +975,7 @@
 - so easy to use love the set up    
 - easy love it    
 - good and easy    
-- love this app its easy to use thanks    
+- love this app its easy to use     
 - very fast and easy to use it    
 - easy to use    
 - so good a very easy to use    
@@ -1214,7 +1213,7 @@
 - really amazing app    
 - in love such an amazing app in us most    
 - amazing app thank a    
-- amazing thanks    
+- amazing     
 - amazing loving the updates keep up the great work    
 - just get it its amazing    
 - amazing loving it so far    
@@ -1751,9 +1750,7 @@
 - perfect and simple    
 - seems the perfect email app    
 - perfect bare perfect    
-- not perfect but close to it    
-- will be perfect if has calendar    
-- good to use but not perfect    
+- not perfect but close to it        
 - its close to perfect    
 - left perfect    
 - good app its perfect    
@@ -1781,7 +1778,7 @@
 - best best best use it for a week and to will agree with me    
 - to us best    
 - tried them all this is best of all    
-- the best a thanks    
+- the best 
 - no adds that was the best for this    
 - the best one until now    
 - best one out there    
@@ -2199,7 +2196,6 @@
 - thank    
 - thank you it works    
 - its working thank you    
-- a thanks    
 - very useful thank you    
 - this app is very useful thanks    
 - thank in in get a    
@@ -2466,7 +2462,8 @@
 - will not open at all sucks
 - this system sucks
 - mail box sucks
-
+- groups suck  
+- good to use but not perfect
 ## intent:no_content
 - list shows some blank emails    
 - blank emails again    
@@ -2698,7 +2695,6 @@
 - i am not receiving my emails    
 - i did not receive this mail    
 - not receive emails    
-- i have not received it. there is an issue.    
 - i have not received this mail    
 - not receiving any mails    
 - i cannot receive emails only send them    
@@ -2751,7 +2747,6 @@
 - what do i have to do to get my emails
 - cannot get any emails
 - get mail
-- who are you and why are you a get
 - not getting all my mail
 - i did not get any email
 - i am not getting any emails
@@ -2848,6 +2843,9 @@
 - signature bug if i have two emails set up and only one has a signature that email has to be the default to get the signature to work if the non signature email is default i can't ever get the signature even by changing the from email address its just does not work submitted    
 
 ## intent:find_sent_mail
+- can't see out going emails    
+- i can't see my send emails
+- why can't i see messages i sent    
 - i can't see emails i have sent    
 - how do i set to see emails sent    
 - where do i see sent messages    
@@ -3201,7 +3199,7 @@
 - night mode please dark theme    
 - when will you have dark mode    
 - can we please get a dark mode    
-- if possible could you make dark mode them a thanks    
+- if possible could you make dark mode them     
 - where is dark mode    
 - dark mode would be a huge plus    
 - plus have dark mode    
@@ -3654,29 +3652,9 @@
 - this app keeps crashing     
 - keeps crashing after of a a is update    
 - app keeps crashing as i use the swipe     
-- app crashes on is of a    
+- app crashes
 - updated and now app keeps crashing    
-- i updated the app today and it keeps crashing    
-- app sucks    
-- this app sucks    
-- this sucks how do i reply there is no such function    
-- it sucks    
-- this update sucks    
-- i think its not what i'm looking for and it sucks    
-- your new app sucks i mean really sucks    
-- this sucks    
-- this double screen sucks sucks sucks stop fucking stuff up leave my email alone    
-- system sucks    
-- its sucks    
-- the app sucks presently because you cannot send it any emails    
-- a suck    
-- app stopped working it sucks    
-- sucks    
-- will not open at all sucks    
-- this system sucks    
-- mail box sucks    
-- groups suck    
-- the app is good but the icon sucks    
+- i updated the app today and it keeps crashing     
 - app is not working after update    
 - i updated it and now it does not work    
 - my email app has stopped working how do i fix it    
@@ -4108,7 +4086,7 @@
 - hello how do of change my email password i have change the password in the service provider but i can not change in the app    
 - how to change email password in to get a    
 - i need to change my password i do not know the password    
-- had to change password for my work emails the problem is my emails are not loading how do i change my password so i can get messages    
+- I had to change password for my work emails 
 - i want to change my password    
 - change password option is not there every time we need to delete and add the account of you want to change the password    
 - how to change my password    
@@ -4207,7 +4185,6 @@
 - how do i delete all emails in the trash    
 - hello the undo trash button is overlapping with the delete trash can button    
 - i there my trash button does not work how can that be fixed    
-- how do i delete all of my trash email at once    
 - how do i delete all mail at once over 10000    
 - how do you delete of emails all at once    
 - how do i delete all my emails    
@@ -4369,31 +4346,20 @@
 - cancel the account    
 - how do i cancel my account with you    
 - how do i cancel this account    
+- please delete my account i have cancelled my subscription through itunes    
+- please delete my account i cancelled my subscription last month but it renewed anyhow delete my account and cancel my subscription    
+- please cancel my account    
+- i cancelled my premium subscription please delete my account    
+- i have cancelled my subscription on my iphone and need my account deleted asap please    
+- please cancel this account    
+- delete my account please i already cancelled the subscription    
+- please delete my account i have cancelled my subscription on itunes    
+- please delete my account i have cancelled my subscriptions as requested also please delete all past information from my account thank you    
+- please cancel my account have already cancelled the subscription in my itunes thanks    
+- please cancel and delete my easilydo account there is no subscription for premium in my itunes subscriptions
+- i cancelled my subscription please cancel my account    
 
 ## intent:how_change_notification_action
-- cannot get notifications to work is this a bug    
-- not receiving notifications     
-- i have not received this notification    
-- i am not receiving notifications for new emails    
-- i have not received it    
-- how do you receive notifications that you have an email    
-- need notifications when receiving an a mail    
-- why am i not receiving notifications on my device    
-- no notification received for new mails    
-- is not receiving any notification when i receive email and the email app notification is on    
-- my notification settings are on but i'm not receiving any notifications when i get emails    
-- not receiving message but receiving only notifications    
-- i don't get notification from this app when i received messages    
-- i am not receiving my email notifications on my phone    
-- why email notifications not received    
-- I am not receiving notifications in real time if at all. i have to open the app to see my emails. it works sometimes but mostly not    
-- for some reason i am not receiving notifications in my mail with server mail    
-- i am not receiving notifications when i receive new mail    
-- i do get notifications when a receive email can you help me    
-- i am not receiving notifications after the update     
-- not receiving notifications from the app     
-- not receiving notifications    
-- still no notifications     
 - How do I change my notification actions?
 - Hello, How do I change my notification actions?
 - how do i enable notifications?
@@ -4401,6 +4367,7 @@
 - how do i change my notification settings?
 - how do i enable notifications for my email?
 - how do i enable notifications on my email
+- how do you turn off notifications when a package has been delivered have turned off all notifications in the assistant and it still happens
 
 ## intent:sign_in_problem
 - can't sign in
@@ -4444,7 +4411,7 @@
 - it does not let me sign a different emails in at the same time it keeps signing them both out       
 - is having problems staying signed in with my email     
 - logged out of my icloud account and will not let me log back in says that the email password is not correct i know that it is because i am able to log in with a different app    
-- why did you log me out off of my i phone email account can't log in     
+- why did you log me out off of my i phone email account
 - this app logged me out of my account after the update    
 - i keep being logged out of my email accounts ever since the latest update have re logged and when i go back in its offline and i need to log in again    
 - my email account keeps logging off
@@ -4456,15 +4423,7 @@
 - i have to log back in to each of my email accounts every hour or so can i do something to keep all my accounts logged in    
 - why does this keep logging out of my email now       
 - why can't i log in to my account    
-- cannot log in    
-- how do i log out of my account on a device    
-- why can't i log out this account    
-- how to log out my gmail account from this app    
-- hello i cannot log into my account    
-- how to log out    
 - how do i log into my easilydo app account    
-- how to log out my account submitted    
-- log out of an account submitted     
 - gmail keeps logging out    
 - i keep getting logged out of the app    
 - it keeps logging me off my accounts    
@@ -4472,7 +4431,6 @@
 - it keeps logging me out    
 - keeps logging me out    
 - the app keeps logging me out of my email    
-- can't log in    
 - i'm logged in can read emails but when i try to send an email comes up error not logged in when i log in again receive emails again but can't send any    
 - there was no mail in the logged in home screen but there was mail in the logged in account in us get a    
 - i keep getting a message asking me to log out and log in again to get facebook information but when i do that i still get the message from easily do to log out and log in again i see no additional information    
@@ -4493,6 +4451,12 @@
 - one of my mailbox gmail keeps logging off    
 
 ## intent:sign_out_problem
+- how do i log out of my account on a device    
+- why can't i log out this account    
+- how to log out my gmail account from this app    
+- how to log out    
+- how to log out my account submitted    
+- log out of an account submitted     
 - log out submitted    
 - no option to log out    
 - how do i log out of my email 
@@ -4553,7 +4517,7 @@
 - does this app work on i watch
 - we need apple watch app
 - watch app soon
-- when i first installed edison to my phone notifications worked on the phone and my watch now this has suddenly stopped on my watch and the face complication has disappeared please advise iphone or is of a a and apple watch a on watch of a a thanks bill sands
+- when i first installed edison to my phone notifications worked on the phone and my watch now this has suddenly stopped on my watch and the face complication has disappeared please advise iphone or is of a a and apple watch a on watch of  bill sands
 - a delete option for the apple watch please
 - please allow to trash from apple watch
 - i i love your app its amazing one little thing that all of the apple watch users out there really want apple watch support it would be awesome if you could develop an app for the apple watch
@@ -4622,7 +4586,6 @@
 - would be great to have iwatch app    
 - watch app soon    
 - does edison support i watch notifications i cannot use it with it    
-- when i first installed edison to my phone notifications worked on the phone and my watch now this has suddenly stopped on my watch and the face complication has disappeared please advise iphone or is of a a and apple watch a on watch of a a thanks bill sands    
 - i can see how to get email notifications on edison on my apple watch but is not there an edison email app for the watch    
 - i cant locate edison email on my i watch a is this something that does not work with the i watch    
 - need to have an apple watch app i can't reply from my watch in us cost    
@@ -5521,7 +5484,6 @@
 - i can't send the email out    
 - i can't send email submitted    
 - can't send emails why    
-- can't send and receive emails submitted    
 - i can receive emails of can't send    
 - emails wont send submitted    
 - i can't send mail submitted    
@@ -5550,7 +5512,6 @@
 - not able to send or receive emails    
 - can't send email submitted    
 - i can't receive emails submitted    
-- i can't send and receive emails submitted    
 - can't send or receive mail submitted    
 - can't send or receive submitted    
 - my email is not working i can't send or receive mail submitted    
@@ -5563,7 +5524,6 @@
 - haven been receiving emails and also send out emails but not go in through    
 - can't received emails or send out emails    
 - can send but not receive emails submitted    
-- not able to send emails submitted    
 - can't get in to my email    
 - i can't get any of my emails    
 - i can't get my emails    
@@ -5652,7 +5612,7 @@
 - i how do i just check for emails that have flagged does not seem like there an option to just look at everything have flagged from previous     
 - is there a possibility of having flags of different colours so that we can group our flagged emails   
 - feature request add the ability to flag and a flag multiple selected     
-- hello i have an error with flagged emails first i tried to a flag few email in flagged screen after that try to pull to refresh list and unplugged emails are returned now i a flag this emails in my laptop browser try to refresh this list in your app and still see old flagged emails best regards panel    
+- i have an error with flagged emails first i tried to a flag few email in flagged screen after that try to pull to refresh list and unplugged emails are returned now i a flag this emails in my laptop browser try to refresh this list in your app and still see old flagged emails best regards panel    
 - i in the search how can i search only for flagged emails i mean flagged emails from all folders and not only in the inbox    
 - love your email client but when i go to my inbox all my flagged emails are there too making it difficult to select all for deleting i don't want flagged emails deleted is there a way in settings not to have my flagged email included in my inbox thank you pop    
 - flags on emails are not being transitioned back to exchange account flagged emails on pc are not being flagged on app 
@@ -5921,7 +5881,6 @@
 - please add support for exchange accounts on as work mail    
 - hello i am trying to add an exchange account but it is telling me apparently i don't have an exchange account do you support and work with exchange    
 - when will the of app support exchange accounts   
-- Does Email support any additional Microsoft Exchange features?
 - please add support for exchange account
 - please add support for exchange office of a accounts
 - please add support for exchange and office of a
@@ -5939,8 +5898,7 @@
 - is the email app support exchange email
 - please add support for exchange accounts on as work mail 
 
-## intent:spam_folder
-- i can't enter the spam into the spam what do i do    
+## intent:spam_folder   
 - spam not deleting    
 - have over of a spam how do i delete all at once    
 - spam will not delete    
@@ -5956,7 +5914,6 @@
 - where can i see my spam folder    
 - where is my spam folder        
 - how can i look at spam    
-- i have been trying to delete my gmail spam folder all morning, like 4 hours...it’s stuck with a message stating that it’s “working on it” in the background, even if i’m not using the app. well, i’ve had 4 tires changed faster. please advise    
 - how do i see my spam messages    
 - how to delete of spam messages    
 - how to find my spam mail    
@@ -5967,22 +5924,17 @@
 - needs spam folder    
 - i how can i have all spam on my listing    
 - when spam is deleted the spam still remains but not messages    
-- please secure my email address from spam    
-- more issues with spam. there is no block or mark as spam button in emails. also in spam folders there are no report not spam or not junk buttons to unmark emails as spam.so those are needed along with the all spam folder. basically the only thing wrong with this app is spam filtering and sorting.    
-- had some emails go into spam that were not spam could not find how to mark them as not spam then moved them to inbox but subsequent replies continued to go to spam box    
-- i is there a way of adding certain spam emails to a safe list so they are not placed in the spam folder i get a few each week in the spam folder which are not spam    
+- please secure my email address from spam     
 - how do i delete all my spam messages at once    
 - its not blocking spam emails and i have got two spam emails in my spam box and there was no notifications whats sent    
 - how can i delete spam i can only delete 50 at a time. i have 1424 spam e-mails and don’t want to be all day doing it.    
-- in having problems with my junk email i always put that is not junk email and send it to inbox but it kept going on the junk email    
 - don't like the junk email    
 - could do without all the junk    
 - nice app would be nice if it has all junk folder unified junk    
-- i keep getting mail from a certain sender being sent to junk would be great if there were a not junk button    
-- hello i have a question i done see junk email appears sometimes important emails come to junk is there a way to access junk email    
 - about junk email submitted    
 
 ## intent:clear_trash
+- how do i delete all of my trash email at once    
 - cannot clear spam or trash folders    
 - please add an option to clear trash and spam    
 - where is one click solution for clearing all trash folder or spam folder    
@@ -6047,6 +5999,7 @@
 - empty trash button when i try and delete the trash it just keeps coming back submitted    
 
 ## intent:mark_as_spam
+- i can't enter the spam into the spam what do i do 
 - where is the mark as spam swipe    
 - i am not able to mark the email as spam    
 - when i mark something as spam why do i keep getting spam from the same email address    
@@ -6067,7 +6020,6 @@
 - please add mark as spam option
 - we need an option to mark an email as spam
 - how to mark as spam on the mail
-- how can i change an email in my spam folder to mark it as not spam
 - how can i mark a message as spam
 - how do you mark as spam
 - how do i mark a message as spam love the app so far but there needs to be a way to mark emails as spam
@@ -6165,6 +6117,11 @@
 - please add option to mark email sender as not spam and get it back in the inbox    
 
 ## intent:move_mail_from_spam_to_inbox
+- had some emails go into spam that were not spam could not find how to mark them as not spam then moved them to inbox but subsequent replies continued to go to spam box    
+- i is there a way of adding certain spam emails to a safe list so they are not placed in the spam folder i get a few each week in the spam folder which are not spam   
+- in having problems with my junk email i always put that is not junk email and send it to inbox but it kept going on the junk email    
+- i keep getting mail from a certain sender being sent to junk would be great if there were a not junk button    
+- hello i have a question i done see junk email appears sometimes important emails come to junk is there a way to access junk email
 - i get spam in the spam folder that is not spam
 - many email come in spam how make email to do coming in inbox    
 - an email is automatically going into spam mail when it is not spam how do i get it to start going into inbox instead of spam    
@@ -6337,14 +6294,10 @@
 ## intent:cannot_open_email
 - can't see the email    
 - can't see my emails from my phone    
-- why can't i see my sent mail    
 - can't read messages and see pics    
 - why can't i see all my email folders    
 - i can't see all my email accounts in all emails fix that please    
 - can't see the message    
-- i can't see my send emails
-- why can't i see messages i sent    
-- can't see out going emails    
 - why i can not see my emails what is going on    
 - cannot open this email    
 - when i try to open they will not open    
@@ -6550,20 +6503,8 @@
 - would like to cancel my subscription please    
 - i would like to cancel my subscription please thank you    
 - how do i cancel my subscription    
-- please delete my account i have cancelled my subscription through itunes    
-- please delete my account i cancelled my subscription last month but it renewed anyhow delete my account and cancel my subscription    
-- please cancel my account    
-- i cancelled my premium subscription please delete my account    
-- i have cancelled my subscription on my iphone and need my account deleted asap please    
-- please cancel this account    
-- delete my account please i already cancelled the subscription    
-- please delete my account i have cancelled my subscription on itunes    
-- please delete my account i have cancelled my subscriptions as requested also please delete all past information from my account thank you    
-- please cancel my account have already cancelled the subscription in my itunes thanks    
-- please cancel and delete my easilydo account there is no subscription for premium in my itunes subscriptions    
 - i want to cancel my subscription not using at all    
 - i have turned of subscription so please cancel    
-- i cancelled my subscription please cancel my account    
 - i have tried and tried to cancel my subscription and have been charged a times please refund me my money and cancel my subscription    
 - please cancel my subscription my apple mail is working again    
 - i had already cancel the trial on google play store but i can not cancel or delete the subscription please cancel the subscription    
@@ -7004,7 +6945,7 @@
 - i request to add an option to attachment from google drive    
 - i there have just got your mail app and its by far the best have used on is but attaching files from google drive does not work every time you try to attach something via drive the option to attach via drive disappears would be great if you could fix this    
 - can you open google drive links and attachments in the drive app    
-- how do i get google drive files to show up in my attachments area thanks    
+- how do i get google drive files to show up in my attachments    
 - can't add a file from google drive    
 - great app but please add option to attach file from google drive    
 - great app but i am unable to attach files from my google drive app can this be fixed    
@@ -7131,7 +7072,6 @@
 - group email by conversation submitted    
 
 ## intent:refund_money
-- please cancel this i did not order it    
 - i did not order please refund my money    
 - refund my money back    
 - refund my money    
@@ -7143,7 +7083,7 @@
 
 ## intent:draft_mail_no_message
 - draft mail not have message    
-- of a drafts nothing is in my draft mail    
+- nothing is in my draft mail    
 - the draft folder now contains other mails in addition to drafts please advice    
 - please add the ability to swipe down on a draft like in the default mail app its very useful to be able to look at other emails while drafting one    
 - where is draft messages    
@@ -7164,12 +7104,9 @@
 ## intent:no_notifications
 - Why am I not receiving notifications or sound alerts?
 - Hello, Why am I not receiving notifications or sound alerts?
-- not receiving notifications
 - i am not receiving notifications for new emails
-- i have not received it
 - how do you receive notifications that you have an email
 - need notifications when receiving an a mail
-- no notification received for new mails
 - i'm not receiving any notification when i receive email and the email app notification is on
 - i'm not receiving email notifications
 - can't received notifications
@@ -7179,6 +7116,26 @@
 - can i run microsoft apps on this email?
 - i m not receiving any notifications
 - i can't get push notifications    
+- cannot get notifications to work is this a bug    
+- i have not received this notification    
+- i am not receiving notifications for new emails    
+- how do you receive notifications that you have an email    
+- need notifications when receiving an a mail    
+- why am i not receiving notifications on my device    
+- no notification received for new mails    
+- my notification settings are on but i'm not receiving any notifications when i get emails    
+- not receiving message but receiving only notifications    
+- i don't get notification from this app when i received messages    
+- i am not receiving my email notifications on my phone    
+- why email notifications not received    
+- I am not receiving notifications in real time if at all. i have to open the app to see my emails. it works sometimes but mostly not    
+- for some reason i am not receiving notifications in my mail with server mail    
+- i am not receiving notifications when i receive new mail    
+- i do get notifications when a receive email
+- i am not receiving notifications after the update     
+- not receiving notifications from the app     
+- not receiving notifications    
+- still no notifications     
 - is this app support for push notification on iphone    
 - the app is not pushing notifications of new emails in us get a    
 - push notifications not working    
@@ -7205,8 +7162,13 @@
 - notifications are not working  i have turned them off and on have restarted the phone turned them off and on in settings     
 - email app by edison this app will automatically turn on your notifications even if you turned them off i turn them off they come back on i uninstall reinstall they still come back on notifications get automatically turn back on if i power off the phone and then reboot notifications will out of the blue turn back on its turns on with sound and vibration    
 - i am using iphone is followed the instructions to turn on notifications but still i don't get any notifications for new email i have allowed to receive notifications for email and also have turned on notifications in edison settings    
-- love the app, the only thing is the “badge count” rarely works. i have it turned on, all notifications in the app turned on as well as all the notification in my iphone settings turned on as well.    
-- how do you turn off notifications when a package has been delivered have turned off all notifications in the assistant and it still happens    
+- love the app, the only thing is the “badge count” rarely works. i have it turned on, all notifications in the app turned on as well as all the notification in my iphone settings turned on as well.        
+- When I received the email, your app did not prompt me
+- When I received the message that your app does not prompt me
+- Your app’s reminder function is invalid
+- Your app reminders fails
+- No reminder when I receive the email
+- No reminder messages arrive
 
 ## intent:add_flag_to_swipe_options
 - it a be great if we can swipe and flag    
@@ -7363,6 +7325,8 @@
 - what are you?
 - who are you?
 - are you a bot?
+- what's your name?
+- do you have a name
 
 ## intent:cannot_track_packages
 - package tracking is not working
@@ -7438,10 +7402,18 @@
 - How do I draft and send a new email?
 - Hello, How do I draft and send a new email?
 - I want to draft and send a new email
+- How to draft an email and send it out
+- How to draft and send out a message
 
 ## intent:email_missed_by_assistant_add
 - An email was missed by the Assistant. How can I add it?
 - Hello, An email was missed by the Assistant. How can I add it?
+- The assistant missed an email. How to add?
+- Assistant miss an e-mail. How to add?
+- Assistant miss an e-mail. How do I add?
+- The assistant missed an email. How do I add?
+- How to add emails missed by the assistant？
+- How to add missed assistant e-mail?
 
 ## intent:enable_imessage_app
 - how to link imessage app for email?
@@ -7461,8 +7433,11 @@
 ## intent:for3d_touch_action
 - How do 3D Touch Quick Actions work?
 - how to use 3d touch actions
-- How do 3D Touch Quick Actions work?
 - Hello, How do 3D Touch Quick Actions work?
+- How to 3D Touch Quick Actions work
+- Can I make 3D Touch Quick Actions work
+- 3D Touch Quick Actions work
+- What should I do to make 3D Touch Quick Actions work
 
 ## intent:forword_email
 - How do I forward an email?
@@ -7470,6 +7445,9 @@
 — forward an email
 - I want to forward an E-mail
 - How to forward E-mail
+- How to forward an email
+- Can I forward an email
+- What should I do to forward an email
 
 ## intent:goodbye
 - bye
@@ -7528,7 +7506,6 @@
 - what does this green icon represent?
 - what does the green icon mean?
 
-
 ## intent:greet
 - hey
 - hello
@@ -7540,6 +7517,8 @@
 - hello!
 - hi!
 - helllo!
+- hi sir
+- hello bot
 
 ## intent:how_add_description_to_account
 - How do I add a description/nickname to my accounts?
@@ -7564,87 +7543,75 @@
 - How do I archive an email?
 - Hello, How do I archive an email?
 - how do i archive my emails
+- How to archive my emails
+- Can I archive my emails
+- archive my emails
+- What should I do to archive my emails
 
 ## intent:how_change_classified_important
 - How do I change what emails are classified as 'Important'?
 - Hello, How do I change what emails are classified as 'Important'?
 - classify emails as 'Important'
-
-## intent:how_change_folders_list
-- How do I change the folders (mailboxes) listed in my menu?
-- Hello, How do I change the folders (mailboxes) listed in my menu?
+- How to classify emails as 'Important'
+- Can I classify emails as 'Important'
+- classify emails as 'Important'
+- What should I do to classify emails as 'Important'
 
 ## intent:how_change_swipe_options
 - How do I change my swipe options?
 - Hello, How do I change my swipe options?
+- How to change my swipe options
+- Can I change my swipe options
+- change the swipe options
+- What should I do to change the swipe options
 
 ## intent:how_change_undo_time_window
 - How do I change the "undo" time window?
 - Hello, How do I change the "undo" time window?
+- How to change the "Undo" time window
+- Can I change the "undo" time window
+- change the "undo" time window
+- What should I do to change the "undo" time window
 
 ## intent:how_customize_assistant_view
 - How do I customize the Assistant view?
 - Hello, How do I customize the Assistant view?
+- How to customize the assistant view
+- How to customize assistant View
+- Can I customize the assistant view
+- What should I do to customize the assistant view
 
 ## intent:how_turn_off_or_turn_on_badge_count
 - How do I turn off or turn on the badge count?
 - Hello, How do I turn off or turn on the badge count?
+- How to turn off or turn on badge counting?
+- How to turn off or turn on counting?
+- How to turn off or turn on counting?
 
 ## intent:ios_support_version
 - What version of iOS does Email support?
 - Hello, What version of iOS does Email support?
+- What version of ios system does edison mail support？
+- What version of ios do you support
 
 ## intent:is_email_secure
 - Is my email secure?
 - Hello, Is my email secure?
 - Are my emails safe
 - E-mail security
+- Is my email safe?
 
 ## intent:is_free
 - Do I have to pay to use the app?
 - hello! is this app for free?
 - Hello, Do I have to pay to use the app?
 - this app is free but nothing is free what is the cach    
+- Do you charge for the software?
 
 ## intent:mail_providers_support
 - What mail providers does this app support?
 - Hello, What mail providers does this app support?
 - what emails can work with this app?
-
-## intent:mood_angry
-- angry
-- furious
-- pissed
-- hate
-- grr
-- fuming
-- im feeling angry
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-- my emotion is sadness
-- im feeling sad
 
 ## intent:need_desktop
 - hi i would like to have a desktop application
@@ -7788,14 +7755,12 @@
 - how to save into drafts
 - How do I save a message as a draft?
 - Hello, How do I save a message as a draft?
-- where do i find draft
 
 ## intent:not_save_message_draft
 - draft mail no have
 - nothing is in my draft mail
 - where is draft messages
 - please help me access my drafts folder from my gmail account using edison it says no drafts
-- my edison mail app is not saving draft emails several times have started an email and hit save draft but it never shows up in my draft folder
 
 ## intent:select_multiple_message
 - how do i select multiple messages?
